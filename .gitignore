@@ -1,0 +1,9 @@
+/doc/build/
+
+*.mo
+
+# Python compiled files
+*.pyc
+
+# Testenvironment
+.tox/
