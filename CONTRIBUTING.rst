@@ -1,0 +1,51 @@
+Contributing
+============
+
+The I18n team welcomes any kinds of contribution.
+
+Contribute to translations
+--------------------------
+
+To help with translation, `become an official translator`_
+and join your language team.
+Then go to `translation website`_ to start translation.
+You can find prioritized translation jobs at the top of the page.
+If you have questions, you can contact your coordinators.
+
+If you cannot find your local team,
+you can request to `create a local translation team`_.
+
+To report translation errors,
+go to `openstack-i18n in Launchpad`_ and report bugs.
+Mark bugs with a tag "translation".
+
+There are three different roles in a translation team:
+
+Member (translator)
+  A person who can submit translations.
+
+Reviewer
+  A person who can proofread translations and
+  mark them as reviewed (approved) or rejected.
+
+Coordinator
+  A privileged member in a translation team who can help
+  in team management tasks, such as approving new members
+  and reviewing contributions to that language.
+  We also have task coordinators for specific tasks.
+
+Contribute to translation tools
+-------------------------------
+
+Go to the `translation tools`_ page to understand the tools
+and scripts which support our translation platform.
+If you want to help to report bugs, add more wishlists, and improve them,
+you can report and fix bugs at `openstack-i18n in Launchpad`_.
+Mark bugs with a tag "tools".
+
+
+.. _`become an official translator`: https://wiki.openstack.org/wiki/I18nTeam/become-a-official-translator
+.. _`translation website`: https://translate.openstack.org/
+.. _`create a local translation team`: https://wiki.openstack.org/wiki/I18nTeam/CreateLocalTeam
+.. _`openstack-i18n in Launchpad`: https://bugs.launchpad.net/openstack-i18n
+.. _`translation tools`: https://wiki.openstack.org/wiki/I18n/Tools
