@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr "聚合"
+
+msgid "Allocate IP"
+msgstr "分配IP"
+
+msgid "Architecture"
+msgstr "架构"
+
+msgid "association"
+msgstr "关联"
+
+msgid "Associate IP"
+msgstr "关联IP"
+
+msgid "authenticate"
+msgstr "认证"
+
+msgid "authorize"
+msgstr "授权"
+
+msgid "availability zone"
+msgstr "可用区域"
+
+msgid "backend"
+msgstr "后端"
+
+msgid "backup"
+msgstr "备份"
+
+msgid "boot"
+msgstr "启动"
+
+msgid "cache"
+msgstr "缓存"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "client"
+msgstr "客户端"
+
+msgid "cluster"
+msgstr "集群"
+
+msgid "Compute"
+msgstr "计算"
+
+msgid "Compute Services"
+msgstr "计算服务"
+
+msgid "container"
+msgstr "容器"
+
+msgid "Container Format"
+msgstr "容器格式"
+
+msgid "credentials"
+msgstr "证书"
+
+msgid "Data Processing"
+msgstr "数据处理"
+
+msgid "Destination container"
+msgstr "目标容器"
+
+msgid "Destination object name"
+msgstr "目标对象名称"
+
+msgid "device"
+msgstr "设备"
+
+msgid "Disassociate IP"
+msgstr "释放IP"
+
+msgid "disk"
+msgstr "磁盘"
+
+msgid "Disk Format"
+msgstr "磁盘格式"
+
+msgid "Disk GB Hours"
+msgstr "磁盘(GB*小时)"
+
+msgid "domain"
+msgstr "域"
+
+msgid "domain group"
+msgstr "域组"
+
+msgid "Ephemeral Disk"
+msgstr "临时磁盘"
+
+msgid "Ephemeral Drive"
+msgstr "临时驱动器"
+
+msgid "existence"
+msgstr "存在"
+
+msgid "Fetching"
+msgstr "获取"
+
+msgid "Fingerprint"
+msgstr "指印"
+
+msgid "Fixed IP"
+msgstr "固定IP"
+
+msgid "Flavor"
+msgstr "类型"
+
+msgid "Floating IP"
+msgstr "浮动IP"
+
+msgid "gateway"
+msgstr "网关"
+
+msgid "guide"
+msgstr "指南"
+
+msgid "health Monitor"
+msgstr "健康监控"
+
+msgid "host"
+msgstr "主机"
+
+msgid "Host Aggregate"
+msgstr "主机聚合"
+
+msgid "hypervisor"
+msgstr "hypervisor"
+
+msgid "identifier"
+msgstr "标识符"
+
+msgid "image"
+msgstr "镜像"
+
+msgid "initiator"
+msgstr "发起者"
+
+msgid "Injected Files"
+msgstr "注入文件"
+
+msgid "instance"
+msgstr "云主机"
+
+msgid "interface"
+msgstr "接口"
+
+msgid "job"
+msgstr "任务"
+
+msgid "job template"
+msgstr "任务模板"
+
+msgid "Keypair"
+msgstr "密钥对"
+
+msgid "launch"
+msgstr "启动"
+
+msgid "load balancer"
+msgstr "负载均衡器"
+
+msgid "library"
+msgstr "库"
+
+msgid "master"
+msgstr "主节点"
+
+msgid "member"
+msgstr "成员"
+
+msgid "memory"
+msgstr "内存"
+
+msgid "meter"
+msgstr "计量"
+
+msgid "namespace"
+msgstr "命名空间"
+
+msgid "node"
+msgstr "节点"
+
+msgid "object"
+msgstr "对象"
+
+msgid "orchestration"
+msgstr "编排"
+
+msgid "over commit"
+msgstr "超分配"
+
+msgctxt ""
+msgid "parameter"
+msgstr "参数"
+
+msgid "Perfect Forward Secrecy"
+msgstr ""
+
+msgid "plugin"
+msgstr "插件"
+
+msgid "policy"
+msgstr "策略"
+
+msgid "pool"
+msgstr "池"
+
+msgid "Project"
+msgstr "项目"
+
+msgid "Public key"
+msgstr "公钥"
+
+msgid "quota"
+msgstr "配额"
+
+msgid "Quotas"
+msgstr "配额"
+
+msgid "reboot"
+msgstr "重启"
+
+msgid "Region"
+msgstr "区域"
+
+msgid "remote"
+msgstr "远程"
+
+msgid "replication"
+msgstr "复制"
+
+msgid "Role"
+msgstr "角色"
+
+msgid "router"
+msgstr "路由"
+
+msgid "Security Group"
+msgstr "安全组"
+
+msgid "server"
+msgstr "服务器"
+
+msgid "snapshot"
+msgstr "快照"
+
+msgid "stack"
+msgstr "stack"
+
+msgid "storage"
+msgstr "存储"
+
+msgid "submit"
+msgstr "提交"
+
+msgid "subnet"
+msgstr "子网"
+
+msgid "Swap-Disk"
+msgstr "交换磁盘"
+
+msgid "System Panel"
+msgstr "系统面板"
+
+msgid "tag"
+msgstr "标签"
+
+msgid "template"
+msgstr "模板"
+
+msgid "Tenant"
+msgstr "租户"
+
+msgid "token"
+msgstr "token"
+
+msgid "Usage"
+msgstr "使用量"
+
+msgid "user"
+msgstr "用户"
+
+msgid "volume"
+msgstr "卷"
+
+msgid "Volume Snapshot"
+msgstr "卷快照"
+
+msgid "VCPU Hours"
+msgstr "VCPU小时"
+
+msgctxt ""
+msgid "parameter"
+msgstr "参数"

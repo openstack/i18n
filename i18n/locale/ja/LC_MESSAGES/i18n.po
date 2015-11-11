@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr ""
+
+msgid "Allocate IP"
+msgstr "IPの確保 (※Associate ととの調整必要あり)"
+
+msgid "Architecture"
+msgstr "アーキテクチャ"
+
+msgid "association"
+msgstr ""
+
+msgid "Associate IP"
+msgstr "IP確保 or IP割り当て(Allocateとの区別から \"IP割り当て\" を希望)"
+
+msgid "authenticate "
+msgstr "認証"
+
+msgid "authorize"
+msgstr "許可(ただし文脈による)"
+
+msgid "availability zone"
+msgstr ""
+
+msgid "backend"
+msgstr "バックエンド(?)"
+
+msgid "backup"
+msgstr ""
+
+msgid "boot"
+msgstr "ブート"
+
+msgid "cache"
+msgstr ""
+
+msgid "CIDR"
+msgstr "CIDR(訳さない)"
+
+msgid "client"
+msgstr ""
+
+msgid "cluster"
+msgstr ""
+
+msgid "Compute"
+msgstr "???"
+
+msgid "Compute Services"
+msgstr ""
+
+msgid "container"
+msgstr "コンテナ(Swift用?)"
+
+msgid "Container Format"
+msgstr "格納形式(?)"
+
+msgid "credentials"
+msgstr "（資格情報）（認証情報）（認証資格）"
+
+msgid "Data Processing"
+msgstr ""
+
+msgid "Destination container"
+msgstr "宛先コンテナ"
+
+msgid "Destination object name"
+msgstr "宛先オブジェクト名"
+
+msgid "device"
+msgstr ""
+
+msgid "Disassociate IP "
+msgstr "IP解放"
+
+msgid "disk"
+msgstr ""
+
+msgid "Disk Format"
+msgstr "ディスクフォーマット"
+
+msgid "Disk GB Hours "
+msgstr "ディスク GB×時間(ディスク使用量(GB×時間))"
+
+msgid "domain"
+msgstr ""
+
+msgid "domain group"
+msgstr ""
+
+msgid "Ephemeral Disk"
+msgstr "一時ディスク"
+
+msgid "Ephemeral Drive"
+msgstr ""
+
+msgid "existence"
+msgstr ""
+
+msgid "Fetching"
+msgstr "?"
+
+msgid "Fingerprint "
+msgstr "フィンガープリント"
+
+msgid "Fixed IP "
+msgstr "Fixed IP(訳さない)"
+
+msgid "Flavor "
+msgstr "インスタンスタイプ"
+
+msgid "Floating IP "
+msgstr "Floating IP(訳さない)"
+
+msgid "gateway"
+msgstr ""
+
+msgid "guide"
+msgstr ""
+
+msgid "health Monitor"
+msgstr ""
+
+msgid "host"
+msgstr ""
+
+msgid "Host Aggregate"
+msgstr ""
+
+msgid "hypervisor"
+msgstr ""
+
+msgid "identifier"
+msgstr ""
+
+msgid "image"
+msgstr "イメージ"
+
+msgid "initiator"
+msgstr "イニシエーター"
+
+msgid "Injected Files "
+msgstr "Injected Files(?)"
+
+msgid "instance"
+msgstr "インスタンス"
+
+msgid "interface"
+msgstr ""
+
+msgid "job"
+msgstr ""
+
+msgid "job template"
+msgstr ""
+
+msgid "Keypair"
+msgstr "キーペア"
+
+msgid "launch"
+msgstr "起動"
+
+msgid "load balancer"
+msgstr ""
+
+msgid "library"
+msgstr ""
+
+msgid "master"
+msgstr ""
+
+msgid "member"
+msgstr ""
+
+msgid "memory"
+msgstr "メモリー"
+
+msgid "meter"
+msgstr ""
+
+msgid "namespace"
+msgstr ""
+
+msgid "node"
+msgstr ""
+
+msgid "object"
+msgstr "オブジェクト"
+
+msgid "orchestration"
+msgstr ""
+
+msgid "over commit"
+msgstr ""
+
+msgid "parameter"
+msgstr "パラメーター"
+
+msgid "Perfect Forward Secrecy "
+msgstr "Perfect Forward Secrecy"
+
+msgid "plugin"
+msgstr ""
+
+msgid "policy"
+msgstr ""
+
+msgid "pool"
+msgstr ""
+
+msgid "Project"
+msgstr "プロジェクト"
+
+msgid "Public key "
+msgstr "公開鍵"
+
+msgid "quota"
+msgstr ""
+
+msgid "Quotas"
+msgstr "クォータ"
+
+msgid "reboot"
+msgstr "リブート"
+
+msgid "Region "
+msgstr "リージョン(?)"
+
+msgid "remote"
+msgstr ""
+
+msgid "replication"
+msgstr ""
+
+msgid "Role"
+msgstr "ロール(?)"
+
+msgid "router"
+msgstr ""
+
+msgid "Security Group "
+msgstr "セキュリティグループ"
+
+msgid "server "
+msgstr "サーバー"
+
+msgid "snapshot"
+msgstr ""
+
+msgid "stack"
+msgstr ""
+
+msgid "storage"
+msgstr ""
+
+msgid "submit "
+msgstr "送信"
+
+msgid "subnet"
+msgstr ""
+
+msgid "Swap-Disk"
+msgstr ""
+
+msgid "System Panel "
+msgstr "システムパネル"
+
+msgid "tag"
+msgstr ""
+
+msgid "template"
+msgstr ""
+
+msgid "Tenant"
+msgstr "プロジェクト (※テナントから変更)"
+
+msgid "token"
+msgstr ""
+
+msgid "Usage"
+msgstr "使用状況(?)"
+
+msgid "user"
+msgstr "ユーザー"
+
+msgid "volume"
+msgstr ""
+
+msgid "Volume Snapshot"
+msgstr "ボリュームスナップショット"
+
+msgid "VCPU Hours"
+msgstr "仮想CPU 時間(?)"
+
+msgid "parameter "
+msgstr "パラメーター"

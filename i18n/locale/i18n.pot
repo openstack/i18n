@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:32+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+msgstr ""
+
+msgid "aggregate"
+msgstr ""
+
+msgid "Allocate IP"
+msgstr ""
+
+msgid "Architecture"
+msgstr ""
+
+msgid "association"
+msgstr ""
+
+msgid "Associate IP"
+msgstr ""
+
+msgid "authenticate "
+msgstr ""
+
+msgid "authorize"
+msgstr ""
+
+msgid "availability zone"
+msgstr ""
+
+msgid "backend"
+msgstr ""
+
+msgid "backup"
+msgstr ""
+
+msgid "boot"
+msgstr ""
+
+msgid "cache"
+msgstr ""
+
+msgid "CIDR"
+msgstr ""
+
+msgid "client"
+msgstr ""
+
+msgid "cluster"
+msgstr ""
+
+msgid "Compute"
+msgstr ""
+
+msgid "Compute Services"
+msgstr ""
+
+msgid "container"
+msgstr ""
+
+msgid "Container Format"
+msgstr ""
+
+msgid "credentials"
+msgstr ""
+
+msgid "Data Processing"
+msgstr ""
+
+msgid "Destination container"
+msgstr ""
+
+msgid "Destination object name"
+msgstr ""
+
+msgid "device"
+msgstr ""
+
+msgid "Disassociate IP "
+msgstr ""
+
+msgid "disk"
+msgstr ""
+
+msgid "Disk Format"
+msgstr ""
+
+msgid "Disk GB Hours "
+msgstr ""
+
+msgid "domain"
+msgstr ""
+
+msgid "domain group"
+msgstr ""
+
+msgid "Ephemeral Disk"
+msgstr ""
+
+msgid "Ephemeral Drive"
+msgstr ""
+
+msgid "existence"
+msgstr ""
+
+msgid "Fetching"
+msgstr ""
+
+msgid "Fingerprint "
+msgstr ""
+
+msgid "Fixed IP "
+msgstr ""
+
+msgid "Flavor "
+msgstr ""
+
+msgid "Floating IP "
+msgstr ""
+
+msgid "gateway"
+msgstr ""
+
+msgid "guide"
+msgstr ""
+
+msgid "health Monitor"
+msgstr ""
+
+msgid "host"
+msgstr ""
+
+msgid "Host Aggregate"
+msgstr ""
+
+msgid "hypervisor"
+msgstr ""
+
+msgid "identifier"
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "initiator"
+msgstr ""
+
+msgid "Injected Files "
+msgstr ""
+
+msgid "instance"
+msgstr ""
+
+msgid "interface"
+msgstr ""
+
+msgid "job"
+msgstr ""
+
+msgid "job template"
+msgstr ""
+
+msgid "Keypair"
+msgstr ""
+
+msgid "launch"
+msgstr ""
+
+msgid "load balancer"
+msgstr ""
+
+msgid "library"
+msgstr ""
+
+msgid "master"
+msgstr ""
+
+msgid "member"
+msgstr ""
+
+msgid "memory"
+msgstr ""
+
+msgid "meter"
+msgstr ""
+
+msgid "namespace"
+msgstr ""
+
+msgid "node"
+msgstr ""
+
+msgid "object"
+msgstr ""
+
+msgid "orchestration"
+msgstr ""
+
+msgid "over commit"
+msgstr ""
+
+msgid "parameter"
+msgstr ""
+
+msgid "Perfect Forward Secrecy "
+msgstr ""
+
+msgid "plugin"
+msgstr ""
+
+msgid "policy"
+msgstr ""
+
+msgid "pool"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Public key "
+msgstr ""
+
+msgid "quota"
+msgstr ""
+
+msgid "Quotas"
+msgstr ""
+
+msgid "reboot"
+msgstr ""
+
+msgid "Region "
+msgstr ""
+
+msgid "remote"
+msgstr ""
+
+msgid "replication"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "router"
+msgstr ""
+
+msgid "Security Group "
+msgstr ""
+
+msgid "server "
+msgstr ""
+
+msgid "snapshot"
+msgstr ""
+
+msgid "stack"
+msgstr ""
+
+msgid "storage"
+msgstr ""
+
+msgid "submit "
+msgstr ""
+
+msgid "subnet"
+msgstr ""
+
+msgid "Swap-Disk"
+msgstr ""
+
+msgid "System Panel "
+msgstr ""
+
+msgid "tag"
+msgstr ""
+
+msgid "template"
+msgstr ""
+
+msgid "Tenant"
+msgstr ""
+
+msgid "token"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "volume"
+msgstr ""
+
+msgid "Volume Snapshot"
+msgstr ""
+
+msgid "VCPU Hours"
+msgstr ""
+
+msgid "parameter "
+msgstr ""

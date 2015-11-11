@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr "집합"
+
+msgid "Allocate IP"
+msgstr "IP 할당"
+
+msgid "Architecture"
+msgstr "아키텍처"
+
+msgid "association"
+msgstr "연결"
+
+msgid "Associate IP"
+msgstr "IP 연결"
+
+msgid "authenticate"
+msgstr "인증"
+
+msgid "authorize"
+msgstr "허가"
+
+msgid "availability zone"
+msgstr "가용성 존"
+
+msgid "backend"
+msgstr "백엔드"
+
+msgid "backup"
+msgstr "백업"
+
+msgid "boot"
+msgstr "부트"
+
+msgid "cache"
+msgstr "캐시"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "client"
+msgstr "클라이언트"
+
+msgid "cluster"
+msgstr "클러스터"
+
+msgid "Compute"
+msgstr "Compute"
+
+msgid "Compute Services"
+msgstr "Compute 서비스"
+
+msgid "container"
+msgstr "컨테이너"
+
+msgid "Container Format"
+msgstr "컨테이너 포맷"
+
+msgid "credentials"
+msgstr ""
+
+msgid "Data Processing"
+msgstr "데이터 프로세싱"
+
+msgid "Destination container"
+msgstr "대상 컨테이너"
+
+msgid "Destination object name"
+msgstr "대상 객체 이름"
+
+msgid "device"
+msgstr "장치"
+
+msgid "Disassociate IP"
+msgstr "IP 해제"
+
+msgid "disk"
+msgstr "디스크"
+
+msgid "Disk Format"
+msgstr "디스크 포맷"
+
+msgid "Disk GB Hours"
+msgstr "디스크 GB 사용 시간"
+
+msgid "domain"
+msgstr "도메인"
+
+msgid "domain group"
+msgstr "도메인 그룹"
+
+msgid "Ephemeral Disk"
+msgstr "임시 디스크"
+
+msgid "Ephemeral Drive"
+msgstr "임시 드라이브"
+
+msgid "existence"
+msgstr ""
+
+msgid "Fetching"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "Fixed IP"
+msgstr "고정 IP"
+
+msgid "Flavor"
+msgstr "Flavor"
+
+msgid "Floating IP"
+msgstr "유동 IP"
+
+msgid "gateway"
+msgstr "게이트웨이"
+
+msgid "guide"
+msgstr "가이드"
+
+msgid "health Monitor"
+msgstr "상태 모니터"
+
+msgid "host"
+msgstr "호스트"
+
+msgid "Host Aggregate"
+msgstr "호스트 집계"
+
+msgid "hypervisor"
+msgstr "가상화"
+
+msgid "identifier"
+msgstr ""
+
+msgid "image"
+msgstr "이미지"
+
+msgid "initiator"
+msgstr ""
+
+msgid "Injected Files"
+msgstr "추가한 파일"
+
+msgid "instance"
+msgstr "인스턴스"
+
+msgid "interface"
+msgstr "인터페이스"
+
+msgid "job"
+msgstr "작업"
+
+msgid "job template"
+msgstr "작업 템플릿"
+
+msgid "Keypair"
+msgstr "키페어"
+
+msgid "launch"
+msgstr "구동"
+
+msgid "load balancer"
+msgstr "로드밸런서"
+
+msgid "library"
+msgstr "라이브러리"
+
+msgid "master"
+msgstr "마스터"
+
+msgid "member"
+msgstr "구성원"
+
+msgid "memory"
+msgstr "메모리"
+
+msgid "meter"
+msgstr "미터"
+
+msgid "namespace"
+msgstr "네임스페이스"
+
+msgid "node"
+msgstr "노드"
+
+msgid "object"
+msgstr "객체"
+
+msgid "orchestration"
+msgstr "오케스트레이션"
+
+msgid "over commit"
+msgstr "오버 커밋"
+
+msgctxt ""
+msgid "parameter"
+msgstr "매개변수"
+
+msgid "Perfect Forward Secrecy"
+msgstr ""
+
+msgid "plugin"
+msgstr "플러그인"
+
+msgid "policy"
+msgstr "정책"
+
+msgid "pool"
+msgstr "풀"
+
+msgid "Project"
+msgstr "프로젝트"
+
+msgid "Public key"
+msgstr "공개키"
+
+msgid "quota"
+msgstr "Quota"
+
+msgid "Quotas"
+msgstr "Quota"
+
+msgid "reboot"
+msgstr "재부팅"
+
+msgid "Region"
+msgstr "지역"
+
+msgid "remote"
+msgstr "원격"
+
+msgid "replication"
+msgstr "복제"
+
+msgid "Role"
+msgstr "롤"
+
+msgid "router"
+msgstr "라우터"
+
+msgid "Security Group"
+msgstr "보안 그룹"
+
+msgid "server"
+msgstr "서버"
+
+msgid "snapshot"
+msgstr "스냅샷"
+
+msgid "stack"
+msgstr "스택"
+
+msgid "storage"
+msgstr "스토리지"
+
+msgid "submit"
+msgstr "제출"
+
+msgid "subnet"
+msgstr "서브넷"
+
+msgid "Swap-Disk"
+msgstr "스왑 디스크"
+
+msgid "System Panel"
+msgstr "시스템 판넬"
+
+msgid "tag"
+msgstr "태그"
+
+msgid "template"
+msgstr "템플릿"
+
+msgid "Tenant"
+msgstr "Tenant"
+
+msgid "token"
+msgstr "토큰"
+
+msgid "Usage"
+msgstr "사용량(?)"
+
+msgid "user"
+msgstr "사용자"
+
+msgid "volume"
+msgstr "볼륨"
+
+msgid "Volume Snapshot"
+msgstr "볼륨 스냅샷"
+
+msgid "VCPU Hours"
+msgstr "VCPU 사용시간"
+
+msgctxt ""
+msgid "parameter"
+msgstr "매개변수"
