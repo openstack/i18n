@@ -10,7 +10,7 @@ The I18n team welcomes any kinds of contribution.
 Contribute to translations
 --------------------------
 
-To help with translation, `become an official translator`_
+To help with translation, :doc:`become an official translator <official_translator>`
 and join your language team.
 Then go to `translation website`_ to start translation.
 You can find prioritized translation jobs at the top of the page.
@@ -57,7 +57,6 @@ we can find them in the following places:
 * `openstack-i18n in Launchpad`_
 * `Horizon I18n bugs`_
 
-.. _`become an official translator`: https://wiki.openstack.org/wiki/I18nTeam/become-a-official-translator
 .. _`translation website`: https://translate.openstack.org/
 .. _`create a local translation team`: https://wiki.openstack.org/wiki/I18nTeam/CreateLocalTeam
 .. _`openstack-i18n in Launchpad`: https://bugs.launchpad.net/openstack-i18n
