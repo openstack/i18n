@@ -16,6 +16,18 @@ Contents
 
    CONTRIBUTING
 
+Getting in touch
+~~~~~~~~~~~~~~~~
+
+* Mailing List: ``openstack-i18n@lists.openstack.org``
+
+  * Logs: http://lists.openstack.org/pipermail/openstack-i18n/
+
+* IRC channel: ``#openstack-i18n`` on freenode
+* IRC meeting: bi-weekly on Thursdays with alternating times
+
+  * https://wiki.openstack.org/wiki/Meetings/I18nTeamMeeting
+
 Search in this guide
 ~~~~~~~~~~~~~~~~~~~~
 
