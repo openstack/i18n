@@ -20,6 +20,7 @@ Contents
 
    contributing
    official_translator
+   create_lang_team
 
 Getting in touch
 ~~~~~~~~~~~~~~~~
