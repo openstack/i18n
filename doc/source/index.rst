@@ -2,8 +2,12 @@
 OpenStack I18n Guide
 ====================
 
-Abstract
-~~~~~~~~
+Internationalization (I18n) is essential to make OpenStack ubiquitous.
+The mission of OpenStack I18n team is to make OpenStack
+ubiquitously accessible to people of all language backgrounds,
+by enhancing OpenStack software internationalization,
+providing translation, maintaining a translation platform and
+managing translation process for better quality of outcomes.
 
 This guide provides detailed instructions on the I18n contribution
 workflow and conventions to be considered by all contributors.
