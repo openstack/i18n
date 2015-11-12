@@ -14,7 +14,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   CONTRIBUTING
+   contributing
 
 Getting in touch
 ~~~~~~~~~~~~~~~~
