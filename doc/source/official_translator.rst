@@ -48,5 +48,9 @@ finish following steps:
        only information which language coordinators can use to
        determine your join request is valid or not.
 
-4. When your request is approved, you will get an email
-   notification. Then you could start the translation.
+4. When your request is approved, you will get an email notification.
+
+5. Now you can start your translation.
+   You can actually become an OpenStack official translator
+   by contributing translations.
+   You can find :doc:`various ways of contributions <contributing>`.
