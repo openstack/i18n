@@ -13,7 +13,7 @@ This guide provides detailed instructions on the I18n contribution
 workflow and conventions to be considered by all contributors.
 
 Contents
-~~~~~~~~
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -23,7 +23,18 @@ Contents
    create_lang_team
 
 Getting in touch
-~~~~~~~~~~~~~~~~
+----------------
+
+Language translation team
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each language team has useful information to help our translation
+efforts. It is worth visited.
+You can find your language team at
+https://wiki.openstack.org/wiki/I18nTeam/team.
+
+OpenStack I18n team
+~~~~~~~~~~~~~~~~~~~
 
 * Mailing List: ``openstack-i18n@lists.openstack.org``
 
@@ -35,6 +46,6 @@ Getting in touch
   * https://wiki.openstack.org/wiki/Meetings/I18nTeamMeeting
 
 Search in this guide
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 * :ref:`search`

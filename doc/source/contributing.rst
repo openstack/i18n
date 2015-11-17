@@ -7,13 +7,18 @@ The I18n team welcomes any kinds of contribution.
 * Translation tools
 * Fixing I18n bugs
 
-Contribute to translations
---------------------------
+Translations
+------------
 
 To help with translation, :doc:`become an official translator <official_translator>`
-and join your language team.
-Then go to `translation website`_ to start translation.
-You can find prioritized translation jobs at the top of the page.
+and join your language team. Then go to `translation website`_ to start translation.
+You can find prioritized translation jobs as I18n team at the top of the page.
+
+Your language team may have useful information to help our translation
+efforts including translaiton guidelines, priorities, communication
+tools and so on. It is worth visited.
+You can find your language team page at
+https://wiki.openstack.org/wiki/I18nTeam/team.
 If you have questions, you can contact your coordinators.
 
 If you cannot find your local team,
@@ -38,16 +43,6 @@ Coordinator
   and reviewing contributions to that language.
   We also have task coordinators for specific tasks.
 
-Contribute to translation tools
--------------------------------
-
-Go to the `translation tools`_ page to understand the tools
-and scripts which support our translation platform.
-
-If you want to help to report bugs, add more wishlists, and improve them,
-you can report and fix bugs at `openstack-i18n in Launchpad`_.
-Mark bugs with a tag "tools".
-
 Fixing I18n bugs
 ----------------
 
@@ -56,6 +51,16 @@ we can find them in the following places:
 
 * `openstack-i18n in Launchpad`_
 * `Horizon I18n bugs`_
+
+Translation tools
+----------------------------
+
+Go to the `translation tools`_ page to understand the tools
+and scripts which support our translation platform.
+
+If you want to help to report bugs, add more wishlists, and improve them,
+you can report and fix bugs at `openstack-i18n in Launchpad`_.
+Mark bugs with a tag "tools".
 
 .. _`translation website`: https://translate.openstack.org/
 .. _`create a local translation team`: https://wiki.openstack.org/wiki/I18nTeam/CreateLocalTeam
