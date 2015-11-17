@@ -17,7 +17,7 @@ You can find prioritized translation jobs at the top of the page.
 If you have questions, you can contact your coordinators.
 
 If you cannot find your local team,
-you can request to `create a local translation team`_.
+you can request to :doc:`create a local translation team <create_lang_team>`.
 
 To report translation errors,
 go to `openstack-i18n in Launchpad`_ and report bugs.
@@ -58,7 +58,6 @@ we can find them in the following places:
 * `Horizon I18n bugs`_
 
 .. _`translation website`: https://translate.openstack.org/
-.. _`create a local translation team`: https://wiki.openstack.org/wiki/I18nTeam/CreateLocalTeam
 .. _`openstack-i18n in Launchpad`: https://bugs.launchpad.net/openstack-i18n
 .. _`translation tools`: https://wiki.openstack.org/wiki/I18n/Tools
 .. _`Horizon I18n bugs`: https://bugs.launchpad.net/horizon/+bugs?field.tag=i18n
