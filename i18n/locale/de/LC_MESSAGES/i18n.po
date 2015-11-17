@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr "Aggregat"
+
+msgid "Allocate IP"
+msgstr ""
+
+msgid "Architecture"
+msgstr ""
+
+msgid "association"
+msgstr "Zuweisung"
+
+msgid "Associate IP"
+msgstr ""
+
+msgid "authenticate"
+msgstr ""
+
+msgid "authorize"
+msgstr ""
+
+msgid "availability zone"
+msgstr "Verfügbarkeitszone"
+
+msgid "backend"
+msgstr "Backend"
+
+msgid "backup"
+msgstr "Sicherung, Sicherungskopie"
+
+msgid "boot"
+msgstr ""
+
+msgid "cache"
+msgstr "Zwischenspeicher"
+
+msgid "CIDR"
+msgstr ""
+
+msgid "client"
+msgstr "Client"
+
+msgid "cluster"
+msgstr "Cluster"
+
+msgid "Compute"
+msgstr ""
+
+msgid "Compute Services"
+msgstr "Compute Dienste"
+
+msgid "container"
+msgstr "Container"
+
+msgid "Container Format"
+msgstr ""
+
+msgid "credentials"
+msgstr ""
+
+msgid "Data Processing"
+msgstr "Datenverarbeitung"
+
+msgid "Destination container"
+msgstr ""
+
+msgid "Destination object name"
+msgstr ""
+
+msgid "device"
+msgstr "Gerät"
+
+msgid "Disassociate IP"
+msgstr ""
+
+msgid "disk"
+msgstr "Festplatte"
+
+msgid "Disk Format"
+msgstr ""
+
+msgid "Disk GB Hours"
+msgstr ""
+
+msgid "domain"
+msgstr "Domäne"
+
+msgid "domain group"
+msgstr "Domänengruppe"
+
+msgid "Ephemeral Disk"
+msgstr "Flüchtige Platte"
+
+msgid "Ephemeral Drive"
+msgstr "Flüchtiges Laufwerk"
+
+msgid "existence"
+msgstr "Bestand"
+
+msgid "Fetching"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "Fixed IP"
+msgstr ""
+
+msgid "Flavor"
+msgstr "Variante"
+
+msgid "Floating IP"
+msgstr "Floating IP"
+
+msgid "gateway"
+msgstr "Gateway"
+
+msgid "guide"
+msgstr "Assistent"
+
+msgid "health Monitor"
+msgstr "Gesundheitsmonitor"
+
+msgid "host"
+msgstr "Host"
+
+msgid "Host Aggregate"
+msgstr "Hostaggregat"
+
+msgid "hypervisor"
+msgstr "Hypervisor, pl. Hypervisoren"
+
+msgid "identifier"
+msgstr "Bezeichner"
+
+msgid "image"
+msgstr "Abbild"
+
+msgid "initiator"
+msgstr ""
+
+msgid "Injected Files"
+msgstr ""
+
+msgid "instance"
+msgstr ""
+
+msgid "interface"
+msgstr "Schnittstelle"
+
+msgid "job"
+msgstr "Aufgabe"
+
+msgid "job template"
+msgstr "Aufgabenvorlage"
+
+msgid "Keypair"
+msgstr ""
+
+msgid "launch"
+msgstr ""
+
+msgid "load balancer"
+msgstr "Loadbalancer"
+
+msgid "library"
+msgstr "Bibliothek"
+
+msgid "master"
+msgstr "Master"
+
+msgid "member"
+msgstr "Mitglied"
+
+msgid "memory"
+msgstr ""
+
+msgid "meter"
+msgstr "Zähler"
+
+msgid "namespace"
+msgstr "Namensraum"
+
+msgid "node"
+msgstr "Node"
+
+msgid "object"
+msgstr ""
+
+msgid "orchestration"
+msgstr "Orchestrierung"
+
+msgid "over commit"
+msgstr "überladen, Überladung"
+
+msgctxt ""
+msgid "parameter"
+msgstr ""
+
+msgid "Perfect Forward Secrecy"
+msgstr ""
+
+msgid "plugin"
+msgstr "Plugin"
+
+msgid "policy"
+msgstr ""
+
+msgid "pool"
+msgstr "Pool"
+
+msgid "Project"
+msgstr ""
+
+msgid "Public key"
+msgstr ""
+
+msgid "quota"
+msgstr "Kontingent"
+
+msgid "Quotas"
+msgstr ""
+
+msgid "reboot"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "remote"
+msgstr "entfernt"
+
+msgid "replication"
+msgstr "Replikation"
+
+msgid "Role"
+msgstr ""
+
+msgid "router"
+msgstr "Router"
+
+msgid "Security Group"
+msgstr "Sicherheitsgruppe"
+
+msgid "server"
+msgstr "Server"
+
+msgid "snapshot"
+msgstr "Schattenkopie"
+
+msgid "stack"
+msgstr "Stack"
+
+msgid "storage"
+msgstr "Storage"
+
+msgid "submit"
+msgstr ""
+
+msgid "subnet"
+msgstr "Subnetz"
+
+msgid "Swap-Disk"
+msgstr "Auslagerungsplatte"
+
+msgid "System Panel"
+msgstr ""
+
+msgid "tag"
+msgstr "Schlagwort, pl. Schlagwörter"
+
+msgid "template"
+msgstr "Vorlage, pl. Vorlagen"
+
+msgid "Tenant"
+msgstr ""
+"Mandant (vorher: \"Mieter\"; übernommen im \"api-quick-start\" durch "
+"CarstenD)"
+
+msgid "token"
+msgstr "Token"
+
+msgid "Usage"
+msgstr "Verwendung"
+
+msgid "user"
+msgstr ""
+
+msgid "volume"
+msgstr "Datenträger"
+
+msgid "Volume Snapshot"
+msgstr ""
+
+msgid "VCPU Hours"
+msgstr ""
+
+msgctxt ""
+msgid "parameter"
+msgstr ""

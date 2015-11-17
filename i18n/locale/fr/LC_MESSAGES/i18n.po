@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr "Aggrégat"
+
+msgid "Allocate IP"
+msgstr ""
+
+msgid "Architecture"
+msgstr ""
+
+msgid "association"
+msgstr ""
+
+msgid "Associate IP"
+msgstr ""
+
+msgid "authenticate"
+msgstr ""
+
+msgid "authorize"
+msgstr ""
+
+msgid "availability zone"
+msgstr "zone de disponibilité"
+
+msgid "backend"
+msgstr "Backend => D'autres propositions ?"
+
+msgid "backup"
+msgstr "Sauvegarde"
+
+msgid "boot"
+msgstr ""
+
+msgid "cache"
+msgstr "cache"
+
+msgid "CIDR"
+msgstr ""
+
+msgid "client"
+msgstr "Client"
+
+msgid "cluster"
+msgstr "Cluster"
+
+msgid "Compute"
+msgstr "Compute"
+
+msgid "Compute Services"
+msgstr ""
+
+msgid "container"
+msgstr "Conteneur"
+
+msgid "Container Format"
+msgstr ""
+
+msgid "credentials"
+msgstr ""
+
+msgid "Data Processing"
+msgstr "Traitement des données"
+
+msgid "Destination container"
+msgstr ""
+
+msgid "Destination object name"
+msgstr ""
+
+msgid "device"
+msgstr "disque"
+
+msgid "Disassociate IP"
+msgstr ""
+
+msgid "disk"
+msgstr ""
+
+msgid "Disk Format"
+msgstr ""
+
+msgid "Disk GB Hours"
+msgstr ""
+
+msgid "domain"
+msgstr "Domaine"
+
+msgid "domain group"
+msgstr "groupe de domaine"
+
+msgid "Ephemeral Disk"
+msgstr "Disque éphémere"
+
+msgid "Ephemeral Drive"
+msgstr "Lecteur ephémere"
+
+msgid "existence"
+msgstr ""
+
+msgid "Fetching"
+msgstr ""
+
+msgid "Fingerprint"
+msgstr ""
+
+msgid "Fixed IP"
+msgstr ""
+
+msgid "Flavor"
+msgstr "Gabarit"
+
+msgid "Floating IP"
+msgstr "IP flottante"
+
+msgid "gateway"
+msgstr "Passerelle"
+
+msgid "guide"
+msgstr ""
+
+msgid "health Monitor"
+msgstr "Supervision du statut des services"
+
+msgid "host"
+msgstr "Host"
+
+msgid "Host Aggregate"
+msgstr "Agrégat de machines"
+
+msgid "hypervisor"
+msgstr "Hyperviseur"
+
+msgid "identifier"
+msgstr ""
+
+msgid "image"
+msgstr "Image"
+
+msgid "initiator"
+msgstr ""
+
+msgid "Injected Files"
+msgstr ""
+
+msgid "instance"
+msgstr ""
+
+msgid "interface"
+msgstr "Interface"
+
+msgid "job"
+msgstr "tache"
+
+msgid "job template"
+msgstr "Load balancer"
+
+msgid "Keypair"
+msgstr ""
+
+msgid "launch"
+msgstr ""
+
+msgid "load balancer"
+msgstr ""
+
+msgid "library"
+msgstr ""
+
+msgid "master"
+msgstr ""
+
+msgid "member"
+msgstr ""
+
+msgid "memory"
+msgstr ""
+
+msgid "meter"
+msgstr "métriques"
+
+msgid "namespace"
+msgstr ""
+
+msgid "node"
+msgstr "Node"
+
+msgid "object"
+msgstr ""
+
+msgid "orchestration"
+msgstr ""
+
+msgid "over commit"
+msgstr "mise à jour"
+
+msgctxt ""
+msgid "parameter"
+msgstr ""
+
+msgid "Perfect Forward Secrecy"
+msgstr ""
+
+msgid "plugin"
+msgstr "Extension"
+
+msgid "policy"
+msgstr "stratégie"
+
+msgid "pool"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Public key"
+msgstr ""
+
+msgid "quota"
+msgstr "Quota"
+
+msgid "Quotas"
+msgstr ""
+
+msgid "reboot"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "remote"
+msgstr ""
+
+msgid "replication"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "router"
+msgstr "Routeur"
+
+msgid "Security Group"
+msgstr "Groupe de sécurité"
+
+msgid "server"
+msgstr "Serveur"
+
+msgid "snapshot"
+msgstr "Instantané"
+
+msgid "stack"
+msgstr "Stack"
+
+msgid "storage"
+msgstr "Stockage"
+
+msgid "submit"
+msgstr ""
+
+msgid "subnet"
+msgstr "Sous-réseau"
+
+msgid "Swap-Disk"
+msgstr "disque swap => D'autres propositions ?"
+
+msgid "System Panel"
+msgstr ""
+
+msgid "tag"
+msgstr "tag"
+
+msgid "template"
+msgstr "modèle => D'autres propositions ?"
+
+msgid "Tenant"
+msgstr "Tenant"
+
+msgid "token"
+msgstr "Token"
+
+msgid "Usage"
+msgstr "usage"
+
+msgid "user"
+msgstr ""
+
+msgid "volume"
+msgstr "Volume"
+
+msgid "Volume Snapshot"
+msgstr ""
+
+msgid "VCPU Hours"
+msgstr ""
+
+msgctxt ""
+msgid "parameter"
+msgstr ""

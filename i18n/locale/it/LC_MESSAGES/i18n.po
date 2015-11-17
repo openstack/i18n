@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-11 17:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aggregate"
+msgstr "aggregato"
+
+msgid "Allocate IP"
+msgstr "Assegna IP"
+
+msgid "Architecture"
+msgstr "Architettura"
+
+msgid "association"
+msgstr "associazione"
+
+msgid "Associate IP"
+msgstr "Associa IP"
+
+msgid "authenticate"
+msgstr "autenticare"
+
+msgid "authorize"
+msgstr "autorizzare"
+
+msgid "availability zone"
+msgstr "zona di disponibilità"
+
+msgid "backend"
+msgstr "backend"
+
+msgid "backup"
+msgstr "backup"
+
+msgid "boot"
+msgstr "avvio"
+
+msgid "cache"
+msgstr "cache"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "client"
+msgstr "client"
+
+msgid "cluster"
+msgstr "cluster"
+
+msgid "Compute"
+msgstr "Compute"
+
+msgid "Compute Services"
+msgstr "Servizi Compute"
+
+msgid "container"
+msgstr "contenitore"
+
+msgid "Container Format"
+msgstr "Formato contenitore"
+
+msgid "credentials"
+msgstr "credenziali"
+
+msgid "Data Processing"
+msgstr "Data Processing"
+
+msgid "Destination container"
+msgstr "Contenitore di destinazione"
+
+msgid "Destination object name"
+msgstr "Nome oggetto di destinazione"
+
+msgid "device"
+msgstr "dispositivo"
+
+msgid "Disassociate IP"
+msgstr "Annulla associazione IP"
+
+msgid "disk"
+msgstr "disco"
+
+msgid "Disk Format"
+msgstr "Formato disco"
+
+msgid "Disk GB Hours"
+msgstr "Ore GB di disco"
+
+msgid "domain"
+msgstr "dominio"
+
+msgid "domain group"
+msgstr "gruppo di dominio"
+
+msgid "Ephemeral Disk"
+msgstr "Disco temporaneo"
+
+msgid "Ephemeral Drive"
+msgstr "Unità temporanea"
+
+msgid "existence"
+msgstr "esistenza"
+
+msgid "Fetching"
+msgstr "In fase di recupero"
+
+msgid "Fingerprint"
+msgstr "Impronta digitale"
+
+msgid "Fixed IP"
+msgstr "IP fisso"
+
+msgid "Flavor"
+msgstr "Flavor"
+
+msgid "Floating IP"
+msgstr "IP mobile"
+
+msgid "gateway"
+msgstr "gateway"
+
+msgid "guide"
+msgstr "guida"
+
+msgid "health Monitor"
+msgstr "Monitor di integrità"
+
+msgid "host"
+msgstr "host"
+
+msgid "Host Aggregate"
+msgstr "Aggregato host"
+
+msgid "hypervisor"
+msgstr "hypervisor"
+
+msgid "identifier"
+msgstr "identificativo"
+
+msgid "image"
+msgstr "immagine"
+
+msgid "initiator"
+msgstr "programma di inizializzazione"
+
+msgid "Injected Files"
+msgstr "File inseriti"
+
+msgid "instance"
+msgstr "istanza"
+
+msgid "interface"
+msgstr "interfaccia"
+
+msgid "job"
+msgstr "job"
+
+msgid "job template"
+msgstr "template job"
+
+msgid "Keypair"
+msgstr "Coppia di chiavi"
+
+msgid "launch"
+msgstr "avviare"
+
+msgid "load balancer"
+msgstr "bilanciatore di carico"
+
+msgid "library"
+msgstr "libreria"
+
+msgid "master"
+msgstr "master"
+
+msgid "member"
+msgstr "membro"
+
+msgid "memory"
+msgstr "memoria"
+
+msgid "meter"
+msgstr "misuratore"
+
+msgid "namespace"
+msgstr "spazio dei nomi"
+
+msgid "node"
+msgstr "nodo"
+
+msgid "object"
+msgstr "oggetto"
+
+msgid "orchestration"
+msgstr "orchestrazione"
+
+msgid "over commit"
+msgstr "over commit"
+
+msgctxt ""
+msgid "parameter"
+msgstr "parametro"
+
+msgid "Perfect Forward Secrecy"
+msgstr "PFS (Perfect Forward Secrecy) "
+
+msgid "plugin"
+msgstr "plugin"
+
+msgid "policy"
+msgstr "criterio"
+
+msgid "pool"
+msgstr "pool"
+
+msgid "Project"
+msgstr "Progetto"
+
+msgid "Public key"
+msgstr "Chiave pubblica"
+
+msgid "quota"
+msgstr "quota"
+
+msgid "Quotas"
+msgstr "Quote"
+
+msgid "reboot"
+msgstr "riavvio"
+
+msgid "Region"
+msgstr "Regione"
+
+msgid "remote"
+msgstr "remoto"
+
+msgid "replication"
+msgstr "replica"
+
+msgid "Role"
+msgstr "Ruolo"
+
+msgid "router"
+msgstr "router"
+
+msgid "Security Group"
+msgstr "Gruppo di sicurezza"
+
+msgid "server"
+msgstr "server"
+
+msgid "snapshot"
+msgstr "istantanea"
+
+msgid "stack"
+msgstr "stack"
+
+msgid "storage"
+msgstr "memoria"
+
+msgid "submit"
+msgstr "inoltrare"
+
+msgid "subnet"
+msgstr "sottorete"
+
+msgid "Swap-Disk"
+msgstr "Disco swap"
+
+msgid "System Panel"
+msgstr "Pannello di sistema"
+
+msgid "tag"
+msgstr "tag"
+
+msgid "template"
+msgstr "template"
+
+msgid "Tenant"
+msgstr "Tenant"
+
+msgid "token"
+msgstr "token"
+
+msgid "Usage"
+msgstr "Utilizzo"
+
+msgid "user"
+msgstr "utente"
+
+msgid "volume"
+msgstr "volume"
+
+msgid "Volume Snapshot"
+msgstr "Istantanea volume"
+
+msgid "VCPU Hours"
+msgstr "Ore VCPU"
+
+msgctxt ""
+msgid "parameter"
+msgstr "parametro"
