@@ -19,8 +19,12 @@ Contents
    :maxdepth: 2
 
    contributing
+   bug_report
+   handling_bugs
    official_translator
    create_lang_team
+
+.. _label-i18n-team-contact:
 
 Getting in touch
 ~~~~~~~~~~~~~~~~
