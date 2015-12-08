@@ -24,9 +24,7 @@ If you have questions, you can contact your coordinators.
 If you cannot find your local team,
 you can request to :doc:`create a local translation team <create_lang_team>`.
 
-To report translation errors,
-go to `openstack-i18n in Launchpad`_ and report bugs.
-Mark bugs with a tag "translation".
+To report translation errors, see :doc:`bug_report`.
 
 There are three different roles in a translation team:
 
