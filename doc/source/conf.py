@@ -20,7 +20,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import os
+import subprocess
 # import sys
 
 
@@ -74,8 +74,9 @@ release = '1.0.0'
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 # These variables are passed to the logabug code via html_context.
 giturl = u'http://git.openstack.org/cgit/openstack/i18n/tree/doc/source'
-git_cmd = "/usr/bin/git log | head -n1 | cut -f2 -d' '"
-gitsha = os.popen(git_cmd).read().strip('\n')
+git_cmd = ["/usr/bin/git", "rev-parse", "HEAD"]
+gitsha = subprocess.Popen(
+    git_cmd, stdout=subprocess.PIPE).communicate()[0].strip('\n')
 html_context = {"gitsha": gitsha, "bug_tag": bug_tag,
                 "giturl": giturl}
 
