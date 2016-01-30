@@ -306,7 +306,3 @@ msgstr ""
 
 msgid "VCPU Hours"
 msgstr ""
-
-msgctxt ""
-msgid "parameter"
-msgstr ""

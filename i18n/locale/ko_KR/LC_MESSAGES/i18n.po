@@ -304,7 +304,3 @@ msgstr "볼륨 스냅샷"
 
 msgid "VCPU Hours"
 msgstr "VCPU 사용시간"
-
-msgctxt ""
-msgid "parameter"
-msgstr "매개변수"

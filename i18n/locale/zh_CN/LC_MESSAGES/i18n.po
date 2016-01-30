@@ -304,7 +304,3 @@ msgstr "卷快照"
 
 msgid "VCPU Hours"
 msgstr "VCPU小时"
-
-msgctxt ""
-msgid "parameter"
-msgstr "参数"
