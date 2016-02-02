@@ -1,0 +1,241 @@
+zh-CN:
+  coordinators:
+    - Ying Chun Guo (daisyycguo)
+  language:
+    - Chinese (China)
+  translators:
+    - actionchen
+    - aeng
+    - chenli
+    - ccheng
+    - coffee
+    - daisyycguo
+    - zhugaoxiao
+    - guoshan
+    - fionahuang
+    - irina
+    - jimmyli
+    - liyucai
+    - linwwu
+    - liuchaoxin
+    - liujunpeng
+    - lapalm
+    - lvfyongfeng
+    - macjack
+    - meteor
+    - rustinpeace
+    - tianzhong
+    - fifieldt
+    - tfu
+    - xuyang
+    - yanheven
+    - yanghy
+    - yuzg
+    - huyupeng
+    - zhangjingwen
+    - zhaochao
+    - johnwoo_lee
+  reviewers:
+    - daisyycguo
+ja:
+  coordinators:
+    - to222
+    - amotoki
+  language:
+    - Japanese
+  translators:
+    - amotoki
+    - yosshy
+    - nanodayo
+    - hidekazuna
+    - to222
+    - sasukeh
+    - macjack
+    - masmiyam
+    - mmasaki
+    - myamamot
+    - yuanying
+    - ststake
+    - shinya_kwbt
+    - shu
+    - tjcocozz
+    - fifieldt
+    - ykatabam
+    - yuta_hono
+  reviewers:
+    - amotoki
+    - to222
+    - ykatabam
+    - myamamot
+    - yosshy
+ko-KR:
+  coordinators:
+    - Sungjin Kang (ujuc)
+  language:
+    - Korean (South Korea)
+  translators:
+    - gemma
+    - dbgong
+    - chuinggun
+    - gyahoo617
+    - openstack
+    - ianychoi
+    - jaygtv
+    - whitekjs
+    - jennie
+    - ryan
+    - powhapki
+    - kiseok7
+    - kepark07
+    - leegy1
+    - lapalm
+    - macjack
+    - choi
+    - ujuc
+    - frontjang
+    - wonki
+  reviewers:
+    - ujuc
+fr:
+  coordinators:
+    - jftalta
+  language:
+    - French
+  translators:
+    - adri2000
+    - nokostya
+    - liced
+    - croe
+    - corin
+    - seveillard
+    - fdotfr
+    - gael_rehault
+    - pat
+    - jftalta
+    - jfenal
+    - kodokuu
+    - zigmax
+    - obuisson
+    - paulgonin
+    - romainsc
+    - gonarys
+    - henris
+    - eouzans
+    - tjcocozz
+zh-TW:
+  coordinators:
+    - zero00072
+  language:
+    - Chinese (Taiwan)
+  translators:
+    - bokaitseng
+    - ccheng
+    - danny
+    - elliswu
+    - fionahuang
+    - jameslee
+    - kyle
+    - t09sunny
+    - lapalm
+    - macjack
+    - mikeli
+    - rico
+    - fifieldt
+    - webberguo
+    - willychen
+    - xuyang
+    - max821214
+    - zero00072
+pt-BR:
+  coordinators:
+    - marcelodieder
+  language:
+    - Portuguese (Brazil)
+  translators:
+    - nokostya
+    - andrecampos
+    - fcpimenta
+    - gabrielcw
+    - josemello
+    - lucasagomes
+    - lapalm
+    - marcelodieder
+    - mariaandrada
+    - raildomascena
+    - rgmorales
+    - rbraga
+    - sanporci
+es:
+  coordinators:
+    - mariantb
+  language:
+    - Spanish
+  translators:
+    - hybridpollo
+    - albertomolina
+    - camunoz
+    - egongu90
+    - toxickore
+    - gguerrer
+    - mariantb
+    - iranzo
+    - pnavarro
+    - tjcocozz
+    - travisn
+    - vresy
+ru:
+  coordinators:
+    - adiantum
+  language:
+    - Russian
+  translators:
+    - antoniok
+    - v12aml
+    - doug_fish
+    - ftarasenko
+    - sfilatov
+    - adiantum
+    - shakhat
+    - kzaitsev
+    - lapalm
+    - nburtsev
+de:
+  coordinators:
+    - rsimai
+  language:
+    - German
+  translators:
+    - jaegerandi
+    - cduch
+    - atalanttore
+    - eblock
+    - eumel8
+    - lstemmle
+    - spielkind
+    - rsimai
+    - tjcocozz
+it:
+  coordinators:
+    - daisyycguo
+  language:
+    - Italian
+  translators:
+    - alessandra
+    - daisyycguo
+    - fpezzell
+    - faber66
+    - miumiento
+    - matgand
+    - tjcocozz
+tr-TR:
+  coordinators:
+    - mucahit
+  language:
+    - Turkish (Turkey)
+  translators:
+    - doug_fish
+    - duyarli
+    - halit
+    - isbaran
+    - mucahit
+    - oguzy
