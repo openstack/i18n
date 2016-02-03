@@ -70,7 +70,8 @@ release = '1.0.0'
 
 # A few variables have to be set for the log-a-bug feature.
 #   giturl: The location of conf.py on Git. Must be set manually.
-#   gitsha: The SHA checksum of the bug description. Automatically extracted from git log.
+#   gitsha: The SHA checksum of the bug description.
+#           Automatically extracted from git log.
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 # These variables are passed to the logabug code via html_context.
 giturl = u'http://git.openstack.org/cgit/openstack/i18n/tree/doc/source'
