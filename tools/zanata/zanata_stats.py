@@ -210,6 +210,10 @@ def _write_stats_to_jsonfile(stats, output_file):
         f.write(json.dumps(stats, indent=4))
 
 
+def _comma_separated_list(s):
+    return s.split(',')
+
+
 def main():
 
     default_end_date = datetime.datetime.now()
@@ -230,11 +234,11 @@ def main():
                         help=("Specify the output file. "
                               "Default: zanata_stats_output.{csv,json}."))
     parser.add_argument("-p", "--project",
-                        default='',
+                        type=_comma_separated_list,
                         help=("Specify project(s). Comma-separated list. "
                               "Otherwise all Zanata projects are processed."))
     parser.add_argument("-l", "--lang",
-                        default='',
+                        type=_comma_separated_list,
                         help=("Specify language(s). Comma-separated list. "
                               "Language code like zh-CN, ja needs to be used. "
                               "Otherwise all languages are processed."))
@@ -251,16 +255,13 @@ def main():
                         help="YAML file of the user list")
     options = parser.parse_args()
 
-    project_list = options.project.split(',')
-    lang_list = options.lang.split(',')
-
-    language_teams = read_language_team_yaml(options.user_yaml, lang_list)
+    language_teams = read_language_team_yaml(options.user_yaml, options.lang)
 
     users = get_zanata_stats(options.start_date, options.end_date,
-                             language_teams, project_list)
+                             language_teams, options.project)
 
-    if not options.output_file:
-        output_file = 'zanata_stats_output.%s' % options.format
+    output_file = (options.output_file or
+                   'zanata_stats_output.%s' % options.format)
 
     write_stats_to_file(users, output_file, options.format,
                         options.include_no_activities)
