@@ -37,6 +37,19 @@ zh-CN:
     - johnwoo_lee
   reviewers:
     - daisyycguo
+    - actionchen
+    - aeng
+    - coffee
+    - jimmyli
+    - liuchaoxin
+    - liujunpeng
+    - lvfyongfeng
+    - tianzhong
+    - fifieldt
+    - tfu
+    - yanheven
+    - zhaochao
+    - johnwoo_lee
 ja:
   coordinators:
     - to222
@@ -96,6 +109,9 @@ ko-KR:
     - wonki
   reviewers:
     - ujuc
+    - ianychoi
+    - ryan
+    - kiseok7
 fr:
   coordinators:
     - jftalta
@@ -122,6 +138,22 @@ fr:
     - henris
     - eouzans
     - tjcocozz
+  reviewers:
+    - adri2000
+    - liced
+    - croe
+    - corin
+    - seveillard
+    - fdotfr
+    - pat
+    - jftalta
+    - kodokuu
+    - zigmax
+    - obuisson
+    - paulgonin
+    - romainsc
+    - gonarys
+    - henris
 zh-TW:
   coordinators:
     - zero00072
@@ -146,6 +178,11 @@ zh-TW:
     - xuyang
     - max821214
     - zero00072
+  reviewers:
+    - ccheng
+    - jameslee
+    - macjack
+    - zero00072
 pt-BR:
   coordinators:
     - marcelodieder
@@ -165,6 +202,12 @@ pt-BR:
     - rgmorales
     - rbraga
     - sanporci
+  reviewers:
+    - fcpimenta
+    - gabrielcw
+    - lucasagomes
+    - marcelodieder
+    - raildomascena
 es:
   coordinators:
     - mariantb
@@ -183,6 +226,12 @@ es:
     - tjcocozz
     - travisn
     - vresy
+  reviewers:
+    - camunoz
+    - mariantb
+    - pnavarro
+    - tjcocozz
+    - travisn
 ru:
   coordinators:
     - adiantum
@@ -199,6 +248,12 @@ ru:
     - kzaitsev
     - lapalm
     - nburtsev
+  reviewers:
+    - doug_fish
+    - ftarasenko
+    - adiantum
+    - shakhat
+    - nburtsev
 de:
   coordinators:
     - rsimai
@@ -214,6 +269,10 @@ de:
     - spielkind
     - rsimai
     - tjcocozz
+  reviewers:
+    - cduch
+    - eumel8
+    - rsimai
 it:
   coordinators:
     - daisyycguo
@@ -227,6 +286,12 @@ it:
     - miumiento
     - matgand
     - tjcocozz
+  reviewers:
+    - alessandra
+    - daisyycguo
+    - faber66
+    - miumiento
+    - matgand
 tr-TR:
   coordinators:
     - mucahit
@@ -234,6 +299,12 @@ tr-TR:
     - Turkish (Turkey)
   translators:
     - doug_fish
+    - duyarli
+    - halit
+    - isbaran
+    - mucahit
+    - oguzy
+  reviewers:
     - duyarli
     - halit
     - isbaran
