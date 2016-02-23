@@ -23,6 +23,8 @@ Contents
    handling_bugs
    official_translator
    create_lang_team
+   check_translation
+   translation_tips
 
 .. _label-i18n-team-contact:
 
