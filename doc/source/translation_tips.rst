@@ -9,17 +9,19 @@ If you have any, don't hesitate to share it :)
 Where a string is used in source code?
 ======================================
 
-It is important to know how a string you are translating is used in a
-corresponding source code for better quality of translations.
-Unfortunately Zanata translation interface shows no information about
-a corresponding location in a source code now.
+It is important to understand how an original string is used in the source code
+with contextual knowledge for better quality of translations.
+Unfortunately Zanata translation interface does not show where
+a target string is used in a source code correspondingly.
 
-You can know the location in a source code by checking the POT file
+You can find the location in a source code by checking the POT file
 in a corresponding git repository.
 
-Zanata project and git repository are 1-to-1 mapping and
+Zanata project and git repository are one-to-one relationship.
+If Zanata project name is ``<Zanata-project-name>``,
+the corresponding git repository location is
 ``http://git.openstack.org/cgit/openstack/<Zanata-project-name>/``.
-If you are translating ``horizon``, the git repository is found at
+For example, if you are translating ``horizon``, the git repository is found at
 http://git.openstack.org/cgit/openstack/horizon/.
 
 POT file exists at ``<module-name>/locale/<Zanata-document-name>.pot``.
@@ -50,18 +52,20 @@ Then you can find an entry like:
    msgid "Unable to retrieve details for parent backup: %s"
    msgstr ""
 
-Where a string is used in Dashboard?
-====================================
+Where a string is used in Dashboard UI?
+=======================================
 
 During translating a dashboard related project, you may want to know
 "where is this string used in the dashboard?".
 
 You can estimate where a string is used from a location in a source code.
-(see the previous entry on how to know a location.)
+(See the previous entry on how to find a location.)
 
 ``dashboards/admin/aggregates/views.py:104``
-    This means ``aggregate`` means "Aggregate" menu in "Admin" group
-    in the left side menu.
+    This means "Aggregates" menu in "Admin" group in the left side menu.
+    In Horizon code, the second level corresponds to a dashboard group
+    like "Project" or "Admin" and the third level corresponds to
+    a panel like "Aggregates" (in this example), "Instances" or "Networks".
 
 ``dashboards/project/loadbalancers/workflows.py:44``
     When a filename is ``workflows.py`` or ``forms.py``, it means
