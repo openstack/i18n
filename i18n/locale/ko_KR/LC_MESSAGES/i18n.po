@@ -32,7 +32,7 @@ msgid "authorize"
 msgstr "허가"
 
 msgid "availability zone"
-msgstr "가용성 존"
+msgstr "가용 구역"
 
 msgid "backend"
 msgstr "백엔드"
@@ -68,7 +68,7 @@ msgid "Container Format"
 msgstr "컨테이너 포맷"
 
 msgid "credentials"
-msgstr ""
+msgstr "자격 증명서"
 
 msgid "Data Processing"
 msgstr "데이터 프로세싱"
@@ -101,28 +101,28 @@ msgid "domain group"
 msgstr "도메인 그룹"
 
 msgid "Ephemeral Disk"
-msgstr "임시 디스크"
+msgstr "Ephemeral 디스크"
 
 msgid "Ephemeral Drive"
-msgstr "임시 드라이브"
+msgstr "Ephemeral 드라이브"
 
 msgid "existence"
-msgstr ""
+msgstr "실제"
 
 msgid "Fetching"
-msgstr ""
+msgstr "페칭"
 
 msgid "Fingerprint"
-msgstr ""
+msgstr "Fingerprint"
 
 msgid "Fixed IP"
-msgstr "고정 IP"
+msgstr "Fixed IP"
 
 msgid "Flavor"
 msgstr "Flavor"
 
 msgid "Floating IP"
-msgstr "유동 IP"
+msgstr "Floating IP"
 
 msgid "gateway"
 msgstr "게이트웨이"
@@ -143,13 +143,13 @@ msgid "hypervisor"
 msgstr "가상화"
 
 msgid "identifier"
-msgstr ""
+msgstr "식별자"
 
 msgid "image"
 msgstr "이미지"
 
 msgid "initiator"
-msgstr ""
+msgstr "initiator"
 
 msgid "Injected Files"
 msgstr "추가한 파일"
@@ -161,19 +161,19 @@ msgid "interface"
 msgstr "인터페이스"
 
 msgid "job"
-msgstr "작업"
+msgstr "job"
 
 msgid "job template"
-msgstr "작업 템플릿"
+msgstr "job 템플릿"
 
 msgid "Keypair"
 msgstr "키페어"
 
 msgid "launch"
-msgstr "구동"
+msgstr "작동"
 
 msgid "load balancer"
-msgstr "로드밸런서"
+msgstr "로드 밸런서"
 
 msgid "library"
 msgstr "라이브러리"
@@ -182,16 +182,16 @@ msgid "master"
 msgstr "마스터"
 
 msgid "member"
-msgstr "구성원"
+msgstr "멤버"
 
 msgid "memory"
 msgstr "메모리"
 
 msgid "meter"
-msgstr "미터"
+msgstr "측정기"
 
 msgid "namespace"
-msgstr "네임스페이스"
+msgstr "네임 스페이스"
 
 msgid "node"
 msgstr "노드"
@@ -200,7 +200,7 @@ msgid "object"
 msgstr "객체"
 
 msgid "orchestration"
-msgstr "오케스트레이션"
+msgstr "orchestration"
 
 msgid "over commit"
 msgstr "오버 커밋"
@@ -210,7 +210,7 @@ msgid "parameter"
 msgstr "매개변수"
 
 msgid "Perfect Forward Secrecy"
-msgstr ""
+msgstr "Perfect Forward Secrecy"
 
 msgid "plugin"
 msgstr "플러그인"
@@ -246,13 +246,13 @@ msgid "replication"
 msgstr "복제"
 
 msgid "Role"
-msgstr "롤"
+msgstr "역할"
 
 msgid "router"
 msgstr "라우터"
 
 msgid "Security Group"
-msgstr "보안 그룹"
+msgstr "시큐리티 그룹"
 
 msgid "server"
 msgstr "서버"
@@ -261,7 +261,7 @@ msgid "snapshot"
 msgstr "스냅샷"
 
 msgid "stack"
-msgstr "스택"
+msgstr "stack"
 
 msgid "storage"
 msgstr "스토리지"
@@ -291,7 +291,7 @@ msgid "token"
 msgstr "토큰"
 
 msgid "Usage"
-msgstr "사용량(?)"
+msgstr "사용량"
 
 msgid "user"
 msgstr "사용자"
