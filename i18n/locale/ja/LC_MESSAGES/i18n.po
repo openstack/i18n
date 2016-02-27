@@ -1,9 +1,19 @@
+#. Copyright: UNKNOWN
+#.
+#. 注意: このファイルはメンテナンスされていません。古い情報です。
+#. 日本語翻訳チームは以下のURLで用語集を管理しています。
+#. https://wiki.openstack.org/wiki/I18nTeam/team/ja/glossary
+#.
+#. This file is out-of-date. Japense team does not maintain it.
+#. It is kept only by the i18n team request
+#. (though I wonder why unmaintained glossary was previouly imported).
+#.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-11 17:32+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-03-06 20:06+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
