@@ -25,7 +25,7 @@ msgstr ""
 msgid "Associate IP"
 msgstr ""
 
-msgid "authenticate "
+msgid "authenticate"
 msgstr ""
 
 msgid "authorize"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "device"
 msgstr ""
 
-msgid "Disassociate IP "
+msgid "Disassociate IP"
 msgstr ""
 
 msgid "disk"
@@ -91,7 +91,7 @@ msgstr ""
 msgid "Disk Format"
 msgstr ""
 
-msgid "Disk GB Hours "
+msgid "Disk GB Hours"
 msgstr ""
 
 msgid "domain"
@@ -112,16 +112,16 @@ msgstr ""
 msgid "Fetching"
 msgstr ""
 
-msgid "Fingerprint "
+msgid "Fingerprint"
 msgstr ""
 
-msgid "Fixed IP "
+msgid "Fixed IP"
 msgstr ""
 
-msgid "Flavor "
+msgid "Flavor"
 msgstr ""
 
-msgid "Floating IP "
+msgid "Floating IP"
 msgstr ""
 
 msgid "gateway"
@@ -151,7 +151,7 @@ msgstr ""
 msgid "initiator"
 msgstr ""
 
-msgid "Injected Files "
+msgid "Injected Files"
 msgstr ""
 
 msgid "instance"
@@ -208,7 +208,7 @@ msgstr ""
 msgid "parameter"
 msgstr ""
 
-msgid "Perfect Forward Secrecy "
+msgid "Perfect Forward Secrecy"
 msgstr ""
 
 msgid "plugin"
@@ -223,7 +223,7 @@ msgstr ""
 msgid "Project"
 msgstr ""
 
-msgid "Public key "
+msgid "Public key"
 msgstr ""
 
 msgid "quota"
@@ -235,7 +235,7 @@ msgstr ""
 msgid "reboot"
 msgstr ""
 
-msgid "Region "
+msgid "Region"
 msgstr ""
 
 msgid "remote"
@@ -250,10 +250,10 @@ msgstr ""
 msgid "router"
 msgstr ""
 
-msgid "Security Group "
+msgid "Security Group"
 msgstr ""
 
-msgid "server "
+msgid "server"
 msgstr ""
 
 msgid "snapshot"
@@ -265,7 +265,7 @@ msgstr ""
 msgid "storage"
 msgstr ""
 
-msgid "submit "
+msgid "submit"
 msgstr ""
 
 msgid "subnet"
@@ -274,7 +274,7 @@ msgstr ""
 msgid "Swap-Disk"
 msgstr ""
 
-msgid "System Panel "
+msgid "System Panel"
 msgstr ""
 
 msgid "tag"
