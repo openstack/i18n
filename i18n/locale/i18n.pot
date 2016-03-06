@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-11 17:32+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-03-06 20:38+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -13,16 +13,16 @@ msgstr ""
 msgid "aggregate"
 msgstr ""
 
-msgid "Allocate IP"
+msgid "allocate IP"
 msgstr ""
 
-msgid "Architecture"
+msgid "architecture"
 msgstr ""
 
 msgid "association"
 msgstr ""
 
-msgid "Associate IP"
+msgid "associate IP"
 msgstr ""
 
 msgid "authenticate"
@@ -58,40 +58,40 @@ msgstr ""
 msgid "Compute"
 msgstr ""
 
-msgid "Compute Services"
+msgid "Compute service"
 msgstr ""
 
 msgid "container"
 msgstr ""
 
-msgid "Container Format"
+msgid "container format"
 msgstr ""
 
 msgid "credentials"
 msgstr ""
 
-msgid "Data Processing"
+msgid "data processing"
 msgstr ""
 
-msgid "Destination container"
+msgid "destination container"
 msgstr ""
 
-msgid "Destination object name"
+msgid "destination object name"
 msgstr ""
 
 msgid "device"
 msgstr ""
 
-msgid "Disassociate IP"
+msgid "disassociate IP"
 msgstr ""
 
 msgid "disk"
 msgstr ""
 
-msgid "Disk Format"
+msgid "disk format"
 msgstr ""
 
-msgid "Disk GB Hours"
+msgid "disk GB hours"
 msgstr ""
 
 msgid "domain"
@@ -100,28 +100,28 @@ msgstr ""
 msgid "domain group"
 msgstr ""
 
-msgid "Ephemeral Disk"
+msgid "ephemeral disk"
 msgstr ""
 
-msgid "Ephemeral Drive"
+msgid "ephemeral drive"
 msgstr ""
 
 msgid "existence"
 msgstr ""
 
-msgid "Fetching"
+msgid "fetching"
 msgstr ""
 
-msgid "Fingerprint"
+msgid "fingerprint"
 msgstr ""
 
-msgid "Fixed IP"
+msgid "fixed IP"
 msgstr ""
 
-msgid "Flavor"
+msgid "flavor"
 msgstr ""
 
-msgid "Floating IP"
+msgid "floating IP"
 msgstr ""
 
 msgid "gateway"
@@ -136,7 +136,7 @@ msgstr ""
 msgid "host"
 msgstr ""
 
-msgid "Host Aggregate"
+msgid "host aggregate"
 msgstr ""
 
 msgid "hypervisor"
@@ -151,7 +151,7 @@ msgstr ""
 msgid "initiator"
 msgstr ""
 
-msgid "Injected Files"
+msgid "injected files"
 msgstr ""
 
 msgid "instance"
@@ -166,7 +166,7 @@ msgstr ""
 msgid "job template"
 msgstr ""
 
-msgid "Keypair"
+msgid "keypair"
 msgstr ""
 
 msgid "launch"
@@ -199,7 +199,7 @@ msgstr ""
 msgid "object"
 msgstr ""
 
-msgid "orchestration"
+msgid "Orchestration"
 msgstr ""
 
 msgid "over commit"
@@ -208,7 +208,7 @@ msgstr ""
 msgid "parameter"
 msgstr ""
 
-msgid "Perfect Forward Secrecy"
+msgid "perfect forward secrecy"
 msgstr ""
 
 msgid "plugin"
@@ -220,22 +220,22 @@ msgstr ""
 msgid "pool"
 msgstr ""
 
-msgid "Project"
+msgid "project"
 msgstr ""
 
-msgid "Public key"
+msgid "public key"
 msgstr ""
 
 msgid "quota"
 msgstr ""
 
-msgid "Quotas"
+msgid "quotas"
 msgstr ""
 
 msgid "reboot"
 msgstr ""
 
-msgid "Region"
+msgid "region"
 msgstr ""
 
 msgid "remote"
@@ -244,13 +244,13 @@ msgstr ""
 msgid "replication"
 msgstr ""
 
-msgid "Role"
+msgid "role"
 msgstr ""
 
 msgid "router"
 msgstr ""
 
-msgid "Security Group"
+msgid "security group"
 msgstr ""
 
 msgid "server"
@@ -271,10 +271,10 @@ msgstr ""
 msgid "subnet"
 msgstr ""
 
-msgid "Swap-Disk"
+msgid "swap-disk"
 msgstr ""
 
-msgid "System Panel"
+msgid "system panel"
 msgstr ""
 
 msgid "tag"
@@ -283,13 +283,13 @@ msgstr ""
 msgid "template"
 msgstr ""
 
-msgid "Tenant"
+msgid "tenant"
 msgstr ""
 
 msgid "token"
 msgstr ""
 
-msgid "Usage"
+msgid "usage"
 msgstr ""
 
 msgid "user"
@@ -298,8 +298,8 @@ msgstr ""
 msgid "volume"
 msgstr ""
 
-msgid "Volume Snapshot"
+msgid "volume snapshot"
 msgstr ""
 
-msgid "VCPU Hours"
+msgid "VCPU hours"
 msgstr ""
