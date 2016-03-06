@@ -19,9 +19,40 @@ It is updated daily. Most contents are linked from either of:
 * http://docs.openstack.org/draft/draft-index.html contains
   draft (unreleased) documents.
 
-TBD: How to enable translated document generation for your language
-and add links to the above index pages.
-At the moment, ask it in the i18n mailing list.
+To build a translated document, you need to update the file
+``doc-tools-check-languages.conf`` in each repository, and
+add an entry to ``BOOKS`` like ``["ja"]="install-guide"``.
+Also, to build as a draft, you need to add an entry to ``DRAFTS``.
+
+For the document in a stable branch, such as the installation guide for
+Liberty, you need to update the file ``doc-tools-check-languages.conf``
+in the target stable branch directly.
+You must add an entry to ``DRAFTS``, which is used as a special flag
+for a stable branch.
+
+You can check generated documents for the specified project on
+http://docs.openstack.org/<branch>/<language>/<document>.
+For example, the link of Ubuntu Installation Guide for Liberty is
+http://docs.openstack.org/liberty/ja/install-guide-ubuntu/.
+
+To add a link to the generated document, you need to update the file
+``www/<lang>/index.html`` in the ``openstack-manuals`` repository.
+Note that the web pages are published from ``master`` branch,
+which contains the pages for all releases, such as Liberty.
+Therefore, you don't need to update the file ``www/<lang>/index.html``
+in the stable branch.
+
+Application developer documentation
+-----------------------------------
+
+We can translate the application developer documentations,
+such as API Guide, as ``api-site`` resources in Zanata.
+
+OpenStack developer documentation
+---------------------------------
+
+Currently, we do not support translations for OpenStack developer
+documents: http://docs.openstack.org/developer/<project>
 
 OpenStack Dashboard
 ===================
