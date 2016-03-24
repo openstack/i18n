@@ -243,17 +243,20 @@ ru:
     - doug_fish
     - ftarasenko
     - sfilatov
+    - mokhin2
     - adiantum
     - shakhat
     - kzaitsev
     - lapalm
     - nburtsev
+    - nmilekhin
   reviewers:
     - doug_fish
     - ftarasenko
     - adiantum
     - shakhat
     - nburtsev
+    - nmilekhin
 de:
   coordinators:
     - rsimai
