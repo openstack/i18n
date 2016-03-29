@@ -15,27 +15,34 @@ msgstr ""
 "POT-Creation-Date: 2015-11-11 17:32+0800\n"
 "PO-Revision-Date: 2016-03-06 20:06+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
 
 msgid "aggregate"
 msgstr ""
 
-msgid "Allocate IP"
+#, fuzzy
+msgid "allocate IP"
 msgstr "IPの確保 (※Associate ととの調整必要あり)"
 
-msgid "Architecture"
+#, fuzzy
+msgid "architecture"
 msgstr "アーキテクチャ"
 
 msgid "association"
 msgstr ""
 
-msgid "Associate IP"
+#, fuzzy
+msgid "associate IP"
 msgstr "IP確保 or IP割り当て(Allocateとの区別から \"IP割り当て\" を希望)"
 
-msgid "authenticate "
+#, fuzzy
+msgid "authenticate"
 msgstr "認証"
 
 msgid "authorize"
@@ -68,40 +75,46 @@ msgstr ""
 msgid "Compute"
 msgstr "???"
 
-msgid "Compute Services"
+msgid "Compute service"
 msgstr ""
 
 msgid "container"
 msgstr "コンテナ(Swift用?)"
 
-msgid "Container Format"
+#, fuzzy
+msgid "container format"
 msgstr "格納形式(?)"
 
 msgid "credentials"
 msgstr "（資格情報）（認証情報）（認証資格）"
 
-msgid "Data Processing"
+msgid "data processing"
 msgstr ""
 
-msgid "Destination container"
+#, fuzzy
+msgid "destination container"
 msgstr "宛先コンテナ"
 
-msgid "Destination object name"
+#, fuzzy
+msgid "destination object name"
 msgstr "宛先オブジェクト名"
 
 msgid "device"
 msgstr ""
 
-msgid "Disassociate IP "
+#, fuzzy
+msgid "disassociate IP"
 msgstr "IP解放"
 
 msgid "disk"
 msgstr ""
 
-msgid "Disk Format"
+#, fuzzy
+msgid "disk format"
 msgstr "ディスクフォーマット"
 
-msgid "Disk GB Hours "
+#, fuzzy
+msgid "disk GB hours"
 msgstr "ディスク GB×時間(ディスク使用量(GB×時間))"
 
 msgid "domain"
@@ -110,28 +123,34 @@ msgstr ""
 msgid "domain group"
 msgstr ""
 
-msgid "Ephemeral Disk"
+#, fuzzy
+msgid "ephemeral disk"
 msgstr "一時ディスク"
 
-msgid "Ephemeral Drive"
-msgstr ""
+#, fuzzy
+msgid "ephemeral drive"
+msgstr "一時ディスク"
 
 msgid "existence"
 msgstr ""
 
-msgid "Fetching"
+#, fuzzy
+msgid "fetching"
 msgstr "?"
 
-msgid "Fingerprint "
+#, fuzzy
+msgid "fingerprint"
 msgstr "フィンガープリント"
 
-msgid "Fixed IP "
-msgstr "Fixed IP(訳さない)"
+msgid "fixed IP"
+msgstr ""
 
-msgid "Flavor "
+#, fuzzy
+msgid "flavor"
 msgstr "インスタンスタイプ"
 
-msgid "Floating IP "
+#, fuzzy
+msgid "floating IP"
 msgstr "Floating IP(訳さない)"
 
 msgid "gateway"
@@ -146,7 +165,7 @@ msgstr ""
 msgid "host"
 msgstr ""
 
-msgid "Host Aggregate"
+msgid "host aggregate"
 msgstr ""
 
 msgid "hypervisor"
@@ -161,7 +180,8 @@ msgstr "イメージ"
 msgid "initiator"
 msgstr "イニシエーター"
 
-msgid "Injected Files "
+#, fuzzy
+msgid "injected files"
 msgstr "Injected Files(?)"
 
 msgid "instance"
@@ -176,7 +196,8 @@ msgstr ""
 msgid "job template"
 msgstr ""
 
-msgid "Keypair"
+#, fuzzy
+msgid "keypair"
 msgstr "キーペア"
 
 msgid "launch"
@@ -209,7 +230,7 @@ msgstr ""
 msgid "object"
 msgstr "オブジェクト"
 
-msgid "orchestration"
+msgid "Orchestration"
 msgstr ""
 
 msgid "over commit"
@@ -218,7 +239,8 @@ msgstr ""
 msgid "parameter"
 msgstr "パラメーター"
 
-msgid "Perfect Forward Secrecy "
+#, fuzzy
+msgid "perfect forward secrecy"
 msgstr "Perfect Forward Secrecy"
 
 msgid "plugin"
@@ -230,22 +252,26 @@ msgstr ""
 msgid "pool"
 msgstr ""
 
-msgid "Project"
+#, fuzzy
+msgid "project"
 msgstr "プロジェクト"
 
-msgid "Public key "
+#, fuzzy
+msgid "public key"
 msgstr "公開鍵"
 
 msgid "quota"
 msgstr ""
 
-msgid "Quotas"
+#, fuzzy
+msgid "quotas"
 msgstr "クォータ"
 
 msgid "reboot"
 msgstr "リブート"
 
-msgid "Region "
+#, fuzzy
+msgid "region"
 msgstr "リージョン(?)"
 
 msgid "remote"
@@ -254,16 +280,19 @@ msgstr ""
 msgid "replication"
 msgstr ""
 
-msgid "Role"
+#, fuzzy
+msgid "role"
 msgstr "ロール(?)"
 
 msgid "router"
 msgstr ""
 
-msgid "Security Group "
+#, fuzzy
+msgid "security group"
 msgstr "セキュリティグループ"
 
-msgid "server "
+#, fuzzy
+msgid "server"
 msgstr "サーバー"
 
 msgid "snapshot"
@@ -275,16 +304,18 @@ msgstr ""
 msgid "storage"
 msgstr ""
 
-msgid "submit "
+#, fuzzy
+msgid "submit"
 msgstr "送信"
 
 msgid "subnet"
 msgstr ""
 
-msgid "Swap-Disk"
+msgid "swap-disk"
 msgstr ""
 
-msgid "System Panel "
+#, fuzzy
+msgid "system panel"
 msgstr "システムパネル"
 
 msgid "tag"
@@ -293,13 +324,15 @@ msgstr ""
 msgid "template"
 msgstr ""
 
-msgid "Tenant"
+#, fuzzy
+msgid "tenant"
 msgstr "プロジェクト (※テナントから変更)"
 
 msgid "token"
 msgstr ""
 
-msgid "Usage"
+#, fuzzy
+msgid "usage"
 msgstr "使用状況(?)"
 
 msgid "user"
@@ -308,11 +341,37 @@ msgstr "ユーザー"
 msgid "volume"
 msgstr ""
 
-msgid "Volume Snapshot"
+#, fuzzy
+msgid "volume snapshot"
 msgstr "ボリュームスナップショット"
 
-msgid "VCPU Hours"
-msgstr "仮想CPU 時間(?)"
+msgid "VCPU hours"
+msgstr ""
 
-msgid "parameter "
-msgstr "パラメーター"
+#~ msgid "Compute Services"
+#~ msgstr ""
+
+#~ msgid "Data Processing"
+#~ msgstr ""
+
+#~ msgid "Ephemeral Drive"
+#~ msgstr ""
+
+#~ msgid "Fixed IP "
+#~ msgstr "Fixed IP(訳さない)"
+
+#~ msgid "Host Aggregate"
+#~ msgstr ""
+
+#~ msgid "orchestration"
+#~ msgstr ""
+
+#~ msgid "Swap-Disk"
+#~ msgstr ""
+
+#~ msgid "VCPU Hours"
+#~ msgstr "仮想CPU 時間(?)"
+
+#~ msgid "parameter "
+#~ msgstr "パラメーター"
+

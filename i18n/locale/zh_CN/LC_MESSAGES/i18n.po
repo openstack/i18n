@@ -1,29 +1,36 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-11 17:53+0800\n"
+"POT-Creation-Date: 2015-11-11 17:32+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
 
 msgid "aggregate"
 msgstr "聚合"
 
-msgid "Allocate IP"
+#, fuzzy
+msgid "allocate IP"
 msgstr "分配IP"
 
-msgid "Architecture"
+#, fuzzy
+msgid "architecture"
 msgstr "架构"
 
 msgid "association"
 msgstr "关联"
 
-msgid "Associate IP"
-msgstr "关联IP"
+#, fuzzy
+msgid "associate IP"
+msgstr "关联"
 
 msgid "authenticate"
 msgstr "认证"
@@ -58,40 +65,48 @@ msgstr "集群"
 msgid "Compute"
 msgstr "计算"
 
-msgid "Compute Services"
+#, fuzzy
+msgid "Compute service"
 msgstr "计算服务"
 
 msgid "container"
 msgstr "容器"
 
-msgid "Container Format"
+#, fuzzy
+msgid "container format"
 msgstr "容器格式"
 
 msgid "credentials"
 msgstr "证书"
 
-msgid "Data Processing"
+#, fuzzy
+msgid "data processing"
 msgstr "数据处理"
 
-msgid "Destination container"
+#, fuzzy
+msgid "destination container"
 msgstr "目标容器"
 
-msgid "Destination object name"
+#, fuzzy
+msgid "destination object name"
 msgstr "目标对象名称"
 
 msgid "device"
 msgstr "设备"
 
-msgid "Disassociate IP"
+#, fuzzy
+msgid "disassociate IP"
 msgstr "释放IP"
 
 msgid "disk"
 msgstr "磁盘"
 
-msgid "Disk Format"
+#, fuzzy
+msgid "disk format"
 msgstr "磁盘格式"
 
-msgid "Disk GB Hours"
+#, fuzzy
+msgid "disk GB hours"
 msgstr "磁盘(GB*小时)"
 
 msgid "domain"
@@ -100,28 +115,35 @@ msgstr "域"
 msgid "domain group"
 msgstr "域组"
 
-msgid "Ephemeral Disk"
+#, fuzzy
+msgid "ephemeral disk"
 msgstr "临时磁盘"
 
-msgid "Ephemeral Drive"
+#, fuzzy
+msgid "ephemeral drive"
 msgstr "临时驱动器"
 
 msgid "existence"
 msgstr "存在"
 
-msgid "Fetching"
+#, fuzzy
+msgid "fetching"
 msgstr "获取"
 
-msgid "Fingerprint"
+#, fuzzy
+msgid "fingerprint"
 msgstr "指印"
 
-msgid "Fixed IP"
+#, fuzzy
+msgid "fixed IP"
 msgstr "固定IP"
 
-msgid "Flavor"
+#, fuzzy
+msgid "flavor"
 msgstr "类型"
 
-msgid "Floating IP"
+#, fuzzy
+msgid "floating IP"
 msgstr "浮动IP"
 
 msgid "gateway"
@@ -136,7 +158,8 @@ msgstr "健康监控"
 msgid "host"
 msgstr "主机"
 
-msgid "Host Aggregate"
+#, fuzzy
+msgid "host aggregate"
 msgstr "主机聚合"
 
 msgid "hypervisor"
@@ -151,7 +174,8 @@ msgstr "镜像"
 msgid "initiator"
 msgstr "发起者"
 
-msgid "Injected Files"
+#, fuzzy
+msgid "injected files"
 msgstr "注入文件"
 
 msgid "instance"
@@ -166,7 +190,8 @@ msgstr "任务"
 msgid "job template"
 msgstr "任务模板"
 
-msgid "Keypair"
+#, fuzzy
+msgid "keypair"
 msgstr "密钥对"
 
 msgid "launch"
@@ -199,17 +224,18 @@ msgstr "节点"
 msgid "object"
 msgstr "对象"
 
-msgid "orchestration"
+#, fuzzy
+msgid "Orchestration"
 msgstr "编排"
 
 msgid "over commit"
 msgstr "超分配"
 
-msgctxt ""
+#, fuzzy
 msgid "parameter"
 msgstr "参数"
 
-msgid "Perfect Forward Secrecy"
+msgid "perfect forward secrecy"
 msgstr ""
 
 msgid "plugin"
@@ -221,22 +247,26 @@ msgstr "策略"
 msgid "pool"
 msgstr "池"
 
-msgid "Project"
+#, fuzzy
+msgid "project"
 msgstr "项目"
 
-msgid "Public key"
+#, fuzzy
+msgid "public key"
 msgstr "公钥"
 
 msgid "quota"
 msgstr "配额"
 
-msgid "Quotas"
+#, fuzzy
+msgid "quotas"
 msgstr "配额"
 
 msgid "reboot"
 msgstr "重启"
 
-msgid "Region"
+#, fuzzy
+msgid "region"
 msgstr "区域"
 
 msgid "remote"
@@ -245,13 +275,15 @@ msgstr "远程"
 msgid "replication"
 msgstr "复制"
 
-msgid "Role"
+#, fuzzy
+msgid "role"
 msgstr "角色"
 
 msgid "router"
 msgstr "路由"
 
-msgid "Security Group"
+#, fuzzy
+msgid "security group"
 msgstr "安全组"
 
 msgid "server"
@@ -272,10 +304,12 @@ msgstr "提交"
 msgid "subnet"
 msgstr "子网"
 
-msgid "Swap-Disk"
+#, fuzzy
+msgid "swap-disk"
 msgstr "交换磁盘"
 
-msgid "System Panel"
+#, fuzzy
+msgid "system panel"
 msgstr "系统面板"
 
 msgid "tag"
@@ -284,13 +318,15 @@ msgstr "标签"
 msgid "template"
 msgstr "模板"
 
-msgid "Tenant"
+#, fuzzy
+msgid "tenant"
 msgstr "租户"
 
 msgid "token"
 msgstr "token"
 
-msgid "Usage"
+#, fuzzy
+msgid "usage"
 msgstr "使用量"
 
 msgid "user"
@@ -299,8 +335,22 @@ msgstr "用户"
 msgid "volume"
 msgstr "卷"
 
-msgid "Volume Snapshot"
+#, fuzzy
+msgid "volume snapshot"
 msgstr "卷快照"
 
-msgid "VCPU Hours"
-msgstr "VCPU小时"
+msgid "VCPU hours"
+msgstr ""
+
+#~ msgid "Associate IP"
+#~ msgstr "关联IP"
+
+#~ msgid "Perfect Forward Secrecy"
+#~ msgstr ""
+
+#~ msgid "Quotas"
+#~ msgstr "配额"
+
+#~ msgid "VCPU Hours"
+#~ msgstr "VCPU小时"
+

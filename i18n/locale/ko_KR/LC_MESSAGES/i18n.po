@@ -1,29 +1,36 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-11 17:54+0800\n"
+"POT-Creation-Date: 2015-11-11 17:32+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko_KR\n"
+"Language-Team: ko_KR <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
 
 msgid "aggregate"
 msgstr "집합"
 
-msgid "Allocate IP"
+#, fuzzy
+msgid "allocate IP"
 msgstr "IP 할당"
 
-msgid "Architecture"
+#, fuzzy
+msgid "architecture"
 msgstr "아키텍처"
 
 msgid "association"
 msgstr "연결"
 
-msgid "Associate IP"
-msgstr "IP 연결"
+#, fuzzy
+msgid "associate IP"
+msgstr "연결"
 
 msgid "authenticate"
 msgstr "인증"
@@ -58,40 +65,48 @@ msgstr "클러스터"
 msgid "Compute"
 msgstr "Compute"
 
-msgid "Compute Services"
+#, fuzzy
+msgid "Compute service"
 msgstr "Compute 서비스"
 
 msgid "container"
 msgstr "컨테이너"
 
-msgid "Container Format"
+#, fuzzy
+msgid "container format"
 msgstr "컨테이너 포맷"
 
 msgid "credentials"
 msgstr "자격 증명서"
 
-msgid "Data Processing"
+#, fuzzy
+msgid "data processing"
 msgstr "데이터 프로세싱"
 
-msgid "Destination container"
+#, fuzzy
+msgid "destination container"
 msgstr "대상 컨테이너"
 
-msgid "Destination object name"
+#, fuzzy
+msgid "destination object name"
 msgstr "대상 객체 이름"
 
 msgid "device"
 msgstr "장치"
 
-msgid "Disassociate IP"
+#, fuzzy
+msgid "disassociate IP"
 msgstr "IP 해제"
 
 msgid "disk"
 msgstr "디스크"
 
-msgid "Disk Format"
+#, fuzzy
+msgid "disk format"
 msgstr "디스크 포맷"
 
-msgid "Disk GB Hours"
+#, fuzzy
+msgid "disk GB hours"
 msgstr "디스크 GB 사용 시간"
 
 msgid "domain"
@@ -100,28 +115,35 @@ msgstr "도메인"
 msgid "domain group"
 msgstr "도메인 그룹"
 
-msgid "Ephemeral Disk"
+#, fuzzy
+msgid "ephemeral disk"
 msgstr "Ephemeral 디스크"
 
-msgid "Ephemeral Drive"
+#, fuzzy
+msgid "ephemeral drive"
 msgstr "Ephemeral 드라이브"
 
 msgid "existence"
 msgstr "실제"
 
-msgid "Fetching"
+#, fuzzy
+msgid "fetching"
 msgstr "페칭"
 
-msgid "Fingerprint"
+#, fuzzy
+msgid "fingerprint"
 msgstr "Fingerprint"
 
-msgid "Fixed IP"
+#, fuzzy
+msgid "fixed IP"
 msgstr "Fixed IP"
 
-msgid "Flavor"
+#, fuzzy
+msgid "flavor"
 msgstr "Flavor"
 
-msgid "Floating IP"
+#, fuzzy
+msgid "floating IP"
 msgstr "Floating IP"
 
 msgid "gateway"
@@ -136,7 +158,8 @@ msgstr "상태 모니터"
 msgid "host"
 msgstr "호스트"
 
-msgid "Host Aggregate"
+#, fuzzy
+msgid "host aggregate"
 msgstr "호스트 집계"
 
 msgid "hypervisor"
@@ -151,7 +174,8 @@ msgstr "이미지"
 msgid "initiator"
 msgstr "initiator"
 
-msgid "Injected Files"
+#, fuzzy
+msgid "injected files"
 msgstr "추가한 파일"
 
 msgid "instance"
@@ -166,7 +190,8 @@ msgstr "job"
 msgid "job template"
 msgstr "job 템플릿"
 
-msgid "Keypair"
+#, fuzzy
+msgid "keypair"
 msgstr "키페어"
 
 msgid "launch"
@@ -199,17 +224,19 @@ msgstr "노드"
 msgid "object"
 msgstr "객체"
 
-msgid "orchestration"
+#, fuzzy
+msgid "Orchestration"
 msgstr "orchestration"
 
 msgid "over commit"
 msgstr "오버 커밋"
 
-msgctxt ""
+#, fuzzy
 msgid "parameter"
 msgstr "매개변수"
 
-msgid "Perfect Forward Secrecy"
+#, fuzzy
+msgid "perfect forward secrecy"
 msgstr "Perfect Forward Secrecy"
 
 msgid "plugin"
@@ -221,22 +248,26 @@ msgstr "정책"
 msgid "pool"
 msgstr "풀"
 
-msgid "Project"
+#, fuzzy
+msgid "project"
 msgstr "프로젝트"
 
-msgid "Public key"
+#, fuzzy
+msgid "public key"
 msgstr "공개키"
 
 msgid "quota"
 msgstr "Quota"
 
-msgid "Quotas"
+#, fuzzy
+msgid "quotas"
 msgstr "Quota"
 
 msgid "reboot"
 msgstr "재부팅"
 
-msgid "Region"
+#, fuzzy
+msgid "region"
 msgstr "지역"
 
 msgid "remote"
@@ -245,13 +276,15 @@ msgstr "원격"
 msgid "replication"
 msgstr "복제"
 
-msgid "Role"
+#, fuzzy
+msgid "role"
 msgstr "역할"
 
 msgid "router"
 msgstr "라우터"
 
-msgid "Security Group"
+#, fuzzy
+msgid "security group"
 msgstr "시큐리티 그룹"
 
 msgid "server"
@@ -272,10 +305,12 @@ msgstr "제출"
 msgid "subnet"
 msgstr "서브넷"
 
-msgid "Swap-Disk"
+#, fuzzy
+msgid "swap-disk"
 msgstr "스왑 디스크"
 
-msgid "System Panel"
+#, fuzzy
+msgid "system panel"
 msgstr "시스템 판넬"
 
 msgid "tag"
@@ -284,13 +319,15 @@ msgstr "태그"
 msgid "template"
 msgstr "템플릿"
 
-msgid "Tenant"
+#, fuzzy
+msgid "tenant"
 msgstr "Tenant"
 
 msgid "token"
 msgstr "토큰"
 
-msgid "Usage"
+#, fuzzy
+msgid "usage"
 msgstr "사용량"
 
 msgid "user"
@@ -299,8 +336,19 @@ msgstr "사용자"
 msgid "volume"
 msgstr "볼륨"
 
-msgid "Volume Snapshot"
+#, fuzzy
+msgid "volume snapshot"
 msgstr "볼륨 스냅샷"
 
-msgid "VCPU Hours"
-msgstr "VCPU 사용시간"
+msgid "VCPU hours"
+msgstr ""
+
+#~ msgid "Associate IP"
+#~ msgstr "IP 연결"
+
+#~ msgid "Quotas"
+#~ msgstr "Quota"
+
+#~ msgid "VCPU Hours"
+#~ msgstr "VCPU 사용시간"
+

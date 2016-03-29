@@ -1,29 +1,36 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-11 17:56+0800\n"
+"POT-Creation-Date: 2015-11-11 17:32+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
 
 msgid "aggregate"
 msgstr "aggregato"
 
-msgid "Allocate IP"
+#, fuzzy
+msgid "allocate IP"
 msgstr "Assegna IP"
 
-msgid "Architecture"
+#, fuzzy
+msgid "architecture"
 msgstr "Architettura"
 
 msgid "association"
 msgstr "associazione"
 
-msgid "Associate IP"
-msgstr "Associa IP"
+#, fuzzy
+msgid "associate IP"
+msgstr "associazione"
 
 msgid "authenticate"
 msgstr "autenticare"
@@ -58,40 +65,48 @@ msgstr "cluster"
 msgid "Compute"
 msgstr "Compute"
 
-msgid "Compute Services"
+#, fuzzy
+msgid "Compute service"
 msgstr "Servizi Compute"
 
 msgid "container"
 msgstr "contenitore"
 
-msgid "Container Format"
+#, fuzzy
+msgid "container format"
 msgstr "Formato contenitore"
 
 msgid "credentials"
 msgstr "credenziali"
 
-msgid "Data Processing"
+#, fuzzy
+msgid "data processing"
 msgstr "Data Processing"
 
-msgid "Destination container"
+#, fuzzy
+msgid "destination container"
 msgstr "Contenitore di destinazione"
 
-msgid "Destination object name"
+#, fuzzy
+msgid "destination object name"
 msgstr "Nome oggetto di destinazione"
 
 msgid "device"
 msgstr "dispositivo"
 
-msgid "Disassociate IP"
+#, fuzzy
+msgid "disassociate IP"
 msgstr "Annulla associazione IP"
 
 msgid "disk"
 msgstr "disco"
 
-msgid "Disk Format"
+#, fuzzy
+msgid "disk format"
 msgstr "Formato disco"
 
-msgid "Disk GB Hours"
+#, fuzzy
+msgid "disk GB hours"
 msgstr "Ore GB di disco"
 
 msgid "domain"
@@ -100,28 +115,35 @@ msgstr "dominio"
 msgid "domain group"
 msgstr "gruppo di dominio"
 
-msgid "Ephemeral Disk"
+#, fuzzy
+msgid "ephemeral disk"
 msgstr "Disco temporaneo"
 
-msgid "Ephemeral Drive"
+#, fuzzy
+msgid "ephemeral drive"
 msgstr "Unità temporanea"
 
 msgid "existence"
 msgstr "esistenza"
 
-msgid "Fetching"
+#, fuzzy
+msgid "fetching"
 msgstr "In fase di recupero"
 
-msgid "Fingerprint"
+#, fuzzy
+msgid "fingerprint"
 msgstr "Impronta digitale"
 
-msgid "Fixed IP"
+#, fuzzy
+msgid "fixed IP"
 msgstr "IP fisso"
 
-msgid "Flavor"
+#, fuzzy
+msgid "flavor"
 msgstr "Flavor"
 
-msgid "Floating IP"
+#, fuzzy
+msgid "floating IP"
 msgstr "IP mobile"
 
 msgid "gateway"
@@ -136,7 +158,8 @@ msgstr "Monitor di integrità"
 msgid "host"
 msgstr "host"
 
-msgid "Host Aggregate"
+#, fuzzy
+msgid "host aggregate"
 msgstr "Aggregato host"
 
 msgid "hypervisor"
@@ -151,7 +174,8 @@ msgstr "immagine"
 msgid "initiator"
 msgstr "programma di inizializzazione"
 
-msgid "Injected Files"
+#, fuzzy
+msgid "injected files"
 msgstr "File inseriti"
 
 msgid "instance"
@@ -166,7 +190,8 @@ msgstr "job"
 msgid "job template"
 msgstr "template job"
 
-msgid "Keypair"
+#, fuzzy
+msgid "keypair"
 msgstr "Coppia di chiavi"
 
 msgid "launch"
@@ -199,17 +224,19 @@ msgstr "nodo"
 msgid "object"
 msgstr "oggetto"
 
-msgid "orchestration"
+#, fuzzy
+msgid "Orchestration"
 msgstr "orchestrazione"
 
 msgid "over commit"
 msgstr "over commit"
 
-msgctxt ""
+#, fuzzy
 msgid "parameter"
 msgstr "parametro"
 
-msgid "Perfect Forward Secrecy"
+#, fuzzy
+msgid "perfect forward secrecy"
 msgstr "PFS (Perfect Forward Secrecy) "
 
 msgid "plugin"
@@ -221,22 +248,26 @@ msgstr "criterio"
 msgid "pool"
 msgstr "pool"
 
-msgid "Project"
+#, fuzzy
+msgid "project"
 msgstr "Progetto"
 
-msgid "Public key"
+#, fuzzy
+msgid "public key"
 msgstr "Chiave pubblica"
 
 msgid "quota"
 msgstr "quota"
 
-msgid "Quotas"
-msgstr "Quote"
+#, fuzzy
+msgid "quotas"
+msgstr "quota"
 
 msgid "reboot"
 msgstr "riavvio"
 
-msgid "Region"
+#, fuzzy
+msgid "region"
 msgstr "Regione"
 
 msgid "remote"
@@ -245,13 +276,15 @@ msgstr "remoto"
 msgid "replication"
 msgstr "replica"
 
-msgid "Role"
+#, fuzzy
+msgid "role"
 msgstr "Ruolo"
 
 msgid "router"
 msgstr "router"
 
-msgid "Security Group"
+#, fuzzy
+msgid "security group"
 msgstr "Gruppo di sicurezza"
 
 msgid "server"
@@ -272,10 +305,12 @@ msgstr "inoltrare"
 msgid "subnet"
 msgstr "sottorete"
 
-msgid "Swap-Disk"
+#, fuzzy
+msgid "swap-disk"
 msgstr "Disco swap"
 
-msgid "System Panel"
+#, fuzzy
+msgid "system panel"
 msgstr "Pannello di sistema"
 
 msgid "tag"
@@ -284,13 +319,15 @@ msgstr "tag"
 msgid "template"
 msgstr "template"
 
-msgid "Tenant"
+#, fuzzy
+msgid "tenant"
 msgstr "Tenant"
 
 msgid "token"
 msgstr "token"
 
-msgid "Usage"
+#, fuzzy
+msgid "usage"
 msgstr "Utilizzo"
 
 msgid "user"
@@ -299,8 +336,19 @@ msgstr "utente"
 msgid "volume"
 msgstr "volume"
 
-msgid "Volume Snapshot"
+#, fuzzy
+msgid "volume snapshot"
 msgstr "Istantanea volume"
 
-msgid "VCPU Hours"
-msgstr "Ore VCPU"
+msgid "VCPU hours"
+msgstr ""
+
+#~ msgid "Associate IP"
+#~ msgstr "Associa IP"
+
+#~ msgid "Quotas"
+#~ msgstr "Quote"
+
+#~ msgid "VCPU Hours"
+#~ msgstr "Ore VCPU"
+
