@@ -1,15 +1,16 @@
-Create a Local Translation Team
-===============================
+Creating Language Team
+======================
 
 OpenStack I18n team is a team to coordinate all language translations
 and cooperation with the I18n team and the development teams.
-Usually, OpenStack I18n team has work plans. Local translation teams
-could follow I18n team's work plans, but as a local translation team
-your team may also have the right to decide your own work items and
-priorities.
+I18n team usually has a working plan.
 
-If you want to create a local translation team and you want to be the
-coordinator, please follow below steps:
+Although each language team could follow the I18n team working plan,
+your team may also decide your own work items and priorities as a
+language team.
+
+If you want to create a language team and you want to be a coordinator,
+please follow below steps:
 
 1. Follow :doc:`the step <official_translator>` to register an ID in
    the translation website.
@@ -21,14 +22,14 @@ coordinator, please follow below steps:
 3. When your request is approved, add an item in "Local Translation
    Teams" in the wiki page, create a wiki page under page
    `I18nTeam <https://wiki.openstack.org/wiki/I18nTeam/team>`_
-   (for example, I18nTeam/team/zh_cn) to introduce your team, with below
-   information at least: the contact information, the web page, and
-   the work items.
+   (for example, I18nTeam/team/zh_cn) to introduce your team, with
+   the following information at least: the contact information,
+   the web page, and the work items.
 
-Then your locale translation team is created successfully. You can
-enroll more people to join and start your translation works.
+Then, your locale translation team is created successfully.
+You can enroll more people to join and start your translation work.
 
-Don't forget to work with
-your `local user group <https://groups.openstack.org/>`_ coordinator and the
-`OpenStack Ambassadors <https://wiki.openstack.org/wiki/Community/AmbassadorProgram>`_
+Keep in mind to work with your `local user group
+<https://groups.openstack.org/>`_ and the `OpenStack Ambassadors
+<https://wiki.openstack.org/wiki/Community/AmbassadorProgram>`_
 to raise awareness and gather members :)
