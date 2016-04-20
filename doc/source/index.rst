@@ -25,6 +25,7 @@ Contents
    create_lang_team
    check_translation
    translation_tips
+   i18n_team_meeting
 
 .. _label-i18n-team-contact:
 
@@ -47,9 +48,7 @@ OpenStack I18n team
   * Logs: http://lists.openstack.org/pipermail/openstack-i18n/
 
 * IRC channel: ``#openstack-i18n`` on freenode
-* IRC meeting: bi-weekly on Thursdays with alternating times
-
-  * https://wiki.openstack.org/wiki/Meetings/I18nTeamMeeting
+* :doc:`IRC meeting <i18n_team_meeting>`
 
 Search in this guide
 --------------------
