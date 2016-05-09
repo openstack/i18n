@@ -14,33 +14,22 @@ with contextual knowledge for better quality of translations.
 Unfortunately Zanata translation interface does not show where
 a target string is used in a source code correspondingly.
 
-You can find the location in a source code by checking the POT file
-in a corresponding git repository.
+You can find the location in a source code by checking the POT file.
 
-Zanata project and git repository are one-to-one relationship.
-If Zanata project name is ``<Zanata-project-name>``,
-the corresponding git repository location is
-``http://git.openstack.org/cgit/openstack/<Zanata-project-name>/``.
-For example, if you are translating ``horizon``, the git repository is found at
-http://git.openstack.org/cgit/openstack/horizon/.
+The POT file is found under
+``http://tarballs.openstack.org/translation-source/<Zanata-project-name>/<Zanata-project-version>/<path>/<resource>.pot``,
+where:
 
-POT file exists at ``<module-name>/locale/<Zanata-document-name>.pot``.
-``<module-name>`` varies across projects. For example,
+* ``<Zanata-project-name>`` is Zanata project name,
+* ``<Zanata-project-version>`` is Zanata project version such as ``master`` or
+  ``stable-mitaka``,
+* ``<path>`` is a path of a document such as ``nova/locale``,
+  ``openstack_dashboard/locale`` or ``releasenotes/source/locale``,
+* ``<resource>`` is a document name in Zanata.
 
-* horizon
-
-  * http://git.openstack.org/cgit/openstack/horizon/tree/openstack_dashboard/locale/
-  * http://git.openstack.org/cgit/openstack/horizon/tree/horizon/locale/
-
-* trove-dashboard: http://git.openstack.org/cgit/openstack/trove-dashboard/tree/trove_dashboard/locale
-
-POT file name depends on a project.
-
-* For a dashboard related project, ``django.pot`` and ``djangojs.pot``
-* For a normal python project, ``<module-name>.pot`` like ``nova.pot``
-  and ``<module-name>-log-<level>.pot`` like ``nova-log-error.pot``.
-
-  * Note that a normal python project, we also have separate POT files.
+The easiest way would be to open
+http://tarballs.openstack.org/translation-source and then
+follow ``<Zanata-project-name>``, ``<Zanata-version>`` and corresponding links.
 
 Open a POT file you find and search a string you are interested in.
 Then you can find an entry like:
@@ -51,6 +40,23 @@ Then you can find an entry like:
    #, python-format
    msgid "Unable to retrieve details for parent backup: %s"
    msgstr ""
+
+Once you find location(s) of a string you would like to check,
+you can check more detail context where the string is used
+by looking at the code in the git repository.
+Zanata project and git repository are one-to-one relationship.
+If Zanata project name is ``<Zanata-project-name>``,
+the corresponding git repository location is
+``http://git.openstack.org/cgit/openstack/<Zanata-project-name>/``.
+For example, if you are translating ``horizon``, the git repository is found at
+http://git.openstack.org/cgit/openstack/horizon/.
+
+.. note::
+
+   POT files are no longer stored in git repositories.
+   The change was made at the beginning of Newton development cycle [#]_.
+
+   .. [#] http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html
 
 Where a string is used in Dashboard UI?
 =======================================
