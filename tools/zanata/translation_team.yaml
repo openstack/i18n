@@ -16,6 +16,7 @@ zh-CN:
     - irina
     - jimmyli
     - liyucai
+    - lindayang
     - linwwu
     - liuchaoxin
     - liujunpeng
@@ -64,9 +65,11 @@ ja:
     - to222
     - sasukeh
     - macjack
+    - masami_sasahara
     - masmiyam
     - mmasaki
     - myamamot
+    - tsutomu_kimura
     - yuanying
     - ststake
     - shinya_kwbt
@@ -107,6 +110,7 @@ ko-KR:
     - ujuc
     - frontjang
     - wonki
+    - seyeon
   reviewers:
     - ujuc
     - ianychoi
@@ -138,6 +142,10 @@ fr:
     - henris
     - eouzans
     - tjcocozz
+    - didier
+    - flowalrave
+    - mmarin
+    - sylvie_chesneau
   reviewers:
     - adri2000
     - liced
@@ -166,6 +174,7 @@ zh-TW:
     - elliswu
     - fionahuang
     - jameslee
+    - jenniferkuo
     - kyle
     - t09sunny
     - lapalm
@@ -202,6 +211,7 @@ pt-BR:
     - rgmorales
     - rbraga
     - sanporci
+    - marquesc
   reviewers:
     - fcpimenta
     - gabrielcw
@@ -226,6 +236,7 @@ es:
     - tjcocozz
     - travisn
     - vresy
+    - eugeniato
   reviewers:
     - camunoz
     - mariantb
@@ -250,6 +261,7 @@ ru:
     - lapalm
     - nburtsev
     - nmilekhin
+    - mokhin2
   reviewers:
     - doug_fish
     - ftarasenko
@@ -272,6 +284,7 @@ de:
     - spielkind
     - rsimai
     - tjcocozz
+    - vcomas3
   reviewers:
     - cduch
     - eumel8
