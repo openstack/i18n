@@ -10,10 +10,13 @@ zh-CN:
     - ccheng
     - coffee
     - daisyycguo
+    - dliu
     - zhugaoxiao
+    - gecong
     - guoshan
     - fionahuang
     - irina
+    - javeme
     - jimmyli
     - liyucai
     - lindayang
@@ -24,24 +27,31 @@ zh-CN:
     - lvfyongfeng
     - macjack
     - meteor
+    - qingszhao
     - rustinpeace
+    - zhsj
     - tianzhong
     - fifieldt
     - tfu
+    - vuuv
     - xuyang
+    - yaguang
     - yanheven
     - yanghy
     - yuzg
     - huyupeng
     - zhangjingwen
     - zhaochao
+    - zzxwill
     - johnwoo_lee
   reviewers:
     - daisyycguo
     - actionchen
     - aeng
     - coffee
+    - dliu
     - jimmyli
+    - lindayang
     - liuchaoxin
     - liujunpeng
     - lvfyongfeng
@@ -61,23 +71,30 @@ ja:
     - amotoki
     - yosshy
     - nanodayo
+    - haruki
     - hidekazuna
     - to222
     - sasukeh
     - macjack
+    - mariojv
     - masami_sasahara
     - masmiyam
     - mmasaki
     - myamamot
     - tsutomu_kimura
     - yuanying
+    - sayako
     - ststake
     - shinya_kwbt
     - shu
     - tjcocozz
     - fifieldt
+    - tomono_n
+    - tsutomu_kimura
     - ykatabam
+    - yogawa
     - yuta_hono
+    - masami_sasahara
   reviewers:
     - amotoki
     - to222
@@ -96,6 +113,7 @@ ko-KR:
     - gyahoo617
     - openstack
     - ianychoi
+    - hyangii
     - jaygtv
     - whitekjs
     - jennie
@@ -107,14 +125,17 @@ ko-KR:
     - lapalm
     - macjack
     - choi
+    - seungkyu
+    - seyeon
     - ujuc
     - frontjang
+    - intensify
+    - muhanpong
     - wonki
-    - seyeon
+    - raymon_ha
   reviewers:
     - ujuc
     - ianychoi
-    - ryan
     - kiseok7
 fr:
   coordinators:
@@ -124,23 +145,34 @@ fr:
   translators:
     - adri2000
     - nokostya
+    - angelique_pillal16
     - liced
     - croe
     - corin
     - seveillard
+    - flowalrave
     - fdotfr
+    - gael__
     - gael_rehault
     - pat
+    - glacoste_16
+    - benjamin
+    - geraldlonlas
     - jftalta
     - jfenal
     - kodokuu
+    - didier
+    - ciello89
+    - mmarin
     - zigmax
+    - nikoul
     - obuisson
     - paulgonin
     - romainsc
     - gonarys
     - henris
     - eouzans
+    - sylvie_chesneau
     - tjcocozz
     - didier
     - flowalrave
@@ -148,48 +180,60 @@ fr:
     - sylvie_chesneau
   reviewers:
     - adri2000
+    - angelique_pillal16
     - liced
     - croe
     - corin
     - seveillard
+    - flowalrave
     - fdotfr
     - pat
+    - glacoste_16
     - jftalta
     - kodokuu
+    - didier
+    - mmarin
     - zigmax
     - obuisson
     - paulgonin
     - romainsc
     - gonarys
     - henris
+    - sylvie_chesneau
 zh-TW:
   coordinators:
     - zero00072
   language:
     - Chinese (Taiwan)
   translators:
+    - aeng
     - bokaitseng
     - ccheng
+    - igene
     - danny
     - elliswu
     - fionahuang
     - jameslee
     - jenniferkuo
+    - kayukiang
     - kyle
     - t09sunny
     - lapalm
     - macjack
     - mikeli
     - rico
+    - terrytai820
     - fifieldt
     - webberguo
     - willychen
     - xuyang
     - max821214
+    - starbops
     - zero00072
   reviewers:
     - ccheng
     - jameslee
+    - jenniferkuo
     - macjack
     - zero00072
 pt-BR:
@@ -198,26 +242,37 @@ pt-BR:
   language:
     - Portuguese (Brazil)
   translators:
+    - hubner
     - nokostya
     - andrecampos
+    - marquesc
     - fcpimenta
+    - diegodalmolin
+    - ericbaum
     - gabrielcw
+    - gustavor
     - josemello
     - lucasagomes
     - lapalm
     - marcelodieder
     - mariaandrada
     - raildomascena
+    - raquellira
+    - melotto
     - rgmorales
     - rbraga
+    - saimonsp
     - sanporci
     - marquesc
   reviewers:
+    - hubner
+    - marquesc
     - fcpimenta
     - gabrielcw
     - lucasagomes
     - marcelodieder
     - raildomascena
+    - raquellira
 es:
   coordinators:
     - mariantb
@@ -227,10 +282,16 @@ es:
     - hybridpollo
     - albertomolina
     - camunoz
+    - ediardo
     - egongu90
     - toxickore
+    - gerrivera
     - gguerrer
+    - geguileo
+    - josemhb
     - mariantb
+    - pabs
+    - gomarivera
     - iranzo
     - pnavarro
     - tjcocozz
@@ -239,7 +300,11 @@ es:
     - eugeniato
   reviewers:
     - camunoz
+    - eugeniato
+    - gerrivera
+    - geguileo
     - mariantb
+    - gomarivera
     - pnavarro
     - tjcocozz
     - travisn
@@ -265,8 +330,10 @@ ru:
   reviewers:
     - doug_fish
     - ftarasenko
+    - mokhin2
     - adiantum
     - shakhat
+    - kzaitsev
     - nburtsev
     - nmilekhin
 de:
@@ -277,6 +344,7 @@ de:
   translators:
     - jaegerandi
     - cduch
+    - wall_dirk
     - atalanttore
     - eblock
     - eumel8
@@ -288,26 +356,29 @@ de:
   reviewers:
     - cduch
     - eumel8
+    - vcomas3
     - rsimai
 it:
   coordinators:
-    - daisyycguo
+    - itlinux
   language:
     - Italian
   translators:
     - alessandra
-    - daisyycguo
+    - dynarro
     - fpezzell
     - faber66
     - miumiento
     - matgand
+    - itlinux
     - tjcocozz
+    - uboscolo
   reviewers:
     - alessandra
-    - daisyycguo
     - faber66
     - miumiento
     - matgand
+    - itlinux
 tr-TR:
   coordinators:
     - mucahit
