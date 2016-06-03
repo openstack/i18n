@@ -27,8 +27,8 @@ It supports translation statistics :)
 Visit `Stackalytics <http://stackalytics.com/>`__ and
 choose ``Translations`` as ``Metric`` dropdown menu at the upper-right.
 
-FAQ: my stats is not found in Stackalytics. What happens?
----------------------------------------------------------
+FAQ: I cannot find my name in Stackalytics.
+-------------------------------------------
 
 There is a case where you cannot see your translation statistics
 in Stackalytics even after you translate strings in Zanata.
@@ -44,3 +44,8 @@ An example is https://review.openstack.org/#/c/284638/1/etc/default_data.json.
 If you are lucky to use a same name for launchpad and Zanata IDs,
 you do not need to do the above.
 Stackalytics will find your statistics automatically.
+
+Also, since Stackalytics uses the `translator list
+<http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`_
+as of now, if you cannot find your name or ID in Stackalytics, please email
+I18n mailing list, or submit a update patch to add your ID by yourself.
