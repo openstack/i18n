@@ -68,29 +68,33 @@ ja:
   language:
     - Japanese
   translators:
+    # Use the order of Zanata language team info.
+    # Do not use the alphabetical order to make the maitenance easier.
     - amotoki
     - yosshy
     - nanodayo
     - haruki
+    - otsuka
     - hidekazuna
     - to222
     - sasukeh
     - macjack
     - mariojv
-    - masami_sasahara
     - masmiyam
     - mmasaki
     - myamamot
-    - tsutomu_kimura
+    - noriko
     - yuanying
     - sayako
     - ststake
     - shinya_kwbt
     - shu
+    - tmatsu
     - tjcocozz
     - fifieldt
     - tomono_n
     - tsutomu_kimura
+    - yeguchi
     - ykatabam
     - yogawa
     - yuta_hono
