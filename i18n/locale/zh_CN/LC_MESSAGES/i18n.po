@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 msgid "aggregate"
 msgstr "聚合"
@@ -32,6 +32,9 @@ msgstr "关联"
 msgid "associate IP"
 msgstr "关联"
 
+msgid "attribute"
+msgstr ""
+
 msgid "authenticate"
 msgstr "认证"
 
@@ -46,6 +49,13 @@ msgstr "后端"
 
 msgid "backup"
 msgstr "备份"
+
+#, fuzzy
+msgid "Block Storage service"
+msgstr "计算服务"
+
+msgid "body"
+msgstr ""
 
 msgid "boot"
 msgstr "启动"
@@ -62,12 +72,26 @@ msgstr "客户端"
 msgid "cluster"
 msgstr "集群"
 
-msgid "Compute"
+#, fuzzy
+msgid "compute"
 msgstr "计算"
 
 #, fuzzy
 msgid "Compute service"
 msgstr "计算服务"
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+#, fuzzy
+msgid "consistency group"
+msgstr "安全组"
 
 msgid "container"
 msgstr "容器"
@@ -76,7 +100,8 @@ msgstr "容器"
 msgid "container format"
 msgstr "容器格式"
 
-msgid "credentials"
+#, fuzzy
+msgid "credential"
 msgstr "证书"
 
 #, fuzzy
@@ -126,6 +151,13 @@ msgstr "临时驱动器"
 msgid "existence"
 msgstr "存在"
 
+msgid "export"
+msgstr ""
+
+#, fuzzy
+msgid "export location"
+msgstr "复制"
+
 #, fuzzy
 msgid "fetching"
 msgstr "获取"
@@ -152,7 +184,8 @@ msgstr "网关"
 msgid "guide"
 msgstr "指南"
 
-msgid "health Monitor"
+#, fuzzy
+msgid "health monitor"
 msgstr "健康监控"
 
 msgid "host"
@@ -168,14 +201,26 @@ msgstr "hypervisor"
 msgid "identifier"
 msgstr "标识符"
 
+#, fuzzy
+msgid "identity provider"
+msgstr "标识符"
+
+#, fuzzy
+msgid "Identity service"
+msgstr "标识符"
+
 msgid "image"
 msgstr "镜像"
+
+#, fuzzy
+msgid "Image service"
+msgstr "计算服务"
 
 msgid "initiator"
 msgstr "发起者"
 
 #, fuzzy
-msgid "injected files"
+msgid "injected file"
 msgstr "注入文件"
 
 msgid "instance"
@@ -194,8 +239,18 @@ msgstr "任务模板"
 msgid "keypair"
 msgstr "密钥对"
 
+msgid "killed"
+msgstr ""
+
+#, fuzzy
+msgid "L2population"
+msgstr "复制"
+
 msgid "launch"
 msgstr "启动"
+
+msgid "layer-2 population mechanism"
+msgstr ""
 
 msgid "load balancer"
 msgstr "负载均衡器"
@@ -215,8 +270,17 @@ msgstr "内存"
 msgid "meter"
 msgstr "计量"
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
 msgstr "命名空间"
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
+msgstr ""
 
 msgid "node"
 msgstr "节点"
@@ -225,11 +289,18 @@ msgid "object"
 msgstr "对象"
 
 #, fuzzy
-msgid "Orchestration"
+msgid "orchestration"
 msgstr "编排"
 
 msgid "over commit"
 msgstr "超分配"
+
+msgid "owner"
+msgstr ""
+
+#, fuzzy
+msgid "pagination"
+msgstr "复制"
 
 #, fuzzy
 msgid "parameter"
@@ -237,6 +308,10 @@ msgstr "参数"
 
 msgid "perfect forward secrecy"
 msgstr ""
+
+#, fuzzy
+msgid "permission"
+msgstr "hypervisor"
 
 msgid "plugin"
 msgstr "插件"
@@ -249,6 +324,10 @@ msgstr "池"
 
 #, fuzzy
 msgid "project"
+msgstr "项目"
+
+#, fuzzy
+msgid "property"
 msgstr "项目"
 
 #, fuzzy
@@ -269,11 +348,18 @@ msgstr "重启"
 msgid "region"
 msgstr "区域"
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr "远程"
 
 msgid "replication"
 msgstr "复制"
+
+#, fuzzy
+msgid "restore"
+msgstr "存储"
 
 #, fuzzy
 msgid "role"
@@ -289,11 +375,39 @@ msgstr "安全组"
 msgid "server"
 msgstr "服务器"
 
+msgid "shard"
+msgstr ""
+
+#, fuzzy
+msgid "share"
+msgstr "使用量"
+
+msgid "share network"
+msgstr ""
+
+#, fuzzy
+msgid "share server"
+msgstr "服务器"
+
+#, fuzzy
+msgid "shelve instance"
+msgstr "云主机"
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr "快照"
 
 msgid "stack"
 msgstr "stack"
+
+#, fuzzy
+msgid "state"
+msgstr "存储"
+
+msgid "status"
+msgstr ""
 
 msgid "storage"
 msgstr "存储"
@@ -305,7 +419,7 @@ msgid "subnet"
 msgstr "子网"
 
 #, fuzzy
-msgid "swap-disk"
+msgid "swap disk"
 msgstr "交换磁盘"
 
 #, fuzzy
@@ -322,8 +436,16 @@ msgstr "模板"
 msgid "tenant"
 msgstr "租户"
 
+#, fuzzy
+msgid "terminate instance"
+msgstr "云主机"
+
 msgid "token"
 msgstr "token"
+
+#, fuzzy
+msgid "unshelve instance"
+msgstr "云主机"
 
 #, fuzzy
 msgid "usage"
@@ -332,6 +454,16 @@ msgstr "使用量"
 msgid "user"
 msgstr "用户"
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr ""
+
+#, fuzzy
+msgid "vNIC"
+msgstr "设备"
+
 msgid "volume"
 msgstr "卷"
 
@@ -339,7 +471,7 @@ msgstr "卷"
 msgid "volume snapshot"
 msgstr "卷快照"
 
-msgid "VCPU hours"
+msgid "web"
 msgstr ""
 
 #~ msgid "Associate IP"

@@ -13,7 +13,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 msgid "aggregate"
 msgstr "агрегат"
@@ -30,6 +30,9 @@ msgstr "связь"
 msgid "associate IP"
 msgstr "связать IP"
 
+msgid "attribute"
+msgstr ""
+
 msgid "authenticate"
 msgstr "аутентифицировать"
 
@@ -44,6 +47,13 @@ msgstr "бэкенд"
 
 msgid "backup"
 msgstr "резервная копия"
+
+#, fuzzy
+msgid "Block Storage service"
+msgstr "сервис вычислительных ресурсов"
+
+msgid "body"
+msgstr ""
 
 msgid "boot"
 msgstr "загрузка"
@@ -60,11 +70,25 @@ msgstr "клиент"
 msgid "cluster"
 msgstr "кластер"
 
-msgid "Compute"
+#, fuzzy
+msgid "compute"
 msgstr "вычислительные ресурсы"
 
 msgid "Compute service"
 msgstr "сервис вычислительных ресурсов"
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+#, fuzzy
+msgid "consistency group"
+msgstr "группа безопасности"
 
 msgid "container"
 msgstr "контейнер"
@@ -72,7 +96,8 @@ msgstr "контейнер"
 msgid "container format"
 msgstr "формат контейнера"
 
-msgid "credentials"
+#, fuzzy
+msgid "credential"
 msgstr "учетная запись"
 
 msgid "data processing"
@@ -114,6 +139,13 @@ msgstr "эфемерный диск"
 msgid "existence"
 msgstr "наличие"
 
+msgid "export"
+msgstr ""
+
+#, fuzzy
+msgid "export location"
+msgstr "репликация"
+
 msgid "fetching"
 msgstr "получение"
 
@@ -135,7 +167,8 @@ msgstr "шлюз"
 msgid "guide"
 msgstr "мастер"
 
-msgid "health Monitor"
+#, fuzzy
+msgid "health monitor"
 msgstr "монитор работоспособности"
 
 msgid "host"
@@ -150,13 +183,26 @@ msgstr "гипервизор"
 msgid "identifier"
 msgstr "идентификатор"
 
+#, fuzzy
+msgid "identity provider"
+msgstr "идентификатор"
+
+#, fuzzy
+msgid "Identity service"
+msgstr "идентификатор"
+
 msgid "image"
 msgstr "образ"
+
+#, fuzzy
+msgid "Image service"
+msgstr "сервис вычислительных ресурсов"
 
 msgid "initiator"
 msgstr "инициатор"
 
-msgid "injected files"
+#, fuzzy
+msgid "injected file"
 msgstr "внедряемые файлы"
 
 msgid "instance"
@@ -174,8 +220,18 @@ msgstr "шаблон задачи"
 msgid "keypair"
 msgstr "ключевая пара"
 
+msgid "killed"
+msgstr ""
+
+#, fuzzy
+msgid "L2population"
+msgstr "репликация"
+
 msgid "launch"
 msgstr "запуск"
+
+msgid "layer-2 population mechanism"
+msgstr ""
 
 msgid "load balancer"
 msgstr "балансировщик нагрузки"
@@ -195,8 +251,17 @@ msgstr "память"
 msgid "meter"
 msgstr "измерение"
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
 msgstr "пространство имен"
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
+msgstr ""
 
 msgid "node"
 msgstr "узел"
@@ -204,17 +269,29 @@ msgstr "узел"
 msgid "object"
 msgstr "объект"
 
-msgid "Orchestration"
+#, fuzzy
+msgid "orchestration"
 msgstr "оркестрация"
 
 msgid "over commit"
 msgstr "переподписка"
+
+msgid "owner"
+msgstr ""
+
+#, fuzzy
+msgid "pagination"
+msgstr "репликация"
 
 msgid "parameter"
 msgstr "параметр"
 
 msgid "perfect forward secrecy"
 msgstr "совершенная прямая секретность"
+
+#, fuzzy
+msgid "permission"
+msgstr "гипервизор"
 
 msgid "plugin"
 msgstr "плагин"
@@ -226,6 +303,10 @@ msgid "pool"
 msgstr "пул"
 
 msgid "project"
+msgstr "проект"
+
+#, fuzzy
+msgid "property"
 msgstr "проект"
 
 msgid "public key"
@@ -243,11 +324,18 @@ msgstr "перезагрузка"
 msgid "region"
 msgstr "регион"
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr "удаленный"
 
 msgid "replication"
 msgstr "репликация"
+
+#, fuzzy
+msgid "restore"
+msgstr "хранилище"
 
 msgid "role"
 msgstr "роль"
@@ -261,11 +349,39 @@ msgstr "группа безопасности"
 msgid "server"
 msgstr "сервер"
 
+msgid "shard"
+msgstr ""
+
+#, fuzzy
+msgid "share"
+msgstr "использование"
+
+msgid "share network"
+msgstr ""
+
+#, fuzzy
+msgid "share server"
+msgstr "сервер"
+
+#, fuzzy
+msgid "shelve instance"
+msgstr "инстанс"
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr "снимок"
 
 msgid "stack"
 msgstr "стек"
+
+#, fuzzy
+msgid "state"
+msgstr "хранилище"
+
+msgid "status"
+msgstr ""
 
 msgid "storage"
 msgstr "хранилище"
@@ -276,7 +392,8 @@ msgstr "отправить"
 msgid "subnet"
 msgstr "подсеть"
 
-msgid "swap-disk"
+#, fuzzy
+msgid "swap disk"
 msgstr "диск подкачки"
 
 msgid "system panel"
@@ -291,8 +408,16 @@ msgstr "шаблон"
 msgid "tenant"
 msgstr "тенант"
 
+#, fuzzy
+msgid "terminate instance"
+msgstr "инстанс"
+
 msgid "token"
 msgstr "токен"
+
+#, fuzzy
+msgid "unshelve instance"
+msgstr "инстанс"
 
 msgid "usage"
 msgstr "использование"
@@ -300,12 +425,22 @@ msgstr "использование"
 msgid "user"
 msgstr "пользователь"
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr "VCPU часы"
+
+#, fuzzy
+msgid "vNIC"
+msgstr "устройство"
+
 msgid "volume"
 msgstr "диск"
 
 msgid "volume snapshot"
 msgstr "снимок диска"
 
-msgid "VCPU hours"
-msgstr "VCPU часы"
+msgid "web"
+msgstr ""
 

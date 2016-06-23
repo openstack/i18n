@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 msgid "aggregate"
 msgstr "Aggrégat"
@@ -27,6 +27,9 @@ msgid "association"
 msgstr ""
 
 msgid "associate IP"
+msgstr ""
+
+msgid "attribute"
 msgstr ""
 
 msgid "authenticate"
@@ -44,6 +47,12 @@ msgstr "Backend => D'autres propositions ?"
 msgid "backup"
 msgstr "Sauvegarde"
 
+msgid "Block Storage service"
+msgstr ""
+
+msgid "body"
+msgstr ""
+
 msgid "boot"
 msgstr ""
 
@@ -59,11 +68,25 @@ msgstr "Client"
 msgid "cluster"
 msgstr "Cluster"
 
-msgid "Compute"
+#, fuzzy
+msgid "compute"
 msgstr "Compute"
 
 msgid "Compute service"
 msgstr ""
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+#, fuzzy
+msgid "consistency group"
+msgstr "Groupe de sécurité"
 
 msgid "container"
 msgstr "Conteneur"
@@ -72,7 +95,7 @@ msgstr "Conteneur"
 msgid "container format"
 msgstr "Conteneur"
 
-msgid "credentials"
+msgid "credential"
 msgstr ""
 
 #, fuzzy
@@ -118,6 +141,12 @@ msgstr "Lecteur ephémere"
 msgid "existence"
 msgstr ""
 
+msgid "export"
+msgstr ""
+
+msgid "export location"
+msgstr ""
+
 msgid "fetching"
 msgstr ""
 
@@ -141,7 +170,8 @@ msgstr "Passerelle"
 msgid "guide"
 msgstr ""
 
-msgid "health Monitor"
+#, fuzzy
+msgid "health monitor"
 msgstr "Supervision du statut des services"
 
 msgid "host"
@@ -157,13 +187,23 @@ msgstr "Hyperviseur"
 msgid "identifier"
 msgstr ""
 
+msgid "identity provider"
+msgstr ""
+
+msgid "Identity service"
+msgstr ""
+
 msgid "image"
 msgstr "Image"
+
+#, fuzzy
+msgid "Image service"
+msgstr "Serveur"
 
 msgid "initiator"
 msgstr ""
 
-msgid "injected files"
+msgid "injected file"
 msgstr ""
 
 msgid "instance"
@@ -181,7 +221,16 @@ msgstr "Load balancer"
 msgid "keypair"
 msgstr ""
 
+msgid "killed"
+msgstr ""
+
+msgid "L2population"
+msgstr ""
+
 msgid "launch"
+msgstr ""
+
+msgid "layer-2 population mechanism"
 msgstr ""
 
 msgid "load balancer"
@@ -202,7 +251,16 @@ msgstr ""
 msgid "meter"
 msgstr "métriques"
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
+msgstr ""
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
 msgstr ""
 
 msgid "node"
@@ -211,11 +269,17 @@ msgstr "Node"
 msgid "object"
 msgstr ""
 
-msgid "Orchestration"
+msgid "orchestration"
 msgstr ""
 
 msgid "over commit"
 msgstr "mise à jour"
+
+msgid "owner"
+msgstr ""
+
+msgid "pagination"
+msgstr ""
 
 #, fuzzy
 msgid "parameter"
@@ -223,6 +287,10 @@ msgstr "métriques"
 
 msgid "perfect forward secrecy"
 msgstr ""
+
+#, fuzzy
+msgid "permission"
+msgstr "Hyperviseur"
 
 msgid "plugin"
 msgstr "Extension"
@@ -234,6 +302,9 @@ msgid "pool"
 msgstr ""
 
 msgid "project"
+msgstr ""
+
+msgid "property"
 msgstr ""
 
 #, fuzzy
@@ -253,11 +324,18 @@ msgstr ""
 msgid "region"
 msgstr ""
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr ""
 
 msgid "replication"
 msgstr ""
+
+#, fuzzy
+msgid "restore"
+msgstr "Stockage"
 
 #, fuzzy
 msgid "role"
@@ -273,11 +351,38 @@ msgstr "Groupe de sécurité"
 msgid "server"
 msgstr "Serveur"
 
+msgid "shard"
+msgstr ""
+
+#, fuzzy
+msgid "share"
+msgstr "usage"
+
+msgid "share network"
+msgstr ""
+
+#, fuzzy
+msgid "share server"
+msgstr "Serveur"
+
+msgid "shelve instance"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr "Instantané"
 
 msgid "stack"
 msgstr "Stack"
+
+#, fuzzy
+msgid "state"
+msgstr "Stockage"
+
+msgid "status"
+msgstr ""
 
 msgid "storage"
 msgstr "Stockage"
@@ -289,7 +394,7 @@ msgid "subnet"
 msgstr "Sous-réseau"
 
 #, fuzzy
-msgid "swap-disk"
+msgid "swap disk"
 msgstr "disque swap => D'autres propositions ?"
 
 msgid "system panel"
@@ -305,8 +410,14 @@ msgstr "modèle => D'autres propositions ?"
 msgid "tenant"
 msgstr "Tenant"
 
+msgid "terminate instance"
+msgstr ""
+
 msgid "token"
 msgstr "Token"
+
+msgid "unshelve instance"
+msgstr ""
 
 #, fuzzy
 msgid "usage"
@@ -315,6 +426,16 @@ msgstr "usage"
 msgid "user"
 msgstr ""
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr ""
+
+#, fuzzy
+msgid "vNIC"
+msgstr "disque"
+
 msgid "volume"
 msgstr "Volume"
 
@@ -322,7 +443,7 @@ msgstr "Volume"
 msgid "volume snapshot"
 msgstr "Instantané"
 
-msgid "VCPU hours"
+msgid "web"
 msgstr ""
 
 #~ msgid "Allocate IP"
@@ -370,9 +491,6 @@ msgstr ""
 #~ msgid "Keypair"
 #~ msgstr ""
 
-#~ msgid "orchestration"
-#~ msgstr ""
-
 #~ msgid "Perfect Forward Secrecy"
 #~ msgstr ""
 
@@ -398,5 +516,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "VCPU Hours"
+#~ msgstr ""
+
+#~ msgid "credentials"
+#~ msgstr ""
+
+#~ msgid "injected files"
+#~ msgstr ""
+
+#~ msgid "Orchestration"
 #~ msgstr ""
 
