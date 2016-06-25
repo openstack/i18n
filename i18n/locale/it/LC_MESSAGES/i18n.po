@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 msgid "aggregate"
 msgstr "aggregato"
@@ -32,6 +32,9 @@ msgstr "associazione"
 msgid "associate IP"
 msgstr "associazione"
 
+msgid "attribute"
+msgstr ""
+
 msgid "authenticate"
 msgstr "autenticare"
 
@@ -46,6 +49,13 @@ msgstr "backend"
 
 msgid "backup"
 msgstr "backup"
+
+#, fuzzy
+msgid "Block Storage service"
+msgstr "Servizi Compute"
+
+msgid "body"
+msgstr ""
 
 msgid "boot"
 msgstr "avvio"
@@ -62,12 +72,26 @@ msgstr "client"
 msgid "cluster"
 msgstr "cluster"
 
-msgid "Compute"
+#, fuzzy
+msgid "compute"
 msgstr "Compute"
 
 #, fuzzy
 msgid "Compute service"
 msgstr "Servizi Compute"
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+#, fuzzy
+msgid "consistency group"
+msgstr "Gruppo di sicurezza"
 
 msgid "container"
 msgstr "contenitore"
@@ -76,7 +100,8 @@ msgstr "contenitore"
 msgid "container format"
 msgstr "Formato contenitore"
 
-msgid "credentials"
+#, fuzzy
+msgid "credential"
 msgstr "credenziali"
 
 #, fuzzy
@@ -126,6 +151,13 @@ msgstr "Unità temporanea"
 msgid "existence"
 msgstr "esistenza"
 
+msgid "export"
+msgstr ""
+
+#, fuzzy
+msgid "export location"
+msgstr "replica"
+
 #, fuzzy
 msgid "fetching"
 msgstr "In fase di recupero"
@@ -152,7 +184,8 @@ msgstr "gateway"
 msgid "guide"
 msgstr "guida"
 
-msgid "health Monitor"
+#, fuzzy
+msgid "health monitor"
 msgstr "Monitor di integrità"
 
 msgid "host"
@@ -168,14 +201,26 @@ msgstr "hypervisor"
 msgid "identifier"
 msgstr "identificativo"
 
+#, fuzzy
+msgid "identity provider"
+msgstr "identificativo"
+
+#, fuzzy
+msgid "Identity service"
+msgstr "identificativo"
+
 msgid "image"
 msgstr "immagine"
+
+#, fuzzy
+msgid "Image service"
+msgstr "Servizi Compute"
 
 msgid "initiator"
 msgstr "programma di inizializzazione"
 
 #, fuzzy
-msgid "injected files"
+msgid "injected file"
 msgstr "File inseriti"
 
 msgid "instance"
@@ -194,8 +239,18 @@ msgstr "template job"
 msgid "keypair"
 msgstr "Coppia di chiavi"
 
+msgid "killed"
+msgstr ""
+
+#, fuzzy
+msgid "L2population"
+msgstr "replica"
+
 msgid "launch"
 msgstr "avviare"
+
+msgid "layer-2 population mechanism"
+msgstr ""
 
 msgid "load balancer"
 msgstr "bilanciatore di carico"
@@ -215,8 +270,17 @@ msgstr "memoria"
 msgid "meter"
 msgstr "misuratore"
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
 msgstr "spazio dei nomi"
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
+msgstr ""
 
 msgid "node"
 msgstr "nodo"
@@ -225,11 +289,18 @@ msgid "object"
 msgstr "oggetto"
 
 #, fuzzy
-msgid "Orchestration"
+msgid "orchestration"
 msgstr "orchestrazione"
 
 msgid "over commit"
 msgstr "over commit"
+
+msgid "owner"
+msgstr ""
+
+#, fuzzy
+msgid "pagination"
+msgstr "replica"
 
 #, fuzzy
 msgid "parameter"
@@ -238,6 +309,10 @@ msgstr "parametro"
 #, fuzzy
 msgid "perfect forward secrecy"
 msgstr "PFS (Perfect Forward Secrecy) "
+
+#, fuzzy
+msgid "permission"
+msgstr "hypervisor"
 
 msgid "plugin"
 msgstr "plugin"
@@ -250,6 +325,10 @@ msgstr "pool"
 
 #, fuzzy
 msgid "project"
+msgstr "Progetto"
+
+#, fuzzy
+msgid "property"
 msgstr "Progetto"
 
 #, fuzzy
@@ -270,11 +349,18 @@ msgstr "riavvio"
 msgid "region"
 msgstr "Regione"
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr "remoto"
 
 msgid "replication"
 msgstr "replica"
+
+#, fuzzy
+msgid "restore"
+msgstr "memoria"
 
 #, fuzzy
 msgid "role"
@@ -290,11 +376,39 @@ msgstr "Gruppo di sicurezza"
 msgid "server"
 msgstr "server"
 
+msgid "shard"
+msgstr ""
+
+#, fuzzy
+msgid "share"
+msgstr "Utilizzo"
+
+msgid "share network"
+msgstr ""
+
+#, fuzzy
+msgid "share server"
+msgstr "server"
+
+#, fuzzy
+msgid "shelve instance"
+msgstr "istanza"
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr "istantanea"
 
 msgid "stack"
 msgstr "stack"
+
+#, fuzzy
+msgid "state"
+msgstr "memoria"
+
+msgid "status"
+msgstr ""
 
 msgid "storage"
 msgstr "memoria"
@@ -306,7 +420,7 @@ msgid "subnet"
 msgstr "sottorete"
 
 #, fuzzy
-msgid "swap-disk"
+msgid "swap disk"
 msgstr "Disco swap"
 
 #, fuzzy
@@ -323,8 +437,16 @@ msgstr "template"
 msgid "tenant"
 msgstr "Tenant"
 
+#, fuzzy
+msgid "terminate instance"
+msgstr "istanza"
+
 msgid "token"
 msgstr "token"
+
+#, fuzzy
+msgid "unshelve instance"
+msgstr "istanza"
 
 #, fuzzy
 msgid "usage"
@@ -333,6 +455,16 @@ msgstr "Utilizzo"
 msgid "user"
 msgstr "utente"
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr ""
+
+#, fuzzy
+msgid "vNIC"
+msgstr "dispositivo"
+
 msgid "volume"
 msgstr "volume"
 
@@ -340,7 +472,7 @@ msgstr "volume"
 msgid "volume snapshot"
 msgstr "Istantanea volume"
 
-msgid "VCPU hours"
+msgid "web"
 msgstr ""
 
 #~ msgid "Associate IP"

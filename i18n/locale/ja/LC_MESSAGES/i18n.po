@@ -21,7 +21,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.3.4\n"
 
 msgid "aggregate"
 msgstr ""
@@ -41,6 +41,9 @@ msgstr ""
 msgid "associate IP"
 msgstr "IP確保 or IP割り当て(Allocateとの区別から \"IP割り当て\" を希望)"
 
+msgid "attribute"
+msgstr ""
+
 #, fuzzy
 msgid "authenticate"
 msgstr "認証"
@@ -55,6 +58,12 @@ msgid "backend"
 msgstr "バックエンド(?)"
 
 msgid "backup"
+msgstr ""
+
+msgid "Block Storage service"
+msgstr ""
+
+msgid "body"
 msgstr ""
 
 msgid "boot"
@@ -72,11 +81,25 @@ msgstr ""
 msgid "cluster"
 msgstr ""
 
-msgid "Compute"
+#, fuzzy
+msgid "compute"
 msgstr "???"
 
 msgid "Compute service"
 msgstr ""
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+#, fuzzy
+msgid "consistency group"
+msgstr "セキュリティグループ"
 
 msgid "container"
 msgstr "コンテナ(Swift用?)"
@@ -85,7 +108,8 @@ msgstr "コンテナ(Swift用?)"
 msgid "container format"
 msgstr "格納形式(?)"
 
-msgid "credentials"
+#, fuzzy
+msgid "credential"
 msgstr "（資格情報）（認証情報）（認証資格）"
 
 msgid "data processing"
@@ -134,6 +158,12 @@ msgstr "一時ディスク"
 msgid "existence"
 msgstr ""
 
+msgid "export"
+msgstr ""
+
+msgid "export location"
+msgstr ""
+
 #, fuzzy
 msgid "fetching"
 msgstr "?"
@@ -159,7 +189,7 @@ msgstr ""
 msgid "guide"
 msgstr ""
 
-msgid "health Monitor"
+msgid "health monitor"
 msgstr ""
 
 msgid "host"
@@ -174,14 +204,24 @@ msgstr ""
 msgid "identifier"
 msgstr ""
 
+msgid "identity provider"
+msgstr ""
+
+msgid "Identity service"
+msgstr ""
+
 msgid "image"
 msgstr "イメージ"
+
+#, fuzzy
+msgid "Image service"
+msgstr "サーバー"
 
 msgid "initiator"
 msgstr "イニシエーター"
 
 #, fuzzy
-msgid "injected files"
+msgid "injected file"
 msgstr "Injected Files(?)"
 
 msgid "instance"
@@ -200,8 +240,17 @@ msgstr ""
 msgid "keypair"
 msgstr "キーペア"
 
+msgid "killed"
+msgstr ""
+
+msgid "L2population"
+msgstr ""
+
 msgid "launch"
 msgstr "起動"
+
+msgid "layer-2 population mechanism"
+msgstr ""
 
 msgid "load balancer"
 msgstr ""
@@ -221,7 +270,16 @@ msgstr "メモリー"
 msgid "meter"
 msgstr ""
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
+msgstr ""
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
 msgstr ""
 
 msgid "node"
@@ -230,10 +288,16 @@ msgstr ""
 msgid "object"
 msgstr "オブジェクト"
 
-msgid "Orchestration"
+msgid "orchestration"
 msgstr ""
 
 msgid "over commit"
+msgstr ""
+
+msgid "owner"
+msgstr ""
+
+msgid "pagination"
 msgstr ""
 
 msgid "parameter"
@@ -242,6 +306,9 @@ msgstr "パラメーター"
 #, fuzzy
 msgid "perfect forward secrecy"
 msgstr "Perfect Forward Secrecy"
+
+msgid "permission"
+msgstr ""
 
 msgid "plugin"
 msgstr ""
@@ -254,6 +321,10 @@ msgstr ""
 
 #, fuzzy
 msgid "project"
+msgstr "プロジェクト"
+
+#, fuzzy
+msgid "property"
 msgstr "プロジェクト"
 
 #, fuzzy
@@ -274,10 +345,16 @@ msgstr "リブート"
 msgid "region"
 msgstr "リージョン(?)"
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr ""
 
 msgid "replication"
+msgstr ""
+
+msgid "restore"
 msgstr ""
 
 #, fuzzy
@@ -295,10 +372,38 @@ msgstr "セキュリティグループ"
 msgid "server"
 msgstr "サーバー"
 
+msgid "shard"
+msgstr ""
+
+#, fuzzy
+msgid "share"
+msgstr "使用状況(?)"
+
+msgid "share network"
+msgstr ""
+
+#, fuzzy
+msgid "share server"
+msgstr "サーバー"
+
+#, fuzzy
+msgid "shelve instance"
+msgstr "インスタンス"
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr ""
 
 msgid "stack"
+msgstr ""
+
+#, fuzzy
+msgid "state"
+msgstr "インスタンス"
+
+msgid "status"
 msgstr ""
 
 msgid "storage"
@@ -311,7 +416,7 @@ msgstr "送信"
 msgid "subnet"
 msgstr ""
 
-msgid "swap-disk"
+msgid "swap disk"
 msgstr ""
 
 #, fuzzy
@@ -328,8 +433,16 @@ msgstr ""
 msgid "tenant"
 msgstr "プロジェクト (※テナントから変更)"
 
+#, fuzzy
+msgid "terminate instance"
+msgstr "インスタンス"
+
 msgid "token"
 msgstr ""
+
+#, fuzzy
+msgid "unshelve instance"
+msgstr "インスタンス"
 
 #, fuzzy
 msgid "usage"
@@ -338,6 +451,15 @@ msgstr "使用状況(?)"
 msgid "user"
 msgstr "ユーザー"
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr ""
+
+msgid "vNIC"
+msgstr ""
+
 msgid "volume"
 msgstr ""
 
@@ -345,7 +467,7 @@ msgstr ""
 msgid "volume snapshot"
 msgstr "ボリュームスナップショット"
 
-msgid "VCPU hours"
+msgid "web"
 msgstr ""
 
 #~ msgid "Compute Services"
@@ -363,9 +485,6 @@ msgstr ""
 #~ msgid "Host Aggregate"
 #~ msgstr ""
 
-#~ msgid "orchestration"
-#~ msgstr ""
-
 #~ msgid "Swap-Disk"
 #~ msgstr ""
 
@@ -374,4 +493,13 @@ msgstr ""
 
 #~ msgid "parameter "
 #~ msgstr "パラメーター"
+
+#~ msgid "health Monitor"
+#~ msgstr ""
+
+#~ msgid "Orchestration"
+#~ msgstr ""
+
+#~ msgid "swap-disk"
+#~ msgstr ""
 

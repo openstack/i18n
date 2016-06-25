@@ -25,6 +25,9 @@ msgstr ""
 msgid "associate IP"
 msgstr ""
 
+msgid "attribute"
+msgstr ""
+
 msgid "authenticate"
 msgstr ""
 
@@ -38,6 +41,12 @@ msgid "backend"
 msgstr ""
 
 msgid "backup"
+msgstr ""
+
+msgid "Block Storage service"
+msgstr ""
+
+msgid "body"
 msgstr ""
 
 msgid "boot"
@@ -55,10 +64,22 @@ msgstr ""
 msgid "cluster"
 msgstr ""
 
-msgid "Compute"
+msgid "compute"
 msgstr ""
 
 msgid "Compute service"
+msgstr ""
+
+msgid "config drive"
+msgstr ""
+
+msgid "configuration"
+msgstr ""
+
+msgid "connection"
+msgstr ""
+
+msgid "consistency group"
 msgstr ""
 
 msgid "container"
@@ -67,7 +88,7 @@ msgstr ""
 msgid "container format"
 msgstr ""
 
-msgid "credentials"
+msgid "credential"
 msgstr ""
 
 msgid "data processing"
@@ -109,6 +130,12 @@ msgstr ""
 msgid "existence"
 msgstr ""
 
+msgid "export"
+msgstr ""
+
+msgid "export location"
+msgstr ""
+
 msgid "fetching"
 msgstr ""
 
@@ -130,7 +157,7 @@ msgstr ""
 msgid "guide"
 msgstr ""
 
-msgid "health Monitor"
+msgid "health monitor"
 msgstr ""
 
 msgid "host"
@@ -145,13 +172,22 @@ msgstr ""
 msgid "identifier"
 msgstr ""
 
+msgid "identity provider"
+msgstr ""
+
+msgid "Identity service"
+msgstr ""
+
 msgid "image"
+msgstr ""
+
+msgid "Image service"
 msgstr ""
 
 msgid "initiator"
 msgstr ""
 
-msgid "injected files"
+msgid "injected file"
 msgstr ""
 
 msgid "instance"
@@ -169,7 +205,16 @@ msgstr ""
 msgid "keypair"
 msgstr ""
 
+msgid "killed"
+msgstr ""
+
+msgid "L2population"
+msgstr ""
+
 msgid "launch"
+msgstr ""
+
+msgid "layer-2 population mechanism"
 msgstr ""
 
 msgid "load balancer"
@@ -190,7 +235,16 @@ msgstr ""
 msgid "meter"
 msgstr ""
 
+msgid "N/A"
+msgstr ""
+
 msgid "namespace"
+msgstr ""
+
+msgid "Networking service"
+msgstr ""
+
+msgid "NFS share"
 msgstr ""
 
 msgid "node"
@@ -199,16 +253,25 @@ msgstr ""
 msgid "object"
 msgstr ""
 
-msgid "Orchestration"
+msgid "orchestration"
 msgstr ""
 
 msgid "over commit"
+msgstr ""
+
+msgid "owner"
+msgstr ""
+
+msgid "pagination"
 msgstr ""
 
 msgid "parameter"
 msgstr ""
 
 msgid "perfect forward secrecy"
+msgstr ""
+
+msgid "permission"
 msgstr ""
 
 msgid "plugin"
@@ -221,6 +284,9 @@ msgid "pool"
 msgstr ""
 
 msgid "project"
+msgstr ""
+
+msgid "property"
 msgstr ""
 
 msgid "public key"
@@ -238,10 +304,16 @@ msgstr ""
 msgid "region"
 msgstr ""
 
+msgid "release IP"
+msgstr ""
+
 msgid "remote"
 msgstr ""
 
 msgid "replication"
+msgstr ""
+
+msgid "restore"
 msgstr ""
 
 msgid "role"
@@ -256,10 +328,34 @@ msgstr ""
 msgid "server"
 msgstr ""
 
+msgid "shard"
+msgstr ""
+
+msgid "share"
+msgstr ""
+
+msgid "share network"
+msgstr ""
+
+msgid "share server"
+msgstr ""
+
+msgid "shelve instance"
+msgstr ""
+
+msgid "size"
+msgstr ""
+
 msgid "snapshot"
 msgstr ""
 
 msgid "stack"
+msgstr ""
+
+msgid "state"
+msgstr ""
+
+msgid "status"
 msgstr ""
 
 msgid "storage"
@@ -271,7 +367,7 @@ msgstr ""
 msgid "subnet"
 msgstr ""
 
-msgid "swap-disk"
+msgid "swap disk"
 msgstr ""
 
 msgid "system panel"
@@ -286,7 +382,13 @@ msgstr ""
 msgid "tenant"
 msgstr ""
 
+msgid "terminate instance"
+msgstr ""
+
 msgid "token"
+msgstr ""
+
+msgid "unshelve instance"
 msgstr ""
 
 msgid "usage"
@@ -295,11 +397,20 @@ msgstr ""
 msgid "user"
 msgstr ""
 
+msgid "vCPU"
+msgstr ""
+
+msgid "VCPU hours"
+msgstr ""
+
+msgid "vNIC"
+msgstr ""
+
 msgid "volume"
 msgstr ""
 
 msgid "volume snapshot"
 msgstr ""
 
-msgid "VCPU hours"
+msgid "web"
 msgstr ""
