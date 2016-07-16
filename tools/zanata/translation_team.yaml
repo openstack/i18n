@@ -148,62 +148,60 @@ fr:
     - French
   translators:
     - adri2000
-    - nokostya
     - angelique_pillal16
-    - liced
-    - croe
-    - corin
-    - seveillard
-    - flowalrave
-    - fdotfr
-    - gael__
-    - gael_rehault
-    - pat
-    - glacoste_16
     - benjamin
-    - geraldlonlas
-    - jftalta
-    - jfenal
-    - kodokuu
-    - didier
+    - benjamin_ach
     - ciello89
-    - mmarin
-    - zigmax
-    - nikoul
-    - obuisson
-    - paulgonin
-    - romainsc
+    - corin
+    - croe
+    - didier
+    - eouzans
+    - fdotfr
+    - flowalrave
+    - gael__
+    - geraldlonlas
+    - glacoste_16
     - gonarys
     - henris
-    - eouzans
+    - jfenal
+    - jftalta
+    - kodokuu
+    - liced
+    - mmarin
+    - nikoul
+    - nokostya
+    - obuisson
+    - pat
+    - paulgonin
+    - romainsc
+    - seveillard
     - sylvie_chesneau
     - tjcocozz
-    - didier
-    - flowalrave
-    - mmarin
-    - sylvie_chesneau
+    - ygbo
+    - zigmax
   reviewers:
     - adri2000
     - angelique_pillal16
-    - liced
-    - croe
     - corin
-    - seveillard
-    - flowalrave
-    - fdotfr
-    - pat
-    - glacoste_16
-    - jftalta
-    - kodokuu
+    - croe
     - didier
-    - mmarin
-    - zigmax
-    - obuisson
-    - paulgonin
-    - romainsc
+    - fdotfr
+    - flowalrave
+    - glacoste_16
     - gonarys
     - henris
+    - jftalta
+    - kodokuu
+    - liced
+    - mmarin
+    - obuisson
+    - pat
+    - paulgonin
+    - romainsc
+    - seveillard
     - sylvie_chesneau
+    - ygbo
+    - zigmax
 zh-TW:
   coordinators:
     - zero00072
