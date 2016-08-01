@@ -1,3 +1,5 @@
+# Use the order of Zanata language team info.
+# Do not use the alphabetical order to make the maitenance easier.
 zh-CN:
   coordinators:
     - Ying Chun Guo (daisyycguo)
@@ -91,8 +93,6 @@ ja:
   language:
     - Japanese
   translators:
-    # Use the order of Zanata language team info.
-    # Do not use the alphabetical order to make the maitenance easier.
     - amotoki
     - yosshy
     - nanodayo
