@@ -98,9 +98,12 @@ def _make_language_team(name, team_info):
         'tag': 'language_team',
         'language_code': name,
         'language': team_info['language'],
-        'translators': team_info['translators'],
-        'reviewers': team_info.get('reviewers', []),
-        'coordinators': team_info.get('coordinators', []),
+        # Zanata ID which only consists of numbers is a valid ID
+        # and such entry is interpreted as integer unless it is
+        # quoted in the YAML file. Ensure to stringify them.
+        'translators': [str(i) for i in team_info['translators']],
+        'reviewers': [str(i) for i in team_info.get('reviewers', [])],
+        'coordinators': [str(i) for i in team_info.get('coordinators', [])],
     }
 
 
