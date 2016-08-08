@@ -194,9 +194,8 @@ msgstr "идентификатор"
 msgid "image"
 msgstr "образ"
 
-#, fuzzy
 msgid "Image service"
-msgstr "сервис вычислительных ресурсов"
+msgstr "сервис управления образами"
 
 msgid "initiator"
 msgstr "инициатор"
@@ -223,9 +222,8 @@ msgstr "ключевая пара"
 msgid "killed"
 msgstr ""
 
-#, fuzzy
 msgid "L2population"
-msgstr "репликация"
+msgstr "L2population"
 
 msgid "launch"
 msgstr "запуск"
@@ -252,16 +250,16 @@ msgid "meter"
 msgstr "измерение"
 
 msgid "N/A"
-msgstr ""
+msgstr "Н/Д"
 
 msgid "namespace"
 msgstr "пространство имен"
 
 msgid "Networking service"
-msgstr ""
+msgstr "Служба управления сетью"
 
 msgid "NFS share"
-msgstr ""
+msgstr "общий NFS раздел"
 
 msgid "node"
 msgstr "узел"
@@ -269,7 +267,6 @@ msgstr "узел"
 msgid "object"
 msgstr "объект"
 
-#, fuzzy
 msgid "orchestration"
 msgstr "оркестрация"
 
@@ -277,7 +274,7 @@ msgid "over commit"
 msgstr "переподписка"
 
 msgid "owner"
-msgstr ""
+msgstr "владелец"
 
 #, fuzzy
 msgid "pagination"
@@ -289,9 +286,8 @@ msgstr "параметр"
 msgid "perfect forward secrecy"
 msgstr "совершенная прямая секретность"
 
-#, fuzzy
 msgid "permission"
-msgstr "гипервизор"
+msgstr "разрешение"
 
 msgid "plugin"
 msgstr "плагин"
@@ -305,9 +301,8 @@ msgstr "пул"
 msgid "project"
 msgstr "проект"
 
-#, fuzzy
 msgid "property"
-msgstr "проект"
+msgstr "свойство"
 
 msgid "public key"
 msgstr "открытый ключ"
@@ -325,7 +320,7 @@ msgid "region"
 msgstr "регион"
 
 msgid "release IP"
-msgstr ""
+msgstr "освобождение IP"
 
 msgid "remote"
 msgstr "удаленный"
@@ -333,9 +328,8 @@ msgstr "удаленный"
 msgid "replication"
 msgstr "репликация"
 
-#, fuzzy
 msgid "restore"
-msgstr "хранилище"
+msgstr "восстановление"
 
 msgid "role"
 msgstr "роль"
@@ -376,12 +370,11 @@ msgstr "снимок"
 msgid "stack"
 msgstr "стек"
 
-#, fuzzy
 msgid "state"
-msgstr "хранилище"
+msgstr "состояние"
 
 msgid "status"
-msgstr ""
+msgstr "статус"
 
 msgid "storage"
 msgstr "хранилище"
@@ -392,7 +385,6 @@ msgstr "отправить"
 msgid "subnet"
 msgstr "подсеть"
 
-#, fuzzy
 msgid "swap disk"
 msgstr "диск подкачки"
 
@@ -408,9 +400,8 @@ msgstr "шаблон"
 msgid "tenant"
 msgstr "тенант"
 
-#, fuzzy
 msgid "terminate instance"
-msgstr "инстанс"
+msgstr "удалить инстанс"
 
 msgid "token"
 msgstr "токен"
@@ -426,14 +417,13 @@ msgid "user"
 msgstr "пользователь"
 
 msgid "vCPU"
-msgstr ""
+msgstr "vCPU"
 
 msgid "VCPU hours"
 msgstr "VCPU часы"
 
-#, fuzzy
 msgid "vNIC"
-msgstr "устройство"
+msgstr "vNIC"
 
 msgid "volume"
 msgstr "диск"
