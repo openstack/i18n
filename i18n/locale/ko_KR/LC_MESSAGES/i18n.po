@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-11 17:32+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-08-09 21:05+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko_KR\n"
 "Language-Team: ko_KR <LL@li.org>\n"
@@ -17,23 +17,20 @@ msgstr ""
 msgid "aggregate"
 msgstr "집합"
 
-#, fuzzy
 msgid "allocate IP"
 msgstr "IP 할당"
 
-#, fuzzy
 msgid "architecture"
 msgstr "아키텍처"
 
 msgid "association"
 msgstr "연결"
 
-#, fuzzy
 msgid "associate IP"
-msgstr "연결"
+msgstr "IP 연결"
 
 msgid "attribute"
-msgstr ""
+msgstr "속성"
 
 msgid "authenticate"
 msgstr "인증"
@@ -50,12 +47,11 @@ msgstr "백엔드"
 msgid "backup"
 msgstr "백업"
 
-#, fuzzy
 msgid "Block Storage service"
-msgstr "Compute 서비스"
+msgstr "블록 스토리지 서비스"
 
 msgid "body"
-msgstr ""
+msgstr "body"
 
 msgid "boot"
 msgstr "부트"
@@ -72,65 +68,54 @@ msgstr "클라이언트"
 msgid "cluster"
 msgstr "클러스터"
 
-#, fuzzy
 msgid "compute"
-msgstr "Compute"
+msgstr "compute"
 
-#, fuzzy
 msgid "Compute service"
 msgstr "Compute 서비스"
 
 msgid "config drive"
-msgstr ""
+msgstr "드라이브 구성"
 
 msgid "configuration"
-msgstr ""
+msgstr "구성"
 
 msgid "connection"
-msgstr ""
+msgstr "접속"
 
-#, fuzzy
 msgid "consistency group"
-msgstr "시큐리티 그룹"
+msgstr "정합성 그룹"
 
 msgid "container"
 msgstr "컨테이너"
 
-#, fuzzy
 msgid "container format"
 msgstr "컨테이너 포맷"
 
-#, fuzzy
 msgid "credential"
 msgstr "자격 증명서"
 
-#, fuzzy
 msgid "data processing"
 msgstr "데이터 프로세싱"
 
-#, fuzzy
 msgid "destination container"
 msgstr "대상 컨테이너"
 
-#, fuzzy
 msgid "destination object name"
 msgstr "대상 객체 이름"
 
 msgid "device"
 msgstr "장치"
 
-#, fuzzy
 msgid "disassociate IP"
 msgstr "IP 해제"
 
 msgid "disk"
 msgstr "디스크"
 
-#, fuzzy
 msgid "disk format"
 msgstr "디스크 포맷"
 
-#, fuzzy
 msgid "disk GB hours"
 msgstr "디스크 GB 사용 시간"
 
@@ -140,43 +125,35 @@ msgstr "도메인"
 msgid "domain group"
 msgstr "도메인 그룹"
 
-#, fuzzy
 msgid "ephemeral disk"
-msgstr "Ephemeral 디스크"
+msgstr "ephemeral 디스크"
 
-#, fuzzy
 msgid "ephemeral drive"
-msgstr "Ephemeral 드라이브"
+msgstr "ephemeral 드라이브"
 
 msgid "existence"
 msgstr "실제"
 
 msgid "export"
-msgstr ""
+msgstr "내보내기"
 
-#, fuzzy
 msgid "export location"
-msgstr "복제"
+msgstr "내보내기 위치"
 
-#, fuzzy
 msgid "fetching"
 msgstr "페칭"
 
-#, fuzzy
 msgid "fingerprint"
-msgstr "Fingerprint"
+msgstr "fingerprint"
 
-#, fuzzy
 msgid "fixed IP"
-msgstr "Fixed IP"
+msgstr "fixed IP"
 
-#, fuzzy
 msgid "flavor"
-msgstr "Flavor"
+msgstr "flavor"
 
-#, fuzzy
 msgid "floating IP"
-msgstr "Floating IP"
+msgstr "floating IP"
 
 msgid "gateway"
 msgstr "게이트웨이"
@@ -184,16 +161,14 @@ msgstr "게이트웨이"
 msgid "guide"
 msgstr "가이드"
 
-#, fuzzy
 msgid "health monitor"
 msgstr "상태 모니터"
 
 msgid "host"
 msgstr "호스트"
 
-#, fuzzy
 msgid "host aggregate"
-msgstr "호스트 집계"
+msgstr "호스트 집합"
 
 msgid "hypervisor"
 msgstr "가상화"
@@ -201,25 +176,21 @@ msgstr "가상화"
 msgid "identifier"
 msgstr "식별자"
 
-#, fuzzy
 msgid "identity provider"
-msgstr "식별자"
+msgstr "ID 제공자"
 
-#, fuzzy
 msgid "Identity service"
-msgstr "식별자"
+msgstr "ID 서비스"
 
 msgid "image"
 msgstr "이미지"
 
-#, fuzzy
 msgid "Image service"
-msgstr "Compute 서비스"
+msgstr "이미지 서비스"
 
 msgid "initiator"
 msgstr "initiator"
 
-#, fuzzy
 msgid "injected file"
 msgstr "추가한 파일"
 
@@ -235,22 +206,20 @@ msgstr "job"
 msgid "job template"
 msgstr "job 템플릿"
 
-#, fuzzy
 msgid "keypair"
 msgstr "키페어"
 
 msgid "killed"
-msgstr ""
+msgstr "killed"
 
-#, fuzzy
 msgid "L2population"
-msgstr "복제"
+msgstr "L2population"
 
 msgid "launch"
 msgstr "작동"
 
 msgid "layer-2 population mechanism"
-msgstr ""
+msgstr "layer-2 population mechanism"
 
 msgid "load balancer"
 msgstr "로드 밸런서"
@@ -271,16 +240,16 @@ msgid "meter"
 msgstr "측정기"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "namespace"
 msgstr "네임 스페이스"
 
 msgid "Networking service"
-msgstr ""
+msgstr "네트워킹 서비스"
 
 msgid "NFS share"
-msgstr ""
+msgstr "NFS 공유"
 
 msgid "node"
 msgstr "노드"
@@ -288,7 +257,6 @@ msgstr "노드"
 msgid "object"
 msgstr "객체"
 
-#, fuzzy
 msgid "orchestration"
 msgstr "orchestration"
 
@@ -296,23 +264,19 @@ msgid "over commit"
 msgstr "오버 커밋"
 
 msgid "owner"
-msgstr ""
+msgstr "owner"
 
-#, fuzzy
 msgid "pagination"
-msgstr "복제"
+msgstr "페이지네이션"
 
-#, fuzzy
 msgid "parameter"
 msgstr "매개변수"
 
-#, fuzzy
 msgid "perfect forward secrecy"
-msgstr "Perfect Forward Secrecy"
+msgstr "perfect forward secrecy"
 
-#, fuzzy
 msgid "permission"
-msgstr "가상화"
+msgstr "권한"
 
 msgid "plugin"
 msgstr "플러그인"
@@ -323,34 +287,29 @@ msgstr "정책"
 msgid "pool"
 msgstr "풀"
 
-#, fuzzy
 msgid "project"
 msgstr "프로젝트"
 
-#, fuzzy
 msgid "property"
-msgstr "프로젝트"
+msgstr "속성"
 
-#, fuzzy
 msgid "public key"
 msgstr "공개키"
 
 msgid "quota"
-msgstr "Quota"
+msgstr "quota"
 
-#, fuzzy
 msgid "quotas"
-msgstr "Quota"
+msgstr "quotas"
 
 msgid "reboot"
 msgstr "재부팅"
 
-#, fuzzy
 msgid "region"
 msgstr "지역"
 
 msgid "release IP"
-msgstr ""
+msgstr "IP 릴리즈"
 
 msgid "remote"
 msgstr "원격"
@@ -358,18 +317,15 @@ msgstr "원격"
 msgid "replication"
 msgstr "복제"
 
-#, fuzzy
 msgid "restore"
 msgstr "스토리지"
 
-#, fuzzy
 msgid "role"
 msgstr "역할"
 
 msgid "router"
 msgstr "라우터"
 
-#, fuzzy
 msgid "security group"
 msgstr "시큐리티 그룹"
 
@@ -377,25 +333,22 @@ msgid "server"
 msgstr "서버"
 
 msgid "shard"
-msgstr ""
+msgstr "공유"
 
-#, fuzzy
 msgid "share"
 msgstr "사용량"
 
 msgid "share network"
-msgstr ""
+msgstr "공유 네트워크"
 
-#, fuzzy
 msgid "share server"
-msgstr "서버"
+msgstr "공유 서버"
 
-#, fuzzy
 msgid "shelve instance"
-msgstr "인스턴스"
+msgstr "shelve 인스턴스"
 
 msgid "size"
-msgstr ""
+msgstr "size"
 
 msgid "snapshot"
 msgstr "스냅샷"
@@ -403,12 +356,11 @@ msgstr "스냅샷"
 msgid "stack"
 msgstr "stack"
 
-#, fuzzy
 msgid "state"
 msgstr "스토리지"
 
 msgid "status"
-msgstr ""
+msgstr "상태"
 
 msgid "storage"
 msgstr "스토리지"
@@ -419,11 +371,9 @@ msgstr "제출"
 msgid "subnet"
 msgstr "서브넷"
 
-#, fuzzy
 msgid "swap disk"
 msgstr "스왑 디스크"
 
-#, fuzzy
 msgid "system panel"
 msgstr "시스템 판넬"
 
@@ -433,22 +383,18 @@ msgstr "태그"
 msgid "template"
 msgstr "템플릿"
 
-#, fuzzy
 msgid "tenant"
-msgstr "Tenant"
+msgstr "tenant"
 
-#, fuzzy
 msgid "terminate instance"
-msgstr "인스턴스"
+msgstr "인스턴스 종료"
 
 msgid "token"
 msgstr "토큰"
 
-#, fuzzy
 msgid "unshelve instance"
-msgstr "인스턴스"
+msgstr "unshelve 인스턴스"
 
-#, fuzzy
 msgid "usage"
 msgstr "사용량"
 
@@ -456,24 +402,22 @@ msgid "user"
 msgstr "사용자"
 
 msgid "vCPU"
-msgstr ""
+msgstr "vCPU"
 
 msgid "VCPU hours"
-msgstr ""
+msgstr "VCPU 사용 시간"
 
-#, fuzzy
 msgid "vNIC"
-msgstr "장치"
+msgstr "vNIC"
 
 msgid "volume"
 msgstr "볼륨"
 
-#, fuzzy
 msgid "volume snapshot"
 msgstr "볼륨 스냅샷"
 
 msgid "web"
-msgstr ""
+msgstr "web"
 
 #~ msgid "Associate IP"
 #~ msgstr "IP 연결"
