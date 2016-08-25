@@ -22,7 +22,7 @@ Contents
    bug_report
    handling_bugs
    official_translator
-   create_lang_team
+   lang_team
    check_translation
    translation_tips
    translation_stats
