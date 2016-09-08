@@ -21,6 +21,9 @@ msgstr "агрегат"
 msgid "allocate IP"
 msgstr "выделить IP"
 
+msgid "API endpoint"
+msgstr "точка входа API"
+
 msgid "architecture"
 msgstr "архитектура"
 
@@ -96,6 +99,9 @@ msgstr "контейнер"
 msgid "container format"
 msgstr "формат контейнера"
 
+msgid "controller"
+msgstr "Управляющий узел"
+
 #, fuzzy
 msgid "credential"
 msgstr "учетная запись"
@@ -124,11 +130,17 @@ msgstr "формат диска"
 msgid "disk GB hours"
 msgstr "ГБ-часы диска"
 
+msgid "distribution"
+msgstr "дистрибуция"
+
 msgid "domain"
 msgstr "домен"
 
 msgid "domain group"
 msgstr "группа домена"
+
+msgid "environment"
+msgstr "окружение"
 
 msgid "ephemeral disk"
 msgstr "эфемерный диск"
@@ -237,11 +249,17 @@ msgstr "балансировщик нагрузки"
 msgid "library"
 msgstr "библиотека"
 
+msgid "management interface"
+msgstr "управляющий интерфейс"
+
 msgid "master"
 msgstr "мастер"
 
 msgid "member"
 msgstr "участник"
+
+msgid "Memcached"
+msgstr "Memcached"
 
 msgid "memory"
 msgstr "память"
@@ -266,6 +284,9 @@ msgstr "узел"
 
 msgid "object"
 msgstr "объект"
+
+msgid "object storage"
+msgstr "объектное хранилище"
 
 msgid "orchestration"
 msgstr "оркестрация"
@@ -313,6 +334,9 @@ msgstr "квота"
 msgid "quotas"
 msgstr "квоты"
 
+msgid "raw image"
+msgstr "сырой образ"
+
 msgid "reboot"
 msgstr "перезагрузка"
 
@@ -336,6 +360,9 @@ msgstr "роль"
 
 msgid "router"
 msgstr "маршрутизатор"
+
+msgid "section"
+msgstr "раздел"
 
 msgid "security group"
 msgstr "группа безопасности"
@@ -393,6 +420,9 @@ msgstr "системная панель"
 
 msgid "tag"
 msgstr "тэг"
+
+msgid "Telemetry"
+msgstr "Телеметрия"
 
 msgid "template"
 msgstr "шаблон"
