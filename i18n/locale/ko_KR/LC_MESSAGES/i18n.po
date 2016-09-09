@@ -20,6 +20,9 @@ msgstr "집합"
 msgid "allocate IP"
 msgstr "IP 할당"
 
+msgid "API endpoint"
+msgstr ""
+
 msgid "architecture"
 msgstr "아키텍처"
 
@@ -92,6 +95,9 @@ msgstr "컨테이너"
 msgid "container format"
 msgstr "컨테이너 포맷"
 
+msgid "controller"
+msgstr ""
+
 msgid "credential"
 msgstr "자격 증명서"
 
@@ -119,11 +125,17 @@ msgstr "디스크 포맷"
 msgid "disk GB hours"
 msgstr "디스크 GB 사용 시간"
 
+msgid "distribution"
+msgstr ""
+
 msgid "domain"
 msgstr "도메인"
 
 msgid "domain group"
 msgstr "도메인 그룹"
+
+msgid "environment"
+msgstr ""
 
 msgid "ephemeral disk"
 msgstr "ephemeral 디스크"
@@ -227,11 +239,17 @@ msgstr "로드 밸런서"
 msgid "library"
 msgstr "라이브러리"
 
+msgid "management interface"
+msgstr ""
+
 msgid "master"
 msgstr "마스터"
 
 msgid "member"
 msgstr "멤버"
+
+msgid "Memcached"
+msgstr ""
 
 msgid "memory"
 msgstr "메모리"
@@ -256,6 +274,9 @@ msgstr "노드"
 
 msgid "object"
 msgstr "객체"
+
+msgid "object storage"
+msgstr ""
 
 msgid "orchestration"
 msgstr "orchestration"
@@ -302,6 +323,9 @@ msgstr "quota"
 msgid "quotas"
 msgstr "quotas"
 
+msgid "raw image"
+msgstr ""
+
 msgid "reboot"
 msgstr "재부팅"
 
@@ -325,6 +349,9 @@ msgstr "역할"
 
 msgid "router"
 msgstr "라우터"
+
+msgid "section"
+msgstr ""
 
 msgid "security group"
 msgstr "시큐리티 그룹"
@@ -379,6 +406,9 @@ msgstr "시스템 판넬"
 
 msgid "tag"
 msgstr "태그"
+
+msgid "Telemetry"
+msgstr ""
 
 msgid "template"
 msgstr "템플릿"

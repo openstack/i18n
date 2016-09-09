@@ -20,6 +20,9 @@ msgstr "Aggrégat"
 msgid "allocate IP"
 msgstr ""
 
+msgid "API endpoint"
+msgstr ""
+
 msgid "architecture"
 msgstr ""
 
@@ -95,6 +98,9 @@ msgstr "Conteneur"
 msgid "container format"
 msgstr "Conteneur"
 
+msgid "controller"
+msgstr ""
+
 msgid "credential"
 msgstr ""
 
@@ -124,11 +130,17 @@ msgstr ""
 msgid "disk GB hours"
 msgstr ""
 
+msgid "distribution"
+msgstr ""
+
 msgid "domain"
 msgstr "Domaine"
 
 msgid "domain group"
 msgstr "groupe de domaine"
+
+msgid "environment"
+msgstr ""
 
 #, fuzzy
 msgid "ephemeral disk"
@@ -239,10 +251,16 @@ msgstr ""
 msgid "library"
 msgstr ""
 
+msgid "management interface"
+msgstr ""
+
 msgid "master"
 msgstr ""
 
 msgid "member"
+msgstr ""
+
+msgid "Memcached"
 msgstr ""
 
 msgid "memory"
@@ -267,6 +285,9 @@ msgid "node"
 msgstr "Node"
 
 msgid "object"
+msgstr ""
+
+msgid "object storage"
 msgstr ""
 
 msgid "orchestration"
@@ -318,6 +339,9 @@ msgstr "Quota"
 msgid "quotas"
 msgstr "Quota"
 
+msgid "raw image"
+msgstr ""
+
 msgid "reboot"
 msgstr ""
 
@@ -343,6 +367,9 @@ msgstr "Volume"
 
 msgid "router"
 msgstr "Routeur"
+
+msgid "section"
+msgstr ""
 
 #, fuzzy
 msgid "security group"
@@ -402,6 +429,9 @@ msgstr ""
 
 msgid "tag"
 msgstr "tag"
+
+msgid "Telemetry"
+msgstr ""
 
 msgid "template"
 msgstr "modèle => D'autres propositions ?"

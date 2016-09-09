@@ -26,6 +26,9 @@ msgstr "アグリゲート"
 msgid "allocate IP"
 msgstr "IP の確保"
 
+msgid "API endpoint"
+msgstr ""
+
 msgid "architecture"
 msgstr "アーキテクチャー"
 
@@ -98,6 +101,9 @@ msgstr "コンテナー"
 msgid "container format"
 msgstr "格納形式"
 
+msgid "controller"
+msgstr ""
+
 msgid "credential"
 msgstr "クレデンシャル、認証情報"
 
@@ -125,11 +131,17 @@ msgstr "ディスク形式"
 msgid "disk GB hours"
 msgstr ""
 
+msgid "distribution"
+msgstr ""
+
 msgid "domain"
 msgstr "ドメイン"
 
 msgid "domain group"
 msgstr "ドメイングループ"
+
+msgid "environment"
+msgstr ""
 
 msgid "ephemeral disk"
 msgstr "一時ディスク"
@@ -233,11 +245,17 @@ msgstr ""
 msgid "library"
 msgstr "ライブラリー"
 
+msgid "management interface"
+msgstr ""
+
 msgid "master"
 msgstr "マスター"
 
 msgid "member"
 msgstr "メンバー"
+
+msgid "Memcached"
+msgstr ""
 
 msgid "memory"
 msgstr "メモリー"
@@ -262,6 +280,9 @@ msgstr "ノード"
 
 msgid "object"
 msgstr "オブジェクト"
+
+msgid "object storage"
+msgstr ""
 
 msgid "orchestration"
 msgstr "オーケストレーション"
@@ -308,6 +329,9 @@ msgstr "クォータ"
 msgid "quotas"
 msgstr "クォータ"
 
+msgid "raw image"
+msgstr ""
+
 msgid "reboot"
 msgstr "リブート"
 
@@ -331,6 +355,9 @@ msgstr "ロール"
 
 msgid "router"
 msgstr "ルーター"
+
+msgid "section"
+msgstr ""
 
 msgid "security group"
 msgstr "セキュリティーグループ"
@@ -385,6 +412,9 @@ msgstr "システムパネル"
 
 msgid "tag"
 msgstr "タグ"
+
+msgid "Telemetry"
+msgstr ""
 
 msgid "template"
 msgstr "テンプレート"
