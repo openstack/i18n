@@ -49,7 +49,7 @@ Bugs in a source project
 The translatable strings are extracted from a source project.
 So some i18n bugs might be caused by bugs in the original strings/source
 codes of a source project which contains these translatable strings.
-Those kind of bugs shoud be fixed in the source project.
+Those kind of bugs should be fixed in the source project.
 
 In most cases, a source project would be one of:
 

@@ -15,7 +15,7 @@ and join your language team. Then go to `translation website`_ to start translat
 You can find prioritized translation jobs as I18n team at the top of the page.
 
 Your language team may have useful information to help our translation
-efforts including translaiton guidelines, priorities, communication
+efforts including translation guidelines, priorities, communication
 tools and so on. It is worth visited.
 You can find your language team page at
 https://wiki.openstack.org/wiki/I18nTeam/team.

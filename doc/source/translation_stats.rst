@@ -41,7 +41,7 @@ Here is the check list for such case:
 
 If your Zanata ID is not included in the translator list,
 you need to add your Zanata ID to the list.
-Contact your language coordinator, email the i18n mailling list,
+Contact your language coordinator, email the i18n mailing list,
 or submit a patch to add your ID by yourself.
 
 .. TODO (amotoki):
