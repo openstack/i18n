@@ -6,10 +6,10 @@ It is important to check your translations by using a real situation where your
 translation is used. This page describes how to check your translations.
 
 Documentation
-=============
+-------------
 
 Using docs.openstack.org
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Translated documents are available at the OpenStack Documentation site.
 It is updated daily. Most contents are linked from either of:
@@ -44,28 +44,28 @@ Therefore, you don't need to update the file ``www/<lang>/index.html``
 in the stable branch.
 
 Application developer documentation
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We can translate the application developer documentations,
 such as API Guide, as ``api-site`` resources in Zanata.
 
 OpenStack developer documentation
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Currently, we do not support translations for OpenStack developer
 documents: http://docs.openstack.org/developer/<project>
 
 OpenStack Dashboard
-===================
+-------------------
 
 Translation check site
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 The infra and i18n teams are preparing the translation check site
 to check dashboard translations. It is under preparation.
 
 Running DevStack
-----------------
+~~~~~~~~~~~~~~~~
 
 Another convenient way is to check dashboard translations is to run
 DevStack in your local environment.  To run DevStack, you need to
@@ -90,11 +90,11 @@ manually.
 .. [#] https://gist.github.com/amotoki/b5ca4affd768177ed911
 
 CLI (command line interface)
-============================
+----------------------------
 
 TBD
 
 Server projects
-===============
+---------------
 
 TBD

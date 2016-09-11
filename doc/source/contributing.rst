@@ -1,3 +1,4 @@
+============
 Contributing
 ============
 
@@ -33,7 +34,7 @@ we can find them in the following places:
 * `Horizon I18n bugs`_
 
 Translation tools
-----------------------------
+-----------------
 
 Go to the `translation tools`_ page to understand the tools
 and scripts which support our translation platform.

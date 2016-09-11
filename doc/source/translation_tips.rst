@@ -7,7 +7,7 @@ This page collects small tips and tricks around translations.
 If you have any, don't hesitate to share it :)
 
 Where a string is used in source code?
-======================================
+--------------------------------------
 
 It is important to understand how an original string is used in the source code
 with contextual knowledge for better quality of translations.
@@ -59,7 +59,7 @@ http://git.openstack.org/cgit/openstack/horizon/.
    .. [#] http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html
 
 Where a string is used in Dashboard UI?
-=======================================
+---------------------------------------
 
 During translating a dashboard related project, you may want to know
 "where is this string used in the dashboard?".

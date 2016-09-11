@@ -8,7 +8,7 @@ be reflected into OpenStack projects. This page explains how the infrastructure
 scripts runs as Jenkins jobs and monitor the jobs status.
 
 Translation jobs
-================
+----------------
 
 We have two types of Jenkins jobs for translations: syncing Zanata with the
 latest repositories and pushing translations into the repositories.
@@ -32,7 +32,7 @@ large and only a part is used. The purpose of thresholds is to reduce the
 amount of patches that go into a project.
 
 Monitoring translation jobs status
-==================================
+----------------------------------
 
 `OpenStack Health <http://status.openstack.org/openstack-health/#/>`__
 dashboard provides us a convenient way to check the translation job status.
@@ -41,7 +41,7 @@ dashboard provides us a convenient way to check the translation job status.
 * `Periodic jobs: Syncing into repos <http://status.openstack.org/openstack-health/#/g/build_queue/periodic?groupKey=build_queue&searchJob=translation>`__
 
 Translation infrastructure scripts
-==================================
+----------------------------------
 
 Translation infrastructure scripts are stored and managed in
 `openstack-infra/project-config <http://git.openstack.org/cgit/openstack-infra/project-config>`__

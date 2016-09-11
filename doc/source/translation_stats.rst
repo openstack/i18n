@@ -5,7 +5,7 @@ Translation Statistics
 There are several ways to know your translation activity.
 
 Zanata
-======
+------
 
 Zanata provides ways to know your activity on Zanata.
 
@@ -18,7 +18,7 @@ Zanata provides ways to know your activity on Zanata.
 Note that you need to log into Zanata to see your activity in the above pages.
 
 Stackalytics
-============
+------------
 
 `Stackalytics <http://stackalytics.com/>`__ is a popular web site
 which allows us to know various statistics related to OpenStack.
@@ -28,7 +28,7 @@ Visit `Stackalytics <http://stackalytics.com/>`__ and
 choose ``Translations`` as ``Metric`` dropdown menu at the upper-right.
 
 FAQ: I cannot find my name in Stackalytics
-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are cases where you cannot see your translation statistics
 in Stackalytics even after you translate strings in Zanata.

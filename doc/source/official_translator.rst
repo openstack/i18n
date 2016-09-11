@@ -3,7 +3,7 @@ Official OpenStack translator
 =============================
 
 Steps to become a OpenStack translator
-======================================
+--------------------------------------
 
 Translation is another kind of important contribution to OpenStack
 community. If you want to become a official translator, you need to
@@ -63,7 +63,7 @@ finish following steps:
    You can find :doc:`various ways of contributions <contributing>`.
 
 ATC status in i18n project
-==========================
+--------------------------
 
 The i18n project is an official OpenStack project, so official translators
 who have contributed in a specific period are regarded as
