@@ -29,6 +29,7 @@ Contents
    translation_stats
    i18n_team_meeting
    infra
+   about
 
 .. _label-i18n-team-contact:
 
