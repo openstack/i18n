@@ -14,32 +14,14 @@ To help with translation, :doc:`become an official translator <official_translat
 and join your language team. Then go to `translation website`_ to start translation.
 You can find prioritized translation jobs as I18n team at the top of the page.
 
-Your language team may have useful information to help our translation
-efforts including translation guidelines, priorities, communication
+:doc:`Your language team <lang_team>` may have useful information to help our
+translation efforts including translation guidelines, priorities, communication
 tools and so on. It is worth visited.
 You can find your language team page at
 https://wiki.openstack.org/wiki/I18nTeam/team.
 If you have questions, you can contact your coordinators.
 
-If you cannot find your local team,
-you can request to :doc:`create a local translation team <create_lang_team>`.
-
 To report translation errors, see :doc:`bug_report`.
-
-There are three different roles in a translation team:
-
-Member (translator)
-  A person who can submit translations.
-
-Reviewer
-  A person who can proofread translations and
-  mark them as reviewed (approved) or rejected.
-
-Coordinator
-  A privileged member in a translation team who can help
-  in team management tasks, such as approving new members
-  and reviewing contributions to that language.
-  We also have task coordinators for specific tasks.
 
 Fixing I18n bugs
 ----------------
