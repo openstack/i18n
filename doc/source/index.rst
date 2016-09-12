@@ -25,6 +25,7 @@ Contents
    create_lang_team
    check_translation
    translation_tips
+   glossary
    translation_stats
    i18n_team_meeting
    infra
