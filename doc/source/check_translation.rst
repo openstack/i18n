@@ -64,30 +64,70 @@ Translation check site
 The infra and i18n teams are preparing the translation check site
 to check dashboard translations. It is under preparation.
 
+.. note::
+
+   Currently there is no solid plan when the check site is provided.
+
 Running DevStack
 ----------------
 
-Another convenient way is to check dashboard translations is to run
-DevStack in your local environment.  To run DevStack, you need to
-prepare ``local.conf`` file, but no worries. Several ``local.conf``
-files are shared, for example [#]_. From our experience, you need a
-machine with two or four CPU core, 8 GB memory and 20 GB disk to run
-DevStack comfortablely. If you enable just major OpenStack projects,
-the machine requirement would be much smaller like 2~4GB memory.
+Another convenient way is to check dashboard translations is to run DevStack in
+your local environment. To run DevStack, you need to prepare ``local.conf``
+file, but no worries. Several ``local.conf`` files are shared on the Internet
+and an minimum example is shown below. From our experience, you need a machine
+with two or four CPU cores, 8 GB memory and 20 GB disk to run DevStack
+comfortablely. If you enable just major OpenStack projects, the machine
+requirement would be much smaller like 2~4GB memory.
 
 .. code-block:: console
 
+   $ BRANCH=master
    $ git clone http://git.openstack.org/openstack-dev/devstack.git
    $ cd devstack
+   $ git checkout $BRANCH
    <prepare local.conf>
    $ ./stack.sh
    <wait and wait... it takes 20 or 30 minutes>
 
+Replace ``$BRANCH`` with an appropriate branch such as ``master``,
+``stable/newton`` or ``stable/mitaka``.
+
+The following is an example of ``local.conf`` for Newton release which runs
+core components (keystone, nova, glance, neutron, cinder), horizon, swift and
+heat. The components which the main horizon code supports are chosen.
+
+.. literalinclude:: ../../checksite/local.conf
+   :language: ini
+
+Import latest translations
+++++++++++++++++++++++++++
+
 Translations are being imported into a project repository daily,
 so in most cases you do not need to pull translations from Zanata
-manually.
+manually. What you need is to pull the latest horizon code.
 
-.. [#] https://gist.github.com/amotoki/b5ca4affd768177ed911
+If you have a machine running DevStack, there are two ways.
+
+One way is to update the horizon code only.
+The following shell script fetches the latest horizon code,
+compiles translation message catalogs and reloads the apache httpd server.
+Replace ``$BRANCH`` with an appropriate branch such as ``master``,
+``stable/newton`` or ``stable/mitaka``.
+
+.. literalinclude:: ../../checksite/horizon-reload.sh
+   :language: bash
+
+Another way is to rerun DevStack. Ensure to include ``RECLONE=True`` in
+your ``local.conf`` before running ``stack.sh`` again so that DevStack
+retrieve the latest codes of horizon and other projects.
+
+.. code-block:: console
+
+   $ cd devstack
+   $ ./unstack.sh
+   <Ensure RECLONE=True in your local.conf>
+   $ ./stack.sh
+   <It takes 10 or 15 minutes>
 
 CLI (command line interface)
 ============================
