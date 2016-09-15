@@ -27,13 +27,13 @@ msgid "allocate IP"
 msgstr "IP の確保"
 
 msgid "API endpoint"
-msgstr ""
+msgstr "API エンドポイント"
 
 msgid "architecture"
 msgstr "アーキテクチャー"
 
 msgid "association"
-msgstr ""
+msgstr "関連付け"
 
 msgid "associate IP"
 msgstr "IP の割り当て"
@@ -57,7 +57,7 @@ msgid "backup"
 msgstr "バックアップ"
 
 msgid "Bare Metal service"
-msgstr ""
+msgstr "Bare Metal サービス"
 
 msgid "Block Storage service"
 msgstr "Block Storage サービス"
@@ -81,7 +81,7 @@ msgid "cluster"
 msgstr "クラスター"
 
 msgid "comma"
-msgstr ""
+msgstr "コンマ"
 
 msgid "compute"
 msgstr "コンピュート"
@@ -108,19 +108,19 @@ msgid "container format"
 msgstr "格納形式"
 
 msgid "controller"
-msgstr ""
+msgstr "コントローラー"
 
 msgid "credential"
 msgstr "クレデンシャル、認証情報"
 
 msgid "Database service"
-msgstr ""
+msgstr "Database サービス"
 
 msgid "data processing"
-msgstr ""
+msgstr "データ処理 (Horizon)"
 
 msgid "Data Processing service"
-msgstr ""
+msgstr "Data Processing サービス"
 
 msgid "destination container"
 msgstr "宛先コンテナー"
@@ -141,10 +141,10 @@ msgid "disk format"
 msgstr "ディスク形式"
 
 msgid "disk GB hours"
-msgstr ""
+msgstr "ディスク GB 時間"
 
 msgid "distribution"
-msgstr ""
+msgstr "ディストリビューション"
 
 msgid "domain"
 msgstr "ドメイン"
@@ -162,16 +162,16 @@ msgid "ephemeral drive"
 msgstr "一時ドライブ"
 
 msgid "existence"
-msgstr ""
+msgstr "存在、有無"
 
 msgid "export"
-msgstr ""
+msgstr "エクスポート"
 
 msgid "export location"
-msgstr ""
+msgstr "公開場所、エクスポート場所"
 
 msgid "fetching"
-msgstr ""
+msgstr "取得中、取得"
 
 msgid "fingerprint"
 msgstr "フィンガープリント"
@@ -192,7 +192,7 @@ msgid "guide"
 msgstr "ガイド"
 
 msgid "health monitor"
-msgstr ""
+msgstr "ヘルスモニター"
 
 msgid "host"
 msgstr "ホスト"
@@ -237,7 +237,7 @@ msgid "job template"
 msgstr "ジョブテンプレート"
 
 msgid "key"
-msgstr ""
+msgstr "キー / 鍵"
 
 msgid "keypair"
 msgstr "キーペア"
@@ -255,7 +255,7 @@ msgid "layer-2 population mechanism"
 msgstr "layer-2 population 機構"
 
 msgid "load balancer"
-msgstr ""
+msgstr "ロードバランサー"
 
 msgid "library"
 msgstr "ライブラリー"
@@ -270,13 +270,13 @@ msgid "member"
 msgstr "メンバー"
 
 msgid "Memcached"
-msgstr ""
+msgstr "memcached"
 
 msgid "memory"
 msgstr "メモリー"
 
 msgid "meter"
-msgstr ""
+msgstr "メーター"
 
 msgid "N/A"
 msgstr "なし、 N/A"
@@ -297,16 +297,16 @@ msgid "object"
 msgstr "オブジェクト"
 
 msgid "object storage"
-msgstr ""
+msgstr "オブジェクトストレージ"
 
 msgid "Object Storage service"
-msgstr ""
+msgstr "Object Storage サービス"
 
 msgid "orchestration"
 msgstr "オーケストレーション"
 
 msgid "Orchestration service"
-msgstr ""
+msgstr "Orchestration サービス"
 
 msgid "over commit"
 msgstr "オーバーコミット"
@@ -321,7 +321,7 @@ msgid "parameter"
 msgstr "パラメーター"
 
 msgid "perfect forward secrecy"
-msgstr ""
+msgstr "PFS (perfect forward secrecy)"
 
 msgid "permission"
 msgstr "権限、アクセス権限、アクセス許可、許可"
@@ -351,7 +351,7 @@ msgid "quotas"
 msgstr "クォータ"
 
 msgid "raw image"
-msgstr ""
+msgstr "raw イメージ"
 
 msgid "reboot"
 msgstr "リブート"
@@ -366,7 +366,7 @@ msgid "remote"
 msgstr "リモート"
 
 msgid "replication"
-msgstr ""
+msgstr "レプリケーション、複製"
 
 msgid "restore"
 msgstr "リストア"
@@ -399,13 +399,13 @@ msgid "share server"
 msgstr "ファイル共有サーバー"
 
 msgid "Shared File Systems service"
-msgstr ""
+msgstr "Shared File Systems サービス"
 
 msgid "shelve instance"
 msgstr "インスタンスの退避"
 
 msgid "signature"
-msgstr ""
+msgstr "署名 / シグネチャー"
 
 msgid "size"
 msgstr "サイズ / 容量"
@@ -432,7 +432,7 @@ msgid "subnet"
 msgstr "サブネット"
 
 msgid "swap disk"
-msgstr ""
+msgstr "スワップディスク"
 
 msgid "system panel"
 msgstr "システムパネル"
@@ -441,7 +441,7 @@ msgid "tag"
 msgstr "タグ"
 
 msgid "Telemetry service"
-msgstr ""
+msgstr "Telemetry サービス"
 
 msgid "template"
 msgstr "テンプレート"
@@ -456,7 +456,7 @@ msgid "token"
 msgstr "トークン"
 
 msgid "transfer"
-msgstr ""
+msgstr "転送、送信、譲渡"
 
 msgid "unshelve instance"
 msgstr "インスタンスの復元"
