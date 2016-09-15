@@ -21,6 +21,9 @@ msgstr "聚合"
 msgid "allocate IP"
 msgstr "分配IP"
 
+msgid "API endpoint"
+msgstr ""
+
 #, fuzzy
 msgid "architecture"
 msgstr "架构"
@@ -100,6 +103,9 @@ msgstr "容器"
 msgid "container format"
 msgstr "容器格式"
 
+msgid "controller"
+msgstr ""
+
 #, fuzzy
 msgid "credential"
 msgstr "证书"
@@ -134,11 +140,17 @@ msgstr "磁盘格式"
 msgid "disk GB hours"
 msgstr "磁盘(GB*小时)"
 
+msgid "distribution"
+msgstr ""
+
 msgid "domain"
 msgstr "域"
 
 msgid "domain group"
 msgstr "域组"
+
+msgid "environment"
+msgstr ""
 
 #, fuzzy
 msgid "ephemeral disk"
@@ -258,11 +270,17 @@ msgstr "负载均衡器"
 msgid "library"
 msgstr "库"
 
+msgid "management interface"
+msgstr ""
+
 msgid "master"
 msgstr "主节点"
 
 msgid "member"
 msgstr "成员"
+
+msgid "Memcached"
+msgstr ""
 
 msgid "memory"
 msgstr "内存"
@@ -287,6 +305,9 @@ msgstr "节点"
 
 msgid "object"
 msgstr "对象"
+
+msgid "object storage"
+msgstr ""
 
 #, fuzzy
 msgid "orchestration"
@@ -341,6 +362,9 @@ msgstr "配额"
 msgid "quotas"
 msgstr "配额"
 
+msgid "raw image"
+msgstr ""
+
 msgid "reboot"
 msgstr "重启"
 
@@ -367,6 +391,9 @@ msgstr "角色"
 
 msgid "router"
 msgstr "路由"
+
+msgid "section"
+msgstr ""
 
 #, fuzzy
 msgid "security group"
@@ -428,6 +455,9 @@ msgstr "系统面板"
 
 msgid "tag"
 msgstr "标签"
+
+msgid "Telemetry"
+msgstr ""
 
 msgid "template"
 msgstr "模板"
