@@ -74,6 +74,9 @@ msgstr "Client"
 msgid "cluster"
 msgstr "Cluster"
 
+msgid "comma"
+msgstr ""
+
 #, fuzzy
 msgid "compute"
 msgstr "Compute"
@@ -238,6 +241,9 @@ msgstr "tache"
 
 msgid "job template"
 msgstr "Load balancer"
+
+msgid "key"
+msgstr ""
 
 msgid "keypair"
 msgstr ""
@@ -413,6 +419,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr ""
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr ""
 
@@ -463,6 +472,9 @@ msgstr ""
 
 msgid "token"
 msgstr "Token"
+
+msgid "transfer"
+msgstr ""
 
 msgid "unshelve instance"
 msgstr ""

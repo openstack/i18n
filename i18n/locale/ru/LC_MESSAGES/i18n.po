@@ -76,6 +76,9 @@ msgstr "клиент"
 msgid "cluster"
 msgstr "кластер"
 
+msgid "comma"
+msgstr ""
+
 #, fuzzy
 msgid "compute"
 msgstr "вычислительные ресурсы"
@@ -236,6 +239,9 @@ msgstr "задача"
 
 msgid "job template"
 msgstr "шаблон задачи"
+
+msgid "key"
+msgstr ""
 
 msgid "keypair"
 msgstr "ключевая пара"
@@ -406,6 +412,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr "инстанс"
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr ""
 
@@ -453,6 +462,9 @@ msgstr "удалить инстанс"
 
 msgid "token"
 msgstr "токен"
+
+msgid "transfer"
+msgstr ""
 
 #, fuzzy
 msgid "unshelve instance"

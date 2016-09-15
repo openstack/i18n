@@ -78,6 +78,9 @@ msgstr "客户端"
 msgid "cluster"
 msgstr "集群"
 
+msgid "comma"
+msgstr ""
+
 #, fuzzy
 msgid "compute"
 msgstr "计算"
@@ -255,6 +258,9 @@ msgstr "任务"
 
 msgid "job template"
 msgstr "任务模板"
+
+msgid "key"
+msgstr ""
 
 #, fuzzy
 msgid "keypair"
@@ -438,6 +444,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr "云主机"
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr ""
 
@@ -490,6 +499,9 @@ msgstr "云主机"
 
 msgid "token"
 msgstr "token"
+
+msgid "transfer"
+msgstr ""
 
 #, fuzzy
 msgid "unshelve instance"

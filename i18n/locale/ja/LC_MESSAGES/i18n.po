@@ -80,6 +80,9 @@ msgstr "クライアント"
 msgid "cluster"
 msgstr "クラスター"
 
+msgid "comma"
+msgstr ""
+
 msgid "compute"
 msgstr "コンピュート"
 
@@ -232,6 +235,9 @@ msgstr "ジョブ"
 
 msgid "job template"
 msgstr "ジョブテンプレート"
+
+msgid "key"
+msgstr ""
 
 msgid "keypair"
 msgstr "キーペア"
@@ -398,6 +404,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr "インスタンスの退避"
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr "サイズ / 容量"
 
@@ -445,6 +454,9 @@ msgstr "インスタンスの削除"
 
 msgid "token"
 msgstr "トークン"
+
+msgid "transfer"
+msgstr ""
 
 msgid "unshelve instance"
 msgstr "インスタンスの復元"

@@ -74,6 +74,9 @@ msgstr "클라이언트"
 msgid "cluster"
 msgstr "클러스터"
 
+msgid "comma"
+msgstr ""
+
 msgid "compute"
 msgstr "compute"
 
@@ -226,6 +229,9 @@ msgstr "job"
 
 msgid "job template"
 msgstr "job 템플릿"
+
+msgid "key"
+msgstr ""
 
 msgid "keypair"
 msgstr "키페어"
@@ -392,6 +398,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr "shelve 인스턴스"
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr "size"
 
@@ -439,6 +448,9 @@ msgstr "인스턴스 종료"
 
 msgid "token"
 msgstr "토큰"
+
+msgid "transfer"
+msgstr ""
 
 msgid "unshelve instance"
 msgstr "unshelve 인스턴스"

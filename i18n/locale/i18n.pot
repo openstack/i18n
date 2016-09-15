@@ -70,6 +70,9 @@ msgstr ""
 msgid "cluster"
 msgstr ""
 
+msgid "comma"
+msgstr ""
+
 msgid "compute"
 msgstr ""
 
@@ -221,6 +224,9 @@ msgid "job"
 msgstr ""
 
 msgid "job template"
+msgstr ""
+
+msgid "key"
 msgstr ""
 
 msgid "keypair"
@@ -388,6 +394,9 @@ msgstr ""
 msgid "shelve instance"
 msgstr ""
 
+msgid "signature"
+msgstr ""
+
 msgid "size"
 msgstr ""
 
@@ -434,6 +443,9 @@ msgid "terminate instance"
 msgstr ""
 
 msgid "token"
+msgstr ""
+
+msgid "transfer"
 msgstr ""
 
 msgid "unshelve instance"
