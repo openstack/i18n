@@ -51,6 +51,9 @@ msgstr "бэкенд"
 msgid "backup"
 msgstr "резервная копия"
 
+msgid "Bare Metal service"
+msgstr ""
+
 #, fuzzy
 msgid "Block Storage service"
 msgstr "сервис блочных хранилищ"
@@ -106,8 +109,14 @@ msgstr "Управляющий узел"
 msgid "credential"
 msgstr "учетная запись"
 
+msgid "Database service"
+msgstr ""
+
 msgid "data processing"
 msgstr "обработка данных"
+
+msgid "Data Processing service"
+msgstr ""
 
 msgid "destination container"
 msgstr "конечный контейнер"
@@ -288,8 +297,14 @@ msgstr "объект"
 msgid "object storage"
 msgstr "объектное хранилище"
 
+msgid "Object Storage service"
+msgstr ""
+
 msgid "orchestration"
 msgstr "оркестрация"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "переподписка"
@@ -384,6 +399,9 @@ msgstr ""
 msgid "share server"
 msgstr "сервер"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 #, fuzzy
 msgid "shelve instance"
 msgstr "инстанс"
@@ -421,8 +439,8 @@ msgstr "системная панель"
 msgid "tag"
 msgstr "тэг"
 
-msgid "Telemetry"
-msgstr "Телеметрия"
+msgid "Telemetry service"
+msgstr ""
 
 msgid "template"
 msgstr "шаблон"
@@ -463,4 +481,7 @@ msgstr "снимок диска"
 
 msgid "web"
 msgstr ""
+
+#~ msgid "Telemetry"
+#~ msgstr "Телеметрия"
 

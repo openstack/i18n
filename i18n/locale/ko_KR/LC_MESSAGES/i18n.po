@@ -50,6 +50,9 @@ msgstr "백엔드"
 msgid "backup"
 msgstr "백업"
 
+msgid "Bare Metal service"
+msgstr ""
+
 msgid "Block Storage service"
 msgstr "블록 스토리지 서비스"
 
@@ -101,8 +104,14 @@ msgstr ""
 msgid "credential"
 msgstr "자격 증명서"
 
+msgid "Database service"
+msgstr ""
+
 msgid "data processing"
 msgstr "데이터 프로세싱"
+
+msgid "Data Processing service"
+msgstr ""
 
 msgid "destination container"
 msgstr "대상 컨테이너"
@@ -278,8 +287,14 @@ msgstr "객체"
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 msgid "orchestration"
 msgstr "orchestration"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "오버 커밋"
@@ -371,6 +386,9 @@ msgstr "공유 네트워크"
 msgid "share server"
 msgstr "공유 서버"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 msgid "shelve instance"
 msgstr "shelve 인스턴스"
 
@@ -407,7 +425,7 @@ msgstr "시스템 판넬"
 msgid "tag"
 msgstr "태그"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"
@@ -457,4 +475,7 @@ msgstr "web"
 
 #~ msgid "VCPU Hours"
 #~ msgstr "VCPU 사용시간"
+
+#~ msgid "Telemetry"
+#~ msgstr ""
 

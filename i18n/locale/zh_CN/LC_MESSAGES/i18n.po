@@ -53,6 +53,9 @@ msgstr "后端"
 msgid "backup"
 msgstr "备份"
 
+msgid "Bare Metal service"
+msgstr ""
+
 #, fuzzy
 msgid "Block Storage service"
 msgstr "计算服务"
@@ -110,9 +113,15 @@ msgstr ""
 msgid "credential"
 msgstr "证书"
 
+msgid "Database service"
+msgstr ""
+
 #, fuzzy
 msgid "data processing"
 msgstr "数据处理"
+
+msgid "Data Processing service"
+msgstr ""
 
 #, fuzzy
 msgid "destination container"
@@ -309,9 +318,15 @@ msgstr "对象"
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 #, fuzzy
 msgid "orchestration"
 msgstr "编排"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "超分配"
@@ -416,6 +431,9 @@ msgstr ""
 msgid "share server"
 msgstr "服务器"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 #, fuzzy
 msgid "shelve instance"
 msgstr "云主机"
@@ -456,7 +474,7 @@ msgstr "系统面板"
 msgid "tag"
 msgstr "标签"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"
@@ -515,4 +533,7 @@ msgstr ""
 
 #~ msgid "VCPU Hours"
 #~ msgstr "VCPU小时"
+
+#~ msgid "Telemetry"
+#~ msgstr ""
 

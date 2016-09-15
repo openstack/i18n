@@ -46,6 +46,9 @@ msgstr ""
 msgid "backup"
 msgstr ""
 
+msgid "Bare Metal service"
+msgstr ""
+
 msgid "Block Storage service"
 msgstr ""
 
@@ -97,7 +100,13 @@ msgstr ""
 msgid "credential"
 msgstr ""
 
+msgid "Database service"
+msgstr ""
+
 msgid "data processing"
+msgstr ""
+
+msgid "Data Processing service"
 msgstr ""
 
 msgid "destination container"
@@ -274,7 +283,13 @@ msgstr ""
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 msgid "orchestration"
+msgstr ""
+
+msgid "Orchestration service"
 msgstr ""
 
 msgid "over commit"
@@ -367,6 +382,9 @@ msgstr ""
 msgid "share server"
 msgstr ""
 
+msgid "Shared File Systems service"
+msgstr ""
+
 msgid "shelve instance"
 msgstr ""
 
@@ -403,7 +421,7 @@ msgstr ""
 msgid "tag"
 msgstr ""
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"

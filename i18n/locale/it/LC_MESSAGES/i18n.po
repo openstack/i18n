@@ -53,6 +53,9 @@ msgstr "backend"
 msgid "backup"
 msgstr "backup"
 
+msgid "Bare Metal service"
+msgstr ""
+
 #, fuzzy
 msgid "Block Storage service"
 msgstr "Servizi Compute"
@@ -110,9 +113,15 @@ msgstr ""
 msgid "credential"
 msgstr "credenziali"
 
+msgid "Database service"
+msgstr ""
+
 #, fuzzy
 msgid "data processing"
 msgstr "Data Processing"
+
+msgid "Data Processing service"
+msgstr ""
 
 #, fuzzy
 msgid "destination container"
@@ -309,9 +318,15 @@ msgstr "oggetto"
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 #, fuzzy
 msgid "orchestration"
 msgstr "orchestrazione"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "over commit"
@@ -417,6 +432,9 @@ msgstr ""
 msgid "share server"
 msgstr "server"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 #, fuzzy
 msgid "shelve instance"
 msgstr "istanza"
@@ -457,7 +475,7 @@ msgstr "Pannello di sistema"
 msgid "tag"
 msgstr "tag"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"
@@ -513,4 +531,7 @@ msgstr ""
 
 #~ msgid "VCPU Hours"
 #~ msgstr "Ore VCPU"
+
+#~ msgid "Telemetry"
+#~ msgstr ""
 

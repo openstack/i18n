@@ -50,6 +50,9 @@ msgstr "Backend => D'autres propositions ?"
 msgid "backup"
 msgstr "Sauvegarde"
 
+msgid "Bare Metal service"
+msgstr ""
+
 msgid "Block Storage service"
 msgstr ""
 
@@ -104,9 +107,15 @@ msgstr ""
 msgid "credential"
 msgstr ""
 
+msgid "Database service"
+msgstr ""
+
 #, fuzzy
 msgid "data processing"
 msgstr "Traitement des données"
+
+msgid "Data Processing service"
+msgstr ""
 
 #, fuzzy
 msgid "destination container"
@@ -290,7 +299,13 @@ msgstr ""
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 msgid "orchestration"
+msgstr ""
+
+msgid "Orchestration service"
 msgstr ""
 
 msgid "over commit"
@@ -392,6 +407,9 @@ msgstr ""
 msgid "share server"
 msgstr "Serveur"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 msgid "shelve instance"
 msgstr ""
 
@@ -430,7 +448,7 @@ msgstr ""
 msgid "tag"
 msgstr "tag"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"
@@ -555,5 +573,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Orchestration"
+#~ msgstr ""
+
+#~ msgid "Telemetry"
 #~ msgstr ""
 

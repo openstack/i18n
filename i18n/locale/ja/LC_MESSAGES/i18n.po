@@ -56,6 +56,9 @@ msgstr "バックエンド"
 msgid "backup"
 msgstr "バックアップ"
 
+msgid "Bare Metal service"
+msgstr ""
+
 msgid "Block Storage service"
 msgstr "Block Storage サービス"
 
@@ -107,7 +110,13 @@ msgstr ""
 msgid "credential"
 msgstr "クレデンシャル、認証情報"
 
+msgid "Database service"
+msgstr ""
+
 msgid "data processing"
+msgstr ""
+
+msgid "Data Processing service"
 msgstr ""
 
 msgid "destination container"
@@ -284,8 +293,14 @@ msgstr "オブジェクト"
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 msgid "orchestration"
 msgstr "オーケストレーション"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "オーバーコミット"
@@ -377,6 +392,9 @@ msgstr "ファイル共有ネットワーク"
 msgid "share server"
 msgstr "ファイル共有サーバー"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 msgid "shelve instance"
 msgstr "インスタンスの退避"
 
@@ -413,7 +431,7 @@ msgstr "システムパネル"
 msgid "tag"
 msgstr "タグ"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"

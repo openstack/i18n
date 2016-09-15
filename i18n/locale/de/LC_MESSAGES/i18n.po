@@ -51,6 +51,9 @@ msgstr "Backend"
 msgid "backup"
 msgstr "Sicherung, Sicherungskopie"
 
+msgid "Bare Metal service"
+msgstr ""
+
 #, fuzzy
 msgid "Block Storage service"
 msgstr "Compute Dienste"
@@ -107,9 +110,15 @@ msgstr ""
 msgid "credential"
 msgstr ""
 
+msgid "Database service"
+msgstr ""
+
 #, fuzzy
 msgid "data processing"
 msgstr "Datenverarbeitung"
+
+msgid "Data Processing service"
+msgstr ""
 
 #, fuzzy
 msgid "destination container"
@@ -298,9 +307,15 @@ msgstr ""
 msgid "object storage"
 msgstr ""
 
+msgid "Object Storage service"
+msgstr ""
+
 #, fuzzy
 msgid "orchestration"
 msgstr "Orchestrierung"
+
+msgid "Orchestration service"
+msgstr ""
 
 msgid "over commit"
 msgstr "überladen, Überladung"
@@ -401,6 +416,9 @@ msgstr ""
 msgid "share server"
 msgstr "Server"
 
+msgid "Shared File Systems service"
+msgstr ""
+
 msgid "shelve instance"
 msgstr ""
 
@@ -439,7 +457,7 @@ msgstr ""
 msgid "tag"
 msgstr "Schlagwort, pl. Schlagwörter"
 
-msgid "Telemetry"
+msgid "Telemetry service"
 msgstr ""
 
 msgid "template"
@@ -563,5 +581,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Compute"
+#~ msgstr ""
+
+#~ msgid "Telemetry"
 #~ msgstr ""
 
