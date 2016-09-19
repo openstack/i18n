@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Target branch: master, stable/newton, ...
-BRANCH=master
+BRANCH=stable/newton
 
 cd /opt/stack/horizon
+git checkout $BRANCH
 git remote update origin
 git merge origin/$BRANCH
 ./run_tests.sh --compilemessages -N
