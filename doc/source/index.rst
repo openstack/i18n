@@ -30,6 +30,7 @@ Contents
    i18n_team_meeting
    infra
    reviewing-translation-import
+   release_management
    about
 
 .. _label-i18n-team-contact:
