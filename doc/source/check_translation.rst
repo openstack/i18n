@@ -74,9 +74,9 @@ Running DevStack
 Another convenient way is to check dashboard translations is to run DevStack in
 your local environment. To run DevStack, you need to prepare ``local.conf``
 file, but no worries. Several ``local.conf`` files are shared on the Internet
-and an minimum example is shown below. From our experience, you need a machine
+and a minimum example is shown below. From our experience, you need a machine
 with two or four CPU cores, 8 GB memory and 20 GB disk to run DevStack
-comfortablely. If you enable just major OpenStack projects, the machine
+comfortably. If you enable just major OpenStack projects, the machine
 requirement would be much smaller like 2~4GB memory.
 
 .. code-block:: console
@@ -117,7 +117,7 @@ Replace ``$BRANCH`` with an appropriate branch such as ``master``,
 .. literalinclude:: ../../checksite/horizon-reload.sh
    :language: bash
 
-Another way is to rerun DevStack. Ensure to include ``RECLONE=True`` in
+The other way is to rerun DevStack. Ensure to include ``RECLONE=True`` in
 your ``local.conf`` before running ``stack.sh`` again so that DevStack
 retrieve the latest codes of horizon and other projects.
 

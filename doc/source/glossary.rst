@@ -10,7 +10,7 @@ Glossary of your language
 
 A glossary file of your language is found at
 ``i18n/locale/<lang>/LC_MESSAGES/i18n.po`` in the i18n repository.
-The file is an usual PO file.
+The file is a usual PO file.
 
 When you want to update a glossary of your language,
 edit a corresponding glossary file using your favorite editor and
@@ -19,7 +19,7 @@ propose a change to the Gerrit review system.
 Once your change is merged, the updated glossary will be uploaded
 to Zanata. Note that the upload to Zanata is a **manual** process now.
 Only the Zanata administrator (usually the i18n PTL and some limited folks)
-can upload an glossary. If your glossary is not uploaded, contact the i18n team
+can upload a glossary. If your glossary is not uploaded, contact the i18n team
 or the PTL via the i18n mailing list.
 
 .. note::
