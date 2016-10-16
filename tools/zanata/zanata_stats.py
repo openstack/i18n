@@ -53,16 +53,16 @@ class ZanataUtility(object):
             return raw
         except Exception as e:
             print('exception happen', e)
-            LOG.warn('Error "%(error)s" while reading uri %(uri)s',
-                     {'error': e, 'uri': uri})
+            LOG.warning('Error "%(error)s" while reading uri %(uri)s',
+                        {'error': e, 'uri': uri})
 
     def read_json_from_uri(self, uri):
         try:
             data = self.read_uri(uri, {'Accept': 'application/json'})
             return json.loads(data)
         except Exception as e:
-            LOG.warn('Error "%(error)s" parsing json from uri %(uri)s',
-                     {'error': e, 'uri': uri})
+            LOG.warning('Error "%(error)s" parsing json from uri %(uri)s',
+                        {'error': e, 'uri': uri})
 
     def zanata_get_projects(self):
         uri = ZANATA_URI % ('projects')
