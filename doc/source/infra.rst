@@ -21,15 +21,22 @@ translation results need to be pushed to the corresponding repositories.
 To find updates for both Zanata and OpenStack project repositories,
 Jenkins starts to run scripts everyday at **6:00 UTC**.
 
-Note that not all translation changes are the target for translation jobs.
-Currently, we define that the jobs only download new files that are at least
-**75 percent** translated and if files grow over time but do not get new
-translations (or strings change too much), they will be removed again from the
-project with a threshold of **20 percent**. For the glossary
-(openstack-manuals/doc/glossary) and common (openstack-manuals/doc/common)
-directories, the download limit is **8 percent** because these documents are
-large and only a part is used. The purpose of thresholds is to reduce the
-amount of patches that go into a project.
+Note that not all translation changes are the target for translation
+jobs. The goal is to have consistent translated programs, UIs, and
+documentation. There's not much sense if only a few lines are
+translated. The team has decided that files that have at least 75
+percent of messages translated will be in the git repositories.
+
+To not have too much churn and last minute string fixes lead to files
+get removed, there is also a lower threshold for releases of **66
+percent** of messages translated as policy - which is only manually
+enforced.
+
+The OpenStack infra scripts currently download new files that are at
+least **75 percent** translated and if files grow over time but do not
+get new translations (or strings change too much), they will be
+removed again automatically from the project with a lower threshold of
+currently **40 percent**.
 
 Monitoring translation jobs status
 ----------------------------------
