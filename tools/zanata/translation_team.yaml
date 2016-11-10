@@ -356,32 +356,55 @@ es:
     - travisn
 ru:
   coordinators:
+    - zloykaban
     - adiantum
+    - nsmirnov
   language:
     - Russian
   translators:
+    - aleksey
+    - anikitenkov
+    - apapsujko
     - zloykaban
     - antoniok
+    - amikhalev
     - v12aml
+    - dplakhov
+    - dmakarov
     - doug_fish
     - ftarasenko
     - sfilatov
     - mokhin2
     - adiantum
     - shakhat
+    - ikochetova
+    - ishashero
+    - istartsev
     - kzaitsev
     - lapalm
+    - mbozhenko
+    - nsmirnov
     - nburtsev
     - nmilekhin
+    - thomas_vysokos
+    - valentin
+    - vponomaryov
+    - vstepurova
+    - vsokolov
+    - yryndenkova
   reviewers:
+    - zloykaban
     - doug_fish
     - ftarasenko
     - mokhin2
     - adiantum
     - shakhat
     - kzaitsev
+    - mbozhenko
+    - nsmirnov
     - nburtsev
     - nmilekhin
+    - vponomaryov
 de:
   coordinators:
     - rsimai
