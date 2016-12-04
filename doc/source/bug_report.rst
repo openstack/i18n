@@ -1,3 +1,5 @@
+.. _reporting_translation_bugs:
+
 ==========================
 Reporting translation bugs
 ==========================
