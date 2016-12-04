@@ -71,10 +71,10 @@ repository.
 
   * Python script to setup projects for Zanata
 
-* `include-build-releasenotes.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/jobs/include-build-releasenotes.sh>`__
+* `include/build-releasenotes.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/jobs/include/build-releasenotes.sh>`__
 
   * Builds release notes in both the original (English) version and translated
     versions (if any).
 
-Note that the scripts use `zanata-cli <http://docs.zanata.org/projects/zanata-client/en/latest/>`__
+Note that the scripts use `zanata-cli <http://docs.zanata.org/projects/zanata-client/en/release>`__
 to pull and push translation content.
