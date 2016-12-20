@@ -29,6 +29,7 @@ Contents
    translation_stats
    i18n_team_meeting
    infra
+   reviewing-translation-import
    about
 
 .. _label-i18n-team-contact:
@@ -43,6 +44,8 @@ Each language team has useful information to help our translation
 efforts. It is worth visited.
 You can find your language team at
 https://wiki.openstack.org/wiki/I18nTeam/team.
+
+.. _openstack_i18n_team:
 
 OpenStack I18n team
 ~~~~~~~~~~~~~~~~~~~
