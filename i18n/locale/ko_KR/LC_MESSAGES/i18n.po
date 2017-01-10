@@ -21,7 +21,7 @@ msgid "allocate IP"
 msgstr "IP 할당"
 
 msgid "API endpoint"
-msgstr ""
+msgstr "API endpoint"
 
 msgid "architecture"
 msgstr "아키텍처"
@@ -51,7 +51,7 @@ msgid "backup"
 msgstr "백업"
 
 msgid "Bare Metal service"
-msgstr ""
+msgstr "Bare Metal 서비스"
 
 msgid "Block Storage service"
 msgstr "블록 스토리지 서비스"
@@ -75,7 +75,7 @@ msgid "cluster"
 msgstr "클러스터"
 
 msgid "comma"
-msgstr ""
+msgstr "comma"
 
 msgid "compute"
 msgstr "compute"
@@ -102,19 +102,19 @@ msgid "container format"
 msgstr "컨테이너 포맷"
 
 msgid "controller"
-msgstr ""
+msgstr "컨트롤러"
 
 msgid "credential"
 msgstr "자격 증명서"
 
 msgid "Database service"
-msgstr ""
+msgstr "데이터베이스 서비스"
 
 msgid "data processing"
 msgstr "데이터 프로세싱"
 
 msgid "Data Processing service"
-msgstr ""
+msgstr "데이터 프로세싱 서비스"
 
 msgid "destination container"
 msgstr "대상 컨테이너"
@@ -138,7 +138,7 @@ msgid "disk GB hours"
 msgstr "디스크 GB 사용 시간"
 
 msgid "distribution"
-msgstr ""
+msgstr "배포"
 
 msgid "domain"
 msgstr "도메인"
@@ -147,7 +147,7 @@ msgid "domain group"
 msgstr "도메인 그룹"
 
 msgid "environment"
-msgstr ""
+msgstr "환경"
 
 msgid "ephemeral disk"
 msgstr "ephemeral 디스크"
@@ -231,7 +231,7 @@ msgid "job template"
 msgstr "job 템플릿"
 
 msgid "key"
-msgstr ""
+msgstr "키"
 
 msgid "keypair"
 msgstr "키페어"
@@ -255,7 +255,7 @@ msgid "library"
 msgstr "라이브러리"
 
 msgid "management interface"
-msgstr ""
+msgstr "관리 인터페이스"
 
 msgid "master"
 msgstr "마스터"
@@ -264,7 +264,7 @@ msgid "member"
 msgstr "멤버"
 
 msgid "Memcached"
-msgstr ""
+msgstr "Memcached"
 
 msgid "memory"
 msgstr "메모리"
@@ -288,19 +288,19 @@ msgid "node"
 msgstr "노드"
 
 msgid "object"
-msgstr "객체"
+msgstr "오브젝트"
 
 msgid "object storage"
-msgstr ""
+msgstr "오브젝트 스토리지"
 
 msgid "Object Storage service"
-msgstr ""
+msgstr "오브젝트 스토리지 서비스"
 
 msgid "orchestration"
 msgstr "orchestration"
 
 msgid "Orchestration service"
-msgstr ""
+msgstr "Orchestration 서비스"
 
 msgid "over commit"
 msgstr "오버 커밋"
@@ -345,7 +345,7 @@ msgid "quotas"
 msgstr "quotas"
 
 msgid "raw image"
-msgstr ""
+msgstr "raw 이미지"
 
 msgid "reboot"
 msgstr "재부팅"
@@ -372,7 +372,7 @@ msgid "router"
 msgstr "라우터"
 
 msgid "section"
-msgstr ""
+msgstr "section"
 
 msgid "security group"
 msgstr "시큐리티 그룹"
@@ -393,13 +393,13 @@ msgid "share server"
 msgstr "공유 서버"
 
 msgid "Shared File Systems service"
-msgstr ""
+msgstr "공유 파일 시스템 서비스"
 
 msgid "shelve instance"
 msgstr "shelve 인스턴스"
 
 msgid "signature"
-msgstr ""
+msgstr "signature"
 
 msgid "size"
 msgstr "size"
@@ -435,7 +435,7 @@ msgid "tag"
 msgstr "태그"
 
 msgid "Telemetry service"
-msgstr ""
+msgstr "Telemetry 서비스"
 
 msgid "template"
 msgstr "템플릿"
@@ -450,7 +450,7 @@ msgid "token"
 msgstr "토큰"
 
 msgid "transfer"
-msgstr ""
+msgstr "transfer"
 
 msgid "unshelve instance"
 msgstr "unshelve 인스턴스"
