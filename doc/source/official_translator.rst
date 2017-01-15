@@ -69,9 +69,11 @@ The i18n project is an official OpenStack project, so official translators
 who have contributed in a specific period are regarded as
 "ATC" (Active Technical Contributor) and
 "APC" (Active Project Contributor) of the i18n project.
-APC can vote for the i18n PTL (Project Team Lead).
-For more detail about what ATC and APC,
-see `OpenStack Technical Committee Charter <http://governance.openstack.org/reference/charter.html>`__.
+APC can vote for the i18n PTL (Project Team Lead), and ATC
+can vote for OpenStack TC (Technical Committee).
+For more detail on ATC, APC and TC,
+see `OpenStack Technical Committee Charter
+<http://governance.openstack.org/reference/charter.html>`__.
 
 As of now, ATC of official translators are treated as extra ATCs
 as we have no way to collect statistics automatically now.
@@ -81,13 +83,20 @@ The deadline of extra ATCs nomination can be checked in the release
 schedule page at http://releases.openstack.org/ (for example,
 http://releases.openstack.org/newton/schedule.html).
 
-Currently translators who translate 300 words in the last six months
-until the deadline of extra ATCs nomination are nominated as ATCs,
-and the ATC status of translators is valid for one year.
+Currently translators who translate and/or review more than 300 words
+in the last six months until the deadline of extra ATCs nomination are
+nominated as ATCs, and the ATC status of translators is valid for one year.
 The detail period is determined by the PTL in each cycle.
 For Newton cycle, the six month period was from 2016-02-01 to 2016-07-31,
 and this ATC status will expire on July 2017 if there will be no
 additional translation contributions.
+
+.. note::
+
+   I18n PTL updates the list using Zanata API and translator list.
+   Detail statistics data is available at:
+   https://wiki.openstack.org/wiki/I18nTeam/ATC_statistics.
+
 If you have a question, feel free to ask it to the PTL or the i18n list.
 
 Note that contributors to openstack/i18n repository are acknowledged
