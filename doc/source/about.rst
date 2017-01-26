@@ -5,7 +5,7 @@ About this guide
 This page describes the conventions and tips on writing this guide itself.
 
 The guide is written in reStructuredText (RST) markup syntax with Sphinx
-extensions. Most convenstions follow
+extensions. Most conventions follow
 `those of the openstack-manuals project
 <http://docs.openstack.org/contributor-guide/rst-conv.html>`__.
 
