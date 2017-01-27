@@ -22,7 +22,7 @@ with a release schedule.
 
 .. note::
 
-    The terms in this page follows release schedule pages.
+    The terms in this page follow release schedule pages.
 
 #. [Project] Release milestone-3. ``Soft StringFreeze`` is in effect.
 #. [Translator] Start translations for the release.
