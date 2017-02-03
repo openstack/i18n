@@ -51,10 +51,8 @@ https://wiki.openstack.org/wiki/I18nTeam/team.
 OpenStack I18n team
 ~~~~~~~~~~~~~~~~~~~
 
-* Mailing List: ``openstack-i18n@lists.openstack.org``
-
-  * Logs: http://lists.openstack.org/pipermail/openstack-i18n/
-
+* Mailing List: `openstack-i18n@lists.openstack.org
+  <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`_
 * IRC channel: ``#openstack-i18n`` on freenode
 * :doc:`IRC meeting <i18n_team_meeting>`
 
