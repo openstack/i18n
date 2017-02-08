@@ -74,7 +74,7 @@ release = '1.0.0'
 #           Automatically extracted from git log.
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 # These variables are passed to the logabug code via html_context.
-giturl = u'http://git.openstack.org/cgit/openstack/i18n/tree/doc/source'
+giturl = u'https://git.openstack.org/cgit/openstack/i18n/tree/doc/source'
 git_cmd = ["/usr/bin/git", "rev-parse", "HEAD"]
 gitsha = subprocess.Popen(
     git_cmd, stdout=subprocess.PIPE).communicate()[0].strip('\n')
