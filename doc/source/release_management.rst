@@ -24,6 +24,12 @@ with a release schedule.
 
     The terms in this page follow release schedule pages.
 
+Projects affecting StringFreezes
+--------------------------------
+
+Horizon and Horizon plugins are the main targets which affect StringFreezes.
+Note that StringFreezes are applied to ``cycle-with-milestone`` release model.
+
 #. [Project] Release milestone-3. ``Soft StringFreeze`` is in effect.
 #. [Translator] Start translations for the release.
 
@@ -81,3 +87,27 @@ with a release schedule.
 #. If there is a translation bug on a stable version in Zanata,
    it is highly recommended to fix the same translation bug on the
    corresponding string in the master version.
+
+Documentation projects
+----------------------
+
+All upstream OpenStack documents in ``openstack-manuals`` and project
+repositories use ``master`` branch and can have stable branches depending
+on release models and maintaining documents in different project teams.
+Cross-project liaisons are strongly encouraged to communiticate with I18n
+team so that I18n team can discuss and decide which stable documents are
+the target in I18n team and when translators start to translate stable
+documents.
+
+#. Translations on master version in Zanata are normally recommended for
+   upstream contribution.
+
+#. After the documents are translated and reviewed well, updating
+   existing ``www/<lang>/index.html`` or creating a new language landing
+   page is needed.
+
+Other projects supported with translation jobs
+----------------------------------------------
+
+I18n team helps release activities on other projects if the projects have
+cross-project liaison on I18n team and upon request.
