@@ -61,7 +61,7 @@ OpenStack Dashboard
 Translation check site
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The infra and i18n teams are preparing the translation check site
+The Infrastructure and I18n teams are preparing the translation check site
 to check dashboard translations. It is under preparation.
 
 .. note::

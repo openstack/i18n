@@ -62,14 +62,14 @@ finish following steps:
    by contributing translations.
    You can find :doc:`various ways of contributions <contributing>`.
 
-ATC status in i18n project
+ATC status in I18n project
 --------------------------
 
-The i18n project is an official OpenStack project, so official translators
+The I18n project is an official OpenStack project, so official translators
 who have contributed in a specific period are regarded as
 "ATC" (Active Technical Contributor) and
-"APC" (Active Project Contributor) of the i18n project.
-APC can vote for the i18n PTL (Project Team Lead), and ATC
+"APC" (Active Project Contributor) of the I18n project.
+APC can vote for the I18n PTL (Project Team Lead), and ATC
 can vote for OpenStack TC (Technical Committee).
 For more detail on ATC, APC and TC,
 see `OpenStack Technical Committee Charter

@@ -18,8 +18,8 @@ propose a change to the Gerrit review system.
 
 Once your change is merged, the updated glossary will be uploaded
 to Zanata. Note that the upload to Zanata is a **manual** process now.
-Only the Zanata administrator (usually the i18n PTL and some limited folks)
-can upload a glossary. If your glossary is not uploaded, contact the i18n team
+Only the Zanata administrator (usually the I18n PTL and some limited folks)
+can upload a glossary. If your glossary is not uploaded, contact the I18n team
 or the PTL via the i18n mailing list.
 
 .. note::

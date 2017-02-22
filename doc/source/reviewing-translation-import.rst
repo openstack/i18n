@@ -33,7 +33,7 @@ Reviewing
 If you are reviewing these translations, keep the following in mind:
 
 * The change is done by a bot. If anything looks wrong with it, you
-  need to actively reach out to the :ref:`OpenStack i18n team
+  need to actively reach out to the :ref:`OpenStack I18n team
   <openstack_i18n_team>` and point the problem out.
 * The goal of the review is that the structure of the change is fine,
   it's not that the strings are translated properly. The review of
