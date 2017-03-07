@@ -122,10 +122,7 @@ def collect_zanata_language_and_members():
                 languages[language][role] = list()
             languages[language][role].append(user_id)
 
-    sorted_key = sorted(languages, reverse=True,
-                        # Need to consider a case where no tranlators in a team
-                        key=lambda k: len(languages[k].get('translators', [])))
-    result = OrderedDict((k, languages[k]) for k in sorted_key)
+    result = OrderedDict((k, languages[k]) for k in sorted(languages))
     return result
 
 
