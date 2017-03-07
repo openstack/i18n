@@ -1,0 +1,5 @@
+beautifulsoup4  # MIT
+oslo.log>=3.11.0  # Apache-2.0
+requests>=2.10.0,!=2.12.2,!=2.13.0  # Apache-2.0
+six>=1.9.0  # MIT
+PyYAML>=3.10.0  # MIT
