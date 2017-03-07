@@ -111,9 +111,8 @@ def _make_user(user_id, language_code):
     return {
         'user_id': user_id,
         'lang': language_code,
-        'translated': 0,
-        'approved': 0,
-        'rejected': 0
+        'translation-stats': {},
+        'review-stats': {},
     }
 
 
@@ -141,7 +140,8 @@ def read_language_team_yaml(translation_team_uri, lang_list):
     return language_teams
 
 
-def get_zanata_stats(start_date, end_date, language_teams, project_list):
+def get_zanata_stats(start_date, end_date, language_teams, project_list,
+                     version_list, user_list):
     print('Getting Zanata contributors statistics (from %s to %s) ...' %
           (start_date, end_date))
     zanataUtil = ZanataUtility()
@@ -155,7 +155,11 @@ def get_zanata_stats(start_date, end_date, language_teams, project_list):
         project_list = zanataUtil.zanata_get_projects()
     for project_id in project_list:
         for version in zanataUtil.zanata_get_project_versions(project_id):
+            if version_list and version not in version_list:
+                continue
             for user_id in users:
+                if user_list and user_id not in user_list:
+                    continue
                 user = users.get(user_id)
                 print('Getting %(project_id)s %(version)s '
                       'for user %(user_id)s %(user_lang)s'
@@ -165,15 +169,47 @@ def get_zanata_stats(start_date, end_date, language_teams, project_list):
                          'user_lang': user['lang']})
                 statisticdata = zanataUtil.zanata_get_user_stats(
                     project_id, version, user_id, start_date, end_date)
+                print('Got: %s' % statisticdata)
                 if statisticdata:
-                    user_contributes = statisticdata[user_id]
-                    if (user['lang'] in user_contributes):
-                        user_stat = user_contributes[user['lang']]
-                        user['translated'] += int(user_stat['translated'])
-                        user['approved'] += int(user_stat['approved'])
-                        user['rejected'] += int(user_stat['rejected'])
+                    user_stats = parse_user_stat(statisticdata, user)
+                    if user_stats:
+                        user.update(user_stats)
+                print('=> %s' % user)
 
     return users
+
+
+def parse_user_stat(stats, user):
+    # data format (Zanata 3.9.6)
+    # {
+    #     "username": "amotoki",
+    #     "contributions": [
+    #         {
+    #             "locale": "ja",
+    #             "translation-stats": {
+    #                 "translated": 7360,
+    #                 "needReview": 0,
+    #                 "approved": 152,
+    #                 "rejected": 0
+    #             },
+    #             "review-stats": {
+    #                 "approved": 220,
+    #                 "rejected": 0
+    #             }
+    #         }
+    #     ]
+    # }
+    stat = [d for d in stats['contributions']
+            if d['locale'] == user['lang']]
+    if stat:
+        stat = stat[0]
+        if 'translation-stats' in stat:
+            stat['translation-stats']['total'] = \
+                sum(stat['translation-stats'].values())
+        if 'review-stats' in stat:
+            stat['review-stats']['total'] = \
+                sum(stat['review-stats'].values())
+        return stat
 
 
 def write_stats_to_file(users, output_file, file_format,
@@ -191,7 +227,7 @@ def write_stats_to_file(users, output_file, file_format,
 def _needs_output(include_no_activities, user):
     if include_no_activities:
         return True
-    elif user['translated'] or user['approved'] or user['rejected']:
+    elif user['translation-stats'] or user['review-stats']:
         return True
     else:
         return False
@@ -200,12 +236,28 @@ def _needs_output(include_no_activities, user):
 def _write_stats_to_csvfile(stats, output_file):
     with open(output_file, 'wb') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['user_id', 'lang',
-                         'translated', 'approved', 'rejected'])
+        writer.writerow(['user_id',
+                         'lang',
+                         'translation-total',
+                         'translated',
+                         'needReview',
+                         'approved',
+                         'rejected',
+                         'review-total',
+                         'review-approved',
+                         'review-rejected'])
         for stat in stats:
-            writer.writerow([stat['user_id'], stat['lang'],
-                             stat['translated'], stat['approved'],
-                             stat['rejected']])
+            writer.writerow([stat['user_id'],
+                             stat['lang'],
+                             stat['translation-stats'].get('total', 0),
+                             stat['translation-stats'].get('translated', 0),
+                             stat['translation-stats'].get('needReview', 0),
+                             stat['translation-stats'].get('approved', 0),
+                             stat['translation-stats'].get('rejected', 0),
+                             stat['review-stats'].get('total', 0),
+                             stat['review-stats'].get('approved', 0),
+                             stat['review-stats'].get('rejected', 0),
+                             ])
 
 
 def _write_stats_to_jsonfile(stats, output_file):
@@ -245,6 +297,15 @@ def main():
                         help=("Specify language(s). Comma-separated list. "
                               "Language code like zh-CN, ja needs to be used. "
                               "Otherwise all languages are processed."))
+    parser.add_argument("-t", "--target-version",
+                        type=_comma_separated_list,
+                        help=("Specify version(s). Comma-separated list. "
+                              "Otherwise all available versions are "
+                              "processed."))
+    parser.add_argument("-u", "--user",
+                        type=_comma_separated_list,
+                        help=("Specify user(s). Comma-separated list. "
+                              "Otherwise all users are processed."))
     parser.add_argument("--include-no-activities",
                         action='store_true',
                         help=("If specified, stats for users with no "
@@ -260,8 +321,10 @@ def main():
 
     language_teams = read_language_team_yaml(options.user_yaml, options.lang)
 
+    versions = [v.replace('/', '-') for v in options.target_version or []]
     users = get_zanata_stats(options.start_date, options.end_date,
-                             language_teams, options.project)
+                             language_teams, options.project,
+                             versions, options.user)
 
     output_file = (options.output_file or
                    'zanata_stats_output.%s' % options.format)
