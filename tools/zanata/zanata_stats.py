@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from __future__ import print_function
+
 import argparse
 import csv
 import datetime
@@ -24,6 +26,7 @@ import re
 import sys
 
 from oslo_log import log as logging
+import requests
 import six
 import yaml
 
@@ -46,11 +49,8 @@ class ZanataUtility(object):
     def read_uri(self, uri, headers):
         try:
             headers['User-Agent'] = random.choice(ZanataUtility.user_agents)
-            req = six.moves.urllib.request.Request(url=uri, headers=headers)
-            fd = six.moves.urllib.request.urlopen(req)
-            raw = fd.read()
-            fd.close()
-            return raw
+            req = requests.get(uri, headers=headers)
+            return req.text
         except Exception as e:
             print('exception happen', e)
             LOG.warning('Error "%(error)s" while reading uri %(uri)s',
@@ -234,7 +234,8 @@ def _needs_output(include_no_activities, user):
 
 
 def _write_stats_to_csvfile(stats, output_file):
-    with open(output_file, 'wb') as csvfile:
+    mode = 'w' if six.PY3 else 'wb'
+    with open(output_file, mode) as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['user_id',
                          'lang',
