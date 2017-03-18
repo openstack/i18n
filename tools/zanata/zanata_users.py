@@ -48,17 +48,13 @@ class ZanataUtility(object):
             .findAll('li', {'class': 'l--pad-all-quarter'})
 
         for user in users:
-            span_txt = user.find('span', {'class': 'list__item__meta'}).text
-            user_id = span_txt.lstrip().rstrip()
+            user_id = user.find('a').text.strip()
 
-            roles = user.find('ul', {'class': 'list--horizontal'}) \
-                .findAll('li')
+            roles_tag = user.find('ul', {'class': 'list--horizontal'}) \
+                .find('li')
+            roles = roles_tag.text.strip().split(', ')
 
-            for role in roles:
-                role_name = role.text.lstrip().rstrip()
-                role_status = role.find('i')['class'][1]
-                if role_status != 'i--checkmark':
-                    continue
+            for role_name in roles:
                 yield role_name, user_id
 
     def get_languages(self):
@@ -104,7 +100,7 @@ def convert_role_name(role):
         'Reviewer': 'reviewers',
         'Coordinator': 'coordinators'
     }
-    return roles[role] if role in roles else None
+    return roles.get(role)
 
 
 def collect_zanata_language_and_members():
@@ -118,7 +114,7 @@ def collect_zanata_language_and_members():
         member_url = languages[language].pop('member_url')
         for role, user_id in zanata.iter_language_members(member_url):
             role = convert_role_name(role)
-            if role is None:
+            if not role:
                 print('[Warn] Unknown role : %s' % role)
                 continue
 
@@ -127,7 +123,8 @@ def collect_zanata_language_and_members():
             languages[language][role].append(user_id)
 
     sorted_key = sorted(languages, reverse=True,
-                        key=lambda k: len(languages[k]['translators']))
+                        # Need to consider a case where no tranlators in a team
+                        key=lambda k: len(languages[k].get('translators', [])))
     result = OrderedDict((k, languages[k]) for k in sorted_key)
     return result
 
