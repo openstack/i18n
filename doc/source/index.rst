@@ -2,6 +2,10 @@
 OpenStack I18n Guide
 ====================
 
+.. figure:: ../../resources/mascot/I18n_horizontal.png
+   :alt: OpenStack i18n mascot
+   :width: 50%
+
 Internationalization (I18n) is essential to make OpenStack ubiquitous.
 The mission of OpenStack I18n team is to make OpenStack
 ubiquitously accessible to people of all language backgrounds,
