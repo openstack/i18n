@@ -78,7 +78,10 @@ class ZanataUtility(object):
 
             languages[language_meta] = {
                 'language': language,
-                'member_url': member_url
+                'member_url': member_url,
+                'coordinators': [],
+                'reviewers': [],
+                'translators': [],
             }
         return languages
 
@@ -118,9 +121,10 @@ def collect_zanata_language_and_members():
                 print('[Warn] Unknown role : %s' % role)
                 continue
 
-            if role not in languages[language]:
-                languages[language][role] = list()
             languages[language][role].append(user_id)
+            if role == 'coordinators':
+                languages[language]['translators'].append(user_id)
+                languages[language]['reviewers'].append(user_id)
 
     result = OrderedDict((k, languages[k]) for k in sorted(languages))
     return result
