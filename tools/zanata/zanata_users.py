@@ -85,10 +85,6 @@ class ZanataUtility(object):
 
 def save_to_yaml(data, output_file):
     with open(output_file, 'w') as out:
-        out.write("# Use the order of Zanata language team info.\n")
-        out.write("# Do not use the alphabetical order to make the "
-                  "maitenance easier.\n")
-
         for (k, v) in data.items():
             yaml.safe_dump({k: v}, out, allow_unicode=True, indent=4,
                            encoding='utf-8', default_flow_style=False)
