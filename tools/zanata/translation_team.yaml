@@ -1,5 +1,675 @@
-# Use the order of Zanata language team info.
-# Do not use the alphabetical order to make the maitenance easier.
+Ro:
+    coordinators:
+    - cira
+    language: Romanian
+    reviewers:
+    - cira
+    translators:
+    - cira
+Th:
+    coordinators:
+    - sawangpong
+    language: Thai
+    reviewers:
+    - phithak
+    - sawangpong
+    translators:
+    - phithak
+    - sawangpong
+ar:
+    coordinators:
+    - daisyycguo
+    language: Arabic
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+    - synax
+as:
+    coordinators:
+    - daisyycguo
+    language: Assamese
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+bg-BG:
+    language: Bulgarian (Bulgaria)
+    reviewers:
+    - gomarivera
+    translators:
+    - gomarivera
+bn-IN:
+    coordinators:
+    - daisyycguo
+    language: Bengali (India)
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+brx:
+    coordinators:
+    - daisyycguo
+    language: Bodo
+    translators:
+    - 0ppinkuu0
+ca:
+    coordinators:
+    - daisyycguo
+    - ealcaniz
+    language: Catalan
+    reviewers:
+    - ealcaniz
+    translators:
+    - ealcaniz
+    - iranzo
+    - '1974'
+cs:
+    coordinators:
+    - onovy
+    language: Czech
+    reviewers:
+    - danys
+    - lenkahusakova
+    - onovy
+    - stanislavulrych
+    - tsbook
+    translators:
+    - danys
+    - lenkahusakova
+    - onovy
+    - stanislavulrych
+    - tsbook
+de:
+    coordinators:
+    - jaegerandi
+    - rsimai
+    language: German
+    reviewers:
+    - cduch
+    - eumel8
+    - vcomas3
+    - rsimai
+    - senk
+    translators:
+    - loewal
+    - jaegerandi
+    - cduch
+    - wall_dirk
+    - atalanttore
+    - eblock
+    - eumel8
+    - lstemmle
+    - vcomas3
+    - spielkind
+    - rsimai
+    - senk
+    - tjcocozz
+el:
+    coordinators:
+    - iosifidis
+    language: Greek
+    reviewers:
+    - iosifidis
+    translators:
+    - iosifidis
+en-AU:
+    coordinators:
+    - fifieldt
+    language: English (Australia)
+    translators:
+    - fifieldt
+en-GB:
+    coordinators:
+    - andibing
+    - fifieldt
+    language: English (United Kingdom)
+    reviewers:
+    - andibing
+    - ealcaniz
+    - robcresswell
+    - fifieldt
+    translators:
+    - andibing
+    - ealcaniz
+    - nmadhok
+    - robcresswell
+    - fifieldt
+es:
+    coordinators:
+    - ealcaniz
+    - mariantb
+    language: Spanish
+    reviewers:
+    - camunoz
+    - ealcaniz
+    - eugeniato
+    - gerrivera
+    - geguileo
+    - porrua
+    - mariantb
+    - gomarivera
+    - pcaruana
+    - pnavarro
+    - tjcocozz
+    - travisn
+    translators:
+    - hybridpollo
+    - albertomolina
+    - camunoz
+    - ediardo
+    - ealcaniz
+    - egongu90
+    - toxickore
+    - eugeniato
+    - gerrivera
+    - gguerrer
+    - josemhb
+    - porrua
+    - mariantb
+    - pabs
+    - gomarivera
+    - pcaruana
+    - iranzo
+    - pnavarro
+    - tjcocozz
+    - travisn
+    - vresy
+es-MX:
+    coordinators:
+    - heleno_jimenez
+    language: Spanish (Mexico)
+    reviewers:
+    - heleno_jimenez
+    - sergioerazo
+    translators:
+    - toxickore
+    - zerick
+    - heleno_jimenez
+    - sergioerazo
+fi-FI:
+    coordinators:
+    - daisyycguo
+    language: Finnish (Finland)
+    reviewers:
+    - daisyycguo
+    - twillber
+    translators:
+    - daisyycguo
+    - nuyori
+    - twillber
+fil:
+    coordinators:
+    - daisyycguo
+    language: Filipino
+    reviewers:
+    - daisyycguo
+    - earlvillanueva
+    translators:
+    - daisyycguo
+    - earlvillanueva
+fr:
+    coordinators:
+    - jftalta
+    - zigmax
+    - gonarys
+    language: French
+    reviewers:
+    - adri2000
+    - angelique_pillal16
+    - liced
+    - croe
+    - corin
+    - seveillard
+    - flowalrave
+    - fdotfr
+    - pat
+    - glacoste_16
+    - jftalta
+    - kodokuu
+    - didier
+    - mmarin
+    - zigmax
+    - obuisson
+    - paulgonin
+    - romainsc
+    - gonarys
+    - henris
+    - sylvie_chesneau
+    - ygbo
+    translators:
+    - adri2000
+    - alexisc
+    - nokostya
+    - angelique_pillal16
+    - benjamin_ach
+    - girardc
+    - liced
+    - croe
+    - corin
+    - seveillard
+    - flowalrave
+    - fdotfr
+    - gael__
+    - pat
+    - glacoste_16
+    - benjamin
+    - geraldlonlas
+    - jftalta
+    - jfenal
+    - kodokuu
+    - didier
+    - sitle
+    - ciello89
+    - mmarin
+    - zigmax
+    - nikoul
+    - obuisson
+    - oussemos
+    - paulgonin
+    - romainsc
+    - gonarys
+    - henris
+    - eouzans
+    - sylvie_chesneau
+    - tjcocozz
+    - ygbo
+he:
+    coordinators:
+    - daisyycguo
+    language: Hebrew
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+hi:
+    coordinators:
+    - chandankumar
+    language: Hindi
+    reviewers:
+    - chandankumar
+    translators:
+    - chandankumar
+hu:
+    coordinators:
+    - gergelys
+    - marcus
+    - szilvia
+    language: Hungarian
+    reviewers:
+    - gergelys
+    - marcus
+    - szilvia
+    translators:
+    - gergelys
+    - marcus
+    - szilvia
+id:
+    coordinators:
+    - daisyycguo
+    - seketika
+    language: Indonesian
+    reviewers:
+    - seketika
+    - suhartono
+    translators:
+    - seketika
+    - suhartono
+it:
+    coordinators:
+    - itlinux
+    language: Italian
+    reviewers:
+    - alessandra
+    - faber66
+    - miumiento
+    - matgand
+    - itlinux
+    translators:
+    - alessandra
+    - dynarro
+    - fpezzell
+    - faber66
+    - miumiento
+    - matgand
+    - itlinux
+    - tjcocozz
+    - uboscolo
+ja:
+    coordinators:
+    - to222
+    language: Japanese
+    reviewers:
+    - amotoki
+    - yosshy
+    - to222
+    - myamamot
+    - ykatabam
+    translators:
+    - amotoki
+    - yosshy
+    - nanodayo
+    - ha_miyamoto
+    - haruki
+    - otsuka
+    - hidekazuna
+    - to222
+    - ken_ishii
+    - sasukeh
+    - macjack
+    - mariojv
+    - masmiyam
+    - mmasaki
+    - myamamot
+    - nerzie
+    - adocmember
+    - noriko
+    - yuanying
+    - sakaryo
+    - sayako
+    - ststake
+    - shinya_kwbt
+    - shu
+    - tmatsu
+    - makita
+    - tjcocozz
+    - fifieldt
+    - tomoki_amano
+    - tomono_n
+    - tsutomu_kimura
+    - yeguchi
+    - yukinori_yagisawa
+    - ykatabam
+    - yogawa
+    - yusuke1219
+    - yuta_hono
+    - riku_kobane
+    - masami_sasahara
+ka-GE:
+    coordinators:
+    - daisyycguo
+    language: Georgian (Georgia)
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+kn:
+    coordinators:
+    - daisyycguo
+    - kingkhan
+    language: Kannada
+    reviewers:
+    - kingkhan
+    translators:
+    - kingkhan
+    - sharathrao
+ko-KR:
+    coordinators:
+    - ujuc
+    language: Korean (South Korea)
+    reviewers:
+    - ianychoi
+    - kiseok7
+    - ujuc
+    translators:
+    - youli
+    - gemma
+    - dbgong
+    - chuinggun
+    - eukim
+    - vi01et
+    - jazzsir
+    - gyahoo617
+    - betorvalds
+    - openstack
+    - ianychoi
+    - takowasabi
+    - hyangii
+    - jaygtv
+    - whitekjs
+    - jennie
+    - chasetherabbit
+    - joohong
+    - jitaejang
+    - gojun077
+    - jsshin
+    - choipro14
+    - ryan
+    - powhapki
+    - kiseok7
+    - kiras11
+    - kepark07
+    - leegy1
+    - lapalm
+    - macjack
+    - choi
+    - naleejang
+    - nicholas_hpark
+    - raymon_ha
+    - nexusz99
+    - seungkyu
+    - seyeon
+    - seonhopark
+    - ujuc
+    - allen1222
+    - frontjang
+    - intensify
+    - janghe11
+    - thnam
+    - muhanpong
+    - wonki
+    - gigsda
+    - chancethecoder
+    - koain
+lo:
+    coordinators:
+    - saikeo
+    language: Lao
+    reviewers:
+    - saikeo
+    translators:
+    - saikeo
+mr:
+    language: Marathi
+    translators:
+    - chandrakantd
+ne:
+    coordinators:
+    - daisyycguo
+    - surit
+    language: Nepali
+    reviewers:
+    - daisyycguo
+    - surit
+    translators:
+    - daisyycguo
+    - surit
+nl-NL:
+    coordinators:
+    - daisyycguo
+    language: Dutch (Netherlands)
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+    - jsheeren
+pa-IN:
+    coordinators:
+    - aalam
+    - jimidar
+    language: Punjabi (India)
+    reviewers:
+    - aalam
+    - jimidar
+    translators:
+    - aalam
+    - achhabra
+    - jimidar
+    - nmadhok
+pl-PL:
+    coordinators:
+    - deejay1
+    language: Polish (Poland)
+    reviewers:
+    - deejay1
+    translators:
+    - deejay1
+pt:
+    coordinators:
+    - daisyycguo
+    language: Portuguese
+    reviewers:
+    - daisyycguo
+    translators:
+    - nokostya
+    - daisyycguo
+pt-BR:
+    coordinators:
+    - gabrielcw
+    - marcelodieder
+    language: Portuguese (Brazil)
+    reviewers:
+    - hubner
+    - marquesc
+    - fcpimenta
+    - gabrielcw
+    - lucasagomes
+    - marcelodieder
+    - raildomascena
+    - raquellira
+    translators:
+    - dritec
+    - hubner
+    - nokostya
+    - andrecampos
+    - marquesc
+    - diegodalmolin
+    - mrbits
+    - ericbaum
+    - fcpimenta
+    - gabrielcw
+    - gustavor
+    - josemello
+    - lucasagomes
+    - lapalm
+    - lveneziano
+    - marcelodieder
+    - tenoriomarcus
+    - mariaandrada
+    - raildomascena
+    - raquellira
+    - remingtonsb
+    - renatolipi
+    - melotto
+    - rgmorales
+    - rbraga
+    - saimonsp
+    - sanporci
+    - weyderfs
+    - williandrade
+ru:
+    coordinators:
+    - zloykaban
+    - adiantum
+    - nsmirnov
+    language: Russian
+    reviewers:
+    - zloykaban
+    - doug_fish
+    - ftarasenko
+    - mokhin2
+    - adiantum
+    - shakhat
+    - kzaitsev
+    - mbozhenko
+    - nsmirnov
+    - nburtsev
+    - nmilekhin
+    - vponomaryov
+    translators:
+    - aleksey
+    - anikitenkov
+    - apapsujko
+    - zloykaban
+    - antoniok
+    - amikhalev
+    - v12aml
+    - dplakhov
+    - dmakarov
+    - doug_fish
+    - ftarasenko
+    - sfilatov
+    - mokhin2
+    - adiantum
+    - shakhat
+    - ikochetova
+    - ivan_krasilich
+    - ishashero
+    - istartsev
+    - kzaitsev
+    - lapalm
+    - mbozhenko
+    - nsmirnov
+    - nburtsev
+    - nmilekhin
+    - oleg_myakinkiy
+    - thomas_vysokos
+    - valentin
+    - vponomaryov
+    - vstepurova
+    - vsokolov
+    - vsevolod_ivaschenko
+    - yryndenkova
+    - yuliya_sendetskaya
+sl-SI:
+    coordinators:
+    - daisyycguo
+    language: Slovenian (Slovenia)
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+sr:
+    coordinators:
+    - daisyycguo
+    language: Serbian
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
+te-IN:
+    coordinators:
+    - komatineni
+    language: Telugu (India)
+    reviewers:
+    - komatineni
+    translators:
+    - komatineni
+tr-TR:
+    coordinators:
+    - mucahit
+    language: Turkish (Turkey)
+    reviewers:
+    - duyarli
+    - halit
+    - isbaran
+    - mucahit
+    - oguzy
+    translators:
+    - doug_fish
+    - duyarli
+    - halit
+    - isbaran
+    - mucahit
+    - oguzy
+vi-VN:
+    coordinators:
+    - daisyycguo
+    language: Vietnamese (Vietnam)
+    reviewers:
+    - daisyycguo
+    translators:
+    - daisyycguo
 zh-CN:
     coordinators:
     - aeng
@@ -109,278 +779,6 @@ zh-CN:
     - zzxwill
     - domine
     - johnwoo_lee
-ko-KR:
-    coordinators:
-    - ujuc
-    language: Korean (South Korea)
-    reviewers:
-    - ianychoi
-    - kiseok7
-    - ujuc
-    translators:
-    - youli
-    - gemma
-    - dbgong
-    - chuinggun
-    - eukim
-    - vi01et
-    - jazzsir
-    - gyahoo617
-    - betorvalds
-    - openstack
-    - ianychoi
-    - takowasabi
-    - hyangii
-    - jaygtv
-    - whitekjs
-    - jennie
-    - chasetherabbit
-    - joohong
-    - jitaejang
-    - gojun077
-    - jsshin
-    - choipro14
-    - ryan
-    - powhapki
-    - kiseok7
-    - kiras11
-    - kepark07
-    - leegy1
-    - lapalm
-    - macjack
-    - choi
-    - naleejang
-    - nicholas_hpark
-    - raymon_ha
-    - nexusz99
-    - seungkyu
-    - seyeon
-    - seonhopark
-    - ujuc
-    - allen1222
-    - frontjang
-    - intensify
-    - janghe11
-    - thnam
-    - muhanpong
-    - wonki
-    - gigsda
-    - chancethecoder
-    - koain
-ja:
-    coordinators:
-    - to222
-    language: Japanese
-    reviewers:
-    - amotoki
-    - yosshy
-    - to222
-    - myamamot
-    - ykatabam
-    translators:
-    - amotoki
-    - yosshy
-    - nanodayo
-    - ha_miyamoto
-    - haruki
-    - otsuka
-    - hidekazuna
-    - to222
-    - ken_ishii
-    - sasukeh
-    - macjack
-    - mariojv
-    - masmiyam
-    - mmasaki
-    - myamamot
-    - nerzie
-    - adocmember
-    - noriko
-    - yuanying
-    - sakaryo
-    - sayako
-    - ststake
-    - shinya_kwbt
-    - shu
-    - tmatsu
-    - makita
-    - tjcocozz
-    - fifieldt
-    - tomoki_amano
-    - tomono_n
-    - tsutomu_kimura
-    - yeguchi
-    - yukinori_yagisawa
-    - ykatabam
-    - yogawa
-    - yusuke1219
-    - yuta_hono
-    - riku_kobane
-    - masami_sasahara
-fr:
-    coordinators:
-    - jftalta
-    - zigmax
-    - gonarys
-    language: French
-    reviewers:
-    - adri2000
-    - angelique_pillal16
-    - liced
-    - croe
-    - corin
-    - seveillard
-    - flowalrave
-    - fdotfr
-    - pat
-    - glacoste_16
-    - jftalta
-    - kodokuu
-    - didier
-    - mmarin
-    - zigmax
-    - obuisson
-    - paulgonin
-    - romainsc
-    - gonarys
-    - henris
-    - sylvie_chesneau
-    - ygbo
-    translators:
-    - adri2000
-    - alexisc
-    - nokostya
-    - angelique_pillal16
-    - benjamin_ach
-    - girardc
-    - liced
-    - croe
-    - corin
-    - seveillard
-    - flowalrave
-    - fdotfr
-    - gael__
-    - pat
-    - glacoste_16
-    - benjamin
-    - geraldlonlas
-    - jftalta
-    - jfenal
-    - kodokuu
-    - didier
-    - sitle
-    - ciello89
-    - mmarin
-    - zigmax
-    - nikoul
-    - obuisson
-    - oussemos
-    - paulgonin
-    - romainsc
-    - gonarys
-    - henris
-    - eouzans
-    - sylvie_chesneau
-    - tjcocozz
-    - ygbo
-ru:
-    coordinators:
-    - zloykaban
-    - adiantum
-    - nsmirnov
-    language: Russian
-    reviewers:
-    - zloykaban
-    - doug_fish
-    - ftarasenko
-    - mokhin2
-    - adiantum
-    - shakhat
-    - kzaitsev
-    - mbozhenko
-    - nsmirnov
-    - nburtsev
-    - nmilekhin
-    - vponomaryov
-    translators:
-    - aleksey
-    - anikitenkov
-    - apapsujko
-    - zloykaban
-    - antoniok
-    - amikhalev
-    - v12aml
-    - dplakhov
-    - dmakarov
-    - doug_fish
-    - ftarasenko
-    - sfilatov
-    - mokhin2
-    - adiantum
-    - shakhat
-    - ikochetova
-    - ivan_krasilich
-    - ishashero
-    - istartsev
-    - kzaitsev
-    - lapalm
-    - mbozhenko
-    - nsmirnov
-    - nburtsev
-    - nmilekhin
-    - oleg_myakinkiy
-    - thomas_vysokos
-    - valentin
-    - vponomaryov
-    - vstepurova
-    - vsokolov
-    - vsevolod_ivaschenko
-    - yryndenkova
-    - yuliya_sendetskaya
-pt-BR:
-    coordinators:
-    - gabrielcw
-    - marcelodieder
-    language: Portuguese (Brazil)
-    reviewers:
-    - hubner
-    - marquesc
-    - fcpimenta
-    - gabrielcw
-    - lucasagomes
-    - marcelodieder
-    - raildomascena
-    - raquellira
-    translators:
-    - dritec
-    - hubner
-    - nokostya
-    - andrecampos
-    - marquesc
-    - diegodalmolin
-    - mrbits
-    - ericbaum
-    - fcpimenta
-    - gabrielcw
-    - gustavor
-    - josemello
-    - lucasagomes
-    - lapalm
-    - lveneziano
-    - marcelodieder
-    - tenoriomarcus
-    - mariaandrada
-    - raildomascena
-    - raquellira
-    - remingtonsb
-    - renatolipi
-    - melotto
-    - rgmorales
-    - rbraga
-    - saimonsp
-    - sanporci
-    - weyderfs
-    - williandrade
 zh-TW:
     coordinators:
     - ccheng
@@ -426,403 +824,3 @@ zh-TW:
     - max821214
     - starbops
     - zero00072
-es:
-    coordinators:
-    - ealcaniz
-    - mariantb
-    language: Spanish
-    reviewers:
-    - camunoz
-    - ealcaniz
-    - eugeniato
-    - gerrivera
-    - geguileo
-    - porrua
-    - mariantb
-    - gomarivera
-    - pcaruana
-    - pnavarro
-    - tjcocozz
-    - travisn
-    translators:
-    - hybridpollo
-    - albertomolina
-    - camunoz
-    - ediardo
-    - ealcaniz
-    - egongu90
-    - toxickore
-    - eugeniato
-    - gerrivera
-    - gguerrer
-    - josemhb
-    - porrua
-    - mariantb
-    - pabs
-    - gomarivera
-    - pcaruana
-    - iranzo
-    - pnavarro
-    - tjcocozz
-    - travisn
-    - vresy
-de:
-    coordinators:
-    - jaegerandi
-    - rsimai
-    language: German
-    reviewers:
-    - cduch
-    - eumel8
-    - vcomas3
-    - rsimai
-    - senk
-    translators:
-    - loewal
-    - jaegerandi
-    - cduch
-    - wall_dirk
-    - atalanttore
-    - eblock
-    - eumel8
-    - lstemmle
-    - vcomas3
-    - spielkind
-    - rsimai
-    - senk
-    - tjcocozz
-it:
-    coordinators:
-    - itlinux
-    language: Italian
-    reviewers:
-    - alessandra
-    - faber66
-    - miumiento
-    - matgand
-    - itlinux
-    translators:
-    - alessandra
-    - dynarro
-    - fpezzell
-    - faber66
-    - miumiento
-    - matgand
-    - itlinux
-    - tjcocozz
-    - uboscolo
-tr-TR:
-    coordinators:
-    - mucahit
-    language: Turkish (Turkey)
-    reviewers:
-    - duyarli
-    - halit
-    - isbaran
-    - mucahit
-    - oguzy
-    translators:
-    - doug_fish
-    - duyarli
-    - halit
-    - isbaran
-    - mucahit
-    - oguzy
-cs:
-    coordinators:
-    - onovy
-    language: Czech
-    reviewers:
-    - danys
-    - lenkahusakova
-    - onovy
-    - stanislavulrych
-    - tsbook
-    translators:
-    - danys
-    - lenkahusakova
-    - onovy
-    - stanislavulrych
-    - tsbook
-en-GB:
-    coordinators:
-    - andibing
-    - fifieldt
-    language: English (United Kingdom)
-    reviewers:
-    - andibing
-    - ealcaniz
-    - robcresswell
-    - fifieldt
-    translators:
-    - andibing
-    - ealcaniz
-    - nmadhok
-    - robcresswell
-    - fifieldt
-pa-IN:
-    coordinators:
-    - aalam
-    - jimidar
-    language: Punjabi (India)
-    reviewers:
-    - aalam
-    - jimidar
-    translators:
-    - aalam
-    - achhabra
-    - jimidar
-    - nmadhok
-es-MX:
-    coordinators:
-    - heleno_jimenez
-    language: Spanish (Mexico)
-    reviewers:
-    - heleno_jimenez
-    - sergioerazo
-    translators:
-    - toxickore
-    - zerick
-    - heleno_jimenez
-    - sergioerazo
-ca:
-    coordinators:
-    - daisyycguo
-    - ealcaniz
-    language: Catalan
-    reviewers:
-    - ealcaniz
-    translators:
-    - ealcaniz
-    - iranzo
-    - '1974'
-hu:
-    coordinators:
-    - gergelys
-    - marcus
-    - szilvia
-    language: Hungarian
-    reviewers:
-    - gergelys
-    - marcus
-    - szilvia
-    translators:
-    - gergelys
-    - marcus
-    - szilvia
-fi-FI:
-    coordinators:
-    - daisyycguo
-    language: Finnish (Finland)
-    reviewers:
-    - daisyycguo
-    - twillber
-    translators:
-    - daisyycguo
-    - nuyori
-    - twillber
-ar:
-    coordinators:
-    - daisyycguo
-    language: Arabic
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-    - synax
-Th:
-    coordinators:
-    - sawangpong
-    language: Thai
-    reviewers:
-    - phithak
-    - sawangpong
-    translators:
-    - phithak
-    - sawangpong
-id:
-    coordinators:
-    - daisyycguo
-    - seketika
-    language: Indonesian
-    reviewers:
-    - seketika
-    - suhartono
-    translators:
-    - seketika
-    - suhartono
-pt:
-    coordinators:
-    - daisyycguo
-    language: Portuguese
-    reviewers:
-    - daisyycguo
-    translators:
-    - nokostya
-    - daisyycguo
-ne:
-    coordinators:
-    - daisyycguo
-    - surit
-    language: Nepali
-    reviewers:
-    - daisyycguo
-    - surit
-    translators:
-    - daisyycguo
-    - surit
-nl-NL:
-    coordinators:
-    - daisyycguo
-    language: Dutch (Netherlands)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-    - jsheeren
-fil:
-    coordinators:
-    - daisyycguo
-    language: Filipino
-    reviewers:
-    - daisyycguo
-    - earlvillanueva
-    translators:
-    - daisyycguo
-    - earlvillanueva
-kn:
-    coordinators:
-    - daisyycguo
-    - kingkhan
-    language: Kannada
-    reviewers:
-    - kingkhan
-    translators:
-    - kingkhan
-    - sharathrao
-el:
-    coordinators:
-    - iosifidis
-    language: Greek
-    reviewers:
-    - iosifidis
-    translators:
-    - iosifidis
-brx:
-    coordinators:
-    - daisyycguo
-    language: Bodo
-    translators:
-    - 0ppinkuu0
-pl-PL:
-    coordinators:
-    - deejay1
-    language: Polish (Poland)
-    reviewers:
-    - deejay1
-    translators:
-    - deejay1
-as:
-    coordinators:
-    - daisyycguo
-    language: Assamese
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-bg-BG:
-    language: Bulgarian (Bulgaria)
-    reviewers:
-    - gomarivera
-    translators:
-    - gomarivera
-Ro:
-    coordinators:
-    - cira
-    language: Romanian
-    reviewers:
-    - cira
-    translators:
-    - cira
-sr:
-    coordinators:
-    - daisyycguo
-    language: Serbian
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-lo:
-    coordinators:
-    - saikeo
-    language: Lao
-    reviewers:
-    - saikeo
-    translators:
-    - saikeo
-vi-VN:
-    coordinators:
-    - daisyycguo
-    language: Vietnamese (Vietnam)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-en-AU:
-    coordinators:
-    - fifieldt
-    language: English (Australia)
-    translators:
-    - fifieldt
-ka-GE:
-    coordinators:
-    - daisyycguo
-    language: Georgian (Georgia)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-sl-SI:
-    coordinators:
-    - daisyycguo
-    language: Slovenian (Slovenia)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-bn-IN:
-    coordinators:
-    - daisyycguo
-    language: Bengali (India)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-hi:
-    coordinators:
-    - chandankumar
-    language: Hindi
-    reviewers:
-    - chandankumar
-    translators:
-    - chandankumar
-he:
-    coordinators:
-    - daisyycguo
-    language: Hebrew
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-te-IN:
-    coordinators:
-    - komatineni
-    language: Telugu (India)
-    reviewers:
-    - komatineni
-    translators:
-    - komatineni
-mr:
-    language: Marathi
-    translators:
-    - chandrakantd
