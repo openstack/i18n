@@ -83,9 +83,10 @@ The deadline of extra ATCs nomination can be checked in the release
 schedule page at http://releases.openstack.org/ (for example,
 http://releases.openstack.org/newton/schedule.html).
 
-Currently translators who translate and/or review more than 300 words
+Translators who translate and review 300 and more words combinedly
 in the last six months until the deadline of extra ATCs nomination are
 nominated as ATCs, and the ATC status of translators is valid for one year.
+Translation count and review count can be added up.
 The detail period is determined by the PTL in each cycle.
 For Newton cycle, the six month period was from 2016-02-01 to 2016-07-31,
 and this ATC status will expire on July 2017 if there will be no
