@@ -17,26 +17,23 @@ msgstr ""
 msgid "aggregate"
 msgstr "聚合"
 
-#, fuzzy
 msgid "allocate IP"
 msgstr "分配IP"
 
 msgid "API endpoint"
-msgstr ""
+msgstr "API访问入口"
 
-#, fuzzy
 msgid "architecture"
 msgstr "架构"
 
 msgid "association"
 msgstr "关联"
 
-#, fuzzy
 msgid "associate IP"
 msgstr "关联"
 
 msgid "attribute"
-msgstr ""
+msgstr "属性"
 
 msgid "authenticate"
 msgstr "认证"
@@ -54,11 +51,10 @@ msgid "backup"
 msgstr "备份"
 
 msgid "Bare Metal service"
-msgstr ""
+msgstr "裸机服务"
 
-#, fuzzy
 msgid "Block Storage service"
-msgstr "计算服务"
+msgstr "块存储服务"
 
 msgid "body"
 msgstr ""
@@ -79,81 +75,70 @@ msgid "cluster"
 msgstr "集群"
 
 msgid "comma"
-msgstr ""
+msgstr "逗号"
 
-#, fuzzy
 msgid "compute"
 msgstr "计算"
 
-#, fuzzy
 msgid "Compute service"
 msgstr "计算服务"
 
 msgid "config drive"
-msgstr ""
+msgstr "配置驱动"
 
 msgid "configuration"
-msgstr ""
+msgstr "配置"
 
 msgid "connection"
-msgstr ""
+msgstr "连接"
 
-#, fuzzy
 msgid "consistency group"
 msgstr "安全组"
 
 msgid "container"
 msgstr "容器"
 
-#, fuzzy
 msgid "container format"
 msgstr "容器格式"
 
 msgid "controller"
-msgstr ""
+msgstr "控制器"
 
-#, fuzzy
 msgid "credential"
 msgstr "证书"
 
 msgid "Database service"
-msgstr ""
+msgstr "数据库服务"
 
-#, fuzzy
 msgid "data processing"
 msgstr "数据处理"
 
 msgid "Data Processing service"
-msgstr ""
+msgstr "数据处理服务"
 
-#, fuzzy
 msgid "destination container"
 msgstr "目标容器"
 
-#, fuzzy
 msgid "destination object name"
 msgstr "目标对象名称"
 
 msgid "device"
 msgstr "设备"
 
-#, fuzzy
 msgid "disassociate IP"
 msgstr "释放IP"
 
 msgid "disk"
 msgstr "磁盘"
 
-#, fuzzy
 msgid "disk format"
 msgstr "磁盘格式"
 
-#, fuzzy
 msgid "disk GB hours"
 msgstr "磁盘(GB*小时)"
 
 msgid "distribution"
-msgstr ""
+msgstr "分配"
 
 msgid "domain"
 msgstr "域"
@@ -162,13 +147,11 @@ msgid "domain group"
 msgstr "域组"
 
 msgid "environment"
-msgstr ""
+msgstr "环境"
 
-#, fuzzy
 msgid "ephemeral disk"
 msgstr "临时磁盘"
 
-#, fuzzy
 msgid "ephemeral drive"
 msgstr "临时驱动器"
 
@@ -176,29 +159,23 @@ msgid "existence"
 msgstr "存在"
 
 msgid "export"
-msgstr ""
+msgstr "导出"
 
-#, fuzzy
 msgid "export location"
 msgstr "复制"
 
-#, fuzzy
 msgid "fetching"
 msgstr "获取"
 
-#, fuzzy
 msgid "fingerprint"
 msgstr "指印"
 
-#, fuzzy
 msgid "fixed IP"
 msgstr "固定IP"
 
-#, fuzzy
 msgid "flavor"
 msgstr "类型"
 
-#, fuzzy
 msgid "floating IP"
 msgstr "浮动IP"
 
@@ -208,42 +185,36 @@ msgstr "网关"
 msgid "guide"
 msgstr "指南"
 
-#, fuzzy
 msgid "health monitor"
 msgstr "健康监控"
 
 msgid "host"
 msgstr "主机"
 
-#, fuzzy
 msgid "host aggregate"
 msgstr "主机聚合"
 
 msgid "hypervisor"
-msgstr "hypervisor"
+msgstr "虚拟化主机"
 
 msgid "identifier"
 msgstr "标识符"
 
-#, fuzzy
 msgid "identity provider"
-msgstr "标识符"
+msgstr "认证服务提供者"
 
-#, fuzzy
 msgid "Identity service"
-msgstr "标识符"
+msgstr "认证服务"
 
 msgid "image"
 msgstr "镜像"
 
-#, fuzzy
 msgid "Image service"
-msgstr "计算服务"
+msgstr "镜像服务"
 
 msgid "initiator"
 msgstr "发起者"
 
-#, fuzzy
 msgid "injected file"
 msgstr "注入文件"
 
@@ -260,16 +231,14 @@ msgid "job template"
 msgstr "任务模板"
 
 msgid "key"
-msgstr ""
+msgstr "关键词"
 
-#, fuzzy
 msgid "keypair"
 msgstr "密钥对"
 
 msgid "killed"
-msgstr ""
+msgstr "已杀死"
 
-#, fuzzy
 msgid "L2population"
 msgstr "复制"
 
@@ -277,7 +246,7 @@ msgid "launch"
 msgstr "启动"
 
 msgid "layer-2 population mechanism"
-msgstr ""
+msgstr "2层部署模式"
 
 msgid "load balancer"
 msgstr "负载均衡器"
@@ -286,7 +255,7 @@ msgid "library"
 msgstr "库"
 
 msgid "management interface"
-msgstr ""
+msgstr "管理接口"
 
 msgid "master"
 msgstr "主节点"
@@ -295,7 +264,7 @@ msgid "member"
 msgstr "成员"
 
 msgid "Memcached"
-msgstr ""
+msgstr "内存缓存"
 
 msgid "memory"
 msgstr "内存"
@@ -304,16 +273,16 @@ msgid "meter"
 msgstr "计量"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "namespace"
 msgstr "命名空间"
 
 msgid "Networking service"
-msgstr ""
+msgstr "网络服务"
 
 msgid "NFS share"
-msgstr ""
+msgstr "NFS共享"
 
 msgid "node"
 msgstr "节点"
@@ -322,38 +291,34 @@ msgid "object"
 msgstr "对象"
 
 msgid "object storage"
-msgstr ""
+msgstr "对象存储"
 
 msgid "Object Storage service"
-msgstr ""
+msgstr "对象存储服务"
 
-#, fuzzy
 msgid "orchestration"
 msgstr "编排"
 
 msgid "Orchestration service"
-msgstr ""
+msgstr "编排服务"
 
 msgid "over commit"
 msgstr "超分配"
 
 msgid "owner"
-msgstr ""
+msgstr "所有者"
 
-#, fuzzy
 msgid "pagination"
 msgstr "复制"
 
-#, fuzzy
 msgid "parameter"
 msgstr "参数"
 
 msgid "perfect forward secrecy"
-msgstr ""
+msgstr "良好的正向加密"
 
-#, fuzzy
 msgid "permission"
-msgstr "hypervisor"
+msgstr "许可"
 
 msgid "plugin"
 msgstr "插件"
@@ -364,37 +329,32 @@ msgstr "策略"
 msgid "pool"
 msgstr "池"
 
-#, fuzzy
 msgid "project"
 msgstr "项目"
 
-#, fuzzy
 msgid "property"
-msgstr "项目"
+msgstr "属性"
 
-#, fuzzy
 msgid "public key"
 msgstr "公钥"
 
 msgid "quota"
 msgstr "配额"
 
-#, fuzzy
 msgid "quotas"
 msgstr "配额"
 
 msgid "raw image"
-msgstr ""
+msgstr "原生镜像"
 
 msgid "reboot"
 msgstr "重启"
 
-#, fuzzy
 msgid "region"
 msgstr "区域"
 
 msgid "release IP"
-msgstr ""
+msgstr "释放IP"
 
 msgid "remote"
 msgstr "远程"
@@ -402,11 +362,9 @@ msgstr "远程"
 msgid "replication"
 msgstr "复制"
 
-#, fuzzy
 msgid "restore"
 msgstr "存储"
 
-#, fuzzy
 msgid "role"
 msgstr "角色"
 
@@ -414,9 +372,8 @@ msgid "router"
 msgstr "路由"
 
 msgid "section"
-msgstr ""
+msgstr "部分"
 
-#, fuzzy
 msgid "security group"
 msgstr "安全组"
 
@@ -426,42 +383,38 @@ msgstr "服务器"
 msgid "shard"
 msgstr ""
 
-#, fuzzy
 msgid "share"
-msgstr "使用量"
+msgstr "共享"
 
 msgid "share network"
-msgstr ""
+msgstr "共享网络"
 
-#, fuzzy
 msgid "share server"
 msgstr "服务器"
 
 msgid "Shared File Systems service"
-msgstr ""
+msgstr "共享文件系统服务"
 
-#, fuzzy
 msgid "shelve instance"
-msgstr "云主机"
+msgstr "搁置云主机"
 
 msgid "signature"
-msgstr ""
+msgstr "签名"
 
 msgid "size"
-msgstr ""
+msgstr "大小"
 
 msgid "snapshot"
 msgstr "快照"
 
 msgid "stack"
-msgstr "stack"
+msgstr "堆栈块"
 
-#, fuzzy
 msgid "state"
-msgstr "存储"
+msgstr "状态"
 
 msgid "status"
-msgstr ""
+msgstr "状态"
 
 msgid "storage"
 msgstr "存储"
@@ -472,11 +425,9 @@ msgstr "提交"
 msgid "subnet"
 msgstr "子网"
 
-#, fuzzy
 msgid "swap disk"
 msgstr "交换磁盘"
 
-#, fuzzy
 msgid "system panel"
 msgstr "系统面板"
 
@@ -484,30 +435,26 @@ msgid "tag"
 msgstr "标签"
 
 msgid "Telemetry service"
-msgstr ""
+msgstr "计量服务"
 
 msgid "template"
 msgstr "模板"
 
-#, fuzzy
 msgid "tenant"
 msgstr "租户"
 
-#, fuzzy
 msgid "terminate instance"
-msgstr "云主机"
+msgstr "终止云主机"
 
 msgid "token"
 msgstr "token"
 
 msgid "transfer"
-msgstr ""
+msgstr "转换"
 
-#, fuzzy
 msgid "unshelve instance"
-msgstr "云主机"
+msgstr "回复搁置云主机"
 
-#, fuzzy
 msgid "usage"
 msgstr "使用量"
 
@@ -515,24 +462,22 @@ msgid "user"
 msgstr "用户"
 
 msgid "vCPU"
-msgstr ""
+msgstr "vCPU"
 
 msgid "VCPU hours"
-msgstr ""
+msgstr "vCPU使用时长"
 
-#, fuzzy
 msgid "vNIC"
 msgstr "设备"
 
 msgid "volume"
 msgstr "卷"
 
-#, fuzzy
 msgid "volume snapshot"
 msgstr "卷快照"
 
 msgid "web"
-msgstr ""
+msgstr "web"
 
 #~ msgid "Associate IP"
 #~ msgstr "关联IP"
