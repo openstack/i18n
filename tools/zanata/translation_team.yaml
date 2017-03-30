@@ -34,6 +34,7 @@ as:
     translators:
     - daisyycguo
 bg-BG:
+    coordinators: []
     language: Bulgarian (Bulgaria)
     reviewers:
     - gomarivera
@@ -51,7 +52,10 @@ brx:
     coordinators:
     - daisyycguo
     language: Bodo
+    reviewers:
+    - daisyycguo
     translators:
+    - daisyycguo
     - 0ppinkuu0
 ca:
     coordinators:
@@ -59,8 +63,10 @@ ca:
     - ealcaniz
     language: Catalan
     reviewers:
+    - daisyycguo
     - ealcaniz
     translators:
+    - daisyycguo
     - ealcaniz
     - iranzo
     - '1974'
@@ -76,6 +82,7 @@ cs:
     - tsbook
     translators:
     - danys
+    - honza
     - lenkahusakova
     - onovy
     - stanislavulrych
@@ -86,6 +93,7 @@ de:
     - rsimai
     language: German
     reviewers:
+    - jaegerandi
     - cduch
     - eumel8
     - vcomas3
@@ -100,6 +108,7 @@ de:
     - eblock
     - eumel8
     - lstemmle
+    - makowals
     - vcomas3
     - spielkind
     - rsimai
@@ -110,13 +119,17 @@ el:
     - iosifidis
     language: Greek
     reviewers:
+    - dtrich0
     - iosifidis
     translators:
+    - dtrich0
     - iosifidis
 en-AU:
     coordinators:
     - fifieldt
     language: English (Australia)
+    reviewers:
+    - fifieldt
     translators:
     - fifieldt
 en-GB:
@@ -132,6 +145,7 @@ en-GB:
     translators:
     - andibing
     - ealcaniz
+    - jpichon
     - nmadhok
     - robcresswell
     - fifieldt
@@ -142,6 +156,7 @@ es:
     language: Spanish
     reviewers:
     - camunoz
+    - ccamacho
     - ealcaniz
     - eugeniato
     - gerrivera
@@ -157,6 +172,7 @@ es:
     - hybridpollo
     - albertomolina
     - camunoz
+    - ccamacho
     - ediardo
     - ealcaniz
     - egongu90
@@ -262,6 +278,7 @@ fr:
     - sitle
     - ciello89
     - mmarin
+    - makowals
     - zigmax
     - nikoul
     - obuisson
@@ -310,9 +327,11 @@ id:
     - seketika
     language: Indonesian
     reviewers:
+    - daisyycguo
     - seketika
     - suhartono
     translators:
+    - daisyycguo
     - seketika
     - suhartono
 it:
@@ -399,8 +418,10 @@ kn:
     - kingkhan
     language: Kannada
     reviewers:
+    - daisyycguo
     - kingkhan
     translators:
+    - daisyycguo
     - kingkhan
     - sharathrao
 ko-KR:
@@ -445,8 +466,10 @@ ko-KR:
     - choi
     - naleejang
     - nicholas_hpark
+    - paganinist
     - raymon_ha
     - nexusz99
+    - seongu
     - seungkyu
     - seyeon
     - seonhopark
@@ -470,7 +493,9 @@ lo:
     translators:
     - saikeo
 mr:
+    coordinators: []
     language: Marathi
+    reviewers: []
     translators:
     - chandrakantd
 ne:
@@ -513,6 +538,7 @@ pl-PL:
     reviewers:
     - deejay1
     translators:
+    - makowals
     - deejay1
 pt:
     coordinators:
@@ -540,6 +566,7 @@ pt-BR:
     translators:
     - dritec
     - hubner
+    - tpdueg
     - nokostya
     - andrecampos
     - marquesc
@@ -548,12 +575,15 @@ pt-BR:
     - ericbaum
     - fcpimenta
     - gabrielcw
+    - itiro
     - gustavor
     - josemello
+    - leandro
     - lucasagomes
     - lapalm
     - lveneziano
     - marcelodieder
+    - marcio
     - tenoriomarcus
     - mariaandrada
     - raildomascena
@@ -684,6 +714,7 @@ zh-CN:
     - coffee
     - daisyycguo
     - dliu
+    - ianychoi
     - jimmyli
     - lindayang
     - liuchaoxin
@@ -701,16 +732,17 @@ zh-CN:
     - aeng
     - xiangbinbin
     - billxiang
+    - blkart
     - caihui
     - zhouchangxun
     - chenli
     - ccheng
     - coffee
     - cuixiaoyu
-    - cuiyidong
     - daisyycguo
     - dliu
     - leiyahsuai
+    - neteric
     - forever
     - zhugaoxiao
     - gecong
@@ -720,10 +752,11 @@ zh-CN:
     - lihongweibj
     - fionahuang
     - changhuiyuan
+    - ianychoi
     - irina
     - javeme
-    - jimmyli
     - liujiong
+    - jimmyli
     - liyucai
     - lichunhan
     - likun
@@ -753,9 +786,11 @@ zh-CN:
     - sunjing
     - tianyu
     - tianzhong
+    - tigerfang
     - fifieldt
     - tfu
     - vuuv
+    - wangfang
     - woshishui419
     - h3c_wuhan
     - wuyongpeng
@@ -777,6 +812,7 @@ zh-CN:
     - lawrence
     - zhongjun2
     - zzxwill
+    - xhkjoe
     - domine
     - johnwoo_lee
 zh-TW:
