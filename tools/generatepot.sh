@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-DOCNAME=i18n-guide
+DOCNAME=doc
 DIRECTORY=doc
 
 if [ -x "$(command -v getconf)" ]; then
