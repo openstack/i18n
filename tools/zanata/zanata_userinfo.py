@@ -21,6 +21,7 @@ import os
 import sys
 
 from oslo_log import log as logging
+import six
 import yaml
 from ZanataUtils import IniConfig
 from ZanataUtils import ZanataRestService
@@ -129,7 +130,7 @@ def get_zanata_userdata(zc, verify, role, language_teams):
         user_data = accounts.get_account_data(user_id)
 
         if user_data:
-            user['name'] = user_data['name'].encode('utf-8')
+            user['name'] = user_data['name']
             user['email'] = user_data['email']
 
     return users
@@ -144,13 +145,18 @@ def write_userdata_to_file(users, output_file):
 
 
 def _write_userdata_to_csvfile(userdata, output_file):
-    with open(output_file, 'wb') as csvfile:
+    mode = 'wb' if six.PY2 else 'w'
+    with open(output_file, mode) as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(['user_id', 'lang_code', 'lang',
                          'name', 'email'])
         for data in userdata:
-            writer.writerow([data['user_id'], data['lang_code'],
-                             data['lang'], data['name'], data['email']])
+            d = [data['user_id'], data['lang_code'],
+                 data['lang'], data['name'], data['email']]
+            if six.PY2:
+                # In Python2 we need to encode unicode strings into strings.
+                d = [s.encode('utf-8') for s in d]
+            writer.writerow(d)
 
 
 def _comma_separated_list(s):
