@@ -1,4 +1,5 @@
 /doc/build/
+/publish-docs/
 /openstacki18n.egg-info/
 AUTHORS
 ChangeLog

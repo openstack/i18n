@@ -218,3 +218,6 @@ htmlhelp_basename = 'i18n-contributor-guide'
 
 # If true, publish source files
 html_copy_source = False
+
+# -- Options for Internationalization output ------------------------------
+locale_dirs = ['locale/']
