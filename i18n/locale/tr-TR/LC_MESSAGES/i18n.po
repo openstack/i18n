@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-23 09:18+0000\n"
+"PO-Revision-Date: 2017-05-23 09:34+0000\n"
+"Last-Translator: İşbaran <isbaran@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1495532078.000000\n"
+
+msgid "aggregate"
+msgstr "takım"
+
+msgid "allocate IP"
+msgstr "IP ayır"
+
+msgid "API endpoint"
+msgstr "API bitiş noktası"
+
+msgid "architecture"
+msgstr "mimari"
+
+msgid "association"
+msgstr "ilişkilendirme"
+
+msgid "associate IP"
+msgstr "IP ata"
+
+msgid "attribute"
+msgstr "öznitelik"
+
+msgid "authenticate"
+msgstr "kimlik doğrulama"
+
+msgid "authorize"
+msgstr "yetkilendirme"
+
+msgid "availability zone"
+msgstr "kullanılırlık bölgesi"
+
+msgid "backend"
+msgstr "arka uç"
+
+msgid "backup"
+msgstr "yedekle"
+
+msgid "Bare Metal service"
+msgstr "Saf Metal servisi"
+
+msgid "Block Storage service"
+msgstr "Blok Depolama servisi"
+
+msgid "body"
+msgstr "gövde"
+
+msgid "boot"
+msgstr "ön yükleme"
+
+msgid "cache"
+msgstr "ön bellek"
+
+msgid "CIDR"
+msgstr "CIDR"
+
+msgid "client"
+msgstr "istemci"
+
+msgid "cluster"
+msgstr "küme"
+
+msgid "comma"
+msgstr "virgül"
+
+msgid "compute"
+msgstr "hesaplama"
+
+msgid "Compute service"
+msgstr "Hesaplama servisi"
+
+msgid "config drive"
+msgstr "yapılandırma sürücüsü"
+
+msgid "configuration"
+msgstr "yapılandırma"
+
+msgid "connection"
+msgstr "bağlantı"
+
+msgid "consistency group"
+msgstr "tutarlılık grubu"
+
+msgid "container"
+msgstr "kapsayıcı"
+
+msgid "container format"
+msgstr "kapsayıcı biçimi"
+
+msgid "controller"
+msgstr "denetleyici"
+
+msgid "credential"
+msgstr "kimlik bilgileri"
+
+msgid "Database service"
+msgstr "Veri tabanı servisi"
+
+msgid "data processing"
+msgstr "veri işleme"
+
+msgid "Data Processing service"
+msgstr "Veri İşleme servisi"
+
+msgid "destination container"
+msgstr "hedef kapsayıcı"
+
+msgid "destination object name"
+msgstr "hedef nesne ismi"
+
+msgid "device"
+msgstr "aygıt"
+
+msgid "disassociate IP"
+msgstr "IP ilişiğini kes"
+
+msgid "disk"
+msgstr "disk"
+
+msgid "disk format"
+msgstr "disk biçimi"
+
+msgid "disk GB hours"
+msgstr "disk GB saat"
+
+msgid "distribution"
+msgstr "dağıtım"
+
+msgid "domain"
+msgstr "alan"
+
+msgid "domain group"
+msgstr "alan grubu"
+
+msgid "environment"
+msgstr "ortam"
+
+msgid "ephemeral disk"
+msgstr "geçici disk"
+
+msgid "ephemeral drive"
+msgstr "geçici aygıt"
+
+msgid "existence"
+msgstr "varlık"
+
+msgid "export"
+msgstr "dışa aktar"
+
+msgid "export location"
+msgstr "dışa aktarım konumu"
+
+msgid "fetching"
+msgstr "getiriliyor"
+
+msgid "fingerprint"
+msgstr "parmak izi"
+
+msgid "fixed IP"
+msgstr "sabit IP"
+
+msgid "flavor"
+msgstr "nitelik"
+
+msgid "floating IP"
+msgstr "değişken IP"
+
+msgid "gateway"
+msgstr "ağ geçidi"
+
+msgid "guide"
+msgstr "kılavuz"
+
+msgid "health monitor"
+msgstr "sağlık izleyici"
+
+msgid "host"
+msgstr "sunucu"
+
+msgid "host aggregate"
+msgstr "sunucu takımı"
+
+msgid "hypervisor"
+msgstr "hipervizör"
+
+msgid "identifier"
+msgstr "tanımlayıcı"
+
+msgid "identity provider"
+msgstr "kimlik sağlayıcı"
+
+msgid "Identity service"
+msgstr "kimlik servisi"
+
+msgid "image"
+msgstr "imaj"
+
+msgid "Image service"
+msgstr "imaj servisi"
+
+msgid "initiator"
+msgstr "başlatıcı"
+
+msgid "injected file"
+msgstr "yerleştirilmiş dosya"
+
+msgid "instance"
+msgstr "sunucu"
+
+msgid "interface"
+msgstr "arayüz"
+
+msgid "job"
+msgstr "görev"
+
+msgid "job template"
+msgstr "görev şablonu"
+
+msgid "key"
+msgstr "anahtar"
+
+msgid "keypair"
+msgstr "anahtar çifti"
+
+msgid "killed"
+msgstr "öldürüldü"
+
+msgid "L2population"
+msgstr "L2doldurma"
+
+msgid "launch"
+msgstr "başlat"
+
+msgid "layer-2 population mechanism"
+msgstr "katman-2 doldurma yöntemi"
+
+msgid "load balancer"
+msgstr "yük dengeleyici"
+
+msgid "library"
+msgstr "kitaplık"
+
+msgid "management interface"
+msgstr "yönetim arayüzü"
+
+msgid "master"
+msgstr "ana"
+
+msgid "member"
+msgstr "üye"
+
+msgid "Memcached"
+msgstr "Memcached"
+
+msgid "memory"
+msgstr "hafıza"
+
+msgid "meter"
+msgstr "metre"
+
+msgid "N/A"
+msgstr "Ulaşılamaz"
+
+msgid "namespace"
+msgstr "isim uzayı"
+
+msgid "Networking service"
+msgstr "Ağ servisi"
+
+msgid "NFS share"
+msgstr "NFS paylaşımı"
+
+msgid "node"
+msgstr "düğüm"
+
+msgid "object"
+msgstr "nesne"
+
+msgid "object storage"
+msgstr "nesne depolama"
+
+msgid "Object Storage service"
+msgstr "Nesne Depolama servisi"
+
+msgid "orchestration"
+msgstr "orkestrasyon"
+
+msgid "Orchestration service"
+msgstr "Orkestrasyon servisi"
+
+msgid "over commit"
+msgstr ""
+
+msgid "owner"
+msgstr "sahibi"
+
+msgid "pagination"
+msgstr "sayfalandırma"
+
+msgid "parameter"
+msgstr "parametre"
+
+msgid "perfect forward secrecy"
+msgstr "mükemmel iletme gizliliği"
+
+msgid "permission"
+msgstr "izin"
+
+msgid "plugin"
+msgstr "eklenti"
+
+msgid "policy"
+msgstr "ilke"
+
+msgid "pool"
+msgstr "havuz"
+
+msgid "project"
+msgstr "proje"
+
+msgid "property"
+msgstr "özellik"
+
+msgid "public key"
+msgstr "açık anahtar"
+
+msgid "quota"
+msgstr "kota"
+
+msgid "quotas"
+msgstr "kotalar"
+
+msgid "raw image"
+msgstr "ham imaj"
+
+msgid "reboot"
+msgstr "yeniden başlat"
+
+msgid "region"
+msgstr "bölge"
+
+msgid "release IP"
+msgstr "IP'yi serbest bırak"
+
+msgid "remote"
+msgstr "uzak"
+
+msgid "replication"
+msgstr "çoğaltma"
+
+msgid "restore"
+msgstr "geri yükleme"
+
+msgid "role"
+msgstr "rol"
+
+msgid "router"
+msgstr "yönlendirici"
+
+msgid "section"
+msgstr "kısım"
+
+msgid "security group"
+msgstr "güvenlik grubu"
+
+msgid "server"
+msgstr "sunucu"
+
+msgid "shard"
+msgstr "parça"
+
+msgid "share"
+msgstr "paylaşım"
+
+msgid "share network"
+msgstr "paylaşım ağı"
+
+msgid "share server"
+msgstr "paylaşım sunucusu"
+
+msgid "Shared File Systems service"
+msgstr "Paylaşımlı Dosya Sistemi servisi"
+
+msgid "shelve instance"
+msgstr "sunucuyu rafa kaldır"
+
+msgid "signature"
+msgstr "imza"
+
+msgid "size"
+msgstr "boyut"
+
+msgid "snapshot"
+msgstr "anlık görüntü"
+
+msgid "stack"
+msgstr "yığın"
+
+msgid "state"
+msgstr "durum"
+
+msgid "status"
+msgstr "durum"
+
+msgid "storage"
+msgstr "depolama"
+
+msgid "submit"
+msgstr "gönder"
+
+msgid "subnet"
+msgstr "alt ağ"
+
+msgid "swap disk"
+msgstr "takas diski"
+
+msgid "system panel"
+msgstr "sistem panosu"
+
+msgid "tag"
+msgstr "etiket"
+
+msgid "Telemetry service"
+msgstr "Uzaktan izleme servisi"
+
+msgid "template"
+msgstr "şablon"
+
+msgid "tenant"
+msgstr "kiracı"
+
+msgid "terminate instance"
+msgstr "sunucuyu sonlandır"
+
+msgid "token"
+msgstr "jeton"
+
+msgid "transfer"
+msgstr "aktarım"
+
+msgid "unshelve instance"
+msgstr "sunucuyu raftan al"
+
+msgid "usage"
+msgstr "kullanım"
+
+msgid "user"
+msgstr "kullanıcı"
+
+msgid "vCPU"
+msgstr "vCPU"
+
+msgid "VCPU hours"
+msgstr "VCPU saat"
+
+msgid "vNIC"
+msgstr "vNIC"
+
+msgid "volume"
+msgstr "birim"
+
+msgid "volume snapshot"
+msgstr "birim anlık görüntüsü"
+
+msgid "web"
+msgstr "web"
