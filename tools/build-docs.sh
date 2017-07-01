@@ -20,14 +20,8 @@ set -e
 DOCNAME=doc
 DIRECTORY=doc
 
-if [ -x "$(command -v getconf)" ]; then
-    NUMBER_OF_CORES=$(getconf _NPROCESSORS_ONLN)
-else
-    NUMBER_OF_CORES=2
-fi
-
 # build i18n contributor guide page index.html
-sphinx-build -a -W -j $NUMBER_OF_CORES -b html \
+sphinx-build -a -W -b html \
     -d ${DIRECTORY}/build/doctrees \
     ${DIRECTORY}/source ${DIRECTORY}/build/html/
 
@@ -35,7 +29,7 @@ if [ "${NO_LANG_BUILD:-0}" = "1" ]; then
     exit 0
 fi
 
-sphinx-build -a -W -j $NUMBER_OF_CORES -b gettext \
+sphinx-build -a -W -b gettext \
     -d ${DIRECTORY}/build/doctrees.gettext \
     ${DIRECTORY}/source ${DIRECTORY}/source/locale/
 
@@ -69,7 +63,7 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # build translated guide
     # build i18n contributor guide page index.html
     # TODO(amotoki): Enable -W option in translated version
-    sphinx-build -a -j $NUMBER_OF_CORES -b html -D language=${language} \
+    sphinx-build -a -b html -D language=${language} \
         -d ${DIRECTORY}/build/doctrees.languages/${language} \
         ${DIRECTORY}/source ${DIRECTORY}/build/html/${language}
 
