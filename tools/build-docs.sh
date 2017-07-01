@@ -16,11 +16,12 @@
 # Build English and translated version of the I18n guide.
 
 set -e
+set -x
 
 DOCNAME=doc
 DIRECTORY=doc
 
-# build i18n contributor guide page index.html
+# build i18n contributor guide page
 sphinx-build -a -W -b html \
     -d ${DIRECTORY}/build/doctrees \
     ${DIRECTORY}/source ${DIRECTORY}/build/html/
@@ -29,9 +30,85 @@ if [ "${NO_LANG_BUILD:-0}" = "1" ]; then
     exit 0
 fi
 
+# This function sets the following global variables
+# - LANG_INDEX : filename which contains the language index
+# - HAS_LANG : 1 (there are languages other than English), 0 (English only)
+function prepare_language_index {
+    # Global variables
+    HAS_LANG=0
+    LANG_INDEX=`mktemp`
+    trap "rm -f -- $LANG_INDEX" EXIT
+
+    cat <<EOF >> $LANG_INDEX
+[
+\`English <__BASE__/__INDEX__>\`__
+EOF
+
+    # Generate language index file
+    for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
+        # skip if it is not a valid language translation resource.
+        if [ ! -e ${locale}/LC_MESSAGES/${DOCNAME}.po ]; then
+            continue
+        fi
+        language=$(basename $locale)
+
+        # Reference translated document from index file
+        echo -n "| " >> $LANG_INDEX
+        HAS_LANG=1
+        get_lang_name_prog=$(dirname $0)/get-lang-display-name.py
+        name=`python $get_lang_name_prog $language`
+        echo "\`$name <__BASE__/${language}/__INDEX__>\`__" >> $LANG_INDEX
+    done
+
+    cat <<EOF >> $LANG_INDEX
+]
+
+EOF
+}
+
+function _add_language_index {
+    local target_file=$1
+    local basepath=$2
+
+    local basename
+    basename=$(echo $target_file | sed -e "s|$DIRECTORY/source/||" -e "s|\.rst$||")
+
+    cp -p $target_file $target_file.backup
+    sed -e "s|__BASE__|$basepath|" -e "s|__INDEX__|$basename.html|" $LANG_INDEX > $target_file
+    cat $target_file.backup >> $target_file
+}
+
+function add_language_index_to_localized {
+    for f in `find $DIRECTORY/source -name '*.rst'`; do
+        _add_language_index $f ..
+    done
+}
+
+function add_language_index_to_original {
+    for f in `find $DIRECTORY/source -name '*.rst'`; do
+        cp -p $f.backup $f
+        _add_language_index $REFERENCES $f .
+    done
+}
+
+function recover_rst_files {
+    for f in `find $DIRECTORY/source -name '*.rst'`; do
+        mv $f.backup $f
+    done
+}
+
 sphinx-build -a -W -b gettext \
     -d ${DIRECTORY}/build/doctrees.gettext \
     ${DIRECTORY}/source ${DIRECTORY}/source/locale/
+
+prepare_language_index
+if [ "$HAS_LANG" = "0" ]; then
+    exit 0
+fi
+# Now add our references to the beginning of the index file. We cannot do this
+# earlier since the sphinx commands will read this file.
+# Ensure to revert any changes to the index file.
+add_language_index_to_localized
 
 # check all language translation resouce
 for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
@@ -61,7 +138,7 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     done
 
     # build translated guide
-    # build i18n contributor guide page index.html
+    # build i18n contributor guide page
     # TODO(amotoki): Enable -W option in translated version
     sphinx-build -a -b html -D language=${language} \
         -d ${DIRECTORY}/build/doctrees.languages/${language} \
@@ -73,8 +150,17 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     git clean -f -x -q ${DIRECTORY}/source/locale/.doctrees
     # revert changes to po file
     git reset -q ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/${DOCNAME}.po
-    git checkout -- ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/${DOCNAME}.po
+    git checkout -q -- ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/${DOCNAME}.po
 done
 
 # remove newly created pot files
 rm -f ${DIRECTORY}/source/locale/*.pot
+
+add_language_index_to_original
+
+# build i18n contributor guide page
+sphinx-build -a -W -b html \
+    -d ${DIRECTORY}/build/doctrees \
+    ${DIRECTORY}/source ${DIRECTORY}/build/html/
+
+recover_rst_files
