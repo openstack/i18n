@@ -33,7 +33,8 @@ import yaml
 ZANATA_URI = 'https://translate.openstack.org/rest/%s'
 LOG = logging.getLogger('zanata_stats')
 
-ZANATA_VERSION_PATTERN = re.compile(r'^(master[-,a-z]*|stable-[a-z]+)$')
+ZANATA_VERSION_EXPR = r'^(master[-,a-z]*|stable-[a-z]+|openstack-user-survey)$'
+ZANATA_VERSION_PATTERN = re.compile(ZANATA_VERSION_EXPR)
 
 
 class ZanataUtility(object):
