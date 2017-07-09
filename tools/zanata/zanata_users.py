@@ -22,6 +22,12 @@ import requests
 import yaml
 
 base_url = "https://translate.openstack.org/%s"
+yaml_comment = """\
+# Language codes: sorted in the alphabetical order (case-sensitive)
+# Zanata IDs are sorted in the order of Zanata language team info
+# : https://translate.openstack.org/language/list
+# : Do not use the alphabetical order to make the maitenance easier.
+"""
 
 
 class ZanataUtility(object):
@@ -88,6 +94,7 @@ class ZanataUtility(object):
 
 def save_to_yaml(data, output_file):
     with open(output_file, 'w') as out:
+        out.write(yaml_comment)
         for (k, v) in data.items():
             yaml.safe_dump({k: v}, out, allow_unicode=True, indent=4,
                            encoding='utf-8', default_flow_style=False)
