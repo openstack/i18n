@@ -1,3 +1,7 @@
+# Language codes: sorted in the alphabetical order (case-sensitive)
+# Zanata IDs are sorted in the order of Zanata language team info
+# : https://translate.openstack.org/language/list
+# : Do not use the alphabetical order to make the maitenance easier.
 Ro:
     coordinators:
     - cira
@@ -106,6 +110,7 @@ de:
     - wall_dirk
     - atalanttore
     - eblock
+    - flfuchs
     - eumel8
     - lstemmle
     - makowals
@@ -171,6 +176,7 @@ es:
     translators:
     - hybridpollo
     - albertomolina
+    - aesantos
     - camunoz
     - ccamacho
     - ediardo
@@ -202,6 +208,7 @@ es-MX:
     - toxickore
     - zerick
     - heleno_jimenez
+    - scuellarv
     - sergioerazo
 fi-FI:
     coordinators:
@@ -356,6 +363,7 @@ it:
     - uboscolo
 ja:
     coordinators:
+    - amotoki
     - to222
     language: Japanese
     reviewers:
@@ -366,6 +374,7 @@ ja:
     - ykatabam
     translators:
     - amotoki
+    - akihito_inoh
     - yosshy
     - nanodayo
     - ha_miyamoto
@@ -376,6 +385,7 @@ ja:
     - ken_ishii
     - sasukeh
     - macjack
+    - k_makabe007
     - mariojv
     - masmiyam
     - mmasaki
@@ -387,6 +397,7 @@ ja:
     - sakaryo
     - sayako
     - ststake
+    - shintaro
     - shinya_kwbt
     - shu
     - tmatsu
@@ -398,6 +409,7 @@ ja:
     - tsutomu_kimura
     - yeguchi
     - yukinori_yagisawa
+    - yfukuda
     - ykatabam
     - yogawa
     - yusuke1219
@@ -441,12 +453,14 @@ ko-KR:
     - vi01et
     - jazzsir
     - gyahoo617
+    - heetaeahn
     - betorvalds
     - openstack
     - ianychoi
     - takowasabi
     - hyangii
     - jaygtv
+    - jmlim
     - whitekjs
     - jennie
     - chasetherabbit
@@ -568,12 +582,15 @@ pt-BR:
     translators:
     - dritec
     - hubner
+    - alexpriete
     - tpdueg
     - nokostya
     - andrecampos
     - marquesc
+    - delesderrier
     - diegodalmolin
     - mrbits
+    - d13
     - ericbaum
     - fcpimenta
     - gabrielcw
@@ -597,6 +614,7 @@ pt-BR:
     - rbraga
     - saimonsp
     - sanporci
+    - vintbra
     - weyderfs
     - williandrade
 ru:
@@ -707,6 +725,7 @@ zh-CN:
     - aeng
     - coffee
     - daisyycguo
+    - vuuv
     - zzxwill
     - johnwoo_lee
     language: Chinese (China)
@@ -716,7 +735,6 @@ zh-CN:
     - coffee
     - daisyycguo
     - dliu
-    - ianychoi
     - jimmyli
     - lindayang
     - liuchaoxin
@@ -725,15 +743,19 @@ zh-CN:
     - tianzhong
     - fifieldt
     - tfu
+    - vuuv
     - yanheven
     - zhaochao
     - zzxwill
     - johnwoo_lee
     translators:
+    - 979zhang
     - actionchen
     - aeng
     - xiangbinbin
     - billxiang
+    - bin
+    - bakbad2015
     - blkart
     - caihui
     - zhouchangxun
@@ -747,6 +769,7 @@ zh-CN:
     - neteric
     - forever
     - zhugaoxiao
+    - yinguowei
     - gecong
     - guochunting
     - guoshan
@@ -754,7 +777,7 @@ zh-CN:
     - lihongweibj
     - fionahuang
     - changhuiyuan
-    - ianychoi
+    - indicolite
     - irina
     - javeme
     - liujiong
@@ -786,6 +809,7 @@ zh-CN:
     - zhsj
     - sunanchen
     - sunjing
+    - hutao
     - tianyu
     - tianzhong
     - tigerfang
@@ -803,13 +827,17 @@ zh-CN:
     - topicblue
     - yanheven
     - yanghy
+    - e010
+    - yongjiexu
     - yongxiangwang
     - lony
     - yuzg
     - huyupeng
     - zenglulu
+    - zhangdebo
     - zhangjingwen
     - zhaochao
+    - fuzhaokun
     - zhengjie7800
     - lawrence
     - zhongjun2
@@ -836,6 +864,7 @@ zh-TW:
     - zero00072
     translators:
     - aeng
+    - bluet
     - bokaitseng
     - ccheng
     - igene
@@ -859,6 +888,7 @@ zh-TW:
     - webberguo
     - willychen
     - xuyang
+    - e010
     - max821214
     - starbops
     - zero00072
