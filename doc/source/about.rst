@@ -4,6 +4,9 @@ About this guide
 
 This page describes the conventions and tips on writing this guide itself.
 
+Convention
+----------
+
 The guide is written in reStructuredText (RST) markup syntax with Sphinx
 extensions. Most conventions follow
 `those of the openstack-manuals project
@@ -15,7 +18,7 @@ The followings are useful links when writing documents in RST.
 * `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__
 
 Titles
-------
+~~~~~~
 
 The convention for heading levels is as follows::
 
@@ -35,3 +38,17 @@ The convention for heading levels is as follows::
    ~~~~~~~~~
 
    Underline with tildas for heading 3 sections.
+
+Translation
+-----------
+
+This guide itself is I18n-ed and you can translate it into your language.
+To translate it, visit
+`i18n <https://translate.openstack.org/project/view/i18n>`__ project in
+`Zanata <https://translate.openstack.org/>`__.
+Document **doc** in **i18n** project corresponds to this guide.
+You can translate it in the same way as you do for other projects like
+dashboard or manuals. Once the transltaion progress becomes higher than
+the threshold (For more information on the threshold,
+see :ref:`translation-jobs`),
+the translated version of the guide will be published.
