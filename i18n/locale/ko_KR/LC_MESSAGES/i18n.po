@@ -195,7 +195,7 @@ msgid "host aggregate"
 msgstr "호스트 집합"
 
 msgid "hypervisor"
-msgstr "가상화"
+msgstr "하이퍼바이저"
 
 msgid "identifier"
 msgstr "식별자"
@@ -411,7 +411,7 @@ msgid "stack"
 msgstr "stack"
 
 msgid "state"
-msgstr "스토리지"
+msgstr "상태"
 
 msgid "status"
 msgstr "상태"
@@ -429,7 +429,7 @@ msgid "swap disk"
 msgstr "스왑 디스크"
 
 msgid "system panel"
-msgstr "시스템 판넬"
+msgstr "시스템 패널"
 
 msgid "tag"
 msgstr "태그"
