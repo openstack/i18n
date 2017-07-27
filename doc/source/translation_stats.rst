@@ -4,6 +4,8 @@ Translation Statistics
 
 There are several ways to know your translation activity.
 
+.. _stats-zanata:
+
 Zanata
 ------
 
@@ -16,6 +18,8 @@ Zanata provides ways to know your activity on Zanata.
   It shows your statistics in this month and last month.
 
 Note that you need to log into Zanata to see your activity in the above pages.
+
+.. _stats-stackalytics:
 
 Stackalytics
 ------------
@@ -40,9 +44,10 @@ Here is the check list for such case:
 * Is your Zanata ID different from your launchpad ID?
 
 If your Zanata ID is not included in the translator list,
-you need to add your Zanata ID to the list.
-Contact your language coordinator, email the i18n mailing list,
-or submit a patch to add your ID by yourself.
+you need to update the list to include your Zanata ID.
+Contact your language coordinator, email the i18n mailing list.
+You can also submit a patch to update the list by yourself
+(For detail, see :ref:`sync-translator-list`).
 
 .. TODO (amotoki):
    We need a guide for language coordinators.

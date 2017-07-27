@@ -31,6 +31,7 @@ Contents
    translation_tips
    glossary
    translation_stats
+   tools
    i18n_team_meeting
    infra
    reviewing-translation-import
