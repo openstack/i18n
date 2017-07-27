@@ -7,6 +7,8 @@ changes in Zanata. Without running the scripts, translation changes will not
 be reflected into OpenStack projects. This page explains how the infrastructure
 scripts runs as Jenkins jobs and monitor the jobs status.
 
+.. _translation-jobs:
+
 Translation jobs
 ----------------
 
