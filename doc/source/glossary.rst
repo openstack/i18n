@@ -9,7 +9,7 @@ Glossary of your language
 -------------------------
 
 A glossary file of your language is found at
-``i18n/locale/<lang>/LC_MESSAGES/i18n.po`` in the i18n repository.
+``glossary/locale/<lang>/LC_MESSAGES/glossary.po`` in the i18n repository.
 The file is a usual PO file.
 
 When you want to update a glossary of your language,
@@ -33,7 +33,7 @@ Master glossary
 ---------------
 
 When you add a new entry to the glossary, it is highly recommended to add
-the entry to the master glossary ``i18n/locale/i18n.pot``.
+the entry to the master glossary ``glossary/locale/glossary.pot``.
 By doing this, all language teams can share the glossary.
 
 The master glossary is an usual POT file.
