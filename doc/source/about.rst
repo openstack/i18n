@@ -48,7 +48,7 @@ To translate it, visit
 `Zanata <https://translate.openstack.org/>`__.
 Document **doc** in **i18n** project corresponds to this guide.
 You can translate it in the same way as you do for other projects like
-dashboard or manuals. Once the transltaion progress becomes higher than
+dashboard or manuals. Once the translation progress becomes higher than
 the threshold (For more information on the threshold,
 see :ref:`translation-jobs`),
 the translated version of the guide will be published.
