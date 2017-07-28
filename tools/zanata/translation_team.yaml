@@ -448,6 +448,7 @@ ko-KR:
     - ujuc
     translators:
     - youli
+    - bryan_tak
     - gemma
     - dbgong
     - chuinggun
@@ -728,12 +729,9 @@ vi-VN:
     - daisyycguo
 zh-CN:
     coordinators:
-    - aeng
-    - coffee
     - daisyycguo
     - vuuv
     - zzxwill
-    - johnwoo_lee
     language: Chinese (China)
     reviewers:
     - actionchen
@@ -758,8 +756,8 @@ zh-CN:
     - 979zhang
     - actionchen
     - aeng
-    - xiangbinbin
     - billxiang
+    - xiangbinbin
     - bin
     - bakbad2015
     - blkart
@@ -834,6 +832,7 @@ zh-CN:
     - yanheven
     - yanghy
     - e010
+    - chenyingkof
     - yongjiexu
     - yongxiangwang
     - lony
@@ -846,6 +845,7 @@ zh-CN:
     - fuzhaokun
     - zhengjie7800
     - lawrence
+    - zhonghuali
     - zhongjun2
     - zzxwill
     - xhkjoe
