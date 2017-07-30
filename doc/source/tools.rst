@@ -4,6 +4,64 @@ Tools
 
 This page covers various operations around i18n activities.
 
+.. _zanata-cli:
+
+Zanata CLI
+----------
+
+OpenStack uses Zanata as a translation platform.
+While most operations around the translation platform are automated,
+if you want to communicate with the translation platform manually,
+you can use `Zanata CLI <http://docs.zanata.org/en/release/client/>`__.
+
+User configuration
+~~~~~~~~~~~~~~~~~~
+
+You need to create a configuration file in ``$HOME/.config/zanata.ini``
+that contains user-specific configuration. For information on how to
+create a configuration file, see `Zanata CLI configuration
+<http://docs.zanata.org/en/release/client/configuration/#user-configuration>`__.
+
+Project configuration
+~~~~~~~~~~~~~~~~~~~~~
+
+To communicate with the translation platform, you need to prepare
+a project configuration file named ``zanata.xml`` in the top directory
+of a project you are interested in.
+OpenStack projects does not contain ``zanata.xml`` in their git repositories,
+so you need to create it manually.
+
+The following is an example of ``zanata.xml``.
+In most cases, what you need to edit are **project** and **project-version**.
+
+.. code-block:: xml
+
+   <config xmlns="http://zanata.org/namespace/config/">
+     <url>https://translate.openstack.org/</url>
+     <project>horizon</project>
+     <project-version>master</project-version>
+     <project-type>gettext</project-type>
+     <src-dir>.</src-dir>
+     <trans-dir>.</trans-dir>
+     <rules>
+       <rule pattern="**/*.pot">{path}/{locale_with_underscore}/LC_MESSAGES/{filename}.po</rule>
+     </rules>
+     <excludes>.tox/**</excludes>
+   </config>
+
+Pull translations from Zanata
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To download translations from Zanata, run the following command
+after going into a project directory.
+You are usually interested in only a few of languages,
+so ``--locales`` option would be useful.
+For more options, see the output of ``zanata pull --help``.
+
+.. code-block:: console
+
+   $ zanata-cli pull --locales ja,ko-KR,zh-CN
+
 Project maintenance
 -------------------
 
