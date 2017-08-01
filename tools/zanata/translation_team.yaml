@@ -443,68 +443,38 @@ ko-KR:
     - ujuc
     language: Korean (South Korea)
     reviewers:
-    - ianychoi
-    - kiseok7
-    - ujuc
-    translators:
-    - youli
-    - bryan_tak
-    - gemma
-    - dbgong
-    - chuinggun
-    - eukim
-    - ejbaek
     - vi01et
-    - jazzsir
-    - gyahoo617
+    - betorvalds
+    - ianychoi
+    - jsshin
+    - kiseok7
+    - nexusz99
+    - ujuc
+    - wonil22
+    - koain
+    translators:
+    - bryan_tak
+    - eukim
+    - vi01et
     - heetaeahn
     - betorvalds
     - openstack
     - ianychoi
-    - takowasabi
-    - hyangii
-    - jaygtv
-    - jmlim
-    - whitekjs
-    - jennie
     - johjuhyun
-    - chasetherabbit
-    - joohong
+    - jongwooh
     - jitaejang
-    - gojun077
     - jsshin
-    - choipro14
-    - ryan
-    - powhapki
+    - junheon
     - kiseok7
-    - kiras11
-    - kepark07
-    - leegy1
-    - lapalm
-    - macjack
-    - choi
-    - naleejang
-    - nicholas_hpark
-    - ohjoohyun
-    - paganinist
-    - raymon_ha
+    - michaelko
     - seokjae
     - nexusz99
     - seongu
     - seungkyu
-    - seyeon
-    - seonhopark
+    - minwookshin
     - ujuc
-    - allen1222
-    - frontjang
-    - intensify
-    - kthguru
     - janghe11
-    - thnam
     - wonil22
-    - muhanpong
-    - wonki
-    - gigsda
     - chancethecoder
     - koain
 lo:
@@ -756,8 +726,8 @@ zh-CN:
     - 979zhang
     - actionchen
     - aeng
-    - billxiang
     - xiangbinbin
+    - billxiang
     - bin
     - bakbad2015
     - blkart
