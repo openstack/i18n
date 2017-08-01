@@ -62,6 +62,8 @@ finish following steps:
    by contributing translations.
    You can find :doc:`various ways of contributions <contributing>`.
 
+.. _i18n-atc:
+
 ATC status in I18n project
 --------------------------
 
