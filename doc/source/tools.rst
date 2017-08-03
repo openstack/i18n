@@ -62,6 +62,157 @@ For more options, see the output of ``zanata pull --help``.
 
    $ zanata-cli pull --locales ja,ko-KR,zh-CN
 
+Handling documentation projects
+-------------------------------
+
+.. note::
+
+   This is written about openstack-manuals project.
+   As of the end of Pike development cycle,
+   `the document migration community-wide effort
+   <https://specs.openstack.org/openstack/docs-specs/specs/pike/os-manuals-migration.html>`__
+   is being done. The process documented here might be changed in near future.
+
+OpenStack documents are using RST format.
+The steps to translate RST documents include:
+
+* Slicing: generate PO templates from RST documents
+* Uploading: Upload the translation resources to Zanata
+* Translating: manage the translation in Zanata, including the translation
+  memory and glossary management
+* Downloading: Download the translated results by automation scripts.
+* Building: Build HTML from RST documents and the translated results.
+
+Sphinx is a tool to translate RST source files to various output formats,
+including POT and HTML. You need to install Sphinx before you go to below
+steps. Almost all projects have ``test-requirements.txt`` in their repositories
+and you can check the required version of Sphinx by checking this file.
+
+.. code-block:: console
+
+   $ pip install Sphinx
+
+Or, more convenient way would be:
+
+.. code-block:: console
+
+   $ pip install -r test-requirements.txt
+
+Slicing
+~~~~~~~
+
+We use sphinx-build to translate RST files to POT files. Because we want to
+have a single POT file per document, we use msgcat to merge those POTs after
+sphinx-build.
+
+.. code-block:: console
+
+   $ sphinx-build -b gettext doc/[docname]/source/ doc/[docname]/source/locale/
+   $ msgcat doc/[docname]/source/locale/*.pot > doc/[docname]/source/locale/[docname].pot
+
+Uploading
+~~~~~~~~~
+
+We use :ref:`Zanata CLI <zanata-cli>` to upload the POT file to the translate
+platform.
+
+Downloading
+~~~~~~~~~~~
+
+We use :ref:`Zanata CLI <zanata-cli>` to download the translated PO files from
+the translation platform.
+
+Building
+~~~~~~~~
+
+Before use sphinx-build to build HTML file, we need to feed the translations
+from the single PO file into those small PO files. For example:
+
+.. code-block:: console
+
+   $ msgmerge -o doc/[docname]/source/locale/zh_CN/LC_MESSAGES/A.po \
+       doc/[docname]/source/locale/zh_CN/LC_MESSAGES/[docname].po \
+       doc/[docname]/source/locale/A.pot
+
+Then, for every PO file, we should execute the following command to build into
+MO file:
+
+.. code-block:: console
+
+   $ msgfmt doc/[docname]/source/locale/zh_CN/LC_MESSAGES/A.po \
+      -o doc/[docname]/source/locale/zh_CN/LC_MESSAGES/A.mo
+
+Finally, we could generate HTML files by
+
+.. code-block:: console
+
+   $ sphinx-build -D "language='zh_CN' doc/[docname]/source/ \
+       doc/[docname]/build/html
+
+Handling python projects
+------------------------
+
+For most of the Python projects, the preferred tools for I18N are gettext and
+babel. The gettext module provides internationalization (I18N) and localization
+(L10N) services for your Python modules and applications. Babel are a
+collection of tools for internationalizing Python applications.
+
+Extracting
+~~~~~~~~~~
+
+You can extract the messages in code to PO template (POT) with pybabel,
+where **PROJECT** is a project name like ``nova`` and **VERSION** is a version
+number. Note that you can omit ``--project`` and ``--version`` options
+if you just use them locally as they are just used in the POT file header.
+
+.. code-block:: console
+
+   $ pybabel extract \
+       --add-comments Translators: \
+       -k "_C:1c,2" -k "_P:1,2" \
+       --project=${PROJECT} --version=${VERSION} \
+       -o ${modulename}/locale/${modulename}.pot \
+       ${modulename}
+
+For example, in case of nova,
+
+.. code-block:: console
+
+   $ pybabel extract \
+       --add-comments Translators: \
+       -k "_C:1c,2" -k "_P:1,2" \
+       --project=nova --version=${VERSION} \
+       -o nova/locale/nova.pot nova/
+
+Uploading
+~~~~~~~~~
+
+For each Python project in OpenStack, there is an automation job to extract the
+messages , generate PO template and upload to Zanata, which is triggered by the
+"commit" event. See :doc:`here <infra>`.
+
+Downloading
+~~~~~~~~~~~
+
+For each Python project in OpenStack, there is an automation job daily to
+download the translations in PO file to the "locale" folder under the source
+folder of each project. See :doc:`here <infra>`. It will generate a review
+request in Gerrit. After :doc:`review <reviewing-translation-import>`,
+the translation in PO file will be merged.
+
+Using translations
+~~~~~~~~~~~~~~~~~~
+
+To display translated messages in python server projects,
+you need to compile message catalogs and also need to configure
+your server services following instructions described at
+`oslo.i18n documentation <https://docs.openstack.org/oslo.i18n/latest/user/usage.html#displaying-translated-messages>`__.
+
+Handling horizon projects
+-------------------------
+
+(Some contribution would be appreciated.)
+
 Project maintenance
 -------------------
 
