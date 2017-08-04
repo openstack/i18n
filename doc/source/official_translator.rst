@@ -97,10 +97,34 @@ additional translation contributions.
 .. note::
 
    I18n PTL updates the list using Zanata API and translator list.
-   Detail statistics data is available at:
-   https://wiki.openstack.org/wiki/I18nTeam/ATC_statistics.
+   Detail statistics data is available :ref:`below <atc-stats>`.
 
 If you have a question, feel free to ask it to the PTL or the i18n list.
 
 Note that contributors to openstack/i18n repository are acknowledged
 as ATC automatically in the same way as for most OpenStack projects.
+
+.. _atc-stats:
+
+ATC members of I18n project
+---------------------------
+
+A list of all ATCs is available at
+http://governance.openstack.org/reference/projects/i18n.html#extra-atcs.
+
+The statistics are calculated using
+`a Python script <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/zanata_stats.py>`__
+powered by
+`Zanata statistics API <https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/resource_StatisticsResource.html>`__.
+Translator list is maintained by
+`translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__
+stored in `openstack/i18n git repository <http://git.openstack.org/cgit/openstack/i18n>`__.
+
+ATC statistics of past releases are available below:
+
+.. toctree::
+   :glob:
+   :reversed:
+   :maxdepth: 1
+
+   atc-stats/*
