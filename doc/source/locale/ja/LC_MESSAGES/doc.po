@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 14:41+0000\n"
+"POT-Creation-Date: 2017-08-04 13:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-07-27 06:39+0000\n"
+"PO-Revision-Date: 2017-08-04 02:20+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -175,6 +175,9 @@ msgstr "内容"
 msgid "Contributing"
 msgstr "参加の仕方"
 
+msgid "Convention"
+msgstr "決まりごと"
+
 msgid "Coordinator"
 msgstr "コーディネーター"
 
@@ -195,6 +198,9 @@ msgstr ""
 
 msgid "Documentation"
 msgstr "ドキュメント"
+
+msgid "Downloading"
+msgstr "ダウンロード"
 
 msgid ""
 "During translating a dashboard related project, you may want to know \"where "
@@ -623,6 +629,12 @@ msgstr ""
 msgid "Previous meetings"
 msgstr "過去のミーティング"
 
+msgid "Project configuration"
+msgstr "プロジェクト設定"
+
+msgid "Pull translations from Zanata"
+msgstr "Zanata からの翻訳の取得"
+
 msgid "Python script to setup projects for Zanata"
 msgstr "Zanata プロジェクトの設定を用意する Python スクリプト。"
 
@@ -662,6 +674,12 @@ msgstr "ガイド内検索"
 
 msgid "Server projects"
 msgstr "サーバープロジェクト"
+
+msgid "Slicing"
+msgstr "分割"
+
+msgid "Slicing: generate PO templates from RST documents"
+msgstr "分割: PO テンプレートの RST ドキュメントからの生成"
 
 msgid "Stackalytics"
 msgstr "Stackalytics"
@@ -865,6 +883,9 @@ msgstr ""
 msgid "This page collects small tips and tricks around translations."
 msgstr "このページでは、翻訳に関する豆知識をまとめています。"
 
+msgid "This page covers various operations around i18n activities."
+msgstr "このページでは、 i18n の活動に関連するさまざまな操作をまとめています。"
+
 msgid "This page describes how end users can report translation bugs."
 msgstr ""
 "このページでは、エンドユーザーが翻訳関連のバグを報告する方法を説明します。"
@@ -912,6 +933,9 @@ msgstr ""
 msgid "To report translation errors, see :doc:`bug_report`."
 msgstr "翻訳の間違いを報告する場合は :doc:`bug_report` を参照してください。"
 
+msgid "Tools"
+msgstr "ツール"
+
 msgid "Translate **master** version on Zanata."
 msgstr "Zanata では **master** バージョンを翻訳します。"
 
@@ -922,6 +946,9 @@ msgstr ""
 "翻訳されたドキュメントを OpenStack ドキュメントサイトで見ることができます。更"
 "新は 1 日 1 回行われます。ほとんどのコンテンツは以下のいずれかからリンクが張"
 "られています。"
+
+msgid "Translation"
+msgstr "翻訳"
 
 msgid "Translation Statistics"
 msgstr "翻訳の統計情報"
@@ -975,6 +1002,15 @@ msgstr ""
 "翻訳はそれぞれのプロジェクトのリポジトリーに毎日取り込まれます。したがって、"
 "ほとんどの場合、自分で Zanata から翻訳を取得する必要はありません。必要なこと"
 "は、最新の Horizon コードを取得することだけです。"
+
+msgid "Uploading"
+msgstr "アップロード"
+
+msgid "Uploading: Upload the translation resources to Zanata"
+msgstr "アップロード: 翻訳リソースの Zanata へのアップロード"
+
+msgid "User configuration"
+msgstr "ユーザー設定"
 
 msgid "Using docs.openstack.org"
 msgstr "docs.openstack.org を使った確認方法"
@@ -1078,6 +1114,9 @@ msgstr ""
 
 msgid "Zanata"
 msgstr "Zanata"
+
+msgid "Zanata CLI"
+msgstr "Zanata CLI"
 
 msgid ""
 "Zanata provides suggestions for translation based on a glossary of your "
