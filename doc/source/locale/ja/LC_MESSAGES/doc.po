@@ -3,16 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 13:02+0000\n"
+"POT-Creation-Date: 2017-08-05 14:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-04 02:20+0000\n"
+"PO-Revision-Date: 2017-08-05 09:53+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "(Some contribution would be appreciated.)"
+msgstr "(是非コンテンツを追加してください)"
 
 msgid "(optional) Put your language name as bug tag."
 msgstr "(オプション) 言語名をバグのタグに設定してください。"
@@ -276,6 +279,15 @@ msgstr "各言語の用語集"
 
 msgid "Go to `Zanata server <https://translate.openstack.org/>`_"
 msgstr "`Zanata server <https://translate.openstack.org/>`_ を開きます。"
+
+msgid "Handling documentation projects"
+msgstr "ドキュメントプロジェクトの扱い"
+
+msgid "Handling horizon projects"
+msgstr "horizon 関連プロジェクトの扱い"
+
+msgid "Handling python projects"
+msgstr "python プロジェクトの扱い"
 
 msgid "Handling translation bugs"
 msgstr "翻訳バグの処理"
@@ -616,6 +628,16 @@ msgstr "OpenStack I18n チーム: :ref:`label-i18n-team-contact` 参照"
 msgid "OpenStack developer documentation"
 msgstr "OpenStack 開発者ドキュメント"
 
+msgid ""
+"OpenStack uses Zanata as a translation platform. While most operations "
+"around the translation platform are automated, if you want to communicate "
+"with the translation platform manually, you can use `Zanata CLI <http://docs."
+"zanata.org/en/release/client/>`__."
+msgstr ""
+"OpenStack では Zanata を翻訳基盤として使っています。 翻訳基盤に関するほとんど"
+"の作業は自動化されていますが、手動で翻訳基盤とやり取りしたい場合は `Zanata "
+"CLI <http://docs.zanata.org/en/release/client/>`__ を使用できます。"
+
 msgid "Original string or message is not correct."
 msgstr "オリジナルのストリングやメッセージの誤り"
 
@@ -631,6 +653,9 @@ msgstr "過去のミーティング"
 
 msgid "Project configuration"
 msgstr "プロジェクト設定"
+
+msgid "Project maintenance"
+msgstr "プロジェクトメンテナンス"
 
 msgid "Pull translations from Zanata"
 msgstr "Zanata からの翻訳の取得"
@@ -653,6 +678,9 @@ msgstr "翻訳バグの報告"
 
 msgid "Request to join a translation team"
 msgstr "翻訳チームへの参加を申請します"
+
+msgid "Retrieve translation statistics"
+msgstr "翻訳統計の取得"
 
 msgid "Reviewer"
 msgstr "レビューアー"
@@ -686,6 +714,9 @@ msgstr "Stackalytics"
 
 msgid "Steps to become a OpenStack translator"
 msgstr "OpenStack の翻訳者になるための手順"
+
+msgid "Sync the translator list with Zanata"
+msgstr "翻訳者リストの Zanata との同期"
 
 msgid "TBD"
 msgstr "TBD"
@@ -738,6 +769,9 @@ msgstr ""
 "POT ファイルは ``http://tarballs.openstack.org/translation-source/<Zanata-"
 "project-name>/<Zanata-project-version>/<path>/<resource>.pot`` にあります。"
 
+msgid "The above run the following internally:"
+msgstr "上記のコマンドは内部では以下を実行します。"
+
 msgid ""
 "The bug triaging process are following the `general bug triaging process "
 "<https://wiki.openstack.org/wiki/BugTriage>`_. If you want to help bug "
@@ -760,6 +794,9 @@ msgstr ""
 "一番簡単な方法は、 http://tarballs.openstack.org/translation-source を開いて "
 "``<Zanata-project-name>``, ``<Zanata-version>`` のように順に対応するリンクを"
 "辿る方法でしょう。"
+
+msgid "The filename of the list is ``tools/translation_team.yaml``."
+msgstr "リストのファイル名は ``tools/translation_team.yaml`` です。"
 
 msgid ""
 "The following is an example of ``local.conf`` for Newton release which runs "
@@ -870,6 +907,13 @@ msgid "This is a useful commands for the IRC meeting."
 msgstr "以下は IRC ミーティングでよく使う便利なコマンドです。"
 
 msgid ""
+"This list is a cache of information on Zanata, and we need to keep it synced "
+"with Zanata."
+msgstr ""
+"このリストは Zanata 上の情報のキャッシュなので、このファイルは Zanata と同期"
+"しておく必要があります。"
+
+msgid ""
 "This means \"Aggregates\" menu in \"Admin\" group in the left side menu. In "
 "Horizon code, the second level corresponds to a dashboard group like "
 "\"Project\" or \"Admin\" and the third level corresponds to a panel like "
@@ -932,6 +976,12 @@ msgstr ""
 
 msgid "To report translation errors, see :doc:`bug_report`."
 msgstr "翻訳の間違いを報告する場合は :doc:`bug_report` を参照してください。"
+
+msgid "To run the script:"
+msgstr "スクリプトは以下のように実行します。"
+
+msgid "To sync the translator list, run the following command:"
+msgstr "翻訳者リストを同期するには、以下のコマンドを実行します。"
 
 msgid "Tools"
 msgstr "ツール"
