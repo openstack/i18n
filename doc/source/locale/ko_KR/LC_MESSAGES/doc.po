@@ -5,12 +5,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 13:02+0000\n"
+"POT-Creation-Date: 2017-08-11 15:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-05 02:01+0000\n"
-"Last-Translator: minwook-shin <minwook0106@gmail.com>\n"
+"PO-Revision-Date: 2017-08-12 08:04+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -40,6 +40,159 @@ msgstr ""
 
 msgid "..."
 msgstr "..."
+
+msgid "0"
+msgstr "0"
+
+msgid "10"
+msgstr "10"
+
+msgid "1015"
+msgstr "1015"
+
+msgid "1025"
+msgstr "1025"
+
+msgid "1048"
+msgstr "1048"
+
+msgid "10797"
+msgstr "10797"
+
+msgid "11"
+msgstr "11"
+
+msgid "1139"
+msgstr "1139"
+
+msgid "119"
+msgstr "119"
+
+msgid "1216"
+msgstr "1216"
+
+msgid "12384"
+msgstr "12384"
+
+msgid "1248"
+msgstr "1248"
+
+msgid "1266"
+msgstr "1266"
+
+msgid "13"
+msgstr "13"
+
+msgid "138"
+msgstr "138"
+
+msgid "13813"
+msgstr "13813"
+
+msgid "13995"
+msgstr "13995"
+
+msgid "141"
+msgstr "141"
+
+msgid "146"
+msgstr "146"
+
+msgid "1471"
+msgstr "1471"
+
+msgid "152"
+msgstr "152"
+
+msgid "1531"
+msgstr "1531"
+
+msgid "15934"
+msgstr "15934"
+
+msgid "1633"
+msgstr "1633"
+
+msgid "16773"
+msgstr "16773"
+
+msgid "1752"
+msgstr "1752"
+
+msgid "1850"
+msgstr "1850"
+
+msgid "189"
+msgstr "189"
+
+msgid "1942"
+msgstr "1942"
+
+msgid "19431"
+msgstr "19431"
+
+msgid "2077"
+msgstr "2077"
+
+msgid "21"
+msgstr "21"
+
+msgid "2121"
+msgstr "2121"
+
+msgid "2283"
+msgstr "2283"
+
+msgid "2300"
+msgstr "2300"
+
+msgid "24"
+msgstr "24"
+
+msgid "249"
+msgstr "249"
+
+msgid "2544"
+msgstr "2544"
+
+msgid "2554"
+msgstr "2554"
+
+msgid "26"
+msgstr "26"
+
+msgid "2663"
+msgstr "2663"
+
+msgid "26707"
+msgstr "26707"
+
+msgid "2692"
+msgstr "2692"
+
+msgid "2793"
+msgstr "2793"
+
+msgid "30"
+msgstr "30"
+
+msgid "303"
+msgstr "303"
+
+msgid "3035"
+msgstr "3035"
+
+msgid "31"
+msgstr "31"
+
+msgid "310"
+msgstr "310"
+
+msgid "319"
+msgstr "319"
+
+msgid "992"
+msgstr "992"
 
 msgid ":doc:`IRC meeting <i18n_team_meeting>`"
 msgstr ":doc:`IRC meeting <i18n_team_meeting>`"
@@ -114,6 +267,9 @@ msgid ""
 msgstr ""
 "템플릿은 정적 HTML 파일의 골격입니다. 이 경우 문자열은 \"컨테이너\"메뉴의 "
 "\"업데이트\"양식에서 사용됩니다."
+
+msgid "ATC statistics of past releases are available below:"
+msgstr "지난 릴리즈 ATC 통계는 아래에서 확인 가능합니다:"
 
 msgid "ATC status in I18n project"
 msgstr "I18n 프로젝트 내 ATC 상태"
@@ -521,15 +677,6 @@ msgstr "어떻게 버그를 신고할 수 있습니까?"
 
 msgid "How to check translations"
 msgstr "번역을 검사하는 방법"
-
-msgid ""
-"I18n PTL updates the list using Zanata API and translator list. Detail "
-"statistics data is available at: https://wiki.openstack.org/wiki/I18nTeam/"
-"ATC_statistics."
-msgstr ""
-"I18n PTL은 Zanata API 및 번역자 목록을 사용하여 목록을 갱신합니다. 자세한 통"
-"계 데이터는 https://wiki.openstack.org/wiki/I18nTeam/ATC_statistics 에서 확"
-"인 가능합니다."
 
 msgid "I18n team meeting"
 msgstr "I18n 팀 미팅"
