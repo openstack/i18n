@@ -1,0 +1,3250 @@
+# Akihiro Motoki <amotoki@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: I18n Contributor Guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-12 13:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-08-12 01:55+0000\n"
+"Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "(Some contribution would be appreciated.)"
+msgstr "(是非コンテンツを追加してください)"
+
+msgid "(optional) Put your language name as bug tag."
+msgstr "(オプション) 言語名をバグのタグに設定してください。"
+
+msgid ""
+"**Make sure to include your English language name in a bug summary**. It is "
+"also suggested to write a bug summary in English. For example:"
+msgstr ""
+"**必ず、バグ概要にお使いの言語の英語名を入れてください。** また、バグ概要も英"
+"語で書くことをお薦めします。以下は例です。"
+
+msgid "..."
+msgstr "..."
+
+msgid "0"
+msgstr "0"
+
+msgid "10"
+msgstr "10"
+
+msgid "1002"
+msgstr "1002"
+
+msgid "100222"
+msgstr "100222"
+
+msgid "10092"
+msgstr "10092"
+
+msgid "10095"
+msgstr "10095"
+
+msgid "10101"
+msgstr "10101"
+
+msgid "10128"
+msgstr "10128"
+
+msgid "1015"
+msgstr "1015"
+
+msgid "10156"
+msgstr "10156"
+
+msgid "1025"
+msgstr "1025"
+
+msgid "1045"
+msgstr "1045"
+
+msgid "1048"
+msgstr "1048"
+
+msgid "1065"
+msgstr "1065"
+
+msgid "1067"
+msgstr "1067"
+
+msgid "107"
+msgstr "107"
+
+msgid "1077"
+msgstr "1077"
+
+msgid "1079"
+msgstr "1079"
+
+msgid "10797"
+msgstr "10797"
+
+msgid "11"
+msgstr "11"
+
+msgid "110"
+msgstr "110"
+
+msgid "113"
+msgstr "113"
+
+msgid "1131"
+msgstr "1131"
+
+msgid "11384"
+msgstr "11384"
+
+msgid "1139"
+msgstr "1139"
+
+msgid "1141"
+msgstr "1141"
+
+msgid "115"
+msgstr "115"
+
+msgid "11506"
+msgstr "11506"
+
+msgid "116"
+msgstr "116"
+
+msgid "1160"
+msgstr "1160"
+
+msgid "1179"
+msgstr "1179"
+
+msgid "11820"
+msgstr "11820"
+
+msgid "119"
+msgstr "119"
+
+msgid "11994"
+msgstr "11994"
+
+msgid "1216"
+msgstr "1216"
+
+msgid "1222"
+msgstr "1222"
+
+msgid "12384"
+msgstr "12384"
+
+msgid "1248"
+msgstr "1248"
+
+msgid "1255"
+msgstr "1255"
+
+msgid "1261"
+msgstr "1261"
+
+msgid "1266"
+msgstr "1266"
+
+msgid "128"
+msgstr "128"
+
+msgid "1293"
+msgstr "1293"
+
+msgid "13"
+msgstr "13"
+
+msgid "130"
+msgstr "130"
+
+msgid "13272"
+msgstr "13272"
+
+msgid "133"
+msgstr "133"
+
+msgid "1341"
+msgstr "1341"
+
+msgid "13481"
+msgstr "13481"
+
+msgid "1353"
+msgstr "1353"
+
+msgid "137"
+msgstr "137"
+
+msgid "138"
+msgstr "138"
+
+msgid "13813"
+msgstr "13813"
+
+msgid "1386"
+msgstr "1386"
+
+msgid "1388"
+msgstr "1388"
+
+msgid "13995"
+msgstr "13995"
+
+msgid "14"
+msgstr "14"
+
+msgid "1400"
+msgstr "1400"
+
+msgid "1408"
+msgstr "1408"
+
+msgid "141"
+msgstr "141"
+
+msgid "14132"
+msgstr "14132"
+
+msgid "1439"
+msgstr "1439"
+
+msgid "146"
+msgstr "146"
+
+msgid "1471"
+msgstr "1471"
+
+msgid "15"
+msgstr "15"
+
+msgid "15079"
+msgstr "15079"
+
+msgid "152"
+msgstr "152"
+
+msgid "1531"
+msgstr "1531"
+
+msgid "1538"
+msgstr "1538"
+
+msgid "1547"
+msgstr "1547"
+
+msgid "156"
+msgstr "156"
+
+msgid "1565"
+msgstr "1565"
+
+msgid "1576"
+msgstr "1576"
+
+msgid "15934"
+msgstr "15934"
+
+msgid "1603"
+msgstr "1603"
+
+msgid "1606"
+msgstr "1606"
+
+msgid "1633"
+msgstr "1633"
+
+msgid "166739"
+msgstr "166739"
+
+msgid "16773"
+msgstr "16773"
+
+msgid "1678"
+msgstr "1678"
+
+msgid "168"
+msgstr "168"
+
+msgid "16837"
+msgstr "16837"
+
+msgid "1711"
+msgstr "1711"
+
+msgid "17207"
+msgstr "17207"
+
+msgid "1723"
+msgstr "1723"
+
+msgid "1724"
+msgstr "1724"
+
+msgid "1752"
+msgstr "1752"
+
+msgid "1768"
+msgstr "1768"
+
+msgid "17691"
+msgstr "17691"
+
+msgid "179"
+msgstr "179"
+
+msgid "1799"
+msgstr "1799"
+
+msgid "18"
+msgstr "18"
+
+msgid "1850"
+msgstr "1850"
+
+msgid "1881"
+msgstr "1881"
+
+msgid "18845"
+msgstr "18845"
+
+msgid "189"
+msgstr "189"
+
+msgid "1902"
+msgstr "1902"
+
+msgid "19104"
+msgstr "19104"
+
+msgid "1938"
+msgstr "1938"
+
+msgid "1942"
+msgstr "1942"
+
+msgid "19431"
+msgstr "19431"
+
+msgid "1944"
+msgstr "1944"
+
+msgid "1948"
+msgstr "1948"
+
+msgid "195"
+msgstr "195"
+
+msgid "1952"
+msgstr "1952"
+
+msgid "1984"
+msgstr "1984"
+
+msgid "1989"
+msgstr "1989"
+
+msgid "19911"
+msgstr "19911"
+
+msgid "2"
+msgstr "2"
+
+msgid "20"
+msgstr "20"
+
+msgid "201"
+msgstr "201"
+
+msgid "20128"
+msgstr "20128"
+
+msgid "202"
+msgstr "202"
+
+msgid "204"
+msgstr "204"
+
+msgid "2077"
+msgstr "2077"
+
+msgid "208"
+msgstr "208"
+
+msgid "21"
+msgstr "21"
+
+msgid "2121"
+msgstr "2121"
+
+msgid "216"
+msgstr "216"
+
+msgid "21760"
+msgstr "21760"
+
+msgid "2195"
+msgstr "2195"
+
+msgid "2205"
+msgstr "2205"
+
+msgid "2283"
+msgstr "2283"
+
+msgid "22923"
+msgstr "22923"
+
+msgid "2300"
+msgstr "2300"
+
+msgid "2307"
+msgstr "2307"
+
+msgid "23073"
+msgstr "23073"
+
+msgid "231"
+msgstr "231"
+
+msgid "233"
+msgstr "233"
+
+msgid "235"
+msgstr "235"
+
+msgid "236"
+msgstr "236"
+
+msgid "2365"
+msgstr "2365"
+
+msgid "239"
+msgstr "239"
+
+msgid "2394"
+msgstr "2394"
+
+msgid "2397"
+msgstr "2397"
+
+msgid "24"
+msgstr "24"
+
+msgid "2406"
+msgstr "2406"
+
+msgid "246"
+msgstr "246"
+
+msgid "2480"
+msgstr "2480"
+
+msgid "2481"
+msgstr "2481"
+
+msgid "249"
+msgstr "249"
+
+msgid "25"
+msgstr "25"
+
+msgid "2507"
+msgstr "2507"
+
+msgid "25077"
+msgstr "25077"
+
+msgid "252"
+msgstr "252"
+
+msgid "254"
+msgstr "254"
+
+msgid "2544"
+msgstr "2544"
+
+msgid "2554"
+msgstr "2554"
+
+msgid "256"
+msgstr "256"
+
+msgid "25694"
+msgstr "25694"
+
+msgid "258"
+msgstr "258"
+
+msgid "26"
+msgstr "26"
+
+msgid "26356"
+msgstr "26356"
+
+msgid "2651"
+msgstr "2651"
+
+msgid "2660"
+msgstr "2660"
+
+msgid "2663"
+msgstr "2663"
+
+msgid "2668"
+msgstr "2668"
+
+msgid "26707"
+msgstr "26707"
+
+msgid "26843"
+msgstr "26843"
+
+msgid "2692"
+msgstr "2692"
+
+msgid "2703"
+msgstr "2703"
+
+msgid "27143"
+msgstr "27143"
+
+msgid "27355"
+msgstr "27355"
+
+msgid "277"
+msgstr "277"
+
+msgid "278"
+msgstr "278"
+
+msgid "2793"
+msgstr "2793"
+
+msgid "2811"
+msgstr "2811"
+
+msgid "2826"
+msgstr "2826"
+
+msgid "29"
+msgstr "29"
+
+msgid "295"
+msgstr "295"
+
+msgid "2972"
+msgstr "2972"
+
+msgid "3"
+msgstr "3"
+
+msgid "30"
+msgstr "30"
+
+msgid "303"
+msgstr "303"
+
+msgid "3035"
+msgstr "3035"
+
+msgid "3041"
+msgstr "3041"
+
+msgid "3065"
+msgstr "3065"
+
+msgid "309"
+msgstr "309"
+
+msgid "31"
+msgstr "31"
+
+msgid "310"
+msgstr "310"
+
+msgid "31268"
+msgstr "31268"
+
+msgid "31333"
+msgstr "31333"
+
+msgid "317"
+msgstr "317"
+
+msgid "319"
+msgstr "319"
+
+msgid "32"
+msgstr "32"
+
+msgid "321"
+msgstr "321"
+
+msgid "32120"
+msgstr "32120"
+
+msgid "32125"
+msgstr "32125"
+
+msgid "3216"
+msgstr "3216"
+
+msgid "3217"
+msgstr "3217"
+
+msgid "322"
+msgstr "322"
+
+msgid "32261"
+msgstr "32261"
+
+msgid "32785"
+msgstr "32785"
+
+msgid "328"
+msgstr "328"
+
+msgid "32863"
+msgstr "32863"
+
+msgid "330"
+msgstr "330"
+
+msgid "331"
+msgstr "331"
+
+msgid "333"
+msgstr "333"
+
+msgid "3337"
+msgstr "3337"
+
+msgid "3390"
+msgstr "3390"
+
+msgid "34"
+msgstr "34"
+
+msgid "340"
+msgstr "340"
+
+msgid "341"
+msgstr "341"
+
+msgid "3411"
+msgstr "3411"
+
+msgid "344"
+msgstr "344"
+
+msgid "3446"
+msgstr "3446"
+
+msgid "345"
+msgstr "345"
+
+msgid "346"
+msgstr "346"
+
+msgid "34697"
+msgstr "34697"
+
+msgid "3482"
+msgstr "3482"
+
+msgid "352"
+msgstr "352"
+
+msgid "354"
+msgstr "354"
+
+msgid "355"
+msgstr "355"
+
+msgid "357"
+msgstr "357"
+
+msgid "35849"
+msgstr "35849"
+
+msgid "3585"
+msgstr "3585"
+
+msgid "3588"
+msgstr "3588"
+
+msgid "36"
+msgstr "36"
+
+msgid "36676"
+msgstr "36676"
+
+msgid "367"
+msgstr "367"
+
+msgid "3681"
+msgstr "3681"
+
+msgid "37"
+msgstr "37"
+
+msgid "373"
+msgstr "373"
+
+msgid "375"
+msgstr "375"
+
+msgid "379"
+msgstr "379"
+
+msgid "3802"
+msgstr "3802"
+
+msgid "381"
+msgstr "381"
+
+msgid "3825"
+msgstr "3825"
+
+msgid "3849"
+msgstr "3849"
+
+msgid "387"
+msgstr "387"
+
+msgid "391"
+msgstr "391"
+
+msgid "392"
+msgstr "392"
+
+msgid "3961"
+msgstr "3961"
+
+msgid "397"
+msgstr "397"
+
+msgid "3972"
+msgstr "3972"
+
+msgid "3979"
+msgstr "3979"
+
+msgid "4"
+msgstr "4"
+
+msgid "4051"
+msgstr "4051"
+
+msgid "409"
+msgstr "409"
+
+msgid "412"
+msgstr "412"
+
+msgid "4126"
+msgstr "4126"
+
+msgid "4172"
+msgstr "4172"
+
+msgid "4192"
+msgstr "4192"
+
+msgid "4198"
+msgstr "4198"
+
+msgid "420"
+msgstr "420"
+
+msgid "4232"
+msgstr "4232"
+
+msgid "4242"
+msgstr "4242"
+
+msgid "4287"
+msgstr "4287"
+
+msgid "43"
+msgstr "43"
+
+msgid "434"
+msgstr "434"
+
+msgid "435"
+msgstr "435"
+
+msgid "4362"
+msgstr "4362"
+
+msgid "439"
+msgstr "439"
+
+msgid "4413"
+msgstr "4413"
+
+msgid "4455"
+msgstr "4455"
+
+msgid "447"
+msgstr "447"
+
+msgid "44739"
+msgstr "44739"
+
+msgid "452"
+msgstr "452"
+
+msgid "453"
+msgstr "453"
+
+msgid "4546"
+msgstr "4546"
+
+msgid "4577"
+msgstr "4577"
+
+msgid "45901"
+msgstr "45901"
+
+msgid "4591"
+msgstr "4591"
+
+msgid "46"
+msgstr "46"
+
+msgid "4676"
+msgstr "4676"
+
+msgid "4698"
+msgstr "4698"
+
+msgid "472"
+msgstr "472"
+
+msgid "477"
+msgstr "477"
+
+msgid "4780"
+msgstr "4780"
+
+msgid "48"
+msgstr "48"
+
+msgid "480"
+msgstr "480"
+
+msgid "4809"
+msgstr "4809"
+
+msgid "484"
+msgstr "484"
+
+msgid "4862"
+msgstr "4862"
+
+msgid "49"
+msgstr "49"
+
+msgid "4907"
+msgstr "4907"
+
+msgid "495"
+msgstr "495"
+
+msgid "497"
+msgstr "497"
+
+msgid "4989"
+msgstr "4989"
+
+msgid "5"
+msgstr "5"
+
+msgid "500"
+msgstr "500"
+
+msgid "501"
+msgstr "501"
+
+msgid "502"
+msgstr "502"
+
+msgid "506"
+msgstr "506"
+
+msgid "514"
+msgstr "514"
+
+msgid "51448"
+msgstr "51448"
+
+msgid "5206"
+msgstr "5206"
+
+msgid "525"
+msgstr "525"
+
+msgid "529"
+msgstr "529"
+
+msgid "52941"
+msgstr "52941"
+
+msgid "53"
+msgstr "53"
+
+msgid "534"
+msgstr "534"
+
+msgid "5340"
+msgstr "5340"
+
+msgid "540"
+msgstr "540"
+
+msgid "541"
+msgstr "541"
+
+msgid "554"
+msgstr "554"
+
+msgid "5580"
+msgstr "5580"
+
+msgid "56"
+msgstr "56"
+
+msgid "5618"
+msgstr "5618"
+
+msgid "565"
+msgstr "565"
+
+msgid "5669"
+msgstr "5669"
+
+msgid "583"
+msgstr "583"
+
+msgid "586"
+msgstr "586"
+
+msgid "6"
+msgstr "6"
+
+msgid "600"
+msgstr "600"
+
+msgid "6129"
+msgstr "6129"
+
+msgid "617"
+msgstr "617"
+
+msgid "6171"
+msgstr "6171"
+
+msgid "618"
+msgstr "618"
+
+msgid "624"
+msgstr "624"
+
+msgid "6245"
+msgstr "6245"
+
+msgid "625"
+msgstr "625"
+
+msgid "6346"
+msgstr "6346"
+
+msgid "6504"
+msgstr "6504"
+
+msgid "65263"
+msgstr "65263"
+
+msgid "654"
+msgstr "654"
+
+msgid "6588"
+msgstr "6588"
+
+msgid "665"
+msgstr "665"
+
+msgid "669"
+msgstr "669"
+
+msgid "670"
+msgstr "670"
+
+msgid "68"
+msgstr "68"
+
+msgid "6865"
+msgstr "6865"
+
+msgid "689"
+msgstr "689"
+
+msgid "690"
+msgstr "690"
+
+msgid "69223"
+msgstr "69223"
+
+msgid "693"
+msgstr "693"
+
+msgid "69823"
+msgstr "69823"
+
+msgid "7032"
+msgstr "7032"
+
+msgid "7046"
+msgstr "7046"
+
+msgid "708"
+msgstr "708"
+
+msgid "7129"
+msgstr "7129"
+
+msgid "714"
+msgstr "714"
+
+msgid "72"
+msgstr "72"
+
+msgid "731"
+msgstr "731"
+
+msgid "73184"
+msgstr "73184"
+
+msgid "734"
+msgstr "734"
+
+msgid "737"
+msgstr "737"
+
+msgid "7420"
+msgstr "7420"
+
+msgid "745"
+msgstr "745"
+
+msgid "752"
+msgstr "752"
+
+msgid "7525"
+msgstr "7525"
+
+msgid "7537"
+msgstr "7537"
+
+msgid "7576"
+msgstr "7576"
+
+msgid "762"
+msgstr "762"
+
+msgid "763"
+msgstr "763"
+
+msgid "77"
+msgstr "77"
+
+msgid "772"
+msgstr "772"
+
+msgid "7752"
+msgstr "7752"
+
+msgid "79"
+msgstr "79"
+
+msgid "792"
+msgstr "792"
+
+msgid "794"
+msgstr "794"
+
+msgid "8"
+msgstr "8"
+
+msgid "8048"
+msgstr "8048"
+
+msgid "81"
+msgstr "81"
+
+msgid "831"
+msgstr "831"
+
+msgid "8312"
+msgstr "8312"
+
+msgid "8319"
+msgstr "8319"
+
+msgid "835"
+msgstr "835"
+
+msgid "8367"
+msgstr "8367"
+
+msgid "8457"
+msgstr "8457"
+
+msgid "849"
+msgstr "849"
+
+msgid "859"
+msgstr "859"
+
+msgid "864"
+msgstr "864"
+
+msgid "867"
+msgstr "867"
+
+msgid "869"
+msgstr "869"
+
+msgid "8712"
+msgstr "8712"
+
+msgid "874"
+msgstr "874"
+
+msgid "8790"
+msgstr "8790"
+
+msgid "88"
+msgstr "88"
+
+msgid "881"
+msgstr "881"
+
+msgid "882"
+msgstr "882"
+
+msgid "9"
+msgstr "9"
+
+msgid "90"
+msgstr "90"
+
+msgid "902"
+msgstr "902"
+
+msgid "907"
+msgstr "907"
+
+msgid "9122"
+msgstr "9122"
+
+msgid "92"
+msgstr "92"
+
+msgid "9242"
+msgstr "9242"
+
+msgid "94"
+msgstr "94"
+
+msgid "9515"
+msgstr "9515"
+
+msgid "957"
+msgstr "957"
+
+msgid "965"
+msgstr "965"
+
+msgid "9820"
+msgstr "9820"
+
+msgid "9836"
+msgstr "9836"
+
+msgid "992"
+msgstr "992"
+
+msgid "997"
+msgstr "997"
+
+msgid ":doc:`IRC meeting <i18n_team_meeting>`"
+msgstr ":doc:`IRC ミーティング <i18n_team_meeting>`"
+
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+msgid ""
+"A person who can proofread translations and mark them as reviewed (approved) "
+"or rejected."
+msgstr ""
+"翻訳の査読を行い、翻訳にレビュー済み (承認済み; Approved)  か却下 (Rejected) "
+"のマークを付けることができます。"
+
+msgid "A person who can submit translations."
+msgstr "翻訳を登録できます。"
+
+msgid ""
+"A template is a skeleton of static HTML files. In this case, the string is "
+"perhaps used in \"Update\" form in \"Container\" menu."
+msgstr ""
+"テンプレートは静的な HTML ファイルの雛形です。この例の場合、このストリングは"
+"おそらく「コンテナー」メニューの「更新」フォームで使われていることでしょう。"
+
+msgid "ATC status in I18n project"
+msgstr "I18n プロジェクトにおける ATC ステータス"
+
+msgid "About this guide"
+msgstr "このガイドについて"
+
+msgid ""
+"After the official release, translating master version is welcome for "
+"upstream translation contribution, but the original strings may be changed "
+"frequently due to upstream development on the projects."
+msgstr ""
+"正式リリース後も、アップストリームの翻訳への貢献として master バージョンを翻"
+"訳するのは歓迎しますが、アップストリームのプロジェクトでの開発が進んでいるた"
+"め、英語のストリングは頻繁に変更される可能性がある点には留意してください。"
+
+msgid ""
+"After you edit the master glossary, ensure to reflect the change to all "
+"language glossary files. To do this, run the following command."
+msgstr ""
+"用語集のマスターファイルを編集したら、すべての言語の用語集ファイルへの反映を"
+"忘れないでください。具体的には、以下のコマンドを実行します。"
+
+msgid ""
+"After you log in with OpenStack ID, you will be requested to fill in your "
+"profile."
+msgstr "OpenStack ID でログインすると、プロフィールの入力を要求されます。"
+
+msgid "Amandeep Singh Saini (jimidar) - Punjabi (India)"
+msgstr "Amandeep Singh Saini (jimidar) - Punjabi (India)"
+
+msgid ""
+"Another convenient way is to check dashboard translations is to run DevStack "
+"in your local environment. To run DevStack, you need to prepare ``local."
+"conf`` file, but no worries. Several ``local.conf`` files are shared on the "
+"Internet and a minimum example is shown below. From our experience, you need "
+"a machine with two or four CPU cores, 8 GB memory and 20 GB disk to run "
+"DevStack comfortably. If you enable just major OpenStack projects, the "
+"machine requirement would be much smaller like 2~4GB memory."
+msgstr ""
+"別のお手軽な方法は、自分の手元の環境で DevStack を実行して翻訳を確認する方法"
+"です。 DevStack を実行するには、 ``local.conf`` を準備する必要がありますが、"
+"心配しないでください。 ``local.conf`` ファイルの例がいくつもインターネット上"
+"で共有されていますし、最も簡単な例は以下にあります。これまでの経験上、 "
+"DevStack を快適に実行するのに必要なマシンスペックは、 CPU コアが 2 か 4、メモ"
+"リーが 8GB、 ディスクが 20 GB  です。 OpenStack の主要プロジェクトだけを動か"
+"したい場合は、マシンに必要なメモリーは 2〜4 GB ともっと少なくなります。"
+
+msgid "Application developer documentation"
+msgstr "アプリケーション開発者ドキュメント"
+
+msgid ""
+"As a translator, if reported bugs turns out beyond a translation bug, it is "
+"better to ask I18n team members via the mailing list or the IRC channel. "
+"They can handle such bugs."
+msgstr ""
+"翻訳者として見て、報告されたバグが翻訳バグの範囲を超えるものだと分かった場"
+"合、メーリングリストや IRC チャンネルで I18n チームのメンバーに尋ねるとよいで"
+"しょう。彼らがそういったバグを処置してくれることでしょう。"
+
+msgid ""
+"At this stage, the master version on Zanata is still open for translations, "
+"but it is strongly suggested to work on a stable version."
+msgstr ""
+"この時点では、 Zanata の master バージョンも翻訳できますが、 stable バージョ"
+"ンを対象に翻訳することを強く推奨します。"
+
+msgid ""
+"Before you start contribution, you'll have to `agree to the contributor "
+"license agreement <http://docs.openstack.org/infra/manual/developers."
+"html#account-setup>`_. (You can preview the full text of `the OpenStack "
+"Individual Contributor License Agreement <https://review.openstack.org/"
+"static/cla.html>`_ first if you want.)"
+msgstr ""
+"活動に参加する前に、 `contributor license agreement  <http://docs.openstack."
+"org/infra/manual/developers.html#account-setup>`_ に同意する必要があります "
+"(必要であれば `OpenStack Individual Contributor License Agreement <https://"
+"review.openstack.org/static/cla.html>`_ の完全版を確認できます)。"
+
+msgid "Bugs in a source project"
+msgstr "上流プロジェクトのバグ"
+
+msgid "Bugs in tool chains"
+msgstr "ツール類のバグ"
+
+msgid ""
+"Bugs in translated documents or dashboard are mainly classified into the "
+"following areas:"
+msgstr ""
+"翻訳されたドキュメントやダッシュボードのバグは、主に以下のカテゴリーに分類で"
+"きます。"
+
+msgid ""
+"Builds release notes in both the original (English) version and translated "
+"versions (if any)."
+msgstr "英語版 (オリジナル) と翻訳版の両方のリリースノートの生成を行います。"
+
+msgid "CLI (command line interface)"
+msgstr "CLI (コマンドラインインターフェース)"
+
+msgid "Carries out the second Jenkins job (Syncing into repos)."
+msgstr "2 つ目の Jenkins ジョブ (リポジトリーへの同期) を行います。"
+
+msgid "Click \"...\" on the right, and select \"Request to join team\"."
+msgstr "右側の \"...\" をクリックして、「Request to join team」を選択します。"
+
+msgid "Click \"Languages\" on the top, all languages will be listed."
+msgstr "上部にある「言語」をクリックすると、すべての言語が一覧表示されます。"
+
+msgid "Click \"Log in\" button."
+msgstr "「ログイン」ボタンをクリックします。"
+
+msgid ""
+"Click the language you want to translate, the language page will be shown."
+msgstr "翻訳に参加したい言語をクリックすると、その言語のページが表示されます。"
+
+msgid ""
+"Common code used by **propose_translation_update.sh** and "
+"**upstream_translation_update.sh**"
+msgstr ""
+"**propose_translation_update.sh** と **upstream_translation_update.sh** で共"
+"通に利用されるコード。"
+
+msgid "Contents"
+msgstr "内容"
+
+msgid "Contributing"
+msgstr "参加の仕方"
+
+msgid "Convention"
+msgstr "決まりごと"
+
+msgid "Coordinator"
+msgstr "コーディネーター"
+
+msgid "Creating a Language Team"
+msgstr "言語チームの作成"
+
+msgid "Currently there is no solid plan when the check site is provided."
+msgstr ""
+"現在のところ、いつ翻訳チェックサイトが提供されるか、についてははっきりとは決"
+"まっていません。"
+
+msgid ""
+"Currently, we do not support translations for OpenStack developer documents: "
+"http://docs.openstack.org/developer/<project>"
+msgstr ""
+"現在のところ、 OpenStack 開発者ドキュメント http://docs.openstack.org/"
+"developer/<project> の翻訳には対応していません。"
+
+msgid "Documentation"
+msgstr "ドキュメント"
+
+msgid "Downloading"
+msgstr "ダウンロード"
+
+msgid ""
+"During translating a dashboard related project, you may want to know \"where "
+"is this string used in the dashboard?\"."
+msgstr ""
+"ダッシュボード関連のプロジェクトの翻訳を行っている場合、「このストリングは"
+"ダッシュボードのどこで使われているのか？」を知りたい場合があるでしょう。"
+
+msgid ""
+"Each language team has useful information to help our translation efforts. "
+"It is worth visited. You can find your language team at https://wiki."
+"openstack.org/wiki/I18nTeam/team."
+msgstr ""
+"それぞれの言語チームは、翻訳の助けとなるさまざまな情報を提供しています。是非"
+"読んでみてください。言語チームのページは https://wiki.openstack.org/wiki/"
+"I18nTeam/team に載っています。"
+
+msgid "Every even week: 07:00 UTC, Thursday"
+msgstr "偶数週: 木曜 07:00 UTC (日本時間: 木曜 16:00)"
+
+msgid "Every odd week: 13:00 UTC, Thursday"
+msgstr "奇数週: 木曜 13:00 UTC (日本時間: 木曜 22:00)"
+
+msgid "Everyone in the OpenStack community is glad to help you."
+msgstr "OpenStack コミュニティーの誰もが相談に乗ってくれます。"
+
+msgid "FAQ: I cannot find my name in Stackalytics"
+msgstr "FAQ: 自分の名前が統計情報に出てこない"
+
+msgid ""
+"Finally, propose a patch including all of the above changes to the Gerrit "
+"review system."
+msgstr ""
+"最後に、上記のすべての変更を含めたパッチを Gerrit レビューシステムに投稿して"
+"ください。"
+
+msgid ""
+"Finding and reporting translation bugs is an important step towards better "
+"quality of translations in OpenStack."
+msgstr ""
+"翻訳バグを見つけて報告することは、 OpenStack の翻訳の品質を向上するためには重"
+"要なことです。"
+
+msgid "Fixing I18n bugs"
+msgstr "I18n バグ (国際化バグ) の修正"
+
+msgid ""
+"For a document in a stable branch, such as the installation guide for "
+"Liberty, you need to update the file ``doc-tools-check-languages.conf`` in "
+"the target stable branch directly. You must add an entry to ``DRAFTS``, "
+"which is used as a special flag for a stable branch."
+msgstr ""
+"stable ブランチのドキュメントの場合 (例えば Liberty 版のインストールガイドな"
+"ど)、対応する stable ブランチの ``doc-tools-check-languages.conf`` ファイルを"
+"直接更新する必要があります。この場合は ``DRAFTS`` にエントリーを追加しなけれ"
+"ばいけません。 ``DRAFTS`` は stable ブランチ用の特別なフラグとして使われてい"
+"るためです。"
+
+msgid "For documentations, URL and a detail place would be great."
+msgstr "ドキュメントの場合、 URL と詳しい場所。"
+
+msgid "For the dashboard, panel or form name."
+msgstr "ダッシュボードの場合、パネルやフォームの名前。"
+
+msgid "Getting in touch"
+msgstr "連絡先"
+
+msgid "Glossary Management"
+msgstr "用語集の管理"
+
+msgid "Glossary of your language"
+msgstr "各言語の用語集"
+
+msgid "Go to `Zanata server <https://translate.openstack.org/>`_"
+msgstr "`Zanata server <https://translate.openstack.org/>`_ を開きます。"
+
+msgid "Handling documentation projects"
+msgstr "ドキュメントプロジェクトの扱い"
+
+msgid "Handling horizon projects"
+msgstr "horizon 関連プロジェクトの扱い"
+
+msgid "Handling python projects"
+msgstr "python プロジェクトの扱い"
+
+msgid "Handling translation bugs"
+msgstr "翻訳バグの処理"
+
+msgid "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
+msgstr "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
+
+msgid "Here is the check list for such case:"
+msgstr "このような場合、まず以下の項目を確認してください。"
+
+msgid "How can I report a bug?"
+msgstr "バグ報告の仕方"
+
+msgid "How to check translations"
+msgstr "翻訳の確認方法"
+
+msgid "I18n team meeting"
+msgstr "I18n チームミーティング"
+
+msgid "IRC channel: ``#openstack-i18n`` on freenode"
+msgstr "IRC チャンネル: freenode の ``#openstack-i18n``"
+
+msgid "IRC meeting commands"
+msgstr "IRC ミーティングのコマンド"
+
+msgid ""
+"If a bug reports translation errors of a certain language, it could be "
+"called **translation bug**. The translation bug should be fixed in the "
+"translation tool."
+msgstr ""
+"バグ報告が特定の言語の翻訳間違いに関するものの場合、そのバグを **翻訳バグ** "
+"と呼ぶことにします。翻訳バグは翻訳ツールで修正します。"
+
+msgid ""
+"If a reported bug turns out to be bugs in a source project, You could help"
+msgstr ""
+"報告されたバグが上流プロジェクトのバグであった場合、次のようなことができるで"
+"しょう。"
+
+msgid ""
+"If there is a translation bug on a stable version in Zanata, it is highly "
+"recommended to fix the same translation bug on the corresponding string in "
+"the master version."
+msgstr ""
+"Zanata の stable バージョンに翻訳バグがあった場合は、 master バージョンの対応"
+"するストリングについても修正することを強くお薦めします。"
+
+msgid "If you are a speaker of this language, you could help"
+msgstr "その言語が分かる場合、次のようなことができるでしょう。"
+
+msgid "If you are a translator of this language, you could help"
+msgstr "その言語の翻訳者の場合、次のようなことができるでしょう。"
+
+msgid ""
+"If you are a translator or a person involved in I18n effort, you may be "
+"interested in triaging and fixing translation bugs :)"
+msgstr ""
+"翻訳者や I18n 活動に関係している人であれば、翻訳バグの確認や修正にも興味があ"
+"ることでしょう :)"
+
+msgid ""
+"If you are lucky to use a same name for launchpad and Zanata IDs, you do not "
+"need to do the above. Stackalytics will find your statistics automatically."
+msgstr ""
+"幸運にも launchpad と Zanata の ID が同じ場合は、上記の作業は不要です。 "
+"Stackalytics は自動的にあなたの統計情報を見つけてくれます。"
+
+msgid ""
+"If you are unfamiliar with translations in OpenStack, read the `Project Team "
+"Guide on Internationalization and Translation <http://docs.openstack.org/"
+"project-team-guide/i18n.html>`_ first."
+msgstr ""
+"OpenStack での翻訳について詳しくない場合は、まず、プロジェクトチームガイドの "
+"`国際化と翻訳 (Internationalization and Translation) <http://docs.openstack."
+"org/project-team-guide/i18n.html>`__ を読んでください。"
+
+msgid ""
+"If you don't have OpenStack ID, `register one <https://www.openstack.org/"
+"join/register>`_."
+msgstr ""
+"OpenStack ID を持っていない場合は、 `ここで登録 <https://www.openstack.org/"
+"join/register>`_ してください。"
+
+msgid ""
+"If you encounter more complicated things including translation tool chains "
+"or something others, the most recommended way is to ask it in the I18n "
+"mailing list ``openstack-i18n@lists.openstack.org``. Of course, you can file "
+"a bug against a related project directly."
+msgstr ""
+"翻訳関連のツール群やその他のもっと複雑な事象に遭遇した場合、一番のお薦めは "
+"I18n メーリングリスト ``openstack-i18n@lists.openstack.org`` で質問することで"
+"す。もちろん、ご自分で、関連プロジェクトに直接バグ報告することもできます。"
+
+msgid "If you have a machine running DevStack, there are two ways."
+msgstr "DevStack を実行している場合、以下の 2 つの方法があります。"
+
+msgid ""
+"If you have a question, feel free to ask it to the PTL or the i18n list."
+msgstr "質問があれば、 PTL や i18n メーリングリストで気軽に聞いてください。"
+
+msgid "If you have any, don't hesitate to share it :)"
+msgstr "何か豆知識があれば、是非追加してください。"
+
+msgid ""
+"If you visit `openstack-i18n launchpad <https://bugs.launchpad.net/openstack-"
+"i18n>`_, we can find **Report a bug** at the right-upper corner. Click to "
+"report a bug."
+msgstr ""
+"`openstack-i18n launchpad <https://bugs.launchpad.net/openstack-i18n>`_ を開"
+"いて、右上にある **Report a bug** を探します。クリックして、バグ報告に進みま"
+"す。"
+
+msgid ""
+"If you want to become a translator only, simply speaking, you need to `join "
+"The OpenStack Foundation <https://www.openstack.org/join/>`_ (select "
+"\"Foundation Member\") and `sign the appropriate Individual Contributor "
+"License Agreement <http://docs.openstack.org/infra/manual/developers."
+"html#sign-the-appropriate-individual-contributor-license-agreement>`_."
+msgstr ""
+"翻訳者になるだけであれば、必要な作業は `OpenStack Foundation への参加 "
+"<https://www.openstack.org/join/>`_ (\"Foundation Member\" を選択してくださ"
+"い) と `適切な Individual Contributor License Agreement への署名 <http://"
+"docs.openstack.org/infra/manual/developers.html#sign-the-appropriate-"
+"individual-contributor-license-agreement>`_ です。"
+
+msgid ""
+"If you want to help fix I18n bugs of OpenStack, we can find them in the "
+"following places:"
+msgstr ""
+"OpenStack の国際化に関するバグの修正に協力したい場合は、関連するバグは以下の"
+"場所に報告されてます。"
+
+msgid ""
+"If your Zanata ID is different from your launchpad ID, Stackalytics will not "
+"find your translation statistics. You need to let Stackalytics know your ID "
+"mappings. To do this, you need to add your user data into ``etc/detault_data."
+"json`` in `the Stackalytics repository <http://git.openstack.org/cgit/"
+"openstack/stackalytics/>`__. An example is https://review.openstack.org/#/"
+"c/284638/1/etc/default_data.json."
+msgstr ""
+"Zanata ID が launchpad ID と異なっている場合、 Stackalytics はあなたの翻訳活"
+"動の統計を見つけることができません。 Stackalytics にあなたの ID の対応関係を"
+"教えてあげる必要があります。具体的には、 `Stackalytics リポジトリー <http://"
+"git.openstack.org/cgit/openstack/stackalytics/>`__ の  ``etc/detault_data."
+"json`` にあなたのデータを追加します。例:  https://review.openstack.org/#/"
+"c/284638/1/etc/default_data.json"
+
+msgid "Implements the first Jenkins job (Syncing to Zanata)."
+msgstr "1 つ目の Jenkins ジョブ (Zanata への同期) を行います。"
+
+msgid "Import latest translations"
+msgstr "最新の翻訳の入手方法"
+
+msgid "In most cases, a source project would be one of:"
+msgstr "ほとんどの場合、上流プロジェクトは以下のいずれかでしょう。"
+
+msgid ""
+"Input a short introduction of yourself, including your name, as \"Additional "
+"information\", then click \"Send message\"."
+msgstr ""
+"「追加の情報」として、名前などの簡単な自己紹介を書いて、「Send message」をク"
+"リックして下さい。"
+
+msgid ""
+"Internationalization (I18n) is essential to make OpenStack ubiquitous. The "
+"mission of OpenStack I18n team is to make OpenStack ubiquitously accessible "
+"to people of all language backgrounds, by enhancing OpenStack software "
+"internationalization, providing translation, maintaining a translation "
+"platform and managing translation process for better quality of outcomes."
+msgstr ""
+"国際化 (I18n; Internationalization) は OpenStack をユビキタスにするために不可"
+"欠です。 OpenStack I18n チームの役割は、どの言語を使っている人でも変わりなく "
+"OpenStack にアクセスできるようにすることです。OpenStack ソフトウェアの国際化"
+"の推進、翻訳の提供、翻訳プラットフォームの維持、良い品質を得るための翻訳プロ"
+"セスの管理、といった活動をしています。"
+
+msgid "Is your Zanata ID different from your launchpad ID?"
+msgstr "Zanata ID が自分の launchpad ID と同じか？"
+
+msgid ""
+"Is your Zanata ID included in the `translator list <http://git.openstack.org/"
+"cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__?"
+msgstr ""
+"お使いの Zanata ID が `翻訳者リスト <http://git.openstack.org/cgit/openstack/"
+"i18n/tree/tools/zanata/translation_team.yaml>`__ に載っているか？"
+
+msgid "It is highly recommended to include the following information."
+msgstr "できる限り、以下の情報を含めるようにしてください。"
+
+msgid ""
+"It is important to check your translations by using a real situation where "
+"your translation is used. This page describes how to check your translations."
+msgstr ""
+"実際に使われる環境を使って翻訳を確認することは重要なことです。このページで"
+"は、翻訳の確認方法について説明します。"
+
+msgid "Jori Kuusinen (id: nuyori) - Finnish (Finland)"
+msgstr "Jori Kuusinen (id: nuyori) - Finnish (Finland)"
+
+msgid "Language Team"
+msgstr "言語チーム"
+
+msgid "Language translation team"
+msgstr "各言語の翻訳チーム"
+
+msgid "Liberty cycle"
+msgstr "Liberty 開発サイクル"
+
+msgid ""
+"Mailing List: `openstack-i18n@lists.openstack.org <http://lists.openstack."
+"org/cgi-bin/mailman/listinfo/openstack-i18n>`_"
+msgstr ""
+"メーリングリスト: `openstack-i18n@lists.openstack.org <http://lists."
+"openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`_"
+
+msgid ""
+"Make sure to include a short introduction because it is the only information "
+"which language coordinators can use to determine your join request is valid "
+"or not."
+msgstr ""
+"簡単な自己紹介は必ず書くようにしてください。この情報しか、あなたの参加申請が"
+"有効なものかを判断するのに言語チームのコーディネーターが使える情報はありませ"
+"んので。"
+
+msgid "Managing a Language Team"
+msgstr "言語チームの管理"
+
+msgid "Masaki Matsushita (id: mmasaki) - Japanese"
+msgstr "Masaki Matsushita (id: mmasaki) - Japanese"
+
+msgid "Master glossary"
+msgstr "用語集のマスターファイル"
+
+msgid "Meeting agenda"
+msgstr "ミーティングの議題"
+
+msgid "Member (translator)"
+msgstr "メンバー (翻訳者)"
+
+msgid "Mitaka cycle"
+msgstr "Mitaka 開発サイクル"
+
+msgid "Monitoring translation jobs status"
+msgstr "翻訳関連のジョブの状況監視"
+
+msgid ""
+"Most teams have single approval for translation imports instead of two core "
+"reviewers."
+msgstr ""
+"ほとんどのプロジェクトでは、翻訳インポートについては、2 人ではなく 1 人のコア"
+"レビューアーによる承認を採用しています。"
+
+msgid "Newton cycle"
+msgstr "Newton 開発サイクル"
+
+msgid ""
+"Note that contributors to openstack/i18n repository are acknowledged as ATC "
+"automatically in the same way as for most OpenStack projects."
+msgstr ""
+"openstack/i18n リポジトリーへの貢献者は、他のプロジェクトと同様に、自動的に "
+"ATC として認定されます。"
+
+msgid ""
+"Note that the scripts use `zanata-cli <http://docs.zanata.org/projects/"
+"zanata-client/en/release>`__ to pull and push translation content."
+msgstr ""
+"これらのスクリプトは、 `zanata-cli <http://docs.zanata.org/projects/zanata-"
+"client/en/release>`__ を使って、翻訳コンテンツのアップロード、ダウンロードを"
+"行います。"
+
+msgid ""
+"Note that you need to log into Zanata to see your activity in the above "
+"pages."
+msgstr ""
+"なお、上記のページで活動状況を参照するには、 Zanata にログインする必要があり"
+"ます。"
+
+msgid ""
+"Now you can start your translation. You can actually become an OpenStack "
+"official translator by contributing translations. You can find :doc:`various "
+"ways of contributions <contributing>`."
+msgstr ""
+"これで、翻訳を開始できるようになりました。翻訳を行うことで、OpenStack の正式"
+"な翻訳者になることができます。 :doc:`さまざまな参加の仕方 <contributing>` が"
+"あります。"
+
+msgid "Ocata cycle"
+msgstr "Ocata 開発サイクル"
+
+msgid "Odd and even values are calculated based on ISO week numbers."
+msgstr "奇数週、偶数週は ISO 週番号で計算されます。"
+
+msgid "Official OpenStack translator"
+msgstr "OpenStack の正式な翻訳者"
+
+msgid ""
+"On the other hand, translating stable version as upstream contribution is "
+"not encouraged after the translated strings are packaged with releases. The "
+"stable version will be closed earlier than or around EOL."
+msgstr ""
+"一方、アップストリームの翻訳への貢献として stable バージョンを翻訳するのはお"
+"薦めしません。翻訳されたストリングはリリースとしてパッケージングされているか"
+"らです。 stable バージョンのクローズは EOL の前か同時期に行われます。"
+
+msgid ""
+"Once a stable version corresponding to a project stable branch is created on "
+"Zanata, the infra script will push strings automatically."
+msgstr ""
+"各プロジェクトの stable ブランチに対応する stable バージョンが Zanata に作成"
+"された後は、インフラスクリプトはストリングを自動的に Zanata に同期します。"
+
+msgid ""
+"One way is to update the horizon code only. The following shell script "
+"fetches the latest horizon code, compiles translation message catalogs and "
+"reloads the apache httpd server. Replace ``$BRANCH`` with an appropriate "
+"branch such as ``master``, ``stable/newton`` or ``stable/mitaka``."
+msgstr ""
+"1 つ目の方法は horizon ノードのみを更新する方法です。以下のシェルスクリプト"
+"は、最新の horizon のコードを取得し、翻訳メッセージカタログをコンパイルし、 "
+"apache httpd サーバーをリロードします。 ``$BRANCH`` は適切なブランチ "
+"(``master``, ``stable/newton``, ``stable/mitaka`` など) に置き換えてくださ"
+"い。"
+
+msgid ""
+"Open a POT file you find and search a string you are interested in. Then you "
+"can find an entry like:"
+msgstr ""
+"POT ファイルを見つけたら、そのファイルを開いて、探したい文字列を検索します。"
+"以下のようなエントリーが見つかることでしょう。"
+
+msgid "OpenStack Dashboard"
+msgstr "OpenStack Dashboard"
+
+msgid "OpenStack I18n Guide"
+msgstr "OpenStack I18n ガイド"
+
+msgid "OpenStack I18n team"
+msgstr "OpenStack I18n チーム"
+
+msgid ""
+"OpenStack I18n team uses `Launchpad <https://bugs.launchpad.net/openstack-"
+"i18n>`_ for the bug tracking."
+msgstr ""
+"OpenStack I18n チームでは、バグ管理に `Launchpad <https://bugs.launchpad.net/"
+"openstack-i18n>`__ を使っています。"
+
+msgid "OpenStack I18n team: See :ref:`label-i18n-team-contact`"
+msgstr "OpenStack I18n チーム: :ref:`label-i18n-team-contact` 参照"
+
+msgid "OpenStack developer documentation"
+msgstr "OpenStack 開発者ドキュメント"
+
+msgid ""
+"OpenStack uses Zanata as a translation platform. While most operations "
+"around the translation platform are automated, if you want to communicate "
+"with the translation platform manually, you can use `Zanata CLI <http://docs."
+"zanata.org/en/release/client/>`__."
+msgstr ""
+"OpenStack では Zanata を翻訳基盤として使っています。 翻訳基盤に関するほとんど"
+"の作業は自動化されていますが、手動で翻訳基盤とやり取りしたい場合は `Zanata "
+"CLI <http://docs.zanata.org/en/release/client/>`__ を使用できます。"
+
+msgid "Original string or message is not correct."
+msgstr "オリジナルのストリングやメッセージの誤り"
+
+msgid ""
+"POT files are no longer stored in git repositories. The change was made at "
+"the beginning of Newton development cycle [#]_."
+msgstr ""
+"POT ファイルは現在は git リポジトリーには格納されていません。この変更は "
+"Newton 開発サイクル [#]_ の最初に行われました。"
+
+msgid "Period: 2015-08-01 to 2016-01-30"
+msgstr "期間: 2015-08-01 to 2016-01-30"
+
+msgid "Period: 2016-02-01 to 2016-07-31"
+msgstr "期間: 2016-02-01 to 2016-07-31"
+
+msgid "Period: 2016-08-01 to 2017-01-05"
+msgstr "期間: 2016-08-01 to 2017-01-05"
+
+msgid "Period: 2017-01-06 to 2017-06-30"
+msgstr "期間: 2017-01-06 to 2017-06-30"
+
+msgid "Period: from 2014.11.01 to 2015.7.16"
+msgstr "期間: from 2014.11.01 to 2015.7.16"
+
+msgid "Pike cycle"
+msgstr "Pike 開発サイクル"
+
+msgid "Previous meetings"
+msgstr "過去のミーティング"
+
+msgid "Project configuration"
+msgstr "プロジェクト設定"
+
+msgid "Project maintenance"
+msgstr "プロジェクトメンテナンス"
+
+msgid "Pull translations from Zanata"
+msgstr "Zanata からの翻訳の取得"
+
+msgid "Python script to setup projects for Zanata"
+msgstr "Zanata プロジェクトの設定を用意する Python スクリプト。"
+
+msgid "Register a user ID in Zanata"
+msgstr "Zanata でユーザー ID を登録します"
+
+msgid ""
+"Replace ``$BRANCH`` with an appropriate branch such as ``master``, ``stable/"
+"newton`` or ``stable/mitaka``."
+msgstr ""
+"``$BRANCH`` は適切なブランチに置き換えてください。 ``master``, ``stable/"
+"newton``, ``stable/mitaka`` など。"
+
+msgid "Reporting translation bugs"
+msgstr "翻訳バグの報告"
+
+msgid "Request to join a translation team"
+msgstr "翻訳チームへの参加を申請します"
+
+msgid "Retrieve translation statistics"
+msgstr "翻訳統計の取得"
+
+msgid "Reviewer"
+msgstr "レビューアー"
+
+msgid "Reviewing"
+msgstr "レビュー"
+
+msgid "Reviewing translation imports"
+msgstr "翻訳のインポートのレビュー"
+
+msgid "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
+msgstr "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
+
+msgid "Roles in a Language Team"
+msgstr "言語チームでの役割"
+
+msgid "Running DevStack"
+msgstr "DevStack を実行する方法"
+
+msgid "Search in this guide"
+msgstr "ガイド内検索"
+
+msgid "Server projects"
+msgstr "サーバープロジェクト"
+
+msgid "Slicing"
+msgstr "分割"
+
+msgid "Slicing: generate PO templates from RST documents"
+msgstr "分割: PO テンプレートの RST ドキュメントからの生成"
+
+msgid "Stackalytics"
+msgstr "Stackalytics"
+
+msgid "Steps to become a OpenStack translator"
+msgstr "OpenStack の翻訳者になるための手順"
+
+msgid "Sync the translator list with Zanata"
+msgstr "翻訳者リストの Zanata との同期"
+
+msgid "TBD"
+msgstr "TBD"
+
+msgid "Team activities with release"
+msgstr "リリース前後のチームの活動"
+
+msgid ""
+"The I18n project is an official OpenStack project, so official translators "
+"who have contributed in a specific period are regarded as \"ATC\" (Active "
+"Technical Contributor) and \"APC\" (Active Project Contributor) of the I18n "
+"project. APC can vote for the I18n PTL (Project Team Lead), and ATC can vote "
+"for OpenStack TC (Technical Committee). For more detail on ATC, APC and TC, "
+"see `OpenStack Technical Committee Charter <http://governance.openstack.org/"
+"reference/charter.html>`__."
+msgstr ""
+"I18n プロジェクトは正式な OpenStack プロジェクトなので、所定の期間に活動を"
+"行った正式な翻訳者は \"ATC\" (Active Technical Contributor) および I18n プロ"
+"ジェクトの \"APC\" (Active Project Contributor) として認定されます。 APC は "
+"I18n PTL (Project Team Lead) への投票権を持ちます。 ATC は OpenStack TC "
+"(Technical Committee) への投票権を持ちます。 ATC, APC, TC の詳細については、 "
+"`OpenStack Technical Committee Charter <http://governance.openstack.org/"
+"reference/charter.html>`__ を参照してください。"
+
+msgid ""
+"The I18n team holds weekly meetings on Thursdays at alternating times in "
+"#openstack-meeting IRC channel. To download ICS file, please visit "
+"`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_ page."
+msgstr ""
+"I18n チームは、毎週木曜日に IRC チャンネル #openstack-meeting で週次のミー"
+"ティングを行っています。開催時間は交互になっています。 ICS ファイルが "
+"`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_  ページから"
+"ダウンロードできます。"
+
+msgid "The I18n team welcomes any kinds of contribution."
+msgstr "I18n チームには、さまざまな方法で参加できます。"
+
+msgid ""
+"The Infrastructure and I18n teams are preparing the translation check site "
+"to check dashboard translations. It is under preparation."
+msgstr ""
+"インフラチームと I18n チームは、ダッシュボードの翻訳チェックができる翻訳"
+"チェックサイトを準備中です。"
+
+msgid ""
+"The POT file is found under ``http://tarballs.openstack.org/translation-"
+"source/<Zanata-project-name>/<Zanata-project-version>/<path>/<resource>."
+"pot``, where:"
+msgstr ""
+"POT ファイルは ``http://tarballs.openstack.org/translation-source/<Zanata-"
+"project-name>/<Zanata-project-version>/<path>/<resource>.pot`` にあります。"
+
+msgid "The above run the following internally:"
+msgstr "上記のコマンドは内部では以下を実行します。"
+
+msgid ""
+"The bug triaging process are following the `general bug triaging process "
+"<https://wiki.openstack.org/wiki/BugTriage>`_. If you want to help bug "
+"triaging tasks, join the `OpenStack I18n bug team <https://launchpad.net/"
+"~openstack-i18n-bugs>`_ first."
+msgstr ""
+"バグの処置手順は、 `一般的なバグ処理手順 <https://wiki.openstack.org/wiki/"
+"BugTriage>`_ を元にしています。バグの処置に協力いただける場合は、まず最初に "
+"`OpenStack I18n バグチーム <https://launchpad.net/~openstack-i18n-bugs>`_ に"
+"参加してください。"
+
+msgid "The convention for heading levels is as follows::"
+msgstr "見出しのレベルは以下のようにします。"
+
+msgid ""
+"The easiest way would be to open http://tarballs.openstack.org/translation-"
+"source and then follow ``<Zanata-project-name>``, ``<Zanata-version>`` and "
+"corresponding links."
+msgstr ""
+"一番簡単な方法は、 http://tarballs.openstack.org/translation-source を開いて "
+"``<Zanata-project-name>``, ``<Zanata-version>`` のように順に対応するリンクを"
+"辿る方法でしょう。"
+
+msgid "The filename of the list is ``tools/translation_team.yaml``."
+msgstr "リストのファイル名は ``tools/translation_team.yaml`` です。"
+
+msgid ""
+"The following is an example of ``local.conf`` for Newton release which runs "
+"core components (keystone, nova, glance, neutron, cinder), horizon, swift "
+"and heat. The components which the main horizon code supports are chosen."
+msgstr ""
+"以下の例は、 Newton リリースで、コアコンポーネント (keystone, nova, glance, "
+"neutron, cinder) と horizon, swift, heat を動かすための ``local.conf`` で"
+"す。 horizon のコードが対応しているコンポーネントが選択されています。"
+
+msgid "The followings are useful links when writing documents in RST."
+msgstr "RST でドキュメントを書く際には、以下のリンクが参考になります。"
+
+msgid ""
+"The guide is written in reStructuredText (RST) markup syntax with Sphinx "
+"extensions. Most conventions follow `those of the openstack-manuals project "
+"<http://docs.openstack.org/contributor-guide/rst-conv.html>`__."
+msgstr ""
+"このガイドは reStructuredText (RST) マークアップ記法で書かれています。 "
+"Sphinx による拡張機能も使用できます。ほとんどの決まりごとは `openstack-"
+"manuals プロジェクトのもの <http://docs.openstack.org/contributor-guide/rst-"
+"conv.html>`__ を踏襲しています。"
+
+msgid ""
+"The master glossary is an usual POT file. You can edit it in your favorite "
+"editor as usual."
+msgstr ""
+"用語集のマスターファイルは、通常の POT ファイルです。いつも通り、お気に入りの"
+"エディターで編集できます。"
+
+msgid ""
+"The meeting agenda is located at `I18nTeamMeeting Wiki <https://wiki."
+"openstack.org/wiki/Meetings/I18nTeamMeeting#Agenda_for_next_meeting>`_. You "
+"can add your topics on the Wiki page."
+msgstr ""
+"ミーティングの議題は `I18nTeamMeeting Wiki <https://wiki.openstack.org/wiki/"
+"Meetings/I18nTeamMeeting#Agenda_for_next_meeting>`_ にあります。話し合いたい"
+"トピックがあれば Wiki ページに追加してください。"
+
+msgid ""
+"The other way is to rerun DevStack. Ensure to include ``RECLONE=True`` in "
+"your ``local.conf`` before running ``stack.sh`` again so that DevStack "
+"retrieve the latest codes of horizon and other projects."
+msgstr ""
+"もう 1 つの方法は、 DevStack の再実行です。 ``stack.sh`` を実行する前に "
+"``local.conf`` に ``RECLONE=True`` を追加してください。こうすることで、 "
+"DevStack は horizon や他のプロジェクトの最新のコードを取得するようになりま"
+"す。"
+
+msgid ""
+"The stable version is created from the master version on Zanata once RC1 is "
+"cut and a stable branch is created in a git repository."
+msgstr ""
+"RC1 がリリースされ git リポジトリーに stable ブランチが作成されると、stable "
+"バージョンは master バージョンをもとに作成されます。"
+
+msgid ""
+"The stable version is well reviewed, so it makes sense to merge translations "
+"into the master version on Zanata to avoid translating the same strings "
+"again."
+msgstr ""
+"stable バージョンは十分にレビューされているので、 Zanata で stable バージョン"
+"の翻訳を master バージョンにマージするのは、同じストリングを再度翻訳するのを"
+"避けるためにも、理にかなっていると言えます。"
+
+msgid ""
+"The translatable strings are extracted from a source project. So some i18n "
+"bugs might be caused by bugs in the original strings/source codes of a "
+"source project which contains these translatable strings. Those kind of bugs "
+"should be fixed in the source project."
+msgstr ""
+"翻訳されたストリングは、上流プロジェクトから抽出されています。そのため、 "
+"I18n バグのいくつかは、上流プロジェクトのオリジナルのストリングやソースコード"
+"のバグに起因しています。こうしたバグは、上流プロジェクトで修正する必要があり"
+"ます。"
+
+msgid ""
+"There are cases where you cannot see your translation statistics in "
+"Stackalytics even after you translate strings in Zanata."
+msgstr ""
+"Zanata で翻訳を行ったのに Stackalytics に自分の翻訳活動の統計が表示されない場"
+"合があります。"
+
+msgid "There are several ways to know your translation activity."
+msgstr "自分の翻訳活動状況を知る方法がいくつかあります。"
+
+msgid "There are three different roles in a translation team:"
+msgstr "翻訳チームには 3 つの立場があります。"
+
+msgid ""
+"This document explains to reviewers details about the automatic import of "
+"translations from Zanata."
+msgstr ""
+"このページでは、レビューアー向けに Zanata からの翻訳の自動インポートに詳細を"
+"説明しています。"
+
+msgid "This document gives additional information."
+msgstr "このドキュメントでは追加の情報を記載しています。"
+
+msgid ""
+"This guide provides detailed instructions on the I18n contribution workflow "
+"and conventions to be considered by all contributors."
+msgstr ""
+"このガイドでは、 I18n 活動に参加するための詳しい手順や、すべての参加者が認識"
+"しておくべき決まりごとなどを扱います。"
+
+msgid "This is a useful commands for the IRC meeting."
+msgstr "以下は IRC ミーティングでよく使う便利なコマンドです。"
+
+msgid ""
+"This list is a cache of information on Zanata, and we need to keep it synced "
+"with Zanata."
+msgstr ""
+"このリストは Zanata 上の情報のキャッシュなので、このファイルは Zanata と同期"
+"しておく必要があります。"
+
+msgid ""
+"This means \"Aggregates\" menu in \"Admin\" group in the left side menu. In "
+"Horizon code, the second level corresponds to a dashboard group like "
+"\"Project\" or \"Admin\" and the third level corresponds to a panel like "
+"\"Aggregates\" (in this example), \"Instances\" or \"Networks\"."
+msgstr ""
+"この場合は、左側のメニューの「管理」グループの「アグリゲート」メニューで使わ"
+"れています。 Horizon のコードでは、2 階層目が「プロジェクト」や「管理」といっ"
+"たダッシュボードのグループに対応しており、3 階層目が「アグリゲート」 (今回の"
+"例) 、「インスタンス」、「ネットワーク」などのパネルに対応しています。"
+
+msgid "This page collects small tips and tricks around translations."
+msgstr "このページでは、翻訳に関する豆知識をまとめています。"
+
+msgid "This page covers various operations around i18n activities."
+msgstr "このページでは、 i18n の活動に関連するさまざまな操作をまとめています。"
+
+msgid "This page describes how end users can report translation bugs."
+msgstr ""
+"このページでは、エンドユーザーが翻訳関連のバグを報告する方法を説明します。"
+
+msgid ""
+"This page describes the conventions and tips on writing this guide itself."
+msgstr ""
+"このページでは、このガイド自体を書く際の決まりごとやノウハウを説明します。"
+
+msgid "This should be done after a stable version on Zanata is created."
+msgstr "この作業は Zanata に stable バージョンが作成された後に行われます。"
+
+msgid "This usually happens within a week after the release."
+msgstr "通常、この作業はリリース後 1 週間を目処に行われます。"
+
+msgid "Titles"
+msgstr "見出し"
+
+msgid ""
+"To add a link to a generated document, you need to update the file ``www/"
+"<lang>/index.html`` in the ``master`` branch of the ``openstack-manuals`` "
+"repository. Note that the web pages are published from ``master`` branch, "
+"which contains the pages for all releases, such as Liberty. Therefore, you "
+"don't need to update the file ``www/<lang>/index.html`` in the stable branch."
+msgstr ""
+"生成されたドキュメントへのリンクを一覧に追加するには、 ``openstack-manuals`` "
+"レポジトリーの\n"
+" ``master`` ブランチの ``www/<lang>/index.html`` ファイルを更新します。ウェブ"
+"ページは ``master`` ブランチから生成されており、 ``master`` ブランチで "
+"Liberty なども含めた全リリースのページが管理されています。したがって、 "
+"stable ブランチの ``www/<lang>/index.html`` ファイルを更新する必要はありませ"
+"ん。"
+
+msgid ""
+"To build a translated document, you need to update the file ``doc-tools-"
+"check-languages.conf`` in each repository, and add an entry to ``BOOKS`` "
+"like ``[\"ja\"]=\"install-guide\"``. Also, to build as a draft, you need to "
+"add an entry to ``DRAFTS``."
+msgstr ""
+"翻訳されたドキュメントを作成するには、各レポジトリーの ``doc-tools-check-"
+"languages.conf`` ファイルを更新して、 ``BOOKS`` に ``[\"ja\"]=\"install-guide"
+"\"`` のようなエントリーを追加する必要があります。また、 draft を作成するに"
+"は、 ``DRAFTS`` にエントリーを追加する必要があります。"
+
+msgid "To report translation errors, see :doc:`bug_report`."
+msgstr "翻訳の間違いを報告する場合は :doc:`bug_report` を参照してください。"
+
+msgid "To run the script:"
+msgstr "スクリプトは以下のように実行します。"
+
+msgid "To sync the translator list, run the following command:"
+msgstr "翻訳者リストを同期するには、以下のコマンドを実行します。"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid "Translate **master** version on Zanata."
+msgstr "Zanata では **master** バージョンを翻訳します。"
+
+msgid ""
+"Translated documents are available at the OpenStack Documentation site. It "
+"is updated daily. Most contents are linked from either of:"
+msgstr ""
+"翻訳されたドキュメントを OpenStack ドキュメントサイトで見ることができます。更"
+"新は 1 日 1 回行われます。ほとんどのコンテンツは以下のいずれかからリンクが張"
+"られています。"
+
+msgid "Translation"
+msgstr "翻訳"
+
+msgid "Translation Statistics"
+msgstr "翻訳の統計情報"
+
+msgid "Translation bugs"
+msgstr "翻訳バグ"
+
+msgid "Translation bugs in all languages can be reported here."
+msgstr "すべての言語の翻訳バグをここで報告できます。"
+
+msgid "Translation check site"
+msgstr "翻訳チェックサイト"
+
+msgid "Translation infrastructure scripts"
+msgstr "翻訳関連のインフラスクリプト"
+
+msgid ""
+"Translation infrastructure scripts are stored and managed in `openstack-"
+"infra/project-config <http://git.openstack.org/cgit/openstack-infra/project-"
+"config>`__ repository."
+msgstr ""
+"翻訳関連のインフラスクリプトは `openstack-infra/project-config <http://git."
+"openstack.org/cgit/openstack-infra/project-config>`__ リポジトリーで管理され"
+"ています。"
+
+msgid ""
+"Translation is another kind of important contribution to OpenStack "
+"community. If you want to become a official translator, you need to finish "
+"following steps:"
+msgstr ""
+"翻訳は、OpenStack コミュニティーに対する重要な貢献方法のひとつです。正式な翻"
+"訳者になるには、以下の手順を完了する必要があります。"
+
+msgid "Translation jobs"
+msgstr "翻訳関連のジョブ"
+
+msgid "Translation tips"
+msgstr "翻訳の豆知識"
+
+msgid "Translation tools"
+msgstr "翻訳ツール"
+
+msgid "Translations"
+msgstr "翻訳"
+
+msgid ""
+"Translations are being imported into a project repository daily, so in most "
+"cases you do not need to pull translations from Zanata manually. What you "
+"need is to pull the latest horizon code."
+msgstr ""
+"翻訳はそれぞれのプロジェクトのリポジトリーに毎日取り込まれます。したがって、"
+"ほとんどの場合、自分で Zanata から翻訳を取得する必要はありません。必要なこと"
+"は、最新の Horizon コードを取得することだけです。"
+
+msgid "Uploading"
+msgstr "アップロード"
+
+msgid "Uploading: Upload the translation resources to Zanata"
+msgstr "アップロード: 翻訳リソースの Zanata へのアップロード"
+
+msgid "User configuration"
+msgstr "ユーザー設定"
+
+msgid "Using docs.openstack.org"
+msgstr "docs.openstack.org を使った確認方法"
+
+msgid ""
+"Visit `Stackalytics <http://stackalytics.com/>`__ and choose "
+"``Translations`` as ``Metric`` dropdown menu at the upper-right."
+msgstr ""
+"`Stackalytics <http://stackalytics.com/>`__ を開いて、右上の ``Metric`` ド"
+"ロップダウンメニューで ``Translations`` を選択します。"
+
+msgid ""
+"We can translate the application developer documentations, such as API "
+"Guide, as ``api-site`` resources in Zanata."
+msgstr ""
+"API ガイドなどのアプリケーション開発ドキュメントを翻訳できます。 API ガイド"
+"は、 Zanata では ``api-site`` というリソースです。"
+
+msgid "What is wrong? What should be improved?"
+msgstr "何が間違っているのか？何を改善できるか？"
+
+msgid ""
+"When a filename is ``workflows.py`` or ``forms.py``, it means it is used in "
+"a form for creating or editing something."
+msgstr ""
+"ファイル名が ``workflows.py`` や ``forms.py`` の場合、作成や編集のフォームで"
+"使われています。"
+
+msgid ""
+"When you are using OpenStack (including the dashboard, API or CLI) or are "
+"reading translated documentations, if you find something wrong, something "
+"you cannot understand, something you cannot agree, or something to be "
+"improved, please consider reporting it."
+msgstr ""
+"OpenStack (ダッシュボード、API、CLI など) を使っているときや翻訳されたドキュ"
+"メントを読んでいるときに、間違っている点、意味が分からない点、同意できない"
+"点、改善した方がよい点などを見つけたら、是非報告してください。"
+
+msgid "When your request is approved, you will get an email notification."
+msgstr "参加申請が承認されると、電子メールで通知が来ます。"
+
+msgid "Where a string is used in Dashboard UI?"
+msgstr "ストリングは Dashboard UI のどこで使われているの？"
+
+msgid "Where a string is used in source code?"
+msgstr "ストリングはソースコードのどこで使われているの？"
+
+msgid "Where can I report a bug?"
+msgstr "バグの報告先"
+
+msgid "Where you find a bug you are reporting?"
+msgstr "どこで報告しようとしているバグを見つけたか？"
+
+msgid "Who can help you?"
+msgstr "相談先は？"
+
+msgid ""
+"You are encouraged to register with your business email, which will help "
+"your company to get the credit. If you don't want to, use your personal "
+"email will be OK too."
+msgstr ""
+"会社のメールアドレスで登録することをお薦めします。そうすれば、あなたの会社の"
+"活動として認識されます。そうしたくない場合は、個人のメールアドレスでも問題あ"
+"りません。"
+
+msgid ""
+"You can check a generated document for a specified branch on http://docs."
+"openstack.org/<branch>/<language>/<document>. For example, the link of "
+"Ubuntu Installation Guide for Liberty is http://docs.openstack.org/liberty/"
+"ja/install-guide-ubuntu/."
+msgstr ""
+"特定のブランチ向けに生成されたドキュメントは http://docs.openstack.org/"
+"<branch>/<language>/<document> に配置されます。例えば、 Liberty 版の Ubuntu "
+"向けのインストールガイドのリンクは http://docs.openstack.org/liberty/ja/"
+"install-guide-ubuntu/ です。"
+
+msgid ""
+"You can estimate where a string is used from a location in a source code. "
+"(See the previous entry on how to find a location.)"
+msgstr ""
+"ストリングが使用されている場所をソースコードの場所から推測できます (ソース"
+"コードの場所の探し方については上のエントリーを見てください)。"
+
+msgid ""
+"You can refer to `previous meeting logs with their notes <http://eavesdrop."
+"openstack.org/meetings/openstack_i18n_meeting/>`_."
+msgstr ""
+"`このページ <http://eavesdrop.openstack.org/meetings/openstack_i18n_meeting/"
+">`_ で、コメント付きの過去のミーティングログが参照できます。"
+
+msgid "You can report a bug in your language (or English)."
+msgstr "バグ報告は、お使いの言語で可能です (英語でも可能です)。"
+
+msgid ""
+"You must determine whether bugs are **translation bugs** or **bugs in a "
+"source project**. Typical i18n bugs in the source project include:"
+msgstr ""
+"バグが **翻訳バグ** か **上流プロジェクトのバグ** かを判断する必要がありま"
+"す。上流プロジェクトにおいてよくある I18n バグとしては以下のようなものがあり"
+"ます。"
+
+msgid "Zanata"
+msgstr "Zanata"
+
+msgid "Zanata CLI"
+msgstr "Zanata CLI"
+
+msgid ""
+"Zanata provides suggestions for translation based on a glossary of your "
+"language. The glossary is maintained in the i18n repository."
+msgstr ""
+"Zanata には、お使いの言語の用語集に基いて翻訳候補を提案する機能があります。用"
+"語集は i18n リポジトリーで管理されています。"
+
+msgid "Zanata provides ways to know your activity on Zanata."
+msgstr "Zanata 上で、Zanata でのあなたの活動状況を参照する方法があります。"
+
+msgid "Zbyněk Schwarz (id: tsbook) - Czech"
+msgstr "Zbyněk Schwarz (id: tsbook) - Czech"
+
+msgid "[I18n PTL] Call for translation"
+msgstr "[I18n PTL] 翻訳の呼びかけ (Call for translation)"
+
+msgid ""
+"[I18n PTL] Coordinate release and translation import schedule of individual "
+"projects with PTL or I18n liaison."
+msgstr ""
+"[I18n PTL] 各プロジェクトのリリースや翻訳取り込みのスケジュールの調整を PTL "
+"や I18n liaison と行います。"
+
+msgid ""
+"[Infra] Setup translation jobs such as ``translation-jobs-newton`` to import "
+"translations for stable branches."
+msgstr ""
+"[インフラ] ``translation-jobs-newton`` といった翻訳ジョブをセットアップし、 "
+"stable ブランチの翻訳が取り込まれるようにします。"
+
+msgid "[Project] Official release!"
+msgstr "[プロジェクト] 正式リリース!"
+
+msgid ""
+"[Project] RC2 or RC3 release will be shipped with latest translations. Final "
+"RC release will happen one week before the official release week."
+msgstr ""
+"[プロジェクト] RC2 や RC3 リリースには、最新の翻訳が取り込まれます。最後の "
+"RC リリースは、正式リリースが行われる週の前の週に行われます。"
+
+msgid ""
+"[Project] Release RC1 and create a stable branch. ``Hard StringFreeze`` is "
+"in effect."
+msgstr ""
+"[プロジェクト] RC1 をリリースし、stable ブランチを作成します。 ``Hard "
+"StringFreeze`` 状態になります。"
+
+msgid "[Project] Release milestone-3. ``Soft StringFreeze`` is in effect."
+msgstr ""
+"[プロジェクト] マイルストーン 3 のリリース。 ``Soft StringFreeze`` 状態になり"
+"ます。"
+
+msgid ""
+"[Translator] It is suggested to complete translation work by Monday or "
+"Tuesday of the Final RC week."
+msgstr ""
+"[翻訳者] 最後の RC がリリースされる週の月曜か火曜までに翻訳作業を完了すること"
+"をお薦めします。"
+
+msgid "[Translator] Start translations for the release."
+msgstr "[翻訳者] そのリリース向けの翻訳を開始します。"
+
+msgid ""
+"[Translator] Translate **stable-XXXX** version instead of master version on "
+"Zanata."
+msgstr ""
+"[翻訳者] Zanata で master バージョンではなく **stable-XXXX** バージョンを対象"
+"に翻訳を行います。"
+
+msgid "[Zanata admin] Create a stable version such as ``stable-newton``"
+msgstr ""
+"[Zanata 管理者] ``stable-newton`` といった stable バージョンを作成します。"
+
+msgid "[Zanata admin] Merge a stable version back into the master version."
+msgstr "[Zanata 管理者] stable バージョンを master バージョンにマージします。"
+
+msgid ""
+"`Dashboard <https://translate.openstack.org/dashboard/>`__ page shows your "
+"recent activity statistics this month and detail activity."
+msgstr ""
+"`Dashboard <https://translate.openstack.org/dashboard/>`__ ページで、最近の活"
+"動統計と詳細が参照できます。"
+
+msgid "`Horizon (OpenStack dashboard) <https://bugs.launchpad.net/horizon>`_"
+msgstr "`Horizon (OpenStack dashboard) <https://bugs.launchpad.net/horizon>`_"
+
+msgid ""
+"`Horizon I18n bugs <https://bugs.launchpad.net/horizon/+bugs?field."
+"tag=i18n>`_"
+msgstr ""
+"`Horizon I18n バグ <https://bugs.launchpad.net/horizon/+bugs?field."
+"tag=i18n>`_"
+
+msgid ""
+"`Language translation team <https://wiki.openstack.org/wiki/I18nTeam/"
+"team>`_: you can ask in your language :-)"
+msgstr ""
+"`各言語の翻訳チーム <https://wiki.openstack.org/wiki/I18nTeam/team>`_: 自分の"
+"言語で質問できます:-)"
+
+msgid ""
+"`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ "
+"dashboard provides us a convenient way to check the translation job status."
+msgstr ""
+"`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ ダッ"
+"シュボードを使うと、翻訳ジョブの状況を手軽に確認できます。"
+
+msgid "`OpenStack manuals <https://bugs.launchpad.net/openstack-manuals>`_"
+msgstr "`OpenStack manuals <https://bugs.launchpad.net/openstack-manuals>`_"
+
+msgid ""
+"`Periodic jobs: Syncing into repos <http://status.openstack.org/openstack-"
+"health/#/g/build_queue/periodic?"
+"groupKey=build_queue&searchJob=translation>`__"
+msgstr ""
+"`Periodic ジョブ: リポジトリーへの同期 <http://status.openstack.org/"
+"openstack-health/#/g/build_queue/periodic?"
+"groupKey=build_queue&searchJob=translation>`__"
+
+msgid ""
+"`Post jobs - Syncing to Zanata <http://status.openstack.org/openstack-health/"
+"#/g/build_queue/post?groupKey=build_queue&searchJob=translation>`__"
+msgstr ""
+"`Post ジョブ - Zanata への同期 <http://status.openstack.org/openstack-health/"
+"#/g/build_queue/post?groupKey=build_queue&searchJob=translation>`__"
+
+msgid ""
+"`Profile <https://translate.openstack.org/profile/>`__ page provides more "
+"nice statistics view. It shows your statistics in this month and last month."
+msgstr ""
+"`Profile <https://translate.openstack.org/profile/>`__ ページでは、もっと見映"
+"えのよい形で統計情報が表示されます。今月と先月の活動統計が参照できます。"
+
+msgid ""
+"`Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/"
+"quickref.html>`__"
+msgstr ""
+"`Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/"
+"quickref.html>`__"
+
+msgid ""
+"`Sphinx documentation <http://sphinx.readthedocs.io/en/latest/rest.html>`__"
+msgstr ""
+"`Sphinx ドキュメント <http://sphinx.readthedocs.io/en/latest/rest.html>`__"
+
+msgid ""
+"`Stackalytics <http://stackalytics.com/>`__ is a popular web site which "
+"allows us to know various statistics related to OpenStack. It supports "
+"translation statistics :)"
+msgstr ""
+"`Stackalytics <http://stackalytics.com/>`__ は、 OpenStack に関連する活動の"
+"種々の統計情報を調べる際によく使われるウェブサイトです。翻訳の統計情報も参照"
+"できるようになっています :)"
+
+msgid "``<Zanata-project-name>`` is Zanata project name,"
+msgstr "``<Zanata-project-name>`` : Zanata のプロジェクト名"
+
+msgid ""
+"``<Zanata-project-version>`` is Zanata project version such as ``master`` or "
+"``stable-mitaka``,"
+msgstr ""
+"``<Zanata-project-version>`` : Zanata のプロジェクトバージョン (``master`` "
+"や ``stable-mitaka`` などど)"
+
+msgid ""
+"``<path>`` is a path of a document such as ``nova/locale``, "
+"``openstack_dashboard/locale`` or ``releasenotes/source/locale``,"
+msgstr ""
+"``<path>`` : ドキュメントのパス (``nova/locale``, ``openstack_dashboard/"
+"locale``,  ``releasenotes/source/locale`` など)"
+
+msgid "``<resource>`` is a document name in Zanata."
+msgstr "``<resource>`` : Zanata でのドキュメント名"
+
+msgid "``dashboards/admin/aggregates/views.py:104``"
+msgstr "``dashboards/admin/aggregates/views.py:104``"
+
+msgid "``dashboards/project/containers/templates/containers/_update.html:21``"
+msgstr "``dashboards/project/containers/templates/containers/_update.html:21``"
+
+msgid "``dashboards/project/loadbalancers/workflows.py:44``"
+msgstr "``dashboards/project/loadbalancers/workflows.py:44``"
+
+msgid ""
+"`common_translation_update.sh <http://git.openstack.org/cgit/openstack-infra/"
+"project-config/tree/jenkins/scripts/common_translation_update.sh>`__"
+msgstr ""
+"`common_translation_update.sh <http://git.openstack.org/cgit/openstack-infra/"
+"project-config/tree/jenkins/scripts/common_translation_update.sh>`__"
+
+msgid ""
+"`create-zanata-xml.py <http://git.openstack.org/cgit/openstack-infra/project-"
+"config/tree/jenkins/scripts/create-zanata-xml.py>`__"
+msgstr ""
+"`create-zanata-xml.py <http://git.openstack.org/cgit/openstack-infra/project-"
+"config/tree/jenkins/scripts/create-zanata-xml.py>`__"
+
+msgid ""
+"`include/build-releasenotes.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/jobs/include/build-releasenotes.sh>`__"
+msgstr ""
+"`include/build-releasenotes.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/jobs/include/build-releasenotes.sh>`__"
+
+msgid ""
+"`openstack-i18n in Launchpad <https://bugs.launchpad.net/openstack-i18n>`_"
+msgstr ""
+"`Launchpad openstack-i18n <https://bugs.launchpad.net/openstack-i18n>`_"
+
+msgid ""
+"`propose_translation_update.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/scripts/propose_translation_update.sh>`__"
+msgstr ""
+"`propose_translation_update.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/scripts/propose_translation_update.sh>`__"
+
+msgid ""
+"`upstream_translation_update.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/scripts/upstream_translation_update.sh>`__"
+msgstr ""
+"`upstream_translation_update.sh <http://git.openstack.org/cgit/openstack-"
+"infra/project-config/tree/jenkins/scripts/upstream_translation_update.sh>`__"
+
+msgid "add the source project to \"Also affects project\" of this bug."
+msgstr "そのバグの \"Also affects project\" に上流プロジェクトを追加する"
+
+msgid "adiantum"
+msgstr "adiantum"
+
+msgid "albertomolina"
+msgstr "albertomolina"
+
+msgid "aleksey"
+msgstr "aleksey"
+
+msgid "alessandra"
+msgstr "alessandra"
+
+msgid "amikhalev"
+msgstr "amikhalev"
+
+msgid "amotoki"
+msgstr "amotoki"
+
+msgid "andibing"
+msgstr "andibing"
+
+msgid "andrecampos"
+msgstr "andrecampos"
+
+msgid "angelique_pillal16"
+msgstr "angelique_pillal16"
+
+msgid "anikitenkov"
+msgstr "anikitenkov"
+
+msgid "antoniok"
+msgstr "antoniok"
+
+msgid "apapsujko"
+msgstr "apapsujko"
+
+msgid "approved"
+msgstr "approved"
+
+msgid ""
+"assign the bug to you or a member of your language team, and then mark it as "
+"\"In Progress\""
+msgstr ""
+"バグ担当者として自分や同じ言語チームのメンバーを割り当てて、ステータスを「In "
+"Progress」に設定する"
+
+msgid "betorvalds"
+msgstr "betorvalds"
+
+msgid "billxiang"
+msgstr "billxiang"
+
+msgid "blkart"
+msgstr "blkart"
+
+msgid "bokaitseng"
+msgstr "bokaitseng"
+
+msgid "bugs in a source project"
+msgstr "上流プロジェクトのバグ"
+
+msgid "bugs in tool chains"
+msgstr "ツール類のバグ"
+
+msgid "caihui"
+msgstr "caihui"
+
+msgid "ccamacho"
+msgstr "ccamacho"
+
+msgid "cduch"
+msgstr "cduch"
+
+msgid "changhuiyuan"
+msgstr "changhuiyuan"
+
+msgid "chuinggun"
+msgstr "chuinggun"
+
+msgid "ciello89"
+msgstr "ciello89"
+
+msgid "confirm the bug"
+msgstr "バグの再現性を確認する"
+
+msgid "confirm the bug or mark it as incomplete"
+msgstr "バグの確認を行う、もしくはステータスを Incomplete にする"
+
+msgid "corin"
+msgstr "corin"
+
+msgid "croe"
+msgstr "croe"
+
+msgid "cs"
+msgstr "cs"
+
+msgid "daisyycguo"
+msgstr "daisyycguo"
+
+msgid "danny"
+msgstr "danny"
+
+msgid "de"
+msgstr "de"
+
+msgid "deejay1"
+msgstr "deejay1"
+
+msgid "dmakarov"
+msgstr "dmakarov"
+
+msgid "duyarli"
+msgstr "duyarli"
+
+msgid "dynarro"
+msgstr "dynarro"
+
+msgid "eblock"
+msgstr "eblock"
+
+msgid "egongu90"
+msgstr "egongu90"
+
+msgid "elliswu"
+msgstr "elliswu"
+
+msgid "en-GB"
+msgstr "en-GB"
+
+msgid "ericbaum"
+msgstr "ericbaum"
+
+msgid "es"
+msgstr "es"
+
+msgid "es-MX"
+msgstr "es-MX"
+
+msgid "eugeniato"
+msgstr "eugeniato"
+
+msgid "eumel8"
+msgstr "eumel8"
+
+msgid "fcpimenta"
+msgstr "fcpimenta"
+
+msgid "fi-FI"
+msgstr "fi-FI"
+
+msgid "fifieldt"
+msgstr "fifieldt"
+
+msgid ""
+"fix it by visiting a corresponding resource in Zanata and correcting "
+"translations."
+msgstr "Zanata でバグに対応するリソースの翻訳を修正する"
+
+msgid "fr"
+msgstr "fr"
+
+msgid "frontjang"
+msgstr "frontjang"
+
+msgid "ftarasenko"
+msgstr "ftarasenko"
+
+msgid "gael\\__"
+msgstr "gael\\__"
+
+msgid "gael_rehault"
+msgstr "gael_rehault"
+
+msgid "gecong"
+msgstr "gecong"
+
+msgid "geraldlonlas"
+msgstr "geraldlonlas"
+
+msgid "h3c_wuhan"
+msgstr "h3c_wuhan"
+
+msgid "haruki"
+msgstr "haruki"
+
+msgid "heleno_jimenez"
+msgstr "heleno_jimenez"
+
+msgid "henris"
+msgstr "henris"
+
+msgid "hidekazuna"
+msgstr "hidekazuna"
+
+msgid ""
+"http://docs.openstack.org/<lang> contains released documents. Follow \"More "
+"Releases and Languages\" in http://docs.openstack.org/."
+msgstr ""
+"http://docs.openstack.org/<lang> には、リリース版のドキュメントが置かれま"
+"す。 http://docs.openstack.org/ で \"More Releases and Languages\" から開いて"
+"ください。"
+
+msgid ""
+"http://docs.openstack.org/draft/draft-index.html contains draft (unreleased) "
+"documents."
+msgstr ""
+"http://docs.openstack.org/draft/draft-index.html には、草稿版 (リリース前) の"
+"ドキュメントが置かれます。"
+
+msgid "http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
+msgstr ""
+"http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
+
+msgid "huyupeng"
+msgstr "huyupeng"
+
+msgid "hybridpollo"
+msgstr "hybridpollo"
+
+msgid "ianychoi"
+msgstr "ianychoi"
+
+msgid "id"
+msgstr "id"
+
+msgid "igene"
+msgstr "igene"
+
+msgid "ikochetova"
+msgstr "ikochetova"
+
+msgid "iranzo"
+msgstr "iranzo"
+
+msgid "isbaran"
+msgstr "isbaran"
+
+msgid "ishashero"
+msgstr "ishashero"
+
+msgid "istartsev"
+msgstr "istartsev"
+
+msgid "it"
+msgstr "it"
+
+msgid "itlinux"
+msgstr "itlinux"
+
+msgid "ja"
+msgstr "ja"
+
+msgid "jaegerandi"
+msgstr "jaegerandi"
+
+msgid "jameslee"
+msgstr "jameslee"
+
+msgid "jenniferkuo"
+msgstr "jenniferkuo"
+
+msgid "jftalta"
+msgstr "jftalta"
+
+msgid "jimidar"
+msgstr "jimidar"
+
+msgid "jimmyli"
+msgstr "jimmyli"
+
+msgid "jitaejang"
+msgstr "jitaejang"
+
+msgid "josemello"
+msgstr "josemello"
+
+msgid "jpichon"
+msgstr "jpichon"
+
+msgid "jsshin"
+msgstr "jsshin"
+
+msgid "kepark07"
+msgstr "kepark07"
+
+msgid "ko-KR"
+msgstr "ko-KR"
+
+msgid "koain"
+msgstr "koain"
+
+msgid "kodokuu"
+msgstr "kodokuu"
+
+msgid "komatineni"
+msgstr "komatineni"
+
+msgid "kyle"
+msgstr "kyle"
+
+msgid "kzaitsev"
+msgstr "kzaitsev"
+
+msgid "lang"
+msgstr "言語"
+
+msgid "lapalm"
+msgstr "lapalm"
+
+msgid "lenkahusakova"
+msgstr "lenkahusakova"
+
+msgid "liced"
+msgstr "liced"
+
+msgid "lindayang"
+msgstr "lindayang"
+
+msgid "linlin"
+msgstr "linlin"
+
+msgid "liujiong"
+msgstr "liujiong"
+
+msgid "liujunpeng"
+msgstr "liujunpeng"
+
+msgid "loewal"
+msgstr "loewal"
+
+msgid "lony"
+msgstr "lony"
+
+msgid "lstemmle"
+msgstr "lstemmle"
+
+msgid "lucasagomes"
+msgstr "lucasagomes"
+
+msgid "maoshuai"
+msgstr "maoshuai"
+
+msgid "marcelodieder"
+msgstr "marcelodieder"
+
+msgid "marcio"
+msgstr "marcio"
+
+msgid "mariantb"
+msgstr "mariantb"
+
+msgid "marquesc"
+msgstr "marquesc"
+
+msgid "masami_sasahara"
+msgstr "masami_sasahara"
+
+msgid "max821214"
+msgstr "max821214"
+
+msgid "mbozhenko"
+msgstr "mbozhenko"
+
+msgid "mimisheep"
+msgstr "mimisheep"
+
+msgid "mmarin"
+msgstr "mmarin"
+
+msgid "mmasaki"
+msgstr "mmasaki"
+
+msgid "mokhin2"
+msgstr "mokhin2"
+
+msgid "mucahit"
+msgstr "mucahit"
+
+msgid "myamamot"
+msgstr "myamamot"
+
+msgid "nburtsev"
+msgstr "nburtsev"
+
+msgid "nexusz99"
+msgstr "nexusz99"
+
+msgid "nikoul"
+msgstr "nikoul"
+
+msgid "nsmirnov"
+msgstr "nsmirnov"
+
+msgid "nuyori"
+msgstr "nuyori"
+
+msgid "openstack"
+msgstr "openstack"
+
+msgid "openstackhc"
+msgstr "openstackhc"
+
+msgid "otsuka"
+msgstr "otsuka"
+
+msgid "oussemos"
+msgstr "oussemos"
+
+msgid "pa-IN"
+msgstr "pa-IN"
+
+msgid "pat"
+msgstr "pat"
+
+msgid "pcaruana"
+msgstr "pcaruana"
+
+msgid "petro"
+msgstr "petro"
+
+msgid "pl-PL"
+msgstr "pl-PL"
+
+msgid "porrua"
+msgstr "porrua"
+
+msgid "prioritize the bug"
+msgstr "バグの優先付けを行う"
+
+msgid "pt-BR"
+msgstr "pt-BR"
+
+msgid "raildomascena"
+msgstr "raildomascena"
+
+msgid "rbraga"
+msgstr "rbraga"
+
+msgid "rejected"
+msgstr "rejected"
+
+msgid "review-approved"
+msgstr "レビュー (承認)"
+
+msgid "review-rejected"
+msgstr "レビュー (却下)"
+
+msgid "robcresswell"
+msgstr "robcresswell"
+
+msgid "romainsc"
+msgstr "romainsc"
+
+msgid "rsimai"
+msgstr "rsimai"
+
+msgid "ru"
+msgstr "ru"
+
+msgid "rustinpeace"
+msgstr "rustinpeace"
+
+msgid "sanporci"
+msgstr "sanporci"
+
+msgid "sasukeh"
+msgstr "sasukeh"
+
+msgid "seonhopark"
+msgstr "seonhopark"
+
+msgid "seyeon"
+msgstr "seyeon"
+
+msgid "sfilatov"
+msgstr "sfilatov"
+
+msgid "shintaro"
+msgstr "shintaro"
+
+msgid "shu"
+msgstr "shu"
+
+msgid "stanislavulrych"
+msgstr "stanislavulrych"
+
+msgid "suhartono"
+msgstr "suhartono"
+
+msgid "sunanchen"
+msgstr "sunanchen"
+
+msgid "sunjing"
+msgstr "sunjing"
+
+msgid "sylvie_chesneau"
+msgstr "sylvie_chesneau"
+
+msgid "t09sunny"
+msgstr "t09sunny"
+
+msgid "tag it with the project name, for example \"horizon\" or \"docs\"."
+msgstr "プロジェクト名のタグをつける (例: \"horizon\" や \"docs\")"
+
+msgid "tag the bug with a language name"
+msgstr "バグに言語名のタグを付与する"
+
+msgid "te-IN"
+msgstr "te-IN"
+
+msgid "terrytai820"
+msgstr "terrytai820"
+
+msgid "tfu"
+msgstr "tfu"
+
+msgid "thnam"
+msgstr "thnam"
+
+msgid "thomas_vysokos"
+msgstr "thomas_vysokos"
+
+msgid "tigerfang"
+msgstr "tigerfang"
+
+msgid "to222"
+msgstr "to222"
+
+msgid "tr-TR"
+msgstr "tr-TR"
+
+msgid "translated"
+msgstr "翻訳"
+
+msgid "translated + reviewed"
+msgstr "翻訳 + レビュー"
+
+msgid "translation bugs"
+msgstr "翻訳バグ"
+
+msgid "travisn"
+msgstr "travisn"
+
+msgid "tsbook"
+msgstr "tsbook"
+
+msgid "tsutomu_kimura"
+msgstr "tsutomu_kimura"
+
+msgid "ujuc"
+msgstr "ujuc"
+
+msgid "user_id"
+msgstr "ユーザー ID"
+
+msgid "valentin"
+msgstr "valentin"
+
+msgid "vcomas3"
+msgstr "vcomas3"
+
+msgid "vi01et"
+msgstr "vi01et"
+
+msgid "vponomaryov"
+msgstr "vponomaryov"
+
+msgid "vsokolov"
+msgstr "vsokolov"
+
+msgid "vstepurova"
+msgstr "vstepurova"
+
+msgid "vuuv"
+msgstr "vuuv"
+
+msgid "wall_dirk"
+msgstr "wall_dirk"
+
+msgid "webberguo"
+msgstr "webberguo"
+
+msgid "willychen"
+msgstr "willychen"
+
+msgid "wonil22"
+msgstr "wonil22"
+
+msgid "xhkjoe"
+msgstr "xhkjoe"
+
+msgid "xiangbinbin"
+msgstr "xiangbinbin"
+
+msgid "xuyang"
+msgstr "xuyang"
+
+msgid "yeguchi"
+msgstr "yeguchi"
+
+msgid "yfukuda"
+msgstr "yfukuda"
+
+msgid "ykatabam"
+msgstr "ykatabam"
+
+msgid "yosshy"
+msgstr "yosshy"
+
+msgid "yryndenkova"
+msgstr "yryndenkova"
+
+msgid "yukinori_yagisawa"
+msgstr "yukinori_yagisawa"
+
+msgid "yusuke1219"
+msgstr "yusuke1219"
+
+msgid "yuta_hono"
+msgstr "yuta_hono"
+
+msgid "zenglulu"
+msgstr "zenglulu"
+
+msgid "zero00072"
+msgstr "zero00072"
+
+msgid "zh-CN"
+msgstr "zh-CN"
+
+msgid "zh-TW"
+msgstr "zh-TW"
+
+msgid "zhangjingwen"
+msgstr "zhangjingwen"
+
+msgid "zhengjie7800"
+msgstr "zhengjie7800"
+
+msgid "zhouchangxun"
+msgstr "zhouchangxun"
+
+msgid "zhsj"
+msgstr "zhsj"
+
+msgid "zhugaoxiao"
+msgstr "zhugaoxiao"
+
+msgid "zigmax"
+msgstr "zigmax"
+
+msgid "zloykaban"
+msgstr "zloykaban"
+
+msgid "zzxwill"
+msgstr "zzxwill"
+
+msgid "Łukasz Jernas (id: deejay1) - Polish (Poland)"
+msgstr "Łukasz Jernas (id: deejay1) - Polish (Poland)"
