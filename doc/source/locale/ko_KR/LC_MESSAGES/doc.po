@@ -5,12 +5,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-11 15:13+0000\n"
+"POT-Creation-Date: 2017-08-15 03:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-12 08:04+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2017-08-15 04:54+0000\n"
+"Last-Translator: Sungjin Kang <gang.sungjin@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -34,9 +34,9 @@ msgid ""
 "distribution. ``pip install tox`` or ``apt-get install python-tox`` (in case "
 "of Ubuntu) installs **tox**."
 msgstr ""
-"** tox **는 PyPI에서 사용할 수 있으며 다양한 Linux 배포판에서도 사용할 수 있"
+"** tox ** 는 PyPI에서 사용할 수 있으며 다양한 Linux 배포판에서도 사용할 수 있"
 "습니다. ``pip install tox`` 또는 (Ubuntu인 경우)``apt-get install python-"
-"tox``로 **tox**를 설치합니다."
+"tox`` 로 **tox** 를 설치합니다."
 
 msgid "..."
 msgstr "..."
@@ -47,14 +47,53 @@ msgstr "0"
 msgid "10"
 msgstr "10"
 
+msgid "1002"
+msgstr "1002"
+
+msgid "100222"
+msgstr "100222"
+
+msgid "10092"
+msgstr "10092"
+
+msgid "10095"
+msgstr "10095"
+
+msgid "10101"
+msgstr "10101"
+
+msgid "10128"
+msgstr "10128"
+
 msgid "1015"
 msgstr "1015"
+
+msgid "10156"
+msgstr "10156"
 
 msgid "1025"
 msgstr "1025"
 
+msgid "1045"
+msgstr "1045"
+
 msgid "1048"
 msgstr "1048"
+
+msgid "1065"
+msgstr "1065"
+
+msgid "1067"
+msgstr "1067"
+
+msgid "107"
+msgstr "107"
+
+msgid "1077"
+msgstr "1077"
+
+msgid "1079"
+msgstr "1079"
 
 msgid "10797"
 msgstr "10797"
@@ -62,14 +101,53 @@ msgstr "10797"
 msgid "11"
 msgstr "11"
 
+msgid "110"
+msgstr "110"
+
+msgid "113"
+msgstr "113"
+
+msgid "1131"
+msgstr "1131"
+
+msgid "11384"
+msgstr "11384"
+
 msgid "1139"
 msgstr "1139"
+
+msgid "1141"
+msgstr "1141"
+
+msgid "115"
+msgstr "115"
+
+msgid "11506"
+msgstr "11506"
+
+msgid "116"
+msgstr "116"
+
+msgid "1160"
+msgstr "1160"
+
+msgid "1179"
+msgstr "1179"
+
+msgid "11820"
+msgstr "11820"
 
 msgid "119"
 msgstr "119"
 
+msgid "11994"
+msgstr "11994"
+
 msgid "1216"
 msgstr "1216"
+
+msgid "1222"
+msgstr "1222"
 
 msgid "12384"
 msgstr "12384"
@@ -77,11 +155,44 @@ msgstr "12384"
 msgid "1248"
 msgstr "1248"
 
+msgid "1255"
+msgstr "1255"
+
+msgid "1261"
+msgstr "1261"
+
 msgid "1266"
 msgstr "1266"
 
+msgid "128"
+msgstr "128"
+
+msgid "1293"
+msgstr "1293"
+
 msgid "13"
 msgstr "13"
+
+msgid "130"
+msgstr "130"
+
+msgid "13272"
+msgstr "13272"
+
+msgid "133"
+msgstr "133"
+
+msgid "1341"
+msgstr "1341"
+
+msgid "13481"
+msgstr "13481"
+
+msgid "1353"
+msgstr "1353"
+
+msgid "137"
+msgstr "137"
 
 msgid "138"
 msgstr "138"
@@ -89,11 +200,32 @@ msgstr "138"
 msgid "13813"
 msgstr "13813"
 
+msgid "1386"
+msgstr "1386"
+
+msgid "1388"
+msgstr "1388"
+
 msgid "13995"
 msgstr "13995"
 
+msgid "14"
+msgstr "14"
+
+msgid "1400"
+msgstr "1400"
+
+msgid "1408"
+msgstr "1408"
+
 msgid "141"
 msgstr "141"
+
+msgid "14132"
+msgstr "14132"
+
+msgid "1439"
+msgstr "1439"
 
 msgid "146"
 msgstr "146"
@@ -101,29 +233,110 @@ msgstr "146"
 msgid "1471"
 msgstr "1471"
 
+msgid "15"
+msgstr "15"
+
+msgid "15079"
+msgstr "15079"
+
 msgid "152"
 msgstr "152"
 
 msgid "1531"
 msgstr "1531"
 
+msgid "1538"
+msgstr "1538"
+
+msgid "1547"
+msgstr "1547"
+
+msgid "156"
+msgstr "156"
+
+msgid "1565"
+msgstr "1565"
+
+msgid "1576"
+msgstr "1576"
+
 msgid "15934"
 msgstr "15934"
+
+msgid "1603"
+msgstr "1603"
+
+msgid "1606"
+msgstr "1606"
 
 msgid "1633"
 msgstr "1633"
 
+msgid "166739"
+msgstr "166739"
+
 msgid "16773"
 msgstr "16773"
+
+msgid "1678"
+msgstr "1678"
+
+msgid "168"
+msgstr "168"
+
+msgid "16837"
+msgstr "16837"
+
+msgid "1711"
+msgstr "1711"
+
+msgid "17207"
+msgstr "17207"
+
+msgid "1723"
+msgstr "1723"
+
+msgid "1724"
+msgstr "1724"
 
 msgid "1752"
 msgstr "1752"
 
+msgid "1768"
+msgstr "1768"
+
+msgid "17691"
+msgstr "17691"
+
+msgid "179"
+msgstr "179"
+
+msgid "1799"
+msgstr "1799"
+
+msgid "18"
+msgstr "18"
+
 msgid "1850"
 msgstr "1850"
 
+msgid "1881"
+msgstr "1881"
+
+msgid "18845"
+msgstr "18845"
+
 msgid "189"
 msgstr "189"
+
+msgid "1902"
+msgstr "1902"
+
+msgid "19104"
+msgstr "19104"
+
+msgid "1938"
+msgstr "1938"
 
 msgid "1942"
 msgstr "1942"
@@ -131,8 +344,50 @@ msgstr "1942"
 msgid "19431"
 msgstr "19431"
 
+msgid "1944"
+msgstr "1944"
+
+msgid "1948"
+msgstr "1948"
+
+msgid "195"
+msgstr "195"
+
+msgid "1952"
+msgstr "1952"
+
+msgid "1984"
+msgstr "1984"
+
+msgid "1989"
+msgstr "1989"
+
+msgid "19911"
+msgstr "19911"
+
+msgid "2"
+msgstr "2"
+
+msgid "20"
+msgstr "20"
+
+msgid "201"
+msgstr "201"
+
+msgid "20128"
+msgstr "20128"
+
+msgid "202"
+msgstr "202"
+
+msgid "204"
+msgstr "204"
+
 msgid "2077"
 msgstr "2077"
+
+msgid "208"
+msgstr "208"
 
 msgid "21"
 msgstr "21"
@@ -140,17 +395,89 @@ msgstr "21"
 msgid "2121"
 msgstr "2121"
 
+msgid "216"
+msgstr "216"
+
+msgid "21760"
+msgstr "21760"
+
+msgid "2195"
+msgstr "2195"
+
+msgid "2205"
+msgstr "2205"
+
 msgid "2283"
 msgstr "2283"
+
+msgid "22923"
+msgstr "22923"
 
 msgid "2300"
 msgstr "2300"
 
+msgid "2307"
+msgstr "2307"
+
+msgid "23073"
+msgstr "23073"
+
+msgid "231"
+msgstr "231"
+
+msgid "233"
+msgstr "233"
+
+msgid "235"
+msgstr "235"
+
+msgid "236"
+msgstr "236"
+
+msgid "2365"
+msgstr "2365"
+
+msgid "239"
+msgstr "239"
+
+msgid "2394"
+msgstr "2394"
+
+msgid "2397"
+msgstr "2397"
+
 msgid "24"
 msgstr "24"
 
+msgid "2406"
+msgstr "2406"
+
+msgid "246"
+msgstr "246"
+
+msgid "2480"
+msgstr "2480"
+
+msgid "2481"
+msgstr "2481"
+
 msgid "249"
 msgstr "249"
+
+msgid "25"
+msgstr "25"
+
+msgid "2507"
+msgstr "2507"
+
+msgid "25077"
+msgstr "25077"
+
+msgid "252"
+msgstr "252"
+
+msgid "254"
+msgstr "254"
 
 msgid "2544"
 msgstr "2544"
@@ -158,20 +485,77 @@ msgstr "2544"
 msgid "2554"
 msgstr "2554"
 
+msgid "256"
+msgstr "256"
+
+msgid "25694"
+msgstr "25694"
+
+msgid "258"
+msgstr "258"
+
 msgid "26"
 msgstr "26"
+
+msgid "26356"
+msgstr "26356"
+
+msgid "2651"
+msgstr "2651"
+
+msgid "2660"
+msgstr "2660"
 
 msgid "2663"
 msgstr "2663"
 
+msgid "2668"
+msgstr "2668"
+
 msgid "26707"
 msgstr "26707"
+
+msgid "26843"
+msgstr "26843"
 
 msgid "2692"
 msgstr "2692"
 
+msgid "2703"
+msgstr "2703"
+
+msgid "27143"
+msgstr "27143"
+
+msgid "27355"
+msgstr "27355"
+
+msgid "277"
+msgstr "277"
+
+msgid "278"
+msgstr "278"
+
 msgid "2793"
 msgstr "2793"
+
+msgid "2811"
+msgstr "2811"
+
+msgid "2826"
+msgstr "2826"
+
+msgid "29"
+msgstr "29"
+
+msgid "295"
+msgstr "295"
+
+msgid "2972"
+msgstr "2972"
+
+msgid "3"
+msgstr "3"
 
 msgid "30"
 msgstr "30"
@@ -182,17 +566,638 @@ msgstr "303"
 msgid "3035"
 msgstr "3035"
 
+msgid "3041"
+msgstr "3041"
+
+msgid "3065"
+msgstr "3065"
+
+msgid "309"
+msgstr "309"
+
 msgid "31"
 msgstr "31"
 
 msgid "310"
 msgstr "310"
 
+msgid "31268"
+msgstr "31268"
+
+msgid "31333"
+msgstr "31333"
+
+msgid "317"
+msgstr "317"
+
 msgid "319"
 msgstr "319"
 
+msgid "32"
+msgstr "32"
+
+msgid "321"
+msgstr "321"
+
+msgid "32120"
+msgstr "32120"
+
+msgid "32125"
+msgstr "32125"
+
+msgid "3216"
+msgstr "3216"
+
+msgid "3217"
+msgstr "3217"
+
+msgid "322"
+msgstr "322"
+
+msgid "32261"
+msgstr "32261"
+
+msgid "32785"
+msgstr "32785"
+
+msgid "328"
+msgstr "328"
+
+msgid "32863"
+msgstr "32863"
+
+msgid "330"
+msgstr "330"
+
+msgid "331"
+msgstr "331"
+
+msgid "333"
+msgstr "333"
+
+msgid "3337"
+msgstr "3337"
+
+msgid "3390"
+msgstr "3390"
+
+msgid "34"
+msgstr "34"
+
+msgid "340"
+msgstr "340"
+
+msgid "341"
+msgstr "341"
+
+msgid "3411"
+msgstr "3411"
+
+msgid "344"
+msgstr "344"
+
+msgid "3446"
+msgstr "3446"
+
+msgid "345"
+msgstr "345"
+
+msgid "346"
+msgstr "346"
+
+msgid "34697"
+msgstr "34697"
+
+msgid "3482"
+msgstr "3482"
+
+msgid "352"
+msgstr "352"
+
+msgid "354"
+msgstr "354"
+
+msgid "355"
+msgstr "355"
+
+msgid "357"
+msgstr "357"
+
+msgid "35849"
+msgstr "35849"
+
+msgid "3585"
+msgstr "3585"
+
+msgid "3588"
+msgstr "3588"
+
+msgid "36"
+msgstr "36"
+
+msgid "36676"
+msgstr "36676"
+
+msgid "367"
+msgstr "367"
+
+msgid "3681"
+msgstr "3681"
+
+msgid "37"
+msgstr "37"
+
+msgid "373"
+msgstr "373"
+
+msgid "375"
+msgstr "375"
+
+msgid "379"
+msgstr "379"
+
+msgid "3802"
+msgstr "3802"
+
+msgid "381"
+msgstr "381"
+
+msgid "3825"
+msgstr "3825"
+
+msgid "3849"
+msgstr "3849"
+
+msgid "387"
+msgstr "387"
+
+msgid "391"
+msgstr "391"
+
+msgid "392"
+msgstr "392"
+
+msgid "3961"
+msgstr "3961"
+
+msgid "397"
+msgstr "397"
+
+msgid "3972"
+msgstr "3972"
+
+msgid "3979"
+msgstr "3979"
+
+msgid "4"
+msgstr "4"
+
+msgid "4051"
+msgstr "4051"
+
+msgid "409"
+msgstr "409"
+
+msgid "412"
+msgstr "412"
+
+msgid "4126"
+msgstr "4126"
+
+msgid "4172"
+msgstr "4172"
+
+msgid "4192"
+msgstr "4192"
+
+msgid "4198"
+msgstr "4198"
+
+msgid "420"
+msgstr "420"
+
+msgid "4232"
+msgstr "4232"
+
+msgid "4242"
+msgstr "4242"
+
+msgid "4287"
+msgstr "4287"
+
+msgid "43"
+msgstr "43"
+
+msgid "434"
+msgstr "434"
+
+msgid "435"
+msgstr "435"
+
+msgid "4362"
+msgstr "4362"
+
+msgid "439"
+msgstr "439"
+
+msgid "4413"
+msgstr "4413"
+
+msgid "4455"
+msgstr "4455"
+
+msgid "447"
+msgstr "447"
+
+msgid "44739"
+msgstr "44739"
+
+msgid "452"
+msgstr "452"
+
+msgid "453"
+msgstr "453"
+
+msgid "4546"
+msgstr "4546"
+
+msgid "4577"
+msgstr "4577"
+
+msgid "45901"
+msgstr "45901"
+
+msgid "4591"
+msgstr "4591"
+
+msgid "46"
+msgstr "46"
+
+msgid "4676"
+msgstr "4676"
+
+msgid "4698"
+msgstr "4698"
+
+msgid "472"
+msgstr "472"
+
+msgid "477"
+msgstr "477"
+
+msgid "4780"
+msgstr "4780"
+
+msgid "48"
+msgstr "48"
+
+msgid "480"
+msgstr "480"
+
+msgid "4809"
+msgstr "4809"
+
+msgid "484"
+msgstr "484"
+
+msgid "4862"
+msgstr "4862"
+
+msgid "49"
+msgstr "49"
+
+msgid "4907"
+msgstr "4907"
+
+msgid "495"
+msgstr "495"
+
+msgid "497"
+msgstr "497"
+
+msgid "4989"
+msgstr "4989"
+
+msgid "5"
+msgstr "5"
+
+msgid "500"
+msgstr "500"
+
+msgid "501"
+msgstr "501"
+
+msgid "502"
+msgstr "502"
+
+msgid "506"
+msgstr "506"
+
+msgid "514"
+msgstr "514"
+
+msgid "51448"
+msgstr "51448"
+
+msgid "5206"
+msgstr "5206"
+
+msgid "525"
+msgstr "525"
+
+msgid "529"
+msgstr "529"
+
+msgid "52941"
+msgstr "52941"
+
+msgid "53"
+msgstr "53"
+
+msgid "534"
+msgstr "534"
+
+msgid "5340"
+msgstr "5340"
+
+msgid "540"
+msgstr "540"
+
+msgid "541"
+msgstr "541"
+
+msgid "554"
+msgstr "554"
+
+msgid "5580"
+msgstr "5580"
+
+msgid "56"
+msgstr "56"
+
+msgid "5618"
+msgstr "5618"
+
+msgid "565"
+msgstr "565"
+
+msgid "5669"
+msgstr "5669"
+
+msgid "583"
+msgstr "583"
+
+msgid "586"
+msgstr "586"
+
+msgid "6"
+msgstr "6"
+
+msgid "600"
+msgstr "600"
+
+msgid "6129"
+msgstr "6129"
+
+msgid "617"
+msgstr "617"
+
+msgid "6171"
+msgstr "6171"
+
+msgid "618"
+msgstr "618"
+
+msgid "624"
+msgstr "624"
+
+msgid "6245"
+msgstr "6245"
+
+msgid "625"
+msgstr "625"
+
+msgid "6346"
+msgstr "6346"
+
+msgid "6504"
+msgstr "6504"
+
+msgid "65263"
+msgstr "65263"
+
+msgid "654"
+msgstr "654"
+
+msgid "6588"
+msgstr "6588"
+
+msgid "665"
+msgstr "665"
+
+msgid "669"
+msgstr "669"
+
+msgid "670"
+msgstr "670"
+
+msgid "68"
+msgstr "68"
+
+msgid "6865"
+msgstr "6865"
+
+msgid "689"
+msgstr "689"
+
+msgid "690"
+msgstr "690"
+
+msgid "69223"
+msgstr "69223"
+
+msgid "693"
+msgstr "693"
+
+msgid "69823"
+msgstr "69823"
+
+msgid "7032"
+msgstr "7032"
+
+msgid "7046"
+msgstr "7046"
+
+msgid "708"
+msgstr "708"
+
+msgid "7129"
+msgstr "7129"
+
+msgid "714"
+msgstr "714"
+
+msgid "72"
+msgstr "72"
+
+msgid "731"
+msgstr "731"
+
+msgid "73184"
+msgstr "73184"
+
+msgid "734"
+msgstr "734"
+
+msgid "737"
+msgstr "737"
+
+msgid "7420"
+msgstr "7420"
+
+msgid "745"
+msgstr "745"
+
+msgid "752"
+msgstr "752"
+
+msgid "7525"
+msgstr "7525"
+
+msgid "7537"
+msgstr "7537"
+
+msgid "7576"
+msgstr "7576"
+
+msgid "762"
+msgstr "762"
+
+msgid "763"
+msgstr "763"
+
+msgid "77"
+msgstr "77"
+
+msgid "772"
+msgstr "772"
+
+msgid "7752"
+msgstr "7752"
+
+msgid "79"
+msgstr "79"
+
+msgid "792"
+msgstr "792"
+
+msgid "794"
+msgstr "794"
+
+msgid "8"
+msgstr "8"
+
+msgid "8048"
+msgstr "8048"
+
+msgid "81"
+msgstr "81"
+
+msgid "831"
+msgstr "831"
+
+msgid "8312"
+msgstr "8312"
+
+msgid "8319"
+msgstr "8319"
+
+msgid "835"
+msgstr "835"
+
+msgid "8367"
+msgstr "8367"
+
+msgid "8457"
+msgstr "8457"
+
+msgid "849"
+msgstr "849"
+
+msgid "859"
+msgstr "859"
+
+msgid "864"
+msgstr "864"
+
+msgid "867"
+msgstr "867"
+
+msgid "869"
+msgstr "869"
+
+msgid "8712"
+msgstr "8712"
+
+msgid "874"
+msgstr "874"
+
+msgid "8790"
+msgstr "8790"
+
+msgid "88"
+msgstr "88"
+
+msgid "881"
+msgstr "881"
+
+msgid "882"
+msgstr "882"
+
+msgid "9"
+msgstr "9"
+
+msgid "90"
+msgstr "90"
+
+msgid "902"
+msgstr "902"
+
+msgid "907"
+msgstr "907"
+
+msgid "9122"
+msgstr "9122"
+
+msgid "92"
+msgstr "92"
+
+msgid "9242"
+msgstr "9242"
+
+msgid "94"
+msgstr "94"
+
+msgid "9515"
+msgstr "9515"
+
+msgid "957"
+msgstr "957"
+
+msgid "965"
+msgstr "965"
+
+msgid "9820"
+msgstr "9820"
+
+msgid "9836"
+msgstr "9836"
+
 msgid "992"
 msgstr "992"
+
+msgid "997"
+msgstr "997"
 
 msgid ":doc:`IRC meeting <i18n_team_meeting>`"
 msgstr ":doc:`IRC meeting <i18n_team_meeting>`"
@@ -228,6 +1233,13 @@ msgstr ""
 "대상 언어에 대한 용어집 파일은 i18n 저장소 내 ``glossary/locale/<lang>/"
 "LC_MESSAGES/glossary.po`` 에서 찾을 수 있습니다. 해당 파일은 일반적인 PO 파일"
 "입니다."
+
+msgid ""
+"A list of all ATCs is available at http://governance.openstack.org/reference/"
+"projects/i18n.html#extra-atcs."
+msgstr ""
+"모든 ATC 목록은 http://governance.openstack.org/reference/projects/i18n."
+"html#extra-atcs 에서 확인 가능합니다."
 
 msgid ""
 "A person who can proofread translations and mark them as reviewed (approved) "
@@ -268,6 +1280,9 @@ msgstr ""
 "템플릿은 정적 HTML 파일의 골격입니다. 이 경우 문자열은 \"컨테이너\"메뉴의 "
 "\"업데이트\"양식에서 사용됩니다."
 
+msgid "ATC members of I18n project"
+msgstr "I18n 프로젝트 ATC 멤버"
+
 msgid "ATC statistics of past releases are available below:"
 msgstr "지난 릴리즈 ATC 통계는 아래에서 확인 가능합니다:"
 
@@ -305,6 +1320,9 @@ msgid ""
 msgstr ""
 "각 언어팀은 I18n팀 작업 계획을 따를 수도 있지만, 해당 언어팀은 (독립적인) 언"
 "어팀으로서 고유한 작업 항목과 우선 순위를 결정할 수도 있습니다."
+
+msgid "Amandeep Singh Saini (jimidar) - Punjabi (India)"
+msgstr "Amandeep Singh Saini (jimidar) - Punjabi (India)"
 
 msgid ""
 "Another convenient way is to check dashboard translations is to run DevStack "
@@ -447,8 +1465,8 @@ msgid ""
 "Common code used by **propose_translation_update.sh** and "
 "**upstream_translation_update.sh**"
 msgstr ""
-"**propose_translation_update.sh** 및 **upstream_translation_update.sh** 에서 "
-"사용하는 공통 코드입니다"
+"**propose_translation_update.sh**, **upstream_translation_update.sh** 에서 사"
+"용하는 공통 코드입니다."
 
 msgid "Contents"
 msgstr "내용"
@@ -457,7 +1475,7 @@ msgid "Contributing"
 msgstr "기여하기"
 
 msgid "Convention"
-msgstr "통용규칙"
+msgstr "규칙"
 
 msgid "Coordinator"
 msgstr "코디네이터"
@@ -618,7 +1636,7 @@ msgstr ""
 "다. 참조: :doc:`here <infra>`."
 
 msgid "For example, in case of nova,"
-msgstr "예를 들어, nova의 경우,"
+msgstr "예를 들어, nova에서는,"
 
 msgid ""
 "For most of the Python projects, the preferred tools for I18N are gettext "
@@ -633,6 +1651,9 @@ msgstr ""
 
 msgid "For the dashboard, panel or form name."
 msgstr "대시보드에 대해서는, 패널이나 폼 이름이 좋습니다."
+
+msgid "Foundation member validation note"
+msgstr "Foundation member validation note"
 
 msgid "Getting in touch"
 msgstr "어울리기"
@@ -666,6 +1687,9 @@ msgstr "python 프로젝트 처리"
 msgid "Handling translation bugs"
 msgstr "번역 버그 다루기"
 
+msgid "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
+msgstr "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
+
 msgid "Here is the check list for such case:"
 msgstr "해당 경우에 대한 확인 목록은 다음과 같습니다:"
 
@@ -677,6 +1701,13 @@ msgstr "어떻게 버그를 신고할 수 있습니까?"
 
 msgid "How to check translations"
 msgstr "번역을 검사하는 방법"
+
+msgid ""
+"I18n PTL updates the list using Zanata API and translator list. Detail "
+"statistics data is available :ref:`below <atc-stats>`."
+msgstr ""
+"I18n PTL은 Zanata API를 이용하여 번역가 목록을 업데이트합니다. 세부 통계 데이"
+"터를 사용할 수 있습니다 :ref:`below <atc-stats>`."
 
 msgid "I18n team meeting"
 msgstr "I18n 팀 미팅"
@@ -814,10 +1845,9 @@ msgid ""
 "License Agreement <http://docs.openstack.org/infra/manual/developers."
 "html#sign-the-appropriate-individual-contributor-license-agreement>`_."
 msgstr ""
-"단지 번역자가 되고 싶은 경우에는, 간단히 말해, `OpenStack Foundation에 가입\n"
-" <https://www.openstack.org/join/>`_ 및 `적절한 개인 컨트리뷰터 라이선스 동의"
-"서에 서명\n"
-" <http://docs.openstack.org/infra/manual/developers.html#sign-the-"
+"단지 번역자가 되고 싶은 경우에는, 간단히 말해, `OpenStack Foundation에 가입 "
+"<https://www.openstack.org/join/>`_ , `적절한 개인 컨트리뷰터 라이선스 동의서"
+"에 서명 <http://docs.openstack.org/infra/manual/developers.html#sign-the-"
 "appropriate-individual-contributor-license-agreement>`_ 할 필요가 있습니다."
 
 msgid ""
@@ -852,7 +1882,7 @@ msgstr ""
 "Zanata ID가 런치 패드 ID와 다른 경우, Stackalytics는 번역 통계를 찾지 않습니"
 "다. Stackalytics에 ID 매핑을 알릴 필요가 있습니다. 이렇게하려면, 사용자 데이"
 "터를 Stackalytics 저장소<http://git.openstack.org/cgit/openstack/"
-"stackalytics/>`__의``etc/detault_data.json``에 추가해야합니다. 예를 들면 "
+"stackalytics/>`__ 의 ``etc/detault_data.json`` 에 추가해야합니다. 예를 들면 "
 "https://review.openstack.org/#/c/284638/1/etc/default_data.json입니다."
 
 msgid ""
@@ -891,8 +1921,8 @@ msgid ""
 msgstr ""
 "국제화 (Internationalization, I18n)는 OpenStack을 유비쿼터스로 만드는 데 필수"
 "입니다. OpenStack I18n 팀의 목표는 OpenStack 소프트웨어 국제화 향상, 번역 제"
-"공 및 고품질 번역을 위한 번역 과정을 관리함으로써 OpenStack을 모든 언어 배경"
-"에 대한 사람들이 유비쿼터스 식으로 접근 가능하도록 만드는 데 있습니다."
+"공, 고품질 번역을 위한 번역 과정을 관리함으로써 OpenStack을 모든 언어 배경에 "
+"대한 사람들이 유비쿼터스 식으로 접근 가능하도록 만드는 데 있습니다."
 
 msgid "Is your Zanata ID different from your launchpad ID?"
 msgstr "Zanata ID가 launchpad ID와 다릅니까?"
@@ -928,20 +1958,26 @@ msgstr ""
 "게 사용되는지 이해하는 것이 중요합니다. 불행히도 Zanata 번역 인터페이스는 대"
 "상 문자열이 소스 코드에서 사용되는 위치를 표시하지 않습니다."
 
+msgid "Jori Kuusinen (id: nuyori) - Finnish (Finland)"
+msgstr "Jori Kuusinen (id: nuyori) - Finnish (Finland)"
+
 msgid ""
 "Keep in mind to work with your `local user group <https://groups.openstack."
 "org/>`_ and the `OpenStack Ambassadors <https://wiki.openstack.org/wiki/"
 "Community/AmbassadorProgram>`_ to raise awareness and gather members :)"
 msgstr ""
-"`로컬 사용자 그룹 <https://groups.openstack.org/>`_ 및 `OpenStack "
-"Ambassadors <https://wiki.openstack.org/wiki/Community/AmbassadorProgram>`_ "
-"과 함께 작업하여 인지하고 있는 상황을 알리고 구성원을 모읍니다 :)"
+"`로컬 사용자 그룹 <https://groups.openstack.org/>`_, `OpenStack Ambassadors "
+"<https://wiki.openstack.org/wiki/Community/AmbassadorProgram>`_ 과 함께 작업"
+"하여 인지하고 있는 상황을 알리고 구성원을 모읍니다 :)"
 
 msgid "Language Team"
 msgstr "언어팀"
 
 msgid "Language translation team"
 msgstr "언어 번역팀"
+
+msgid "Liberty cycle"
+msgstr "Liberty 버전"
 
 msgid ""
 "Mailing List: `openstack-i18n@lists.openstack.org <http://lists.openstack."
@@ -960,6 +1996,9 @@ msgstr ""
 
 msgid "Managing a Language Team"
 msgstr "언어팀 내 관리"
+
+msgid "Masaki Matsushita (id: mmasaki) - Japanese"
+msgstr "Masaki Matsushita (id: mmasaki) - Japanese"
 
 msgid "Master glossary"
 msgstr "마스터 용어집"
@@ -983,6 +2022,9 @@ msgstr ""
 "이 있습니다. 또는, 그렇지 않다면, 실제로 번역이 (아직) 이루어지지 않은 경우입"
 "니다."
 
+msgid "Mitaka cycle"
+msgstr "Mitaka 버전"
+
 msgid "Monitoring translation jobs status"
 msgstr "Translation jobs 상태 모니터링"
 
@@ -990,8 +2032,8 @@ msgid ""
 "More convenient way is to use **tox** like ``tox -e venv -- python <script-"
 "name>``."
 msgstr ""
-"더 편리한 방법은``tox -e venv -- python <script-name>``처럼 ** tox **를 사용"
-"하는 것입니다."
+"더 편리한 방법은``tox -e venv -- python <script-name>`` 처럼 ** tox ** 를 사"
+"용하는 것입니다."
 
 msgid ""
 "Most teams have single approval for translation imports instead of two core "
@@ -999,6 +2041,9 @@ msgid ""
 msgstr ""
 "대부분 (프로젝트) 팀은 번역 가져오기에 대해 코어 검토자 2명 대신 1명의 승인"
 "을 갖습니다."
+
+msgid "Newton cycle"
+msgstr "Newton 버전"
 
 msgid ""
 "Nobody should change translation files (the `.po` files in the `locale` "
@@ -1010,6 +2055,9 @@ msgstr ""
 "다. 다음 자동 가져오기 작업이 해당 변경사항을 덮어쓰기할 것입니다. 따라서, 해"
 "당 변경사항에 대해서는 ``-1`` 리뷰 투표를 하고, 해당 문서를 개발자에게 알려줍"
 "니다."
+
+msgid "Not a Foundation member"
+msgstr "Not a Foundation member"
 
 msgid ""
 "Note that contributors to openstack/i18n repository are acknowledged as ATC "
@@ -1054,6 +2102,9 @@ msgstr ""
 "자가 될 수 있습니다. :doc:`컨트리뷰션을 하는 다양한 방법 <contributing>` 을 "
 "살펴봅니다."
 
+msgid "Ocata cycle"
+msgstr "Ocata 버전"
+
 msgid "Odd and even values are calculated based on ISO week numbers."
 msgstr "홀수 및 짝수는 ISO 주차에 기반하여 계산이 이루어집니다."
 
@@ -1095,7 +2146,7 @@ msgid ""
 msgstr ""
 "확인하려는 문자열의 위치를 찾으면 git 저장소의 코드를 보고 문자열이 사용 된 "
 "세부 정보 컨텍스트를 확인할 수 있습니다. Zanata 프로젝트와 git 저장소는 대응 "
-"관계입니다. Zanata 프로젝트 이름이``<Zanata-project-name>``이라면, 해당 git "
+"관계입니다. Zanata 프로젝트 이름이``<Zanata-project-name>`` 이라면, 해당 git "
 "저장소 위치는 ``http://git.openstack.org/cgit/openstack/<Zanata-project-"
 "name>/`` 입니다. 예를 들어,``horizon``을 번역한다면, git 저장소는 http://git."
 "openstack.org/cgit/openstack/horizon/에 있습니다."
@@ -1203,6 +2254,30 @@ msgstr ""
 "POT 파일은 더 이상 git 저장소에 저장되지 않습니다. 변경 사항은 Newton 개발주"
 "기 [#]_ 초반에 변경되었습니다."
 
+msgid ""
+"Patch on governance repository: https://review.openstack.org/#/c/213989/ "
+"(`diff <http://git.openstack.org/cgit/openstack/governance/commit/?"
+"id=a229d38469c5135af496d3c739695acbe1146a76>`__)"
+msgstr ""
+"저버넌스 저장소 패치: https://review.openstack.org/#/c/213989/ (`diff "
+"<http://git.openstack.org/cgit/openstack/governance/commit/?"
+"id=a229d38469c5135af496d3c739695acbe1146a76>`__)"
+
+msgid "Period: 2015-08-01 to 2016-01-30"
+msgstr "기간: 2015-08-01 ~ 2016-01-30"
+
+msgid "Period: 2016-08-01 to 2017-01-05"
+msgstr "기간: 2016-08-01 ~ 2017-01-05"
+
+msgid "Period: 2017-01-06 to 2017-06-30"
+msgstr "기간: 2017-01-06 ~ 2017-06-30"
+
+msgid "Period: from 2014-11-01 to 2015-07-16"
+msgstr "기간: 2014년 11월 1일 - 2015년 7월 16일"
+
+msgid "Pike cycle"
+msgstr "Pike 버전"
+
 msgid "Previous meetings"
 msgstr "이전 미팅"
 
@@ -1246,6 +2321,9 @@ msgstr "리뷰"
 msgid "Reviewing translation imports"
 msgstr "번역 가져오기 리뷰"
 
+msgid "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
+msgstr "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
+
 msgid "Roles in a Language Team"
 msgstr "언어팀 내 역할"
 
@@ -1283,8 +2361,8 @@ msgid ""
 msgstr ""
 "Sphinx는 ROT 소스 파일을 POT과 HTML을 포함한 다양한 출력 형식으로 변환하는 도"
 "구입니다. 아래 단계를 수행하기 전에 Sphinx 를 설치해야합니다. 거의 모든 프로"
-"젝트는 리포지토리에``test-requirements.txt``를 가지고 있으며,이 파일을 검사하"
-"여 필요한 Sphinx 버전을 확인할 수 있습니다."
+"젝트는 리포지토리에``test-requirements.txt`` 를 가지고 있으며,이 파일을 검사"
+"하여 필요한 Sphinx 버전을 확인할 수 있습니다."
 
 msgid "Stackalytics"
 msgstr "Stackalytics"
@@ -1400,7 +2478,7 @@ msgstr ""
 "으로 지적할 필요가 있습니다."
 
 msgid "The convention for heading levels is as follows::"
-msgstr "머리말 부분을 위한 통용규칙은 다음을 따릅니다::"
+msgstr "머리말 부분을 위한 규칙은 다음을 따릅니다::"
 
 msgid ""
 "The easiest way would be to open http://tarballs.openstack.org/translation-"
@@ -1408,8 +2486,8 @@ msgid ""
 "corresponding links."
 msgstr ""
 "가장 쉬운 방법은 http://tarballs.openstack.org/translation-source를 열고 "
-"``<Zanata-project-name>``, ``<Zanata-version>`` 및 해당 링크를 따라하는 것입"
-"니다."
+"``<Zanata-project-name>``, ``<Zanata-version>`,  해당 링크를 따라하는 것입니"
+"다."
 
 msgid "The filename of the list is ``tools/translation_team.yaml``."
 msgstr "목록의 파일 이름은 ``tools/translation_team.yaml`` 입니다."
@@ -1427,8 +2505,8 @@ msgid ""
 "The following is an example of ``zanata.xml``. In most cases, what you need "
 "to edit are **project** and **project-version**."
 msgstr ""
-"다음은 ``zanata.xml``의 예입니다. 대부분의 경우 편집해야 할 항목은 "
-"**project**와 **project-version**입니다."
+"다음은 ``zanata.xml`` 의 예입니다. 대부분의 경우 편집해야 할 항목은 "
+"**project** 와 **project-version** 입니다."
 
 msgid "The followings are useful links when writing documents in RST."
 msgstr "다음은 RST로 문서를 작성할 때 유용한 링크입니다."
@@ -1448,8 +2526,8 @@ msgid ""
 "<http://docs.openstack.org/contributor-guide/rst-conv.html>`__."
 msgstr ""
 "본 가이드는 Sphinx 확장인 reStructuredText (RST) 마크업 문법으로 작성되었습니"
-"다. 대부분 통용규칙은 `openstack-manuals 프로젝트 내 설명 <http://docs."
-"openstack.org/contributor-guide/rst-conv.html>`__ 을 따릅니다."
+"다. 대부분 규칙은 `openstack-manuals 프로젝트 내 설명 <http://docs.openstack."
+"org/contributor-guide/rst-conv.html>`__ 을 따릅니다."
 
 msgid ""
 "The master glossary is an usual POT file. You can edit it in your favorite "
@@ -1498,7 +2576,7 @@ msgid ""
 "g., ``translation_team.yaml``) with user name and e-mail addresses by "
 "interacting with Zanata API."
 msgstr ""
-"``tools/zanata/zanata_userinfo.py``스크립트는 이것을 돕습니다. Zanata API와 "
+"``tools/zanata/zanata_userinfo.py`` 스크립트는 이것을 돕습니다. Zanata API와 "
 "상호 작용하여 사용자 이름과 전자 메일 주소가있는 번역자 목록 (예: "
 "``translation_team.yaml``) 이 들어있는 YAML 파일을 읽음으로써 CSV 파일을 생성"
 "합니다."
@@ -1508,7 +2586,7 @@ msgid ""
 "dependencies, run ``pip install -e requirements.txt``."
 msgstr ""
 "아래 스크립트는 여러 개의 파이썬 모듈에 의존합니다. 이러한 종속성을 설치하려"
-"면, ``pip install -e requirements.txt``을 실행하십시오."
+"면, ``pip install -e requirements.txt`` 을 실행하십시오."
 
 msgid ""
 "The stable version is created from the master version on Zanata once RC1 is "
@@ -1644,7 +2722,7 @@ msgstr "이 페이지는 최종 사용자가 번역 버그를 신고하는 방�
 
 msgid ""
 "This page describes the conventions and tips on writing this guide itself."
-msgstr "이 페이지는 해당 가이드를 작성할 때 통용 규칙 및 팁을 설명합니다."
+msgstr "이 페이지는 해당 가이드를 작성할 때 통용 규칙과 팁을 설명합니다."
 
 msgid ""
 "This page documents what I18n team concerns and which things are needed to "
@@ -1710,7 +2788,7 @@ msgid ""
 msgstr ""
 "번역 플랫폼과 교류하려면 관심이 있는 프로젝트의 최상위 디렉토리에 ``zanata."
 "xml`` 이라는 프로젝트 구성 파일을 준비해야합니다. OpenStack 프로젝트에는 git"
-"에 ``zanata.xml``이 없습니다, 그러므로 리포지토리를 만들려면 수동으로 만들어"
+"에 ``zanata.xml`` 이 없습니다, 그러므로 리포지토리를 만들려면 수동으로 만들어"
 "야합니다."
 
 msgid ""
@@ -1733,8 +2811,8 @@ msgid ""
 msgstr ""
 "Zanata에서 번역본을 다운로드하려면 프로젝트 디렉토리로 이동 한 후 다음 명령"
 "을 실행하십시오. 보통 몇 가지 언어에만 관심이 있으므로 ``--locales`` 옵션이 "
-"유용 할 것입니다. 더 많은 옵션을 보려면``zanata pull --help``의 출력을 보십시"
-"오."
+"유용 할 것입니다. 더 많은 옵션을 보려면``zanata pull --help`` 의 출력을 보십"
+"시오."
 
 msgid ""
 "To find updates for both Zanata and OpenStack project repositories, Jenkins "
@@ -1819,8 +2897,8 @@ msgid ""
 "config>`__ repository."
 msgstr ""
 "번역 인프라 스크립트는 `openstack-infra/project-config <http://git.openstack."
-"org/cgit/openstack-infra/project-config>`__ 저장소에서 저장 및 관리가 이루어"
-"집니다."
+"org/cgit/openstack-infra/project-config>`__ 저장소에서 저장, 관리가 이루어집"
+"니다."
 
 msgid ""
 "Translation is another kind of important contribution to OpenStack "
@@ -1925,13 +3003,13 @@ msgid ""
 "from the translation platform."
 msgstr ""
 "번역 플랫폼에서 번역된 PO 파일을 다운로드하려면 :ref:`Zanata CLI <zanata-"
-"cli>`를사용합니다."
+"cli>` 를사용합니다."
 
 msgid ""
 "We use :ref:`Zanata CLI <zanata-cli>` to upload the POT file to the "
 "translate platform."
 msgstr ""
-"우리는 :ref:`Zanata CLI <zanata-cli>`를 사용하여 POT 파일을 번역 플랫폼에 업"
+"우리는 :ref:`Zanata CLI <zanata-cli>` 를 사용하여 POT 파일을 번역 플랫폼에 업"
 "로드합니다."
 
 msgid ""
@@ -2069,10 +3147,10 @@ msgid ""
 "options if you just use them locally as they are just used in the POT file "
 "header."
 msgstr ""
-"** PROJECT **는 ``nova``와 같은 프로젝트 이름이고 ** VERSION **은 버전 번호입"
-"니다. pybabel을 사용하여 코드에서 PO 템플릿 (POT)으로 메시지를 추출 할 수 있"
-"습니다. POT 파일 헤더에서 사용되는 것처럼 로컬에서 사용하는 경우 ``--"
-"project``와 ``--version`` 옵션을 생략할 수 있습니다."
+"** PROJECT ** 는 ``nova`` 와 같은 프로젝트 이름이고 ** VERSION ** 은 버전 번"
+"호입니다. pybabel을 사용하여 코드에서 PO 템플릿 (POT)으로 메시지를 추출 할 "
+"수 있습니다. POT 파일 헤더에서 사용되는 것처럼 로컬에서 사용하는 경우 ``--"
+"project`` 와 ``--version`` 옵션을 생략할 수 있습니다."
 
 msgid "You can find the location in a source code by checking the POT file."
 msgstr "POT 파일을 확인하여 소스 코드에서 위치를 찾을 수 있습니다."
@@ -2100,10 +3178,10 @@ msgid ""
 "configuration file, see `Zanata CLI configuration <http://docs.zanata.org/en/"
 "release/client/configuration/#user-configuration>`__."
 msgstr ""
-"사용자 별 설정이 들어있는 ``$HOME/.config/zanata.ini``에 설정 파일을 만들어야"
-"합니다. 설정 파일을 만드는 방법에 대한 정보는`Zanata CLI configuration "
+"사용자 별 설정이 들어있는 ``$HOME/.config/zanata.ini`` 에 설정 파일을 만들어"
+"야합니다. 설정 파일을 만드는 방법에 대한 정보는`Zanata CLI configuration "
 "<http://docs.zanata.org/en/release/client/configuration/#user-"
-"configuration>`__을 살펴보시면 됩니다."
+"configuration>`__ 을 살펴보시면 됩니다."
 
 msgid "Zanata"
 msgstr "Zanata"
@@ -2121,6 +3199,9 @@ msgstr ""
 msgid "Zanata provides ways to know your activity on Zanata."
 msgstr "Zanata는 Zanata에서 있었던 활동을 알도록 하는 방법을 제공합니다."
 
+msgid "Zbyněk Schwarz (id: tsbook) - Czech"
+msgstr "Zbyněk Schwarz (id: tsbook) - Czech"
+
 msgid "[I18n PTL] Call for translation"
 msgstr "[I18n PTL] 번역을 요청합니다"
 
@@ -2128,9 +3209,8 @@ msgid ""
 "[I18n PTL] Coordinate release and translation import schedule of individual "
 "projects with PTL or I18n liaison."
 msgstr ""
-"[I18n PTL]  개별 프로젝트에 대해 PTL 또는 I18n liaison과 함께 릴리즈 및 번역 "
-"가져오기\n"
-" 일정을 조정합니다."
+"[I18n PTL]  개별 프로젝트에 대해 PTL 또는 I18n liaison과 함께 릴리즈, 번역 가"
+"져오기 일정을 조정합니다."
 
 msgid ""
 "[Infra] Setup translation jobs such as ``translation-jobs-newton`` to import "
@@ -2334,6 +3414,45 @@ msgstr ""
 msgid "add the source project to \"Also affects project\" of this bug."
 msgstr "소스 프로젝트를 해당 버그 내 \"Also affects project\" 에 추가합니다."
 
+msgid "adiantum"
+msgstr "adiantum"
+
+msgid "albertomolina"
+msgstr "albertomolina"
+
+msgid "aleksey"
+msgstr "aleksey"
+
+msgid "alessandra"
+msgstr "alessandra"
+
+msgid "amikhalev"
+msgstr "amikhalev"
+
+msgid "amotoki"
+msgstr "amotoki"
+
+msgid "andibing"
+msgstr "andibing"
+
+msgid "andrecampos"
+msgstr "andrecampos"
+
+msgid "angelique_pillal16"
+msgstr "angelique_pillal16"
+
+msgid "anikitenkov"
+msgstr "anikitenkov"
+
+msgid "antoniok"
+msgstr "antoniok"
+
+msgid "apapsujko"
+msgstr "apapsujko"
+
+msgid "approved"
+msgstr "approved"
+
 msgid ""
 "assign the bug to you or a member of your language team, and then mark it as "
 "\"In Progress\""
@@ -2341,11 +3460,41 @@ msgstr ""
 "버그를 본인 또는 대상 언어팀 구성원에게 할당하고, \"In Progress\" 로 상태를 "
 "기록합니다"
 
+msgid "betorvalds"
+msgstr "betorvalds"
+
+msgid "billxiang"
+msgstr "billxiang"
+
+msgid "blkart"
+msgstr "blkart"
+
+msgid "bokaitseng"
+msgstr "bokaitseng"
+
 msgid "bugs in a source project"
 msgstr "소스 프로젝트 내 버그"
 
 msgid "bugs in tool chains"
 msgstr "툴 체인 내 버그"
+
+msgid "caihui"
+msgstr "caihui"
+
+msgid "ccamacho"
+msgstr "ccamacho"
+
+msgid "cduch"
+msgstr "cduch"
+
+msgid "changhuiyuan"
+msgstr "changhuiyuan"
+
+msgid "chuinggun"
+msgstr "chuinggun"
+
+msgid "ciello89"
+msgstr "ciello89"
 
 msgid "confirm the bug"
 msgstr "버그를 확인합니다"
@@ -2353,11 +3502,113 @@ msgstr "버그를 확인합니다"
 msgid "confirm the bug or mark it as incomplete"
 msgstr "버그를 확인하거나 incomplete로 구분합니다"
 
+msgid "corin"
+msgstr "corin"
+
+msgid "croe"
+msgstr "croe"
+
+msgid "cs"
+msgstr "cs"
+
+msgid "daisyycguo"
+msgstr "daisyycguo"
+
+msgid "danny"
+msgstr "danny"
+
+msgid "de"
+msgstr "de"
+
+msgid "deejay1"
+msgstr "deejay1"
+
+msgid "dmakarov"
+msgstr "dmakarov"
+
+msgid "duyarli"
+msgstr "duyarli"
+
+msgid "dynarro"
+msgstr "dynarro"
+
+msgid "eblock"
+msgstr "eblock"
+
+msgid "egongu90"
+msgstr "egongu90"
+
+msgid "elliswu"
+msgstr "elliswu"
+
+msgid "en-GB"
+msgstr "en-GB"
+
+msgid "ericbaum"
+msgstr "ericbaum"
+
+msgid "es"
+msgstr "es"
+
+msgid "es-MX"
+msgstr "es-MX"
+
+msgid "eugeniato"
+msgstr "eugeniato"
+
+msgid "eumel8"
+msgstr "eumel8"
+
+msgid "fcpimenta"
+msgstr "fcpimenta"
+
+msgid "fi-FI"
+msgstr "fi-FI"
+
+msgid "fifieldt"
+msgstr "fifieldt"
+
 msgid ""
 "fix it by visiting a corresponding resource in Zanata and correcting "
 "translations."
 msgstr ""
 "Zanata 내 대응하는 리소스에 접속하고 번역을 올바르게 바꿈으로써 수정합니다."
+
+msgid "fr"
+msgstr "fr"
+
+msgid "frontjang"
+msgstr "frontjang"
+
+msgid "ftarasenko"
+msgstr "ftarasenko"
+
+msgid "gael\\__"
+msgstr "gael\\__"
+
+msgid "gael_rehault"
+msgstr "gael_rehault"
+
+msgid "gecong"
+msgstr "gecong"
+
+msgid "geraldlonlas"
+msgstr "geraldlonlas"
+
+msgid "h3c_wuhan"
+msgstr "h3c_wuhan"
+
+msgid "haruki"
+msgstr "haruki"
+
+msgid "heleno_jimenez"
+msgstr "heleno_jimenez"
+
+msgid "henris"
+msgstr "henris"
+
+msgid "hidekazuna"
+msgstr "hidekazuna"
 
 msgid ""
 "http://docs.openstack.org/<lang> contains released documents. Follow \"More "
@@ -2378,8 +3629,293 @@ msgid "http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
 msgstr ""
 "http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
 
+msgid "huyupeng"
+msgstr "huyupeng"
+
+msgid "hybridpollo"
+msgstr "hybridpollo"
+
+msgid "ianychoi"
+msgstr "ianychoi"
+
+msgid "id"
+msgstr "id"
+
+msgid "igene"
+msgstr "igene"
+
+msgid "ikochetova"
+msgstr "ikochetova"
+
+msgid "iranzo"
+msgstr "iranzo"
+
+msgid "isbaran"
+msgstr "isbaran"
+
+msgid "ishashero"
+msgstr "ishashero"
+
+msgid "istartsev"
+msgstr "istartsev"
+
+msgid "it"
+msgstr "it"
+
+msgid "itlinux"
+msgstr "itlinux"
+
+msgid "ja"
+msgstr "ja"
+
+msgid "jaegerandi"
+msgstr "jaegerandi"
+
+msgid "jameslee"
+msgstr "jameslee"
+
+msgid "jenniferkuo"
+msgstr "jenniferkuo"
+
+msgid "jftalta"
+msgstr "jftalta"
+
+msgid "jimidar"
+msgstr "jimidar"
+
+msgid "jimmyli"
+msgstr "jimmyli"
+
+msgid "jitaejang"
+msgstr "jitaejang"
+
+msgid "josemello"
+msgstr "josemello"
+
+msgid "jpichon"
+msgstr "jpichon"
+
+msgid "jsshin"
+msgstr "jsshin"
+
+msgid "kepark07"
+msgstr "kepark07"
+
+msgid "ko-KR"
+msgstr "ko-KR"
+
+msgid "koain"
+msgstr "koain"
+
+msgid "kodokuu"
+msgstr "kodokuu"
+
+msgid "komatineni"
+msgstr "komatineni"
+
+msgid "kyle"
+msgstr "kyle"
+
+msgid "kzaitsev"
+msgstr "kzaitsev"
+
+msgid "lang"
+msgstr "lang"
+
+msgid "lapalm"
+msgstr "lapalm"
+
+msgid "lenkahusakova"
+msgstr "lenkahusakova"
+
+msgid "liced"
+msgstr "liced"
+
+msgid "lindayang"
+msgstr "lindayang"
+
+msgid "linlin"
+msgstr "linlin"
+
+msgid "liujiong"
+msgstr "liujiong"
+
+msgid "liujunpeng"
+msgstr "liujunpeng"
+
+msgid "loewal"
+msgstr "loewal"
+
+msgid "lony"
+msgstr "lony"
+
+msgid "lstemmle"
+msgstr "lstemmle"
+
+msgid "lucasagomes"
+msgstr "lucasagomes"
+
+msgid "maoshuai"
+msgstr "maoshuai"
+
+msgid "marcelodieder"
+msgstr "marcelodieder"
+
+msgid "marcio"
+msgstr "marcio"
+
+msgid "mariantb"
+msgstr "mariantb"
+
+msgid "marquesc"
+msgstr "marquesc"
+
+msgid "masami_sasahara"
+msgstr "masami_sasahara"
+
+msgid "max821214"
+msgstr "max821214"
+
+msgid "mbozhenko"
+msgstr "mbozhenko"
+
+msgid "mimisheep"
+msgstr "mimisheep"
+
+msgid "mmarin"
+msgstr "mmarin"
+
+msgid "mmasaki"
+msgstr "mmasaki"
+
+msgid "mokhin2"
+msgstr "mokhin2"
+
+msgid "mucahit"
+msgstr "mucahit"
+
+msgid "myamamot"
+msgstr "myamamot"
+
+msgid "nburtsev"
+msgstr "nburtsev"
+
+msgid "nexusz99"
+msgstr "nexusz99"
+
+msgid "nikoul"
+msgstr "nikoul"
+
+msgid "nsmirnov"
+msgstr "nsmirnov"
+
+msgid "nuyori"
+msgstr "nuyori"
+
+msgid "openstack"
+msgstr "openstack"
+
+msgid "openstackhc"
+msgstr "openstackhc"
+
+msgid "otsuka"
+msgstr "otsuka"
+
+msgid "oussemos"
+msgstr "oussemos"
+
+msgid "pa-IN"
+msgstr "pa-IN"
+
+msgid "pat"
+msgstr "pat"
+
+msgid "pcaruana"
+msgstr "pcaruana"
+
+msgid "petro"
+msgstr "petro"
+
+msgid "pl-PL"
+msgstr "pl-PL"
+
+msgid "porrua"
+msgstr "porrua"
+
 msgid "prioritize the bug"
 msgstr "번역 우선순위를 지정합니다"
+
+msgid "pt-BR"
+msgstr "pt-BR"
+
+msgid "raildomascena"
+msgstr "raildomascena"
+
+msgid "rbraga"
+msgstr "rbraga"
+
+msgid "rejected"
+msgstr "rejected"
+
+msgid "review-approved"
+msgstr "review-approved"
+
+msgid "review-rejected"
+msgstr "review-rejected"
+
+msgid "robcresswell"
+msgstr "robcresswell"
+
+msgid "romainsc"
+msgstr "romainsc"
+
+msgid "rsimai"
+msgstr "rsimai"
+
+msgid "ru"
+msgstr "ru"
+
+msgid "rustinpeace"
+msgstr "rustinpeace"
+
+msgid "sanporci"
+msgstr "sanporci"
+
+msgid "sasukeh"
+msgstr "sasukeh"
+
+msgid "seonhopark"
+msgstr "seonhopark"
+
+msgid "seyeon"
+msgstr "seyeon"
+
+msgid "sfilatov"
+msgstr "sfilatov"
+
+msgid "shintaro"
+msgstr "shintaro"
+
+msgid "shu"
+msgstr "shu"
+
+msgid "stanislavulrych"
+msgstr "stanislavulrych"
+
+msgid "suhartono"
+msgstr "suhartono"
+
+msgid "sunanchen"
+msgstr "sunanchen"
+
+msgid "sunjing"
+msgstr "sunjing"
+
+msgid "sylvie_chesneau"
+msgstr "sylvie_chesneau"
+
+msgid "t09sunny"
+msgstr "t09sunny"
 
 msgid "tag it with the project name, for example \"horizon\" or \"docs\"."
 msgstr ""
@@ -2388,5 +3924,155 @@ msgstr ""
 msgid "tag the bug with a language name"
 msgstr "버그에 언어명을 태그로 붙입니다"
 
+msgid "te-IN"
+msgstr "te-IN"
+
+msgid "terrytai820"
+msgstr "terrytai820"
+
+msgid "tfu"
+msgstr "tfu"
+
+msgid "thnam"
+msgstr "thnam"
+
+msgid "thomas_vysokos"
+msgstr "thomas_vysokos"
+
+msgid "tigerfang"
+msgstr "tigerfang"
+
+msgid "to222"
+msgstr "to222"
+
+msgid "tr-TR"
+msgstr "tr-TR"
+
+msgid "translated"
+msgstr "translated"
+
+msgid "translated + reviewed"
+msgstr "translated + reviewed"
+
 msgid "translation bugs"
 msgstr "번역 버그"
+
+msgid "travisn"
+msgstr "travisn"
+
+msgid "tsbook"
+msgstr "tsbook"
+
+msgid "tsutomu_kimura"
+msgstr "tsutomu_kimura"
+
+msgid "ujuc"
+msgstr "ujuc"
+
+msgid "user_id"
+msgstr "user_id"
+
+msgid "valentin"
+msgstr "valentin"
+
+msgid "vcomas3"
+msgstr "vcomas3"
+
+msgid "vi01et"
+msgstr "vi01et"
+
+msgid "vponomaryov"
+msgstr "vponomaryov"
+
+msgid "vsokolov"
+msgstr "vsokolov"
+
+msgid "vstepurova"
+msgstr "vstepurova"
+
+msgid "vuuv"
+msgstr "vuuv"
+
+msgid "wall_dirk"
+msgstr "wall_dirk"
+
+msgid "webberguo"
+msgstr "webberguo"
+
+msgid "willychen"
+msgstr "willychen"
+
+msgid "wonil22"
+msgstr "wonil22"
+
+msgid "xhkjoe"
+msgstr "xhkjoe"
+
+msgid "xiangbinbin"
+msgstr "xiangbinbin"
+
+msgid "xuyang"
+msgstr "xuyang"
+
+msgid "yeguchi"
+msgstr "yeguchi"
+
+msgid "yfukuda"
+msgstr "yfukuda"
+
+msgid "ykatabam"
+msgstr "ykatabam"
+
+msgid "yosshy"
+msgstr "yosshy"
+
+msgid "yryndenkova"
+msgstr "yryndenkova"
+
+msgid "yukinori_yagisawa"
+msgstr "yukinori_yagisawa"
+
+msgid "yusuke1219"
+msgstr "yusuke1219"
+
+msgid "yuta_hono"
+msgstr "yuta_hono"
+
+msgid "zenglulu"
+msgstr "zenglulu"
+
+msgid "zero00072"
+msgstr "zero00072"
+
+msgid "zh-CN"
+msgstr "zh-CN"
+
+msgid "zh-TW"
+msgstr "zh-TW"
+
+msgid "zhangjingwen"
+msgstr "zhangjingwen"
+
+msgid "zhengjie7800"
+msgstr "zhengjie7800"
+
+msgid "zhouchangxun"
+msgstr "zhouchangxun"
+
+msgid "zhsj"
+msgstr "zhsj"
+
+msgid "zhugaoxiao"
+msgstr "zhugaoxiao"
+
+msgid "zigmax"
+msgstr "zigmax"
+
+msgid "zloykaban"
+msgstr "zloykaban"
+
+msgid "zzxwill"
+msgstr "zzxwill"
+
+msgid "Łukasz Jernas (id: deejay1) - Polish (Poland)"
+msgstr "Łukasz Jernas (id: deejay1) - Polish (Poland)"
