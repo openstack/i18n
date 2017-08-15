@@ -38,7 +38,7 @@ we can find them in the following places:
 Translation tools
 -----------------
 
-Go to the `translation tools <https://wiki.openstack.org/wiki/I18n/Tools>`_
+Go to the :doc:`translation tools <tools>`
 page to understand the tools and scripts which support our translation
 platform.
 
