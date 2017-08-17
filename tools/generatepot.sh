@@ -28,8 +28,10 @@ fi
 rm -f ${DIRECTORY}/source/locale/$DOCNAME.pot
 
 # build i18n contributor guide page index.html
+for i in ${DIRECTORY}/source/atc-stats/data/*; do echo -n > $i ; done
 sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/source \
     ${DIRECTORY}/source/locale/
+git checkout -- ${DIRECTORY}/source/atc-stats/data/*
 
 # Take care of deleting all temporary files so that
 # "git add ${DIRECTORY}/source/locale" will only add the
