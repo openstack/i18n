@@ -50,6 +50,10 @@ If you are reviewing these translations, keep the following in mind:
 * The proposal bot also removes files, it removes files that have very
   few translations in them. Note that no translations will be lost,
   they are still in the translation server.
+
+  Also, release notes translations are only needed on master since
+  release notes are published only from master, the translations get
+  removed on stable branches.
 * Most teams have single approval for translation imports instead of
   two core reviewers.
 
