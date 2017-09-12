@@ -72,9 +72,21 @@ function _add_language_index {
 
     local basename
     basename=$(echo $target_file | sed -e "s|$DIRECTORY/source/||" -e "s|\.rst$||")
+    path_to_top_level=$(dirname $basename | sed -e 's|[^./]\+|..|g')
+
+    local _basepath
+    if [ "$basepath"= "." -a "$path_to_top_level" = "." ]; then
+        _basepath="."
+    elif [ "$basepath" = "." ]; then
+        _basepath=$path_to_top_level
+    elif [ "$path_to_top_level" = "." ]; then
+        _basepath=$basepath
+    else
+        _basepath="$basepath/$path_to_top_level"
+    fi
 
     cp -p $target_file $target_file.backup
-    sed -e "s|__BASE__|$basepath|" -e "s|__INDEX__|$basename.html|" $LANG_INDEX > $target_file
+    sed -e "s|__BASE__|$_basepath|" -e "s|__INDEX__|$basename.html|" $LANG_INDEX > $target_file
     cat $target_file.backup >> $target_file
 }
 
