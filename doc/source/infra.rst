@@ -78,5 +78,5 @@ repository.
   * Builds release notes in both the original (English) version and translated
     versions (if any).
 
-Note that the scripts use `zanata-cli <http://docs.zanata.org/projects/zanata-client/en/release>`__
+Note that the scripts use `zanata-cli <http://docs.zanata.org/en/release/client/>`__
 to pull and push translation content.
