@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-27 10:34+0000\n"
+"POT-Creation-Date: 2017-11-04 05:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -433,12 +433,6 @@ msgstr ""
 "richtig arbeitet. Schauen Sie dazu in `Gerrit <https://review.openstack.org/"
 "#/q/status:open+topic:zanata/translations,n,z>`_.  Die Überschrift dieser "
 "Patche sind immer \"Imported Translations from Zanata\"."
-
-msgid "Every even week: 07:00 UTC, Thursday"
-msgstr "Jede gerade Woche: Donnerstag 07:00 UTC"
-
-msgid "Every odd week: 13:00 UTC, Thursday"
-msgstr "Jede ungerade Woche: Donnerstag 13:00 UTC"
 
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "Jeder in der OpenStack-Gemeinschaft hilft Ihnen gerne."
@@ -1026,9 +1020,6 @@ msgstr ""
 
 msgid "Ocata cycle"
 msgstr "Ocata Zyklus"
-
-msgid "Odd and even values are calculated based on ISO week numbers."
-msgstr "Ungerade und gerade Wochen werden nach ISO-Wochennummern kalkuliert."
 
 msgid ""
 "Of course there is no need that team coordinators do all items. You can "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 08:37+0000\n"
+"POT-Creation-Date: 2017-11-04 05:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -414,12 +414,6 @@ msgstr ""
 "<https://review.openstack.org/#/q/status:open+topic:zanata/translations,n,"
 "z>`_ 에서 오픈되어 있는 리뷰 확인이 가능합니다. 해당 패치 제목은 항상 "
 "\"Imported Translations from Zanata\" 입니다."
-
-msgid "Every even week: 07:00 UTC, Thursday"
-msgstr "매 짝수 주: 목요일 07:00 UTC"
-
-msgid "Every odd week: 13:00 UTC, Thursday"
-msgstr "매 홀수 주: 목요일 13:00 UTC"
 
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "OpenStack 커뮤니티 모두가 기꺼이 도울 것입니다."
@@ -974,9 +968,6 @@ msgstr ""
 
 msgid "Ocata cycle"
 msgstr "Ocata 버전"
-
-msgid "Odd and even values are calculated based on ISO week numbers."
-msgstr "홀수 및 짝수는 ISO 주차에 기반하여 계산이 이루어집니다."
 
 msgid ""
 "Of course there is no need that team coordinators do all items. You can "
