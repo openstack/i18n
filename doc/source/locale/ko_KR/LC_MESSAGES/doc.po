@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 05:13+0000\n"
+"POT-Creation-Date: 2017-11-09 07:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-09-09 05:02+0000\n"
+"PO-Revision-Date: 2017-11-12 11:29+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -415,6 +415,20 @@ msgstr ""
 "z>`_ 에서 오픈되어 있는 리뷰 확인이 가능합니다. 해당 패치 제목은 항상 "
 "\"Imported Translations from Zanata\" 입니다."
 
+msgid ""
+"Every even week: `07:00 UTC, Thursday <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+msgstr ""
+"매 짝수 주: `07:00 UTC, Thursday <https://www.timeanddate.com/worldclock/"
+"fixedtime.html?hour=07&min=00&sec=0>`_"
+
+msgid ""
+"Every odd week: `13:00 UTC, Thursday <https://www.timeanddate.com/worldclock/"
+"fixedtime.html?hour=07&min=00&sec=0>`_"
+msgstr ""
+"매 홀수 주: `13:00 UTC, Thursday <https://www.timeanddate.com/worldclock/"
+"fixedtime.html?hour=07&min=00&sec=0>`_"
+
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "OpenStack 커뮤니티 모두가 기꺼이 도울 것입니다."
 
@@ -544,6 +558,9 @@ msgstr "python 프로젝트 처리"
 msgid "Handling translation bugs"
 msgstr "번역 버그 다루기"
 
+msgid "Handy links (always sort of on the agenda)"
+msgstr "관련 링크 (항상 안건에 따라 정렬됩니다)"
+
 msgid "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 msgstr "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 
@@ -584,6 +601,9 @@ msgstr "IRC 채널: freenode 내 ``#openstack-i18n``"
 
 msgid "IRC meeting commands"
 msgstr "IRC 미팅 명령어"
+
+msgid "IRC web client"
+msgstr "IRC 웹 클라이언트"
 
 msgid ""
 "If a bug reports translation errors of a certain language, it could be "
@@ -626,6 +646,17 @@ msgid ""
 msgstr ""
 "런치 패드 및 Zanata ID에 동일한 이름을 사용하는 것이 운이 좋다면 위와 같은 작"
 "업을 수행 할 필요가 없습니다. Stackalytics는 자동으로 통계를 찾습니다."
+
+msgid ""
+"If you are not familiar with IRC, please read `IRC Wiki Page <https://wiki."
+"openstack.org/wiki/IRC>`_. You can simply use the web client for Freenode to "
+"come to `#openstack-i18n or #openstack-meeting channel <http://webchat."
+"freenode.net/?channels=openstack-i18n,openstack-meeting>`_."
+msgstr ""
+"아직 IRC에 익숙하지 않다면 `IRC Wiki Page <https://wiki.openstack.org/wiki/"
+"IRC>`_ 를 읽어 보십시오. 간단하게는 Freenode에 대한 웹 클라이언트를 사용하여 "
+"`#openstack-i18n or #openstack-meeting channel <http://webchat.freenode.net/?"
+"channels=openstack-i18n,openstack-meeting>`_ 에 들어올 수 있습니다."
 
 msgid "If you are reviewing these translations, keep the following in mind:"
 msgstr "해당 번역을 리뷰하고자 하는 경우, 다음 사항을 명심합니다:"
@@ -833,6 +864,9 @@ msgstr "언어팀"
 msgid "Language translation team"
 msgstr "언어 번역팀"
 
+msgid "Launchpad bugs and Gerrit reviews"
+msgstr "Launchpad 버그 및 Gerrit 리뷰"
+
 msgid "Liberty cycle"
 msgstr "Liberty 버전"
 
@@ -948,6 +982,13 @@ msgstr ""
 "정하였습니다."
 
 msgid ""
+"Note that the scripts use `zanata-cli <http://docs.zanata.org/en/release/"
+"client/>`__ to pull and push translation content."
+msgstr ""
+"참고로 해당 스크립트들은 번역 내용을 가져오고 업로드하기 위해 `zanata-cli "
+"<http://docs.zanata.org/en/release/client/>`__ 를 사용합니다."
+
+msgid ""
 "Note that you need to log into Zanata to see your activity in the above "
 "pages."
 msgstr ""
@@ -968,6 +1009,13 @@ msgstr ""
 
 msgid "Ocata cycle"
 msgstr "Ocata 버전"
+
+msgid ""
+"Odd and even values are calculated based on `ISO week numbers <https://www."
+"timeanddate.com/date/weeknumber.html>`_."
+msgstr ""
+"홀수 및 짝수는 `ISO 주차 <https://www.timeanddate.com/date/weeknumber."
+"html>`_ 에 기반하여 계산이 이루어집니다."
 
 msgid ""
 "Of course there is no need that team coordinators do all items. You can "
@@ -1053,6 +1101,9 @@ msgid ""
 msgstr ""
 "찾으려는 POT 파일을 열고 관심있는 문자열을 검색하십시오. 그러면 다음과 같은 "
 "항목을 찾을 수 있습니다."
+
+msgid "Open discussion"
+msgstr "기타 토론"
 
 msgid "OpenStack Dashboard"
 msgstr "OpenStack 대시보드"
@@ -1205,6 +1256,9 @@ msgstr "번역팀 가입을 요청합니다"
 
 msgid "Retrieve translation statistics"
 msgstr "번역 통계 가져 오기"
+
+msgid "Review of action items from the previous meeting"
+msgstr "이전 미팅에 대한 수행 항목 리뷰"
 
 msgid "Reviewer"
 msgstr "검토자"
@@ -1806,6 +1860,9 @@ msgstr "번역"
 msgid "Translation Statistics"
 msgstr "번역 통계"
 
+msgid "Translation activities with plans from language teams"
+msgstr "언어 팀에 대한 번역 활동 및 계획"
+
 msgid "Translation bugs"
 msgstr "번역 버그"
 
@@ -1896,6 +1953,9 @@ msgstr "docs.openstack.org 사용하기"
 
 msgid "Using translations"
 msgstr "번역 사용"
+
+msgid "Usual agenda"
+msgstr "일반적인 안건"
 
 msgid ""
 "Visit `Stackalytics <http://stackalytics.com/>`__ and choose "
@@ -2234,6 +2294,9 @@ msgstr ""
 "reviews, mucahit - 1241 reviews) are also regarded ATCs from Newton cycle :) "
 "- I keep it as record for the next ATC list changes."
 
+msgid "`Bug lists <https://bugs.launchpad.net/openstack-i18n>`_"
+msgstr "`버그 목록 <https://bugs.launchpad.net/openstack-i18n>`_"
+
 msgid ""
 "`Dashboard <https://translate.openstack.org/dashboard/>`__ page shows your "
 "recent activity statistics this month and detail activity."
@@ -2257,6 +2320,13 @@ msgid ""
 msgstr ""
 "`언어(별) 번역팀 <https://wiki.openstack.org/wiki/I18nTeam/team>`_: 사용하는 "
 "언어로 물어볼 수 있습니다 :-)"
+
+msgid ""
+"`Open reviews in openstack/i18n <https://review.openstack.org/#/q/status:open"
+"+project:openstack/i18n>`_"
+msgstr ""
+"`Open reviews in openstack/i18n <https://review.openstack.org/#/q/status:open"
+"+project:openstack/i18n>`_"
 
 msgid ""
 "`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ "
@@ -2311,6 +2381,13 @@ msgid ""
 msgstr ""
 "`Stackalytics <http://stackalytics.com/>`__ 는 OpenStack과 관련된 다양한 통계"
 "를 알도록 해 주는 대중적인 웹사이트입니다. 번역 통계를 지원합니다 :)"
+
+msgid "`Translation plan <https://translate.openstack.org/>`_"
+msgstr "`번역 계획 <https://translate.openstack.org/>`_"
+
+msgid ""
+"`Translation statistics <http://stackalytics.com/?metric=translations>`_"
+msgstr "`번역 통계 <http://stackalytics.com/?metric=translations>`_"
 
 msgid "``--help`` option shows the detail usage."
 msgstr "``--help`` 옵션은 자세한 사용법을 보여줍니다."
