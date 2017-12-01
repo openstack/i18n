@@ -7,7 +7,7 @@ in #openstack-meeting IRC channel.
 To download ICS file, please visit
 `eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_ page.
 
-* Every odd week: `13:00 UTC, Thursday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=07&min=00&sec=0>`_
+* Every odd week: `13:00 UTC, Thursday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=13&min=00&sec=0>`_
 * Every even week: `07:00 UTC, Thursday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=07&min=00&sec=0>`_
 
 .. note::
