@@ -4,12 +4,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 05:13+0000\n"
+"POT-Creation-Date: 2017-12-01 13:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-02 02:05+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2017-12-01 07:11+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -434,6 +434,13 @@ msgstr ""
 "#/q/status:open+topic:zanata/translations,n,z>`_.  Die Überschrift dieser "
 "Patche sind immer \"Imported Translations from Zanata\"."
 
+msgid ""
+"Every even week: `07:00 UTC, Thursday <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+msgstr ""
+"Jede gerade Woche: `07:00 UTC, Donnerstag <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "Jeder in der OpenStack-Gemeinschaft hilft Ihnen gerne."
 
@@ -568,6 +575,9 @@ msgstr "Behandlung Python-Projekte"
 msgid "Handling translation bugs"
 msgstr "Übersetzungsfehler behandeln"
 
+msgid "Handy links (always sort of on the agenda)"
+msgstr "Praktische Links (immer auf der Agenda)"
+
 msgid "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 msgstr "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 
@@ -609,6 +619,9 @@ msgstr "IRC Kanal: ``#openstack-i18n`` auf freenode"
 
 msgid "IRC meeting commands"
 msgstr "IRC Meeting-Kommandos"
+
+msgid "IRC web client"
+msgstr "IRC Web-Client"
 
 msgid ""
 "If a bug reports translation errors of a certain language, it could be "
@@ -653,6 +666,18 @@ msgstr ""
 "Wenn Sie Glück haben, einen gleichen Namen für Launchpad und Zanata-IDs zu "
 "verwenden, müssen Sie das nicht tun. Stackalytics finden Ihre Statistiken "
 "automatisch."
+
+msgid ""
+"If you are not familiar with IRC, please read `IRC Wiki Page <https://wiki."
+"openstack.org/wiki/IRC>`_. You can simply use the web client for Freenode to "
+"come to `#openstack-i18n or #openstack-meeting channel <http://webchat."
+"freenode.net/?channels=openstack-i18n,openstack-meeting>`_."
+msgstr ""
+"Wenn Sie sich nicht mit IRC auskennen, lesen Sie bitte `IRC Wiki Seite "
+"<https://wiki.openstack.org/wiki/IRC>`_. Sie können einfach den Web-Client "
+"für Freenode benutzen, um in den `#openstack-i18n oder #openstack-meeting "
+"Kanal <http://webchat.freenode.net/?channels=openstack-i18n,openstack-"
+"meeting>`_ zu kommen."
 
 msgid "If you are reviewing these translations, keep the following in mind:"
 msgstr "Wenn Sie Übersetzugen überprüfen, beachten Sie bitte folgendes:"
@@ -874,6 +899,9 @@ msgstr "Sprach-Team"
 msgid "Language translation team"
 msgstr "Übersetzungs-Sprachteam"
 
+msgid "Launchpad bugs and Gerrit reviews"
+msgstr "Launchpad Bugs und Gerrit Reviews"
+
 msgid "Liberty cycle"
 msgstr "Liberty Zyklus"
 
@@ -1022,6 +1050,13 @@ msgid "Ocata cycle"
 msgstr "Ocata Zyklus"
 
 msgid ""
+"Odd and even values are calculated based on `ISO week numbers <https://www."
+"timeanddate.com/date/weeknumber.html>`_."
+msgstr ""
+"Ungerade und gerade Wochen sind immer kalkuliert nach `ISO Wochennummern "
+"<https://www.timeanddate.com/date/weeknumber.html>`_."
+
+msgid ""
 "Of course there is no need that team coordinators do all items. You can "
 "collaborate your team members and share ideas."
 msgstr ""
@@ -1110,6 +1145,9 @@ msgid ""
 msgstr ""
 "Öffnen Sie eine POT-Datei und Sie können Strings suchen und finden, die Sie "
 "interessieren. Dann finden Sie Einträge wie:"
+
+msgid "Open discussion"
+msgstr "Offene Diskussionen"
 
 msgid "OpenStack Dashboard"
 msgstr "OpenStack Dashboard"
@@ -1262,6 +1300,9 @@ msgstr "Antrag zum Beitritt in ein Übersetzungsteam"
 
 msgid "Retrieve translation statistics"
 msgstr "Übersetzungsstatistiken empfangen"
+
+msgid "Review of action items from the previous meeting"
+msgstr "Rückblick auf Aktionspunkte vom vergangenen Meeting"
 
 msgid "Reviewer"
 msgstr "Überprüfer"
@@ -1888,6 +1929,9 @@ msgstr "Übersetzung"
 msgid "Translation Statistics"
 msgstr "Übersetzungstatistiken"
 
+msgid "Translation activities with plans from language teams"
+msgstr "Übersetzungaktivitäten mit Plänen der Sprachteams"
+
 msgid "Translation bugs"
 msgstr "Translation bugs"
 
@@ -1980,6 +2024,9 @@ msgstr "docs.openstack.org benutzen"
 
 msgid "Using translations"
 msgstr "Mit Übersetzungen"
+
+msgid "Usual agenda"
+msgstr "Übliche Agenda"
 
 msgid ""
 "Visit `Stackalytics <http://stackalytics.com/>`__ and choose "
@@ -2336,6 +2383,9 @@ msgstr ""
 "2897 reviews, myamamot - 725 reviews, mucahit - 1241 reviews) auch ATCs im "
 "Newton-Zyklus :) - Ich behalte das für die Änderung der nächsten ATC-Liste."
 
+msgid "`Bug lists <https://bugs.launchpad.net/openstack-i18n>`_"
+msgstr "`Bug Liste <https://bugs.launchpad.net/openstack-i18n>`_"
+
 msgid ""
 "`Dashboard <https://translate.openstack.org/dashboard/>`__ page shows your "
 "recent activity statistics this month and detail activity."
@@ -2359,6 +2409,13 @@ msgid ""
 msgstr ""
 "`Sprachübersetzungsteams können Ihnen in Ihrer Sprache helfen <https://wiki."
 "openstack.org/wiki/I18nTeam/team>`_: "
+
+msgid ""
+"`Open reviews in openstack/i18n <https://review.openstack.org/#/q/status:open"
+"+project:openstack/i18n>`_"
+msgstr ""
+"`Offene Reviews in openstack/i18n <https://review.openstack.org/#/q/status:"
+"open+project:openstack/i18n>`_"
 
 msgid ""
 "`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ "
@@ -2415,6 +2472,14 @@ msgstr ""
 "`Stackalytics <http://stackalytics.com/>`__ ist eine populäre Webseite, "
 "welches Ihnen verschiedene Statistiken zu Ihren Aktivitäten in OpenStack "
 "darstellt. Es werden auch Übersetzungstatistiken unterstützt :)"
+
+msgid "`Translation plan <https://translate.openstack.org/>`_"
+msgstr "`Übersetzungspläne <https://translate.openstack.org/>`_"
+
+msgid ""
+"`Translation statistics <http://stackalytics.com/?metric=translations>`_"
+msgstr ""
+"`Übersetzungsstatistiken <http://stackalytics.com/?metric=translations>`_"
 
 msgid "``--help`` option shows the detail usage."
 msgstr "``--help`` Option zeigt die Details der Nutzung."
