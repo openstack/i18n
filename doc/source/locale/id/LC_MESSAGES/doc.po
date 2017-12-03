@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 05:13+0000\n"
+"POT-Creation-Date: 2017-12-02 08:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-21 06:45+0000\n"
+"PO-Revision-Date: 2017-12-03 06:03+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -421,6 +421,20 @@ msgstr ""
 "status:open+topic:zanata/translations,n,z>` _. Subjek dari patch selalu ini "
 "\"Imported Translations from Zanata\"."
 
+msgid ""
+"Every even week: `07:00 UTC, Thursday <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+msgstr ""
+"Setiap minggu genap:`07:00 UTC, Thursday <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+
+msgid ""
+"Every odd week: `13:00 UTC, Thursday <https://www.timeanddate.com/worldclock/"
+"fixedtime.html?hour=13&min=00&sec=0>`_"
+msgstr ""
+"Setiap minggu ganjil: `13:00 UTC, Thursday <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=13&min=00&sec=0>`_"
+
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "Semua orang di komunitas OpenStack dengan senang hati membantu Anda."
 
@@ -551,6 +565,9 @@ msgstr "Penanganan proyek python"
 msgid "Handling translation bugs"
 msgstr "Menangani bug terjemahan"
 
+msgid "Handy links (always sort of on the agenda)"
+msgstr "Tautan tersedia (selalu masuk dalam agenda)"
+
 msgid "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 msgstr "Heleno Jimenez de la Cruz (id: heleno_jimenez) - Spanish (Mexico)"
 
@@ -592,6 +609,9 @@ msgstr "Saluran IRC: ``#openstack-i18n`` pada freenode"
 
 msgid "IRC meeting commands"
 msgstr "Perintah pertemuan IRC"
+
+msgid "IRC web client"
+msgstr "Klien web IRC"
 
 msgid ""
 "If a bug reports translation errors of a certain language, it could be "
@@ -636,6 +656,17 @@ msgstr ""
 "Jika Anda beruntung menggunakan nama yang sama untuk launchpad dan Zanata "
 "ID, Anda tidak perlu melakukan hal di atas. Stackalytics akan menemukan "
 "statistik Anda secara otomatis."
+
+msgid ""
+"If you are not familiar with IRC, please read `IRC Wiki Page <https://wiki."
+"openstack.org/wiki/IRC>`_. You can simply use the web client for Freenode to "
+"come to `#openstack-i18n or #openstack-meeting channel <http://webchat."
+"freenode.net/?channels=openstack-i18n,openstack-meeting>`_."
+msgstr ""
+"Jika anda tidak mengenal IRC, silahkan baca `IRC Wiki Page <https://wiki."
+"openstack.org/wiki/IRC>`_. You can simply use the web client for Freenode to "
+"come to `#openstack-i18n or #openstack-meeting channel <http://webchat."
+"freenode.net/?channels=openstack-i18n,openstack-meeting>`_."
 
 msgid "If you are reviewing these translations, keep the following in mind:"
 msgstr "Jika Anda meninjau terjemahan ini, ingatlah hal-hal berikut ini:"
@@ -856,6 +887,9 @@ msgstr "Tim Bahasa"
 msgid "Language translation team"
 msgstr "Tim terjemahan bahasa"
 
+msgid "Launchpad bugs and Gerrit reviews"
+msgstr "Kesalahan di Launchpad dan ulasan Gerrit"
+
 msgid "Liberty cycle"
 msgstr "Siklus Liberty"
 
@@ -973,6 +1007,13 @@ msgstr ""
 "75 persen pesan yang diterjemahkan akan berada di gudang git."
 
 msgid ""
+"Note that the scripts use `zanata-cli <http://docs.zanata.org/en/release/"
+"client/>`__ to pull and push translation content."
+msgstr ""
+"Perhatikan bahwa skrip yang digunakan `zanata-cli <http://docs.zanata.org/en/"
+"release/client/>`__ untuk menarik dan mendorong konten terjemahan."
+
+msgid ""
 "Note that you need to log into Zanata to see your activity in the above "
 "pages."
 msgstr ""
@@ -994,6 +1035,13 @@ msgstr ""
 
 msgid "Ocata cycle"
 msgstr "Siklus Ocata"
+
+msgid ""
+"Odd and even values are calculated based on `ISO week numbers <https://www."
+"timeanddate.com/date/weeknumber.html>`_."
+msgstr ""
+"Nomor ganjil dan genap dihitung berdasarkan `ISO week numbers  <https://www."
+"timeanddate.com/date/weeknumber.html>`_."
 
 msgid ""
 "Of course there is no need that team coordinators do all items. You can "
@@ -1081,6 +1129,9 @@ msgid ""
 msgstr ""
 "Buka file POT yang Anda temukan dan cari string yang Anda minati. Kemudian "
 "Anda dapat menemukan entri seperti:"
+
+msgid "Open discussion"
+msgstr "Diskusi terbuka"
 
 msgid "OpenStack Dashboard"
 msgstr "Dasbor OpenStack"
@@ -1234,6 +1285,9 @@ msgstr "Meminta untuk bergabung dengan tim penerjemah"
 
 msgid "Retrieve translation statistics"
 msgstr "Ambil statistik penerjemahan"
+
+msgid "Review of action items from the previous meeting"
+msgstr "Tinjau kembali item tindakan dari pertemuan sebelumnya"
 
 msgid "Reviewer"
 msgstr "Reviewer"
@@ -1858,6 +1912,9 @@ msgstr "Terjemahan"
 msgid "Translation Statistics"
 msgstr "Statistik Penerjemahan"
 
+msgid "Translation activities with plans from language teams"
+msgstr "Kegiatan penerjemahan dengan rencana dari tim bahasa"
+
 msgid "Translation bugs"
 msgstr "Bug terjemahan"
 
@@ -1950,6 +2007,9 @@ msgstr "Menggunakan docs.openstack.org"
 
 msgid "Using translations"
 msgstr "Menggunakan terjemahan"
+
+msgid "Usual agenda"
+msgstr "Agenda biasa"
 
 msgid ""
 "Visit `Stackalytics <http://stackalytics.com/>`__ and choose "
@@ -2302,6 +2362,9 @@ msgstr ""
 "Newton :) - Saya menyimpannya sebagai catatan untuk perubahan daftar ATC "
 "berikutnya."
 
+msgid "`Bug lists <https://bugs.launchpad.net/openstack-i18n>`_"
+msgstr "`Daftar bug <https://bugs.launchpad.net/openstack-i18n>`_"
+
 msgid ""
 "`Dashboard <https://translate.openstack.org/dashboard/>`__ page shows your "
 "recent activity statistics this month and detail activity."
@@ -2325,6 +2388,13 @@ msgid ""
 msgstr ""
 "`Language translation team <https://wiki.openstack.org/wiki/I18nTeam/"
 "team>`_: Anda bisa bertanya dalam bahasa Anda :-)"
+
+msgid ""
+"`Open reviews in openstack/i18n <https://review.openstack.org/#/q/status:open"
+"+project:openstack/i18n>`_"
+msgstr ""
+"`Buka ulasan di openstack/i18n <https://review.openstack.org/#/q/status:open"
+"+project:openstack/i18n>`_"
 
 msgid ""
 "`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ "
@@ -2380,6 +2450,14 @@ msgstr ""
 "`Stackalytics <http://stackalytics.com/>`__ Adalah situs web populer yang "
 "memungkinkan kita mengetahui berbagai statistik yang berkaitan dengan "
 "OpenStack. Ini mendukung statistik terjemahan :)"
+
+msgid "`Translation plan <https://translate.openstack.org/>`_"
+msgstr "`Rencana penerjemahan <https://translate.openstack.org/>`_"
+
+msgid ""
+"`Translation statistics <http://stackalytics.com/?metric=translations>`_"
+msgstr ""
+"`Statistik penerjemahan <http://stackalytics.com/?metric=translations>`_"
 
 msgid "``--help`` option shows the detail usage."
 msgstr "Opsi ``--help`` menunjukkan penggunaan detail."
