@@ -213,6 +213,8 @@ Handling horizon projects
 
 (Some contribution would be appreciated.)
 
+.. _project-maintenance:
+
 Project maintenance
 -------------------
 

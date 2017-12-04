@@ -27,6 +27,7 @@ Contents
    handling_bugs
    official_translator
    lang_team
+   ptl
    check_translation
    translation_tips
    glossary
