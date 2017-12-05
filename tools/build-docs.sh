@@ -75,7 +75,7 @@ function _add_language_index {
     path_to_top_level=$(dirname $basename | sed -e 's|[^./]\+|..|g')
 
     local _basepath
-    if [ "$basepath"= "." -a "$path_to_top_level" = "." ]; then
+    if [ "$basepath" = "." -a "$path_to_top_level" = "." ]; then
         _basepath="."
     elif [ "$basepath" = "." ]; then
         _basepath=$path_to_top_level
