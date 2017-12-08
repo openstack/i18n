@@ -73,7 +73,8 @@ repository.
 
   * Python script to setup projects for Zanata
 
-* `include/build-releasenotes.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/jobs/include/build-releasenotes.sh>`__
+* `releasenotes/pre.yaml <http://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/pre.yaml>`__
+* `releasenotes/run.yaml <http://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/run.yaml>`__
 
   * Builds release notes in both the original (English) version and translated
     versions (if any).
