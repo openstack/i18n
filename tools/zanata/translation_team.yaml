@@ -28,38 +28,23 @@ ar:
     translators:
     - daisyycguo
     - synax
-as:
-    coordinators:
-    - daisyycguo
-    language: Assamese
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
+    - yasir
 bg-BG:
-    coordinators: []
+    coordinators:
+    - gomarivera
     language: Bulgarian (Bulgaria)
     reviewers:
     - gomarivera
     translators:
     - gomarivera
-bn-IN:
-    coordinators:
-    - daisyycguo
-    language: Bengali (India)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
 brx:
     coordinators:
-    - daisyycguo
+    - 0ppinkuu0
     language: Bodo
     reviewers:
-    - daisyycguo
+    - 0ppinkuu0
     translators:
     - 0ppinkuu0
-    - daisyycguo
 ca:
     coordinators:
     - daisyycguo
@@ -103,6 +88,7 @@ de:
     - senk
     - vcomas3
     translators:
+    - aperri
     - atalanttore
     - cduch
     - eblock
@@ -135,6 +121,7 @@ en-AU:
     reviewers:
     - fifieldt
     translators:
+    - dayou
     - fifieldt
 en-GB:
     coordinators:
@@ -148,11 +135,20 @@ en-GB:
     - robcresswell
     translators:
     - andibing
+    - dayou
     - ealcaniz
     - fifieldt
     - jpichon
     - nmadhok
     - robcresswell
+eo:
+    coordinators:
+    - gehennem
+    language: Esperanto
+    reviewers:
+    - gehennem
+    translators:
+    - gehennem
 es:
     coordinators:
     - ealcaniz
@@ -172,6 +168,7 @@ es:
     - porrua
     - tjcocozz
     - travisn
+    - zeusal
     translators:
     - aesantos
     - albertomolina
@@ -196,6 +193,7 @@ es:
     - toxickore
     - travisn
     - vresy
+    - zeusal
 es-MX:
     coordinators:
     - heleno_jimenez
@@ -211,24 +209,20 @@ es-MX:
     - zerick
 fi-FI:
     coordinators:
-    - daisyycguo
+    - twillber
     language: Finnish (Finland)
     reviewers:
-    - daisyycguo
     - twillber
     translators:
-    - daisyycguo
     - nuyori
     - twillber
 fil:
     coordinators:
-    - daisyycguo
+    - earlvillanueva
     language: Filipino
     reviewers:
-    - daisyycguo
     - earlvillanueva
     translators:
-    - daisyycguo
     - earlvillanueva
 fr:
     coordinators:
@@ -273,7 +267,6 @@ fr:
     - fdotfr
     - flowalrave
     - gael__
-    - gael_rehault
     - geraldlonlas
     - girardc
     - glacoste_16
@@ -292,21 +285,16 @@ fr:
     - oussemos
     - pat
     - paulgonin
+    - plarivee
     - romainsc
     - seveillard
     - sitle
     - sylvie_chesneau
     - tjcocozz
+    - tmorin
+    - vdotta
     - ygbo
     - zigmax
-he:
-    coordinators:
-    - daisyycguo
-    language: Hebrew
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
 hi:
     coordinators:
     - chandankumar
@@ -332,16 +320,14 @@ hu:
     - szilvia
 id:
     coordinators:
-    - daisyycguo
     - seketika
     language: Indonesian
     reviewers:
-    - daisyycguo
     - seketika
-    - suhartono
+    - sendz
     translators:
-    - daisyycguo
     - seketika
+    - sendz
     - suhartono
 it:
     coordinators:
@@ -359,6 +345,7 @@ it:
     - faber66
     - fpezzell
     - itlinux
+    - ltoscano
     - matgand
     - miumiento
     - tjcocozz
@@ -367,6 +354,7 @@ ja:
     coordinators:
     - amotoki
     - to222
+    - ykatabam
     language: Japanese
     reviewers:
     - amotoki
@@ -404,6 +392,7 @@ ja:
     - shu
     - ststake
     - tjcocozz
+    - tkuroda
     - tmatsu
     - to222
     - tomoki_amano
@@ -418,24 +407,13 @@ ja:
     - yukinori_yagisawa
     - yusuke1219
     - yuta_hono
-ka-GE:
-    coordinators:
-    - daisyycguo
-    language: Georgian (Georgia)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
 kn:
     coordinators:
-    - daisyycguo
     - kingkhan
     language: Kannada
     reviewers:
-    - daisyycguo
     - kingkhan
     translators:
-    - daisyycguo
     - kingkhan
     - sharathrao
 ko-KR:
@@ -467,6 +445,7 @@ ko-KR:
     - junheon
     - kiseok7
     - koain
+    - lee_seungwoo
     - michaelko
     - minwookshin
     - nexusz99
@@ -477,6 +456,7 @@ ko-KR:
     - ujuc
     - vi01et
     - wonil22
+    - woobee
 lo:
     coordinators:
     - saikeo
@@ -493,23 +473,19 @@ mr:
     - chandrakantd
 ne:
     coordinators:
-    - daisyycguo
     - surit
     language: Nepali
     reviewers:
-    - daisyycguo
     - surit
     translators:
-    - daisyycguo
     - surit
 nl-NL:
     coordinators:
-    - daisyycguo
+    - jsheeren
     language: Dutch (Netherlands)
     reviewers:
-    - daisyycguo
+    - jsheeren
     translators:
-    - daisyycguo
     - jsheeren
 pa-IN:
     coordinators:
@@ -531,16 +507,16 @@ pl-PL:
     reviewers:
     - deejay1
     translators:
+    - danielmiz
     - deejay1
     - makowals
 pt:
     coordinators:
-    - daisyycguo
+    - nokostya
     language: Portuguese
     reviewers:
-    - daisyycguo
+    - nokostya
     translators:
-    - daisyycguo
     - nokostya
 pt-BR:
     coordinators:
@@ -558,13 +534,16 @@ pt-BR:
     - raquellira
     translators:
     - alexpriete
+    - andre_santiago
     - andrecampos
     - d13
     - delesderrier
     - diegodalmolin
     - dritec
+    - dsantos
     - ericbaum
     - fcpimenta
+    - franciosi
     - gabrielcw
     - gustavor
     - hubner
@@ -587,6 +566,7 @@ pt-BR:
     - remingtonsb
     - renatolipi
     - rgmorales
+    - ricardobras
     - saimonsp
     - sanporci
     - tenoriomarcus
@@ -594,6 +574,7 @@ pt-BR:
     - vintbra
     - weyderfs
     - williandrade
+    - willielima
 ru:
     coordinators:
     - adiantum
@@ -648,22 +629,6 @@ ru:
     - yryndenkova
     - yuliya_sendetskaya
     - zloykaban
-sl-SI:
-    coordinators:
-    - daisyycguo
-    language: Slovenian (Slovenia)
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
-sr:
-    coordinators:
-    - daisyycguo
-    language: Serbian
-    reviewers:
-    - daisyycguo
-    translators:
-    - daisyycguo
 te-IN:
     coordinators:
     - komatineni
@@ -674,29 +639,34 @@ te-IN:
     - komatineni
 tr-TR:
     coordinators:
+    - anndro
     - mucahit
     language: Turkish (Turkey)
     reviewers:
+    - anndro
     - duyarli
     - halit
     - isbaran
     - mucahit
     - oguzy
     translators:
+    - anndro
     - doug_fish
     - duyarli
     - halit
     - isbaran
     - mucahit
     - oguzy
+    - tuna_verid
+    - yasemindemiral
 vi-VN:
     coordinators:
-    - daisyycguo
+    - kiennt26
     language: Vietnamese (Vietnam)
     reviewers:
-    - daisyycguo
+    - kiennt26
     translators:
-    - daisyycguo
+    - kiennt26
 zh-CN:
     coordinators:
     - daisyycguo
@@ -711,7 +681,6 @@ zh-CN:
     - dliu
     - fifieldt
     - jimmyli
-    - johnwoo_lee
     - lindayang
     - liuchaoxin
     - liujunpeng
@@ -741,6 +710,7 @@ zh-CN:
     - dliu
     - domine
     - e010
+    - fanzhang
     - fifieldt
     - fionahuang
     - forever
@@ -757,7 +727,6 @@ zh-CN:
     - javeme
     - jelanliu
     - jimmyli
-    - johnwoo_lee
     - lapalm
     - lawrence
     - leiyahsuai
@@ -786,6 +755,7 @@ zh-CN:
     - pollyz
     - qiaiyuan
     - qingszhao
+    - robin_x
     - rustinpeace
     - sunanchen
     - sunjing
@@ -813,6 +783,7 @@ zh-CN:
     - zhangdebo
     - zhangjingwen
     - zhaochao
+    - zheng_minxian
     - zhengjie7800
     - zhonghuali
     - zhongjun2
