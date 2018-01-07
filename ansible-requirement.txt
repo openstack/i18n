@@ -1,0 +1,18 @@
+# WARNING:
+# This file is use by all Ansible roles for testing purposes.
+
+# PURPOSE:
+# Python requirements listed here are imported by the roles via tox
+# target configuration in each role.
+
+# The Ansible version used for testing
+ansible==2.3.0.0
+
+# The Ansible lint version used for lint tests
+ansible-lint==3.4.18
+
+# Used for the ip filter within ansible
+netaddr
+
+# Used for json_query
+jmespath==0.9.3

@@ -1,0 +1,10 @@
+|-
+|{{ item|
+replace(",","||")|
+replace("'","")|
+replace("{item: u","")|
+replace(" userdata: [{","")|
+replace(" groups: ufoundation-members}]}","foundation-member")|
+replace(" userdata: []}","no foundation-member")|
+replace("userdata: None}","no foundation-member")|
+replace("groups: None}]}","no foundation-member") }}||

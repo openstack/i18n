@@ -1,0 +1,100 @@
+---
+# Ansible playbook to generate extra-atc snippets for projects.yaml in
+# governance repo.
+# Requires 3 source files
+# - userstatsfile: generated output from zanata_stats.py
+#                  (default: zanata_stats_output.csv)
+# - userinfofile: generated output from zanata_userinfo.py
+#                  (default: zanata_userinfo_output.csv)
+# - the current projects.yaml file from governance repo
+#   https://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml
+#
+# minimum translation count is to configure (default 300 words/30
+# phrases)
+#
+# Old extra-atc list will be reviewed and refreshed with new data
+#
+# usage: ansible-playbook generate_atc.yml
+#
+# The output can be found in /tmp/atc.stats
+- hosts: localhost
+  gather_facts: "no"
+  vars:
+    userstatsfile: "zanata_stats_output.csv"
+    userinfofile: "zanata_userinfo_output.csv"
+    translatecount: 300
+    workingdir: "/tmp/atc.output"
+  vars_files:
+    - "projects.yaml"
+
+  tasks:
+    - name: create working dir
+      file:
+        path: "{{ workingdir }}"
+        state: directory
+
+    - name: read old atc list
+      vars:
+        extraatcs: "{{ I18n['extra-atcs'] }}"
+        useremail: "{{ item.email }}"
+        username: "{{ item.name }}"
+        usercomment: "{{ item.comment }}"
+        userexpires: "{{ item['expires-in'] }}"
+        expiredate: "28 {{ userexpires[:3] }}{{ userexpires[-5:] }}"
+        udateuser: "{{lookup('pipe','LANG=en date -d \"' + expiredate + '\" \"+%s\"')}}"
+        udatecur: "{{lookup('pipe','LANG=en date -d \"+1 month\" \"+%s\"') }}"
+      template:
+        src: atc.json.j2
+        dest: "{{ workingdir }}/user.{{ usercomment.split(' ')[0] }}"
+      when: udateuser|int > udatecur|int
+      with_items:
+        - "{{ extraatcs }}"
+
+    - name: read user stats
+      vars:
+        userdata: "{{ item.split(',') }}"
+        useremail: "{{ lookup('csvfile', userdata[0] + ' file=' + userinfofile + ' delimiter=, col=4') }}"
+        username: "{{ lookup('csvfile', userdata[0] + ' file=' + userinfofile + ' delimiter=, col=3') }}"
+        userlang: "{{ lookup('csvfile', userdata[0] + ' file=' + userinfofile + ' delimiter=, col=1') }}"
+        usercomment: "{{ userdata[0] }} ({{ userlang }})"
+        userexpires: "{{lookup('pipe','LANG=en date \"+%B %Y\" -d \"+1 year\"')}}"
+      template:
+        src: atc.json.j2
+        dest: "{{ workingdir }}/user.{{ userdata[0] }}"
+        force: "yes"
+      with_lines: cat "{{ userstatsfile }}"
+      when: userdata[4]|int + userdata[9]|int >= translatecount
+
+    - name: validate openstackid
+      vars:
+        userdata: "{{ item.split(',') }}"
+        useremail: "{{ lookup('csvfile', userdata[0] + ' file=' + userinfofile + ' delimiter=, col=4') }}"
+        zanataid: "{{ userdata[0] }}"
+      uri:
+        url: "https://openstackid-resources.openstack.org/api/public/v1/members?expand=groups&relations=all_affiliations,groups&filter[]=email=={{ useremail }}"
+        method: GET
+        return_content: yes
+        validate_certs: no
+        headers:
+          Content-Type: "application/json"
+          Accept: "application/json"
+      register: api
+      with_lines: cat "{{ userstatsfile }}"
+      when: userdata[4]|int + userdata[9]|int >= translatecount
+
+    - name: write wiki stats files per user
+      template:
+        src: stats.json.j2
+        dest: "{{ workingdir }}/stats.{{ item|hash('sha1') }} "
+      with_items: "{{ api|json_query('results[].{ item: item, userdata: json.data[].{email_verified: email_verified, groups: groups[?id==`5`].code|[0]}}') }}"
+
+    - name: create stats file proposal
+      shell: cat "{{ workingdir }}"/user.* > /tmp/atc.stats
+
+    - name: create stats file wiki
+      shell: cat "{{ workingdir }}"/stats.* > /tmp/atc.wiki
+
+    - name: delete working dir
+      file:
+        path: "{{ workingdir }}"
+        state: absent
