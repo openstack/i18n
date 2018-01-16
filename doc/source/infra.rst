@@ -40,6 +40,8 @@ get new translations (or strings change too much), they will be
 removed again automatically from the project with a lower threshold of
 currently **40 percent**.
 
+.. _monitoring-translation-job-status:
+
 Monitoring translation jobs status
 ----------------------------------
 
