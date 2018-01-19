@@ -1,13 +1,14 @@
 # suhartono <cloudsuhartono@gmail.com>, 2017. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-15 07:05+0000\n"
+"POT-Creation-Date: 2018-01-18 02:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-27 04:06+0000\n"
+"PO-Revision-Date: 2018-01-18 03:38+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -582,6 +583,9 @@ msgstr "Bagaimana saya bisa melaporkan bug?"
 
 msgid "How to check translations"
 msgstr "Bagaimana cara memeriksa terjemahan"
+
+msgid "I18n PTL Guide"
+msgstr "I18n PTL Guide"
 
 msgid ""
 "I18n PTL updates the list using Zanata API and translator list. Detail "
