@@ -136,7 +136,7 @@ Configuration of chair and time is done by `irc-meeting repo
 I18n Mailing List Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In addtion to IRC, I18n team communication takes place via a mailing
+In addition to IRC, I18n team communication takes place via a mailing
 list. The `Mailing List Administrator
 <http://lists.openstack.org/cgi-bin/mailman/admin/openstack-i18n>`__
 is watching new subscribers, not allowed posts, and all the other
