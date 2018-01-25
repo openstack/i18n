@@ -12,7 +12,6 @@
     success-url: html/
 
 - project:
-    name: openstack/i18n
     check:
       jobs:
         - build-i18n-docs
