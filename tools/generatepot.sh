@@ -22,23 +22,44 @@ else
     NUMBER_OF_CORES=2
 fi
 
-# First remove the old pot file, otherwise the new file will contain
-# old references
+# Temporary build folder for gettext
+mkdir -p doc/build/gettext
 
-rm -f ${DIRECTORY}/source/locale/$DOCNAME.pot
+# Extract messages
+sphinx-build -j $NUMBER_OF_CORES -b html -b gettext doc/source \
+    doc/build/gettext/
+# Manipulates pot translation sources if needed
+if [[ -f tools/doc-pot-filter.sh ]]; then
+    tools/doc-pot-filter.sh
+fi
 
-# build i18n contributor guide page index.html
-for i in ${DIRECTORY}/source/data/*; do echo -n > $i ; done
-sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/source \
-    ${DIRECTORY}/source/locale/
-git checkout -- ${DIRECTORY}/source/data/*
+# New translation target projects may not have locale folder
+mkdir -p doc/source/locale
 
-# Take care of deleting all temporary files so that
-# "git add ${DIRECTORY}/source/locale" will only add the
-# single pot file.
-# Remove UUIDs, those are not necessary and change too often
-msgcat --use-first --sort-by-file ${DIRECTORY}/source/locale/*.pot | \
-    awk '$0 !~ /^\# [a-z0-9]+$/' > ${DIRECTORY}/source/$DOCNAME.pot
-rm  ${DIRECTORY}/source/locale/*.pot
-rm -rf ${DIRECTORY}/source/locale/.doctrees/
-mv ${DIRECTORY}/source/$DOCNAME.pot ${DIRECTORY}/source/locale/$DOCNAME.pot
+# Sphinx builds a pot file for each directory and for each file
+# in the top-level directory.
+# We keep the directory files and concatenate all top-level files.
+has_other=0
+for f in doc/build/gettext/*.pot; do
+    fn=$(basename $f .pot)
+    # If a pot file corresponds to a directory, we use the pot file as-is.
+    if [ -d doc/source/$fn ]; then
+        # Remove UUIDs, those are not necessary and change too often
+        msgcat --use-first --sort-by-file $f | \
+            awk '$0 !~ /^\# [a-z0-9]+$/' > doc/source/locale/doc-$fn.pot
+        rm $f
+    else
+        has_other=1
+    fi
+done
+
+# We concatenate remaining into a single pot file so that
+# "git add ${DIRECTORY}/source/locale" will only add a
+# single pot file for all top-level files.
+if [ "$has_other" = "1" ]; then
+    # Remove UUIDs, those are not necessary and change too often
+    msgcat --use-first --sort-by-file doc/build/gettext/*.pot | \
+        awk '$0 !~ /^\# [a-z0-9]+$/' > doc/source/locale/doc.pot
+fi
+
+rm -rf doc/build/gettext/
