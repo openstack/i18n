@@ -21,13 +21,15 @@ Th:
     - sawangpong
 ar:
     coordinators:
-    - daisyycguo
+    - ianychoi
     language: Arabic
     reviewers:
-    - daisyycguo
+    - ianychoi
     translators:
-    - daisyycguo
+    - hosam
+    - ianychoi
     - synax
+    - welabbar
     - yasir
 bg-BG:
     coordinators:
@@ -47,15 +49,12 @@ brx:
     - 0ppinkuu0
 ca:
     coordinators:
-    - daisyycguo
     - ealcaniz
     language: Catalan
     reviewers:
-    - daisyycguo
     - ealcaniz
     translators:
     - '1974'
-    - daisyycguo
     - ealcaniz
     - iranzo
 cs:
@@ -183,15 +182,20 @@ es:
     - gomarivera
     - hybridpollo
     - iranzo
+    - jfrancoa
+    - jorpilo
     - josemhb
     - mariantb
     - pabs
     - pcaruana
     - pnavarro
     - porrua
+    - scuellarv
+    - smarcet1981
     - tjcocozz
     - toxickore
     - travisn
+    - vgerardojr
     - vresy
     - zeusal
 es-MX:
@@ -437,6 +441,7 @@ ko-KR:
     - eukim
     - heetaeahn
     - ianychoi
+    - jaewook_oh
     - janghe11
     - jitaejang
     - johjuhyun
@@ -515,8 +520,12 @@ pt:
     - nokostya
     language: Portuguese
     reviewers:
+    - fabiorosado
+    - loures
     - nokostya
     translators:
+    - fabiorosado
+    - loures
     - nokostya
 pt-BR:
     coordinators:
@@ -527,6 +536,7 @@ pt-BR:
     - fcpimenta
     - gabrielcw
     - hubner
+    - loures
     - lucasagomes
     - marcelodieder
     - marquesc
@@ -536,6 +546,7 @@ pt-BR:
     - alexpriete
     - andre_santiago
     - andrecampos
+    - chicocvenancio
     - d13
     - delesderrier
     - diegodalmolin
@@ -551,6 +562,7 @@ pt-BR:
     - josemello
     - lapalm
     - leandro
+    - loures
     - lucasagomes
     - lveneziano
     - marcelodieder
@@ -671,7 +683,6 @@ zh-CN:
     coordinators:
     - daisyycguo
     - vuuv
-    - zzxwill
     language: Chinese (China)
     reviewers:
     - actionchen
@@ -690,11 +701,11 @@ zh-CN:
     - vuuv
     - yanheven
     - zhaochao
-    - zzxwill
     translators:
     - 979zhang
     - actionchen
     - aeng
+    - angel
     - bakbad2015
     - billxiang
     - bin
@@ -708,12 +719,12 @@ zh-CN:
     - cuixiaoyu
     - daisyycguo
     - dliu
-    - domine
     - e010
     - fanzhang
     - fifieldt
     - fionahuang
     - forever
+    - frank
     - fuzhaokun
     - gecong
     - guluyang
@@ -757,6 +768,7 @@ zh-CN:
     - qingszhao
     - robin_x
     - rustinpeace
+    - shuquan
     - sunanchen
     - sunjing
     - tfu
@@ -768,13 +780,13 @@ zh-CN:
     - wangfang
     - woshishui419
     - wuyongpeng
-    - xhkjoe
     - xiangbinbin
     - xiangqiao
     - xuyang
     - yaguang
     - yanghy
     - yanheven
+    - yihleong
     - yinguowei
     - yongjiexu
     - yongxiangwang
@@ -786,12 +798,10 @@ zh-CN:
     - zheng_minxian
     - zhengjie7800
     - zhonghuali
-    - zhongjun2
     - zhongtian
     - zhouchangxun
     - zhsj
     - zhugaoxiao
-    - zzxwill
 zh-TW:
     coordinators:
     - ccheng
@@ -811,6 +821,7 @@ zh-TW:
     - zero00072
     translators:
     - aeng
+    - black105133
     - bluet
     - bokaitseng
     - ccheng
@@ -838,4 +849,5 @@ zh-TW:
     - webberguo
     - willychen
     - xuyang
+    - yihleong
     - zero00072
