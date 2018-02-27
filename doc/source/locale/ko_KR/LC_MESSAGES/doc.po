@@ -4,17 +4,18 @@
 # Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
 # minwook-shin <minwook0106@gmail.com>, 2017. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2018. #zanata
+# Jaewook Oh <kyle.oh95@gmail.com>, 2018. #zanata
 # Wonil Choi <wonil0522@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-23 17:19+0000\n"
+"POT-Creation-Date: 2018-02-24 10:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-02-23 09:07+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2018-02-27 02:31+0000\n"
+"Last-Translator: Jaewook Oh <kyle.oh95@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -105,6 +106,19 @@ msgstr ""
 "새로운 구성원 승인 및 해당 언어에 대한 컨트리뷰션을 검토하는 것과 같은 팀 관"
 "리 작업을 도울 수 있는 번역 팀 내 권한을 가진 구성원입니다. 또한 특정 작업별 "
 "코디네이터 또한 있습니다."
+
+msgid ""
+"A series of tasks in OpenStack infrastructure is used to manage translation "
+"changes in Zanata. Without running the tasks, translation changes will not "
+"be reflected into OpenStack projects. This page explains how the "
+"infrastructure tasks run actual scripts as `Zuul <https://docs.openstack.org/"
+"infra/zuul/>`_ jobs and monitor the job status."
+msgstr ""
+"OpenStack 인프라의 일련의 작업은 Zanata의 번역 변경을 관리하는 데 사용됩니"
+"다. 작업을 실행하지 않으면, 번역 변경 사항이 OpenStack 프로젝트에 반영되지 않"
+"습니다. 이 페이지는 인프라 작업이 실제 스크립트를 `Zuul <https://docs."
+"openstack.org/infra/zuul/>` 작업으로 실행하고 작업 상태를 모니터링하는 방법"
+"을 설명합니다."
 
 msgid ""
 "A template is a skeleton of static HTML files. In this case, the string is "
@@ -1161,7 +1175,7 @@ msgid ""
 msgstr ""
 "첫 번째 방법은 horizon 코드만 업데이트하는 것입니다. 다음 쉘스크립트는 최신 "
 "horizon 코드를 가져오고, 번역 메시지 카탈로그를 컴파일하며 apache httpd 서버"
-"를 다시 불러욉니다. ``$BRANCH`` 를 ``master``, ``stable/newton`` 또는 "
+"를 다시 불러옵니다. ``$BRANCH`` 를 ``master``, ``stable/newton`` 또는 "
 "``stable/mitaka`` 와 같이 적절한 브랜치 이름으로 변경합니다."
 
 msgid ""
@@ -1997,6 +2011,9 @@ msgstr "번역 검사 사이트"
 
 msgid "Translation infrastructure"
 msgstr "번역 인프라"
+
+msgid "Translation infrastructure tasks and scripts"
+msgstr "번역 인프라 업무와 스크립트"
 
 msgid ""
 "Translation is another kind of important contribution to OpenStack "
