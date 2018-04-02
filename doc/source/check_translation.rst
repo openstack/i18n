@@ -58,15 +58,40 @@ documents: http://docs.openstack.org/developer/<project>
 OpenStack Dashboard
 -------------------
 
-Translation check site
-~~~~~~~~~~~~~~~~~~~~~~
+Running OpenStack-Ansible
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Infrastructure and I18n teams are preparing the translation check site
-to check dashboard translations. It is under preparation.
+`OpenStack-Ansible (OSA) <https://docs.openstack.org/openstack-ansible/latest/>`__
+provides Ansible playbooks and roles for the deployment and
+configuration of an OpenStack environment. As part of the project a feature
+named 'Translation Check Site' is developed. An OSA instance will fetch
+translation strings from `translation platform <https://translate.openstack.org/>`__,
+compile and serve these strings in Horizon. You need a machine with
+two or four CPU cores, at least 8 GB memory and 70 GB disk to run OSA.
 
-.. note::
 
-   Currently there is no solid plan when the check site is provided.
+.. code-block:: console
+
+   $ BRANCH=master
+   $ git clone -b ${BRANCH} https://github.com/openstack/openstack-ansible /opt/openstack-ansible
+   $ cd /opt/openstack-ansible
+   $ ./scripts/gate-check-commit.sh translations
+
+You can set the the components of your AIO installation in
+``tests/vars/bootstrap-aio-vars.yml``. Dependly on your environment
+the installation takes 1-2 hours.
+For more details on the AIO configuration, please see `OSA AIO documentation <https://docs.openstack.org/openstack-ansible/latest/user/aio/quickstart.html#building-an-aio>`_.
+
+To fetch translated files regularly, execute this command manually or
+as a cron:
+
+.. code-block:: console
+
+   $ cd /opt/openstack-ansible/playbooks; \
+     openstack-ansible os-horizon-install.yml \
+     -e horizon_translations_update=True \
+     -e horizon_translations_project_version=master \
+     --tags "horizon-config"
 
 Running DevStack
 ~~~~~~~~~~~~~~~~
