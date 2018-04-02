@@ -15,20 +15,15 @@ Translated documents are available at the OpenStack Documentation site.
 It is updated daily. Most contents are linked from either of:
 
 * http://docs.openstack.org/<lang> contains released documents.
-  Follow "More Releases and Languages" in http://docs.openstack.org/.
-* http://docs.openstack.org/draft/draft-index.html contains
-  draft (unreleased) documents.
+  Follow "Languages" in http://docs.openstack.org/.
 
 To build a translated document, you need to update the file
 ``doc-tools-check-languages.conf`` in each repository, and
 add an entry to ``BOOKS`` like ``["ja"]="install-guide"``.
-Also, to build as a draft, you need to add an entry to ``DRAFTS``.
 
 For a document in a stable branch, such as the installation guide for
 Liberty, you need to update the file ``doc-tools-check-languages.conf``
 in the target stable branch directly.
-You must add an entry to ``DRAFTS``, which is used as a special flag
-for a stable branch.
 
 You can check a generated document for a specified branch on
 http://docs.openstack.org/<branch>/<language>/<document>.
@@ -42,6 +37,11 @@ Note that the web pages are published from ``master`` branch,
 which contains the pages for all releases, such as Liberty.
 Therefore, you don't need to update the file ``www/<lang>/index.html``
 in the stable branch.
+
+You can also check:
+
+* `build status for publishing on Zuul <http://zuul.openstack.org/builds.html?job_name=publish-openstack-manuals>`__
+* `checkbuild with drafts on Zuul <http://zuul.openstack.org/builds.html?job_name=build-tox-manuals-checkbuild>`__
 
 Application developer documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
