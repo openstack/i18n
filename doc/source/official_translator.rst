@@ -120,11 +120,7 @@ Translator list is maintained by
 `translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__
 stored in `openstack/i18n git repository <http://git.openstack.org/cgit/openstack/i18n>`__.
 
-ATC statistics of past releases are available below:
-
 .. toctree::
-   :glob:
-   :reversed:
-   :maxdepth: 1
+   :maxdepth: 2
 
-   atc-stats/*
+   atc-stats
