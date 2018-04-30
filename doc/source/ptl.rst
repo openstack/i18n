@@ -98,7 +98,7 @@ and Openstack infrastructure. The procedure is robust, but sometimes
 something can go wrong. For this reason there is a section
 :ref:`monitoring-translation-job-status` in the infrastructure chapter.
 
-You can check on `Gerrit <https://review.openstack.org/#/q/topic:zanata/translations+(status:open+OR+status:merged)>`__.
+You can check on `Gerrit <https://review.openstack.org/#/q/topic:zanata/translations+(status:open+OR+status:merged)>`__,
 if the translated strings are imported by the project teams.
 Core reviewers in each repository are strong encouraged to approve
 translation sync patches but do not be sad if the translations are not

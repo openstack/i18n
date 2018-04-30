@@ -77,7 +77,7 @@ two or four CPU cores, at least 8 GB memory and 70 GB disk to run OSA.
    $ cd /opt/openstack-ansible
    $ ./scripts/gate-check-commit.sh translations
 
-You can set the the components of your AIO installation in
+You can set the components of your AIO installation in
 ``tests/vars/bootstrap-aio-vars.yml``. Dependly on your environment
 the installation takes 1-2 hours.
 For more details on the AIO configuration, please see `OSA AIO documentation <https://docs.openstack.org/openstack-ansible/latest/user/aio/quickstart.html#building-an-aio>`_.
