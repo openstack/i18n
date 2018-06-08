@@ -26,8 +26,7 @@ fi
 mkdir -p doc/build/gettext
 
 # Extract messages
-sphinx-build -j $NUMBER_OF_CORES -b html -b gettext doc/source \
-    doc/build/gettext/
+sphinx-build -j $NUMBER_OF_CORES -b gettext doc/source doc/build/gettext/
 # Manipulates pot translation sources if needed
 if [[ -f tools/doc-pot-filter.sh ]]; then
     tools/doc-pot-filter.sh
