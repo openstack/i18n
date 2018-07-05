@@ -115,7 +115,7 @@ http://governance.openstack.org/reference/projects/i18n.html#extra-atcs.
 The statistics are calculated using
 `a Python script <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/zanata_stats.py>`__
 powered by
-`Zanata statistics API <https://zanata.ci.cloudbees.com/job/zanata-api-site/site/zanata-common-api/rest-api-docs/resource_StatisticsResource.html>`__.
+`Zanata statistics API <http://zanata.org/zanata-platform/rest-api-docs/resource_StatisticsResource.html>`__
 Translator list is maintained by
 `translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__
 stored in `openstack/i18n git repository <http://git.openstack.org/cgit/openstack/i18n>`__.

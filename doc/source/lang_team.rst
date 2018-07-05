@@ -86,5 +86,5 @@ You can enroll more people to join and start your translation work.
 
 Keep in mind to work with your `local user group
 <https://groups.openstack.org/>`_ and the `OpenStack Ambassadors
-<https://wiki.openstack.org/wiki/Community/AmbassadorProgram>`_
+<https://groups.openstack.org/ambassador-program>`_
 to raise awareness and gather members :)

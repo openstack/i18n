@@ -68,19 +68,19 @@ repository.
 * `upstream-translation-update.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/translation/upstream-translation-update.yaml>`__
 
   * Implements the first Zuul job (Syncing to Zanata) by executing
-    `upstream_translation_update.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/scripts/upstream_translation_update.sh>`__
+    `upstream_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/upstream_translation_update.sh>`__
 
 * `propose-translation-update.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/translation/propose-translation-update.yaml>`__
 
   * Carries out the second Zuul job (Syncing into repos) by executing
-    `propose_translation_update.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/scripts/propose_translation_update.sh>`__
+    `propose_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/propose_translation_update.sh>`__
 
-* `common_translation_update.sh <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/scripts/common_translation_update.sh>`__
+* `common_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/common_translation_update.sh>`__
 
   * Common code used by **propose_translation_update.sh** and
     **upstream_translation_update.sh**
 
-* `create-zanata-xml.py <http://git.openstack.org/cgit/openstack-infra/project-config/tree/jenkins/scripts/create-zanata-xml.py>`__
+* `create-zanata-xml.py <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/create-zanata-xml.py>`__
 
   * Python script to setup projects for Zanata
 
