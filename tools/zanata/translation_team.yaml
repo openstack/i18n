@@ -20,14 +20,11 @@ Th:
     - phithak
     - sawangpong
 ar:
-    coordinators:
-    - ianychoi
+    coordinators: []
     language: Arabic
-    reviewers:
-    - ianychoi
+    reviewers: []
     translators:
     - hosam
-    - ianychoi
     - synax
     - welabbar
     - yasir
@@ -87,6 +84,7 @@ de:
     - senk
     - vcomas3
     translators:
+    - alexanderloew2
     - aperri
     - atalanttore
     - cduch
@@ -183,6 +181,7 @@ es:
     - hybridpollo
     - iranzo
     - jfrancoa
+    - jmont
     - jorpilo
     - josemhb
     - mariantb
@@ -207,6 +206,7 @@ es-MX:
     - sergioerazo
     translators:
     - heleno_jimenez
+    - jmont
     - scuellarv
     - sergioerazo
     - toxickore
@@ -267,6 +267,7 @@ fr:
     - corin
     - croe
     - didier
+    - emacchi
     - eouzans
     - fdotfr
     - flowalrave
@@ -280,6 +281,7 @@ fr:
     - jftalta
     - kodokuu
     - liced
+    - linkid
     - lnic
     - makowals
     - mmarin
@@ -310,15 +312,18 @@ hi:
     - chandankumar
 hu:
     coordinators:
+    - dabosshun
     - gergelys
     - marcus
     - szilvia
     language: Hungarian
     reviewers:
+    - dabosshun
     - gergelys
     - marcus
     - szilvia
     translators:
+    - dabosshun
     - gergelys
     - marcus
     - szilvia
@@ -376,6 +381,7 @@ ja:
     - hidekazuna
     - k_makabe007
     - ken_ishii
+    - kuroshun
     - macjack
     - makita
     - mariojv
@@ -443,6 +449,7 @@ ko-KR:
     - ianychoi
     - jaewook_oh
     - janghe11
+    - jc01rho
     - jitaejang
     - johjuhyun
     - jongwooh
@@ -552,6 +559,7 @@ pt-BR:
     - diegodalmolin
     - dritec
     - dsantos
+    - ebrandi
     - ericbaum
     - fcpimenta
     - franciosi
@@ -567,11 +575,13 @@ pt-BR:
     - lveneziano
     - marcelodieder
     - marcio
+    - marcocristofolini
     - mariaandrada
     - marquesc
     - melotto
     - mrbits
     - nokostya
+    - northward
     - raildomascena
     - raquellira
     - rbraga
@@ -671,6 +681,7 @@ tr-TR:
     - oguzy
     - tuna_verid
     - yasemindemiral
+    - ziya_karakaya
 vi-VN:
     coordinators:
     - kiennt26
@@ -679,10 +690,12 @@ vi-VN:
     - kiennt26
     translators:
     - kiennt26
+    - nguyentrihai
 zh-CN:
     coordinators:
     - daisyycguo
     - vuuv
+    - zzxwill
     language: Chinese (China)
     reviewers:
     - actionchen
@@ -692,6 +705,7 @@ zh-CN:
     - dliu
     - fifieldt
     - jimmyli
+    - johnwoo_lee
     - lindayang
     - liuchaoxin
     - liujunpeng
@@ -701,6 +715,7 @@ zh-CN:
     - vuuv
     - yanheven
     - zhaochao
+    - zzxwill
     translators:
     - 979zhang
     - actionchen
@@ -718,7 +733,9 @@ zh-CN:
     - coffee
     - cuixiaoyu
     - daisyycguo
+    - dayou
     - dliu
+    - domine
     - e010
     - fanzhang
     - fifieldt
@@ -737,7 +754,10 @@ zh-CN:
     - irina
     - javeme
     - jelanliu
+    - jenner
+    - jiangyikun
     - jimmyli
+    - johnwoo_lee
     - lapalm
     - lawrence
     - leiyahsuai
@@ -780,10 +800,14 @@ zh-CN:
     - wangfang
     - woshishui419
     - wuyongpeng
+    - xhkjoe
     - xiangbinbin
     - xiangqiao
     - xuyang
+    - xywang
+    - yagehu
     - yaguang
+    - yanghongyu
     - yanghy
     - yanheven
     - yihleong
@@ -798,10 +822,13 @@ zh-CN:
     - zheng_minxian
     - zhengjie7800
     - zhonghuali
+    - zhongjun2
     - zhongtian
     - zhouchangxun
     - zhsj
+    - zhubx007
     - zhugaoxiao
+    - zzxwill
 zh-TW:
     coordinators:
     - ccheng
@@ -826,6 +853,7 @@ zh-TW:
     - bokaitseng
     - ccheng
     - danny
+    - dayou
     - derekjhyang
     - e010
     - elliswu
