@@ -2,10 +2,36 @@
 ATC Statistics in past releases
 ===============================
 
+Stein cycle
+-----------
+
+No detail data.
+
+Rocky cycle
+-----------
+
+* Period: 2018-01-11 to 2018-07-09
+* Patch on governance repository: https://review.openstack.org/586751
+* Foundation membership was validated by calling a REST API in
+  https://openstackid-resources.openstack.org
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 2 1 1 1 1 1 1 1 1 1 1 2
+   :file: data/rocky.csv
+
 Queens cycle
 ------------
 
-No detail data.
+* Period: 2017-07-01 to 2018-01-10
+* Patch on governance repository: https://review.openstack.org/532982
+* Foundation membership was validated by calling a REST API in
+  https://openstackid-resources.openstack.org
+
+.. csv-table::
+   :header-rows: 1
+   :widths: 2 1 1 1 1 1 1 1 1 1 1 2
+   :file: data/queens.csv
 
 Pike cycle
 ----------
