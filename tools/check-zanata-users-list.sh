@@ -19,7 +19,7 @@ fi
 TMPFILE=`mktemp`
 trap "rm -f $TMPFILE" EXIT
 
-python tools/zanata/zanata_users.py --output-file $TMPFILE
+python3 tools/zanata/zanata_users.py --output-file $TMPFILE
 if ! diff -u $TEAM_LIST $TMPFILE; then
     set -x
     cat <<EOF
