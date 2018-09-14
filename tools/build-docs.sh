@@ -56,7 +56,7 @@ EOF
         echo -n "| " >> $LANG_INDEX
         HAS_LANG=1
         get_lang_name_prog=$(dirname $0)/get-lang-display-name.py
-        name=`python $get_lang_name_prog $language`
+        name=`python3 $get_lang_name_prog $language`
         echo "\`$name <__BASE__/${language}/__INDEX__>\`__" >> $LANG_INDEX
     done
 
