@@ -19,6 +19,6 @@ import babel
 lang_code = sys.argv[1]
 try:
     l = babel.Locale.parse(lang_code)
-    print(l.get_display_name().encode('utf-8'))
+    print(l.get_display_name())
 except Exception:
     print(lang_code)
