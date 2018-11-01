@@ -122,7 +122,7 @@ fi
 # Ensure to revert any changes to the index file.
 add_language_index_to_localized
 
-# check all language translation resouce
+# check all language translation resource
 for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # skip if it is not a valid language translation resource.
     if [ ! -e ${locale}/LC_MESSAGES/${DOCNAME}.po ]; then
