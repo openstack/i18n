@@ -61,31 +61,32 @@ dashboard provides us a convenient way to check the translation job status.
 Translation infrastructure tasks and scripts
 --------------------------------------------
 
-Translation infrastructure tasks and scripts are stored and managed in
-`openstack-infra/project-config <http://git.openstack.org/cgit/openstack-infra/project-config>`__
+Translation infrastructure tasks are stored and managed in
+`openstack-infra/project-config <https://git.openstack.org/cgit/openstack-infra/project-config>`__
+repository. The translation infrastructure scripts are stored and managed in `openstack-infra/openstack-zuul-jobs <https://git.openstack.org/cgit/openstack-infra/openstack-zuul-jobs>`__
 repository.
 
 * `upstream-translation-update.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/translation/upstream-translation-update.yaml>`__
 
   * Implements the first Zuul job (Syncing to Zanata) by executing
-    `upstream_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/upstream_translation_update.sh>`__
+    `upstream_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/openstack-zuul-jobs/tree/roles/prepare-zanata-client/files/upstream_translation_update.sh>`__
 
 * `propose-translation-update.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/translation/propose-translation-update.yaml>`__
 
   * Carries out the second Zuul job (Syncing into repos) by executing
-    `propose_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/propose_translation_update.sh>`__
+    `propose_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/openstack-zuul-jobs/tree/roles/prepare-zanata-client/files/propose_translation_update.sh>`__
 
-* `common_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/common_translation_update.sh>`__
+* `common_translation_update.sh <https://git.openstack.org/cgit/openstack-infra/openstack-zuul-jobs/tree/roles/prepare-zanata-client/files/common_translation_update.sh>`__
 
   * Common code used by **propose_translation_update.sh** and
     **upstream_translation_update.sh**
 
-* `create-zanata-xml.py <https://git.openstack.org/cgit/openstack-infra/project-config/tree/roles/prep-zanata/files/create-zanata-xml.py>`__
+* `create-zanata-xml.py <https://git.openstack.org/cgit/openstack-infra/openstack-zuul-jobs/tree/roles/prepare-zanata-client/files/create-zanata-xml.py>`__
 
   * Python script to setup projects for Zanata
 
-* `releasenotes/pre.yaml <http://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/pre.yaml>`__
-* `releasenotes/run.yaml <http://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/run.yaml>`__
+* `releasenotes/pre.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/pre.yaml>`__
+* `releasenotes/run.yaml <https://git.openstack.org/cgit/openstack-infra/project-config/tree/playbooks/releasenotes/run.yaml>`__
 
   * Builds release notes in both the original (English) version and translated
     versions (if any).
