@@ -13,8 +13,8 @@ Election
 
 PTLs are elected by ATCs for each cycle. Please read
 `Governance Election Page <https://governance.openstack.org/election/>`__.
-Time and rules are announced there and on `OpenStack Developer
-Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`__.
+Time and rules are announced there and on `OpenStack Discuss
+Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`__.
 Your candidacy is highly encouraged to share via there and on
 `OpenStack I18n Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`__
 . The proposal must be submitted to election repository (e.g.
