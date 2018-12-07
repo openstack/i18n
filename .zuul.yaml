@@ -1,29 +1,9 @@
-- job:
-    name: build-i18n-docs
-    description: |
-      openstack/i18n has a special doc build that does not match the normal
-      OpenStack PTI.
-    parent: tox-docs
-    vars:
-      tox_envlist: docs
-      tox_constraints_file: '{{ ansible_user_dir }}/src/git.openstack.org/openstack/requirements/upper-constraints.txt'
-    required-projects:
-      - openstack/requirements
-    success-url: html/
-
 - project:
     templates:
-      - check-requirements
+      - publish-openstack-docs-pti
     check:
       jobs:
-        - build-i18n-docs
-        - openstack-tox-lower-constraints
         - openstack-tox-pep8
     gate:
       jobs:
-        - build-i18n-docs
-        - openstack-tox-lower-constraints
         - openstack-tox-pep8
-    post:
-      jobs:
-        - publish-openstack-tox-docs
