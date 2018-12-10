@@ -30,7 +30,7 @@ msgid "association"
 msgstr "关联"
 
 msgid "associate IP"
-msgstr "关联"
+msgstr "关联IP"
 
 msgid "attribute"
 msgstr "属性"
