@@ -25,6 +25,9 @@ ar:
     reviewers: []
     translators:
     - hosam
+    - linkid
+    - majed_alangari
+    - mzubair
     - synax
     - welabbar
     - yasir
@@ -111,6 +114,7 @@ el:
     translators:
     - dtrich0
     - iosifidis
+    - kapoulas
 en-AU:
     coordinators:
     - fifieldt
@@ -180,6 +184,7 @@ es:
     - gomarivera
     - hybridpollo
     - iranzo
+    - jdardon
     - jfrancoa
     - jmont
     - jorpilo
@@ -293,7 +298,9 @@ fr:
     - paulgonin
     - plarivee
     - romainsc
+    - sboyron
     - seveillard
+    - shadaiali
     - sitle
     - sylvie_chesneau
     - tjcocozz
@@ -375,16 +382,21 @@ ja:
     - adocmember
     - akihito_inoh
     - amotoki
+    - daisuke_nakajima
     - fifieldt
     - ha_miyamoto
     - haruki
     - hidekazuna
+    - hitomi_koba
     - k_makabe007
     - ken_ishii
+    - keruru
+    - ktrym
     - kuroshun
     - macjack
     - makita
     - mariojv
+    - masahito
     - masami_sasahara
     - masmiyam
     - mmasaki
@@ -397,6 +409,8 @@ ja:
     - sakaryo
     - sasukeh
     - sayako
+    - shenmi
+    - shigeaki_kimura
     - shintaro
     - shinya_kwbt
     - shu
@@ -407,12 +421,16 @@ ja:
     - to222
     - tomoki_amano
     - tomono_n
+    - tsuji
     - tsutomu_kimura
+    - uso8000k
+    - y_miyazaki
     - yeguchi
     - yfukuda
     - ykatabam
     - yogawa
     - yosshy
+    - yu_kasuya
     - yuanying
     - yukinori_yagisawa
     - yusuke1219
@@ -424,6 +442,7 @@ kn:
     reviewers:
     - kingkhan
     translators:
+    - gouthamr
     - kingkhan
     - sharathrao
 ko-KR:
@@ -435,40 +454,50 @@ ko-KR:
     - ianychoi
     - jsshin
     - kiseok7
-    - koain
-    - nexusz99
     - ujuc
     - vi01et
     - wonil22
     translators:
+    - ardentpark
     - betorvalds
+    - bnitech
     - bryan_tak
-    - chancethecoder
+    - chasetherabbit
+    - csucom
+    - dlwldjs7544
     - eukim
     - heetaeahn
     - ianychoi
+    - jaeho93
     - jaewook_oh
-    - janghe11
+    - james_kim
     - jc01rho
+    - jinux123
     - jitaejang
     - johjuhyun
+    - jongsoo_ha
     - jongwooh
     - jsshin
     - junheon
     - kiseok7
-    - koain
+    - lee_dogeon
     - lee_seungwoo
     - michaelko
     - minwookshin
     - nexusz99
+    - norop00
     - openstack
-    - seokjae
+    - sangkyukang
+    - seeung_kang
     - seongu
     - seungkyu
+    - ts5516
     - ujuc
     - vi01et
     - wonil22
     - woobee
+    - yeonjunkim
+    - ziwon
 lo:
     coordinators:
     - saikeo
@@ -553,6 +582,7 @@ pt-BR:
     - alexpriete
     - andre_santiago
     - andrecampos
+    - bfsouza
     - chicocvenancio
     - d13
     - delesderrier
@@ -582,6 +612,7 @@ pt-BR:
     - mrbits
     - nokostya
     - northward
+    - r2xlr
     - raildomascena
     - raquellira
     - rbraga
@@ -589,6 +620,7 @@ pt-BR:
     - renatolipi
     - rgmorales
     - ricardobras
+    - ronnansouza
     - saimonsp
     - sanporci
     - tenoriomarcus
@@ -623,6 +655,7 @@ ru:
     - anikitenkov
     - antoniok
     - apapsujko
+    - dayou
     - dmakarov
     - doug_fish
     - dplakhov
@@ -637,6 +670,7 @@ ru:
     - mokhin2
     - nburtsev
     - nmilekhin
+    - noonedeadpunk
     - nsmirnov
     - oleg_myakinkiy
     - sfilatov
@@ -658,6 +692,7 @@ te-IN:
     reviewers:
     - komatineni
     translators:
+    - gouthamr
     - komatineni
 tr-TR:
     coordinators:
@@ -722,6 +757,7 @@ zh-CN:
     - aeng
     - angel
     - bakbad2015
+    - benjenwong
     - billxiang
     - bin
     - blkart
