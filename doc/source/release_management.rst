@@ -94,7 +94,7 @@ Documentation projects
 All upstream OpenStack documents in ``openstack-manuals`` and project
 repositories use ``master`` branch and can have stable branches depending
 on release models and maintaining documents in different project teams.
-Cross-project liaisons are strongly encouraged to communiticate with I18n
+Cross-project liaisons are strongly encouraged to communicate with I18n
 team so that I18n team can discuss and decide which stable documents are
 the target in I18n team and when translators start to translate stable
 documents.

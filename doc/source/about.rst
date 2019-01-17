@@ -37,7 +37,7 @@ The convention for heading levels is as follows::
    Heading 3
    ~~~~~~~~~
 
-   Underline with tildas for heading 3 sections.
+   Underline with tildes for heading 3 sections.
 
 Translation
 -----------

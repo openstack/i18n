@@ -2,7 +2,7 @@ Ansible playbooks for I18n maintenance
 ======================================
 
 This folder contains Ansible playbooks for maintenance I18n work.
-Typically the playbooks are running localy on user's workstation.
+Typically the playbooks are running locally on user's workstation.
 Ansible >= 2.2.0.0 is required to work with json_query.
 
 Usage: "ansible-playbook <playbook.yml>"

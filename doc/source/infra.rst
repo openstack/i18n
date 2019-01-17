@@ -19,7 +19,7 @@ the repositories.
 The first job is for Zanata-side updates. Up-to-date source strings to be
 translated are compared and updated between OpenStack project repositories
 and Zanata. If source texts in OpenStack project repositories are changed,
-then change sets are pushed into Zanata so translaters deal with up-to-date
+then change sets are pushed into Zanata so translators deal with up-to-date
 source strings.
 On the other hand, the second job is aimed to reflect changes in translated
 strings in Zanata (after translators do translation activities) into
@@ -41,7 +41,7 @@ get removed, there is also a lower threshold for releases of **66
 percent** of messages translated as policy - which is only manually
 enforced.
 
-The OpenStack infra scripts excuted by tasks currently download new files that
+The OpenStack infra scripts executed by tasks currently download new files that
 are at least **75 percent** translated and if files grow over time but do not
 get new translations (or strings change too much), they will be
 removed again automatically from the project with a lower threshold of
