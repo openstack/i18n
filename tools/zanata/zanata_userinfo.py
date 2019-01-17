@@ -194,7 +194,7 @@ def main():
                         help="YAML file of the user list")
     options = parser.parse_args()
 
-    # Reads langauge team information
+    # Reads language team information
     language_teams = read_language_team_yaml(options.user_yaml, options.lang)
 
     users = get_zanata_userdata(zc, options.verify, options.role,
