@@ -1,0 +1,3 @@
+user_id,lang_code,lang,name,email
+user1,zh-CN,Chinese (China),User One,user1@example.com
+user2,de,German,User Two,user2@example.com

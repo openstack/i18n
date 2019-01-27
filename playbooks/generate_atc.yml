@@ -17,21 +17,30 @@
 # usage: ansible-playbook generate_atc.yml
 #
 # The output can be found in /tmp/atc.stats
+#
+# The full workflow is described in https://wiki.openstack.org/wiki/I18n_Extra-ATC_collection
 - hosts: localhost
   gather_facts: "no"
   vars:
-    userstatsfile: "zanata_stats_output.csv"
-    userinfofile: "zanata_userinfo_output.csv"
+    userstatsfile: "vars/zanata_stats_output.csv"
+    userinfofile: "vars/zanata_userinfo_output.csv"
     translatecount: 300
     workingdir: "/tmp/atc.output"
-  vars_files:
-    - "projects.yaml"
 
   tasks:
     - name: create working dir
       file:
         path: "{{ workingdir }}"
         state: directory
+
+    - name: fetch projects list
+      get_url:
+        url: https://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml
+        dest: vars/
+        force: True
+
+    - name: include projects.yaml var
+      include_vars: vars/projects.yaml
 
     - name: read old atc list
       vars:
