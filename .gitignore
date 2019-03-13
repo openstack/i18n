@@ -12,3 +12,6 @@ dist/
 
 # Testenvironment
 .tox/
+
+# Retry files form Ansible
+*.retry
