@@ -18,7 +18,7 @@ Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-disc
 Your candidacy is highly encouraged to share via there and on
 `OpenStack I18n Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`__
 . The proposal must be submitted to election repository (e.g.
-`https://review.openstack.org/#/c/425775/ <https://review.openstack.org/#/c/425775/>`__).
+`https://review.opendev.org/#/c/425775/ <https://review.opendev.org/#/c/425775/>`__).
 For this reason it is a good idea to subscribe to these mailing lists
 before :-)
 
@@ -49,7 +49,7 @@ Usually these are all user-visible projects, like Horizon.
 I18n Core Team
 --------------
 
-The PTL is supported in the work by the `I18n core team <https://review.openstack.org/#/admin/groups/1132,members>`__.
+The PTL is supported in the work by the `I18n core team <https://review.opendev.org/#/admin/groups/1132,members>`__.
 He designates such kind of project team members and reviews the list
 from time to time. The work of the core team is described in the
 `Project Team Guide <https://docs.openstack.org/project-team-guide/ptl.html>`__.
@@ -80,11 +80,11 @@ All the OpenStack members can propose extra ATCs, but I18n PTL is highly
 encouraged to report the list in each cycle. Here are some
 useful proposals as example:
 
-* `https://review.openstack.org/#/c/488226/ <https://review.openstack.org/#/c/488226/>`__
-* `https://review.openstack.org/#/c/483452/ <https://review.openstack.org/#/c/483452/>`__
-* `https://review.openstack.org/#/c/451625/ <https://review.openstack.org/#/c/451625/>`__
+* `https://review.opendev.org/#/c/488226/ <https://review.opendev.org/#/c/488226/>`__
+* `https://review.opendev.org/#/c/483452/ <https://review.opendev.org/#/c/483452/>`__
+* `https://review.opendev.org/#/c/451625/ <https://review.opendev.org/#/c/451625/>`__
 
-This `Script in I18n repo <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/zanata_users.py>`__
+This `Script in I18n repo <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_users.py>`__
 collects all users and their activities.
 
 Daily Work
@@ -98,7 +98,7 @@ and Openstack infrastructure. The procedure is robust, but sometimes
 something can go wrong. For this reason there is a section
 :ref:`monitoring-translation-job-status` in the infrastructure chapter.
 
-You can check on `Gerrit <https://review.openstack.org/#/q/topic:zanata/translations+(status:open+OR+status:merged)>`__,
+You can check on `Gerrit <https://review.opendev.org/#/q/topic:zanata/translations+(status:open+OR+status:merged)>`__,
 if the translated strings are imported by the project teams.
 Core reviewers in each repository are strong encouraged to approve
 translation sync patches but do not be sad if the translations are not
@@ -108,7 +108,7 @@ Open reviews I18n repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Check from time to time open reviews on `I18n repo
-<https://review.openstack.org/#/q/project:openstack/i18n+status:open>`__.
+<https://review.opendev.org/#/q/project:openstack/i18n+status:open>`__.
 In addition to the PTL, the core reviewers are responsible.
 
 Launchpad bugs & blueprints
@@ -131,7 +131,7 @@ Schedules and rules for the team meeting are described in chapter
 PTL is chairing the meeting or determines someone to takeover. He (the
 PTL) also has to check if the meeting time suits most people.
 Configuration of chair and time is done by `irc-meeting repo
-<https://git.openstack.org/openstack-infra/irc-meetings>`__.
+<https://opendev.org/openstack-infra/irc-meetings>`__.
 
 I18n Mailing List Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

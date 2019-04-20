@@ -107,7 +107,7 @@ requirement would be much smaller like 2~4GB memory.
 .. code-block:: console
 
    $ BRANCH=master
-   $ git clone http://git.openstack.org/openstack-dev/devstack.git
+   $ git clone https://opendev.org/openstack/devstack.git
    $ cd devstack
    $ git checkout $BRANCH
    <prepare local.conf>

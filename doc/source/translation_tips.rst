@@ -47,9 +47,9 @@ by looking at the code in the git repository.
 Zanata project and git repository are one-to-one relationship.
 If Zanata project name is ``<Zanata-project-name>``,
 the corresponding git repository location is
-``http://git.openstack.org/cgit/openstack/<Zanata-project-name>/``.
+``https://opendev.org/openstack/<Zanata-project-name>/``.
 For example, if you are translating ``horizon``, the git repository is found at
-http://git.openstack.org/cgit/openstack/horizon/.
+https://opendev.org/openstack/horizon/.
 
 .. note::
 
