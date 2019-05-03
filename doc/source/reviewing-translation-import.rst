@@ -23,7 +23,7 @@ Translators translate repositories using the `translation server
 Every day, new translations get imported into the repositories using a
 proposal job. These need to have a review on whether the bot worked properly.
 You can see all open reviews in `Gerrit
-<https://review.openstack.org/#/q/status:open+topic:zanata/translations,n,z>`_.
+<https://review.opendev.org/#/q/status:open+topic:zanata/translations,n,z>`_.
 The subject of these patches is always "Imported Translations from
 Zanata".
 

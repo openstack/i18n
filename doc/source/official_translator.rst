@@ -14,7 +14,7 @@ finish following steps:
    <http://docs.openstack.org/infra/manual/developers.html#account-setup>`_.
    (You can preview the full text of `the OpenStack Individual
    Contributor License Agreement
-   <https://review.openstack.org/static/cla.html>`_ first if you want.)
+   <https://review.opendev.org/static/cla.html>`_ first if you want.)
 
    .. note::
 
@@ -113,12 +113,12 @@ A list of all ATCs is available at
 http://governance.openstack.org/reference/projects/i18n.html#extra-atcs.
 
 The statistics are calculated using
-`a Python script <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/zanata_stats.py>`__
+`a Python script <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_stats.py>`__
 powered by
 `Zanata statistics API <http://zanata.org/zanata-platform/rest-api-docs/resource_StatisticsResource.html>`__
 Translator list is maintained by
-`translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__
-stored in `openstack/i18n git repository <http://git.openstack.org/cgit/openstack/i18n>`__.
+`translation_team.yaml <https://opendev.org/openstack/i18n/src/tools/zanata/translation_team.yaml>`__
+stored in `openstack/i18n git repository <https://opendev.org/openstack/i18n>`__.
 
 .. toctree::
    :maxdepth: 2

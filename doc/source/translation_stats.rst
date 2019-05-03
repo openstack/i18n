@@ -40,7 +40,7 @@ in Stackalytics even after you translate strings in Zanata.
 Here is the check list for such case:
 
 * Is your Zanata ID included in the `translator list
-  <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml>`__?
+  <https://opendev.org/openstack/i18n/src/tools/zanata/translation_team.yaml>`__?
 * Is your Zanata ID different from your launchpad ID?
 
 If your Zanata ID is not included in the translator list,
@@ -58,9 +58,8 @@ You can also submit a patch to update the list by yourself
 If your Zanata ID is different from your launchpad ID,
 Stackalytics will not find your translation statistics.
 You need to let Stackalytics know your ID mappings.
-To do this, you need to add your user data into ``etc/detault_data.json``
-in `the Stackalytics repository <http://git.openstack.org/cgit/openstack/stackalytics/>`__.
-An example is https://review.openstack.org/#/c/284638/1/etc/default_data.json.
+To do this, you need to add your user data into ``detault_data.json``
+in `the Stackalytics repository <https://github.com/stackalytics/default_data/>`__.
 
 If you are lucky to use a same name for launchpad and Zanata IDs,
 you do not need to do the above.

@@ -11,7 +11,7 @@ Stein cycle
 -----------
 
 * Period: 2018-07-10 to 2019-01-25
-* Patch on governance repository: https://review.openstack.org/633398
+* Patch on governance repository: https://review.opendev.org/633398
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
@@ -24,7 +24,7 @@ Rocky cycle
 -----------
 
 * Period: 2018-01-11 to 2018-07-09
-* Patch on governance repository: https://review.openstack.org/586751
+* Patch on governance repository: https://review.opendev.org/586751
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
@@ -37,7 +37,7 @@ Queens cycle
 ------------
 
 * Period: 2017-07-01 to 2018-01-10
-* Patch on governance repository: https://review.openstack.org/532982
+* Patch on governance repository: https://review.opendev.org/532982
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
@@ -50,7 +50,7 @@ Pike cycle
 ----------
 
 * Period: 2017-01-06 to 2017-06-30
-* Patch on governance repository: https://review.openstack.org/483452
+* Patch on governance repository: https://review.opendev.org/483452
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
@@ -63,8 +63,8 @@ Ocata cycle
 -----------
 
 * Period: 2016-08-01 to 2017-01-05
-* Patch on governance repository: https://review.openstack.org/#/c/417569/
-  (`diff <http://git.openstack.org/cgit/openstack/governance/commit/?id=bd71cefff1302ed04fc21faac5cf967365a7d7c7>`__)
+* Patch on governance repository: https://review.opendev.org/#/c/417569/
+  (`diff <https://opendev.org/openstack/governance/commit/bd71cefff1302ed04fc21faac5cf967365a7d7c7>`__)
 * Note: the period is relative short because of release cycle change
 
   * More information: https://releases.openstack.org/ocata/schedule.html &
@@ -86,8 +86,8 @@ Newton cycle
 ------------
 
 * Period: 2016-02-01 to 2016-07-31
-* Patch on governance repository: https://review.openstack.org/#/c/351480/
-  (`diff <http://git.openstack.org/cgit/openstack/governance/commit/?id=3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)
+* Patch on governance repository: https://review.opendev.org/#/c/351480/
+  (`diff <https://opendev.org/openstack/governance/commit/3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)
 
 .. csv-table::
    :header-rows: 1
@@ -98,13 +98,13 @@ Mitaka cycle
 ------------
 
 * Period: 2015-08-01 to 2016-01-30
-* Patch on governance repository: https://review.openstack.org/#/c/281145/
-  (`diff <http://git.openstack.org/cgit/openstack/governance/commit/?id=8b3c83f28102c7b47688fbaca970a52a76eb6de5>`__)
+* Patch on governance repository: https://review.opendev.org/#/c/281145/
+  (`diff <https://opendev.org/openstack/governance/commit/8b3c83f28102c7b47688fbaca970a52a76eb6de5>`__)
 * This following statistics data is calculated using up-to-date
-  `translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml?id=a67e08d86cc78907da38d5f09b8be6f71d1979a0>`__
+  `translation_team.yaml <https://opendev.org/openstack/i18n/src/commit/a67e08d86cc78907da38d5f09b8be6f71d1979a0/tools/zanata/translation_team.yaml>`__
   (date: Jan 15, 2017).
 * When proposing extra ATCs at that time, some translators were not included in
-  `translation_team.yaml <http://git.openstack.org/cgit/openstack/i18n/tree/tools/zanata/translation_team.yaml?id=73a36041dbdc45212051c60cbeef3f7783200fd2>`__
+  `translation_team.yaml <https://opendev.org/openstack/i18n/src/commit/73a36041dbdc45212051c60cbeef3f7783200fd2/tools/zanata/translation_team.yaml>`__
   file. It seems that 1) new translators were joined and the statistics was
   calculated but the file was already created, or 2) there might be some lack
   of communication with language coordinators, since I18n encouraged each
@@ -132,8 +132,8 @@ Liberty cycle
 
 * Period: from 2014-11-01 to 2015-07-16
 
-* Patch on governance repository: https://review.openstack.org/#/c/213989/
-  (`diff <http://git.openstack.org/cgit/openstack/governance/commit/?id=a229d38469c5135af496d3c739695acbe1146a76>`__)
+* Patch on governance repository: https://review.opendev.org/#/c/213989/
+  (`diff <https://opendev.org/openstack/governance/commit/a229d38469c5135af496d3c739695acbe1146a76>`__)
 * exported the translators contribution statistics from Transifex since
   2014-11-01 to 2015-07-16
 * ATC candidates are translators who has translated more than 200 words and

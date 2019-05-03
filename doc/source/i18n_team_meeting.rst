@@ -37,7 +37,7 @@ Handy links (always sort of on the agenda)
 * `Translation plan <https://translate.openstack.org/>`_
 * `Translation statistics <http://stackalytics.com/?metric=translations>`_
 * `Bug lists <https://bugs.launchpad.net/openstack-i18n>`_
-* `Open reviews in openstack/i18n <https://review.openstack.org/#/q/status:open+project:openstack/i18n>`_
+* `Open reviews in openstack/i18n <https://review.opendev.org/#/q/status:open+project:openstack/i18n>`_
 * `Broken Translation Jobs on Zuul <http://zuul.openstack.org/builds?job_name=upstream-translation-update&job_name=propose-translation-update&result=Failure>`_
 
 Previous meetings
