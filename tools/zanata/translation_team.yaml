@@ -98,6 +98,7 @@ de:
     - loewal
     - lstemmle
     - makowals
+    - r6t
     - rsimai
     - senk
     - spielkind
@@ -186,6 +187,7 @@ es:
     - iranzo
     - jdardon
     - jfrancoa
+    - jmguzmanc
     - jmont
     - jorpilo
     - josemhb
@@ -200,6 +202,7 @@ es:
     - toxickore
     - travisn
     - vgerardojr
+    - vkmc
     - vresy
     - zeusal
 es-MX:
@@ -223,6 +226,7 @@ fi-FI:
     reviewers:
     - twillber
     translators:
+    - martbhell
     - nuyori
     - twillber
 fil:
@@ -268,6 +272,7 @@ fr:
     - angelique_pillal16
     - benjamin
     - benjamin_ach
+    - cicisong
     - ciello89
     - corin
     - croe
@@ -462,10 +467,12 @@ ko-KR:
     - betorvalds
     - bnitech
     - bryan_tak
+    - celinakim
     - chasetherabbit
     - csucom
     - dlwldjs7544
     - eukim
+    - garynoh1
     - heetaeahn
     - ianychoi
     - jaeho93
@@ -491,6 +498,7 @@ ko-KR:
     - seeung_kang
     - seongu
     - seungkyu
+    - taegyunum
     - ts5516
     - ujuc
     - vi01et
@@ -660,6 +668,7 @@ ru:
     - doug_fish
     - dplakhov
     - ftarasenko
+    - gorshunovr
     - ikochetova
     - ishashero
     - istartsev
@@ -675,6 +684,7 @@ ru:
     - oleg_myakinkiy
     - sfilatov
     - shakhat
+    - svitl0
     - thomas_vysokos
     - v12aml
     - valentin
@@ -777,6 +787,7 @@ zh-CN:
     - fifieldt
     - fionahuang
     - forever
+    - francotseng
     - frank
     - fuzhaokun
     - gecong
@@ -784,6 +795,7 @@ zh-CN:
     - guochunting
     - guoshan
     - h3c_wuhan
+    - horace
     - hutao
     - huyupeng
     - indicolite
@@ -822,6 +834,7 @@ zh-CN:
     - pollyz
     - qiaiyuan
     - qingszhao
+    - rico
     - robin_x
     - rustinpeace
     - shuquan
