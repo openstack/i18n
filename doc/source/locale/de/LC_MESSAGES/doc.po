@@ -2,16 +2,17 @@
 # Frank Kloeker <eumel@arcor.de>, 2018. #zanata
 # Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
 # Robert Simai <robert.simai@suse.com>, 2018. #zanata
+# Robert Simai <robert.simai@suse.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: openstacki18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-03 22:59+0000\n"
+"POT-Creation-Date: 2019-07-25 08:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-05-05 12:19+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2019-07-26 12:08+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -458,6 +459,13 @@ msgid ""
 msgstr ""
 "Jede gerade Woche: `07:00 UTC, Donnerstag <https://www.timeanddate.com/"
 "worldclock/fixedtime.html?hour=07&min=00&sec=0>`_"
+
+msgid ""
+"Every odd week: `16:00 UTC, Thursday <https://www.timeanddate.com/worldclock/"
+"fixedtime.html?hour=16&min=00&sec=0>`_"
+msgstr ""
+"Jede ungerade Woche: `16:00 UTC, Donnerstag <https://www.timeanddate.com/"
+"worldclock/fixedtime.html?hour=16&min=00&sec=0>`_"
 
 msgid "Everyone in the OpenStack community is glad to help you."
 msgstr "Jeder in der OpenStack-Gemeinschaft hilft Ihnen gerne."
@@ -941,6 +949,9 @@ msgstr "Launchpad I18n Core Team"
 msgid "Launchpad bugs & blueprints"
 msgstr "Launchpad Bugs & Blueprints"
 
+msgid "Launchpad bugs, Gerrit reviews, and broken Zuul jobs"
+msgstr "Launchpad Bugs, Gerrit Reviews und nicht funktionierende Zuul-Jobs"
+
 msgid "Liberty cycle"
 msgstr "Liberty Zyklus"
 
@@ -1237,6 +1248,54 @@ msgstr ""
 "POT-Dateien werden nicht mehr in Git-Repositories gespeichert. Die Änderung "
 "erfolgte zum Beginn des Newton-Entwicklungszyklus [#]_."
 
+msgid ""
+"Patch on governance repository: https://review.opendev.org/#/c/213989/ "
+"(`diff <https://opendev.org/openstack/governance/commit/"
+"a229d38469c5135af496d3c739695acbe1146a76>`__)"
+msgstr ""
+"Patch zum Governance Repository: https://review.opendev.org/#/c/213989/ "
+"(`diff <https://opendev.org/openstack/governance/commit/"
+"a229d38469c5135af496d3c739695acbe1146a76>`__)"
+
+msgid ""
+"Patch on governance repository: https://review.opendev.org/#/c/281145/ "
+"(`diff <https://opendev.org/openstack/governance/"
+"commit/8b3c83f28102c7b47688fbaca970a52a76eb6de5>`__)"
+msgstr ""
+"Patch zum Governance Repository: https://review.opendev.org/#/c/281145/ "
+"(`diff <https://opendev.org/openstack/governance/"
+"commit/8b3c83f28102c7b47688fbaca970a52a76eb6de5>`__)"
+
+msgid ""
+"Patch on governance repository: https://review.opendev.org/#/c/351480/ "
+"(`diff <https://opendev.org/openstack/governance/"
+"commit/3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)"
+msgstr ""
+"Patch zum Governance Repository: https://review.opendev.org/#/c/351480/ "
+"(`diff <https://opendev.org/openstack/governance/"
+"commit/3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)"
+
+msgid ""
+"Patch on governance repository: https://review.opendev.org/#/c/417569/ "
+"(`diff <https://opendev.org/openstack/governance/commit/"
+"bd71cefff1302ed04fc21faac5cf967365a7d7c7>`__)"
+msgstr ""
+"Patch zum Governance Repository: https://review.opendev.org/#/c/417569/ "
+"(`diff <https://opendev.org/openstack/governance/commit/"
+"bd71cefff1302ed04fc21faac5cf967365a7d7c7>`__)"
+
+msgid "Patch on governance repository: https://review.opendev.org/483452"
+msgstr "Patch zum Governance Repository: https://review.opendev.org/483452"
+
+msgid "Patch on governance repository: https://review.opendev.org/532982"
+msgstr "Patch zum Governance Repository: https://review.opendev.org/532982"
+
+msgid "Patch on governance repository: https://review.opendev.org/586751"
+msgstr "Patch zum Governance Repository: https://review.opendev.org/586751"
+
+msgid "Patch on governance repository: https://review.opendev.org/633398"
+msgstr "Patch zum Governance Repository: https://review.opendev.org/633398"
+
 msgid "Period: 2015-08-01 to 2016-01-30"
 msgstr "Periode: 2015-08-01 bis 2016-01-30"
 
@@ -1248,6 +1307,15 @@ msgstr "Periode: 2016-08-01 bis 2017-01-05"
 
 msgid "Period: 2017-01-06 to 2017-06-30"
 msgstr "Periode: 2017-01-06 bis 2017-06-30"
+
+msgid "Period: 2017-07-01 to 2018-01-10"
+msgstr "Zeitraum: 2017-07-01 bis 2018-01-10"
+
+msgid "Period: 2018-01-11 to 2018-07-09"
+msgstr "Zeitraum: 2018-01-11 bis 2018-07-09"
+
+msgid "Period: 2018-07-10 to 2019-01-25"
+msgstr "Zeitraum: 2018-07-10 bis 2019-01-25"
 
 msgid "Period: from 2014-11-01 to 2015-07-16"
 msgstr "Periode: von 2014-11-01 bis 2015-07-16"
@@ -1313,6 +1381,9 @@ msgstr "Überprüfung der Übersetzungsimporte"
 msgid "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
 msgstr "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
 
+msgid "Rocky cycle"
+msgstr "Rocky Zyklus"
+
 msgid "Roles in a Language Team"
 msgstr "Rollen im Sprach-Team"
 
@@ -1367,6 +1438,9 @@ msgstr ""
 "Statistiken sind auch verfügbar unter: https://docs.google.com/spreadsheets/"
 "d/1YpDJU_uNA4I5fzFG69T6L9gpFsy5yNtA9a-lSxnqeAY/edit#gid=1366189722"
 
+msgid "Stein cycle"
+msgstr "Stein Zyklus"
+
 msgid "Steps to become a OpenStack translator"
 msgstr "Schritte um OpenStack-Übersetzer zu werden"
 
@@ -1415,6 +1489,16 @@ msgstr ""
 "Die Liste wird von Stackalytics zum Sammeln von Übersetzungstatistiken "
 "genutzt (Schauen Sie :ref:`stats-stackalytics` für Details). Sie wird auch "
 "von verschienden Scripten unten benutzt."
+
+msgid ""
+"The I18n team holds weekly Team Meetings on Thursdays at alternating times "
+"in #openstack-meeting IRC channel. To download ICS file, please visit "
+"`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_ page."
+msgstr ""
+"Das I18n-Team hält wöchentlich Meetings ab jeden Donnerstag zu "
+"unterschiedlichen Tageszeiten im #openstack-meeting IRC-Kanal. Um die ICS-"
+"Datei herunterzuladen, besuchen Sie `eavesdrop <http://eavesdrop.openstack."
+"org/#I18N_Team_Meeting>`_ ."
 
 msgid "The I18n team welcomes any kinds of contribution."
 msgstr "Das I18n-Team begrüsst jegliche Art von Unterstützung"
@@ -1852,6 +1936,9 @@ msgstr ""
 msgid "Tools"
 msgstr "Werkzeuge"
 
+msgid "Train cycle"
+msgstr "Train Zyklus"
+
 msgid "Translate **master** version on Zanata."
 msgstr "Übersetzen **master** Version in Zanata."
 
@@ -1993,6 +2080,9 @@ msgstr "docs.openstack.org benutzen"
 
 msgid "Using translations"
 msgstr "Mit Übersetzungen"
+
+msgid "Usual topics"
+msgstr "Übliche Theman"
 
 msgid ""
 "Visit `Stackalytics <http://stackalytics.com/>`__ and choose "
@@ -2348,6 +2438,13 @@ msgid ""
 msgstr ""
 "`Sprachübersetzungsteams können Ihnen in Ihrer Sprache helfen <https://wiki."
 "openstack.org/wiki/I18nTeam/team>`_: "
+
+msgid ""
+"`Open reviews in openstack/i18n <https://review.opendev.org/#/q/status:open"
+"+project:openstack/i18n>`_"
+msgstr ""
+"`Offene Reviews in openstack/i18n <https://review.opendev.org/#/q/status:open"
+"+project:openstack/i18n>`_"
 
 msgid ""
 "`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__ "
