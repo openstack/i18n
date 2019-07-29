@@ -57,6 +57,15 @@ finish following steps:
 
 4. When your request is approved, you will get an email notification.
 
+   .. note::
+
+      If your request is pending for long days, you can reach to your
+      language coordinator through Zanata,
+      to `I18n people <https://wiki.openstack.org/wiki/I18nTeam#People>`_
+      through `IRC <https://docs.openstack.org/i18n/latest/#openstack-i18n-team>`_
+      , or to `I18n PTL <https://governance.openstack.org/tc/reference/projects/i18n.html>`_
+      directly.
+
 5. Now you can start your translation.
    You can actually become an OpenStack official translator
    by contributing translations.
@@ -68,8 +77,9 @@ ATC status in I18n project
 --------------------------
 
 The I18n project is an official OpenStack project, so official translators
-who have contributed in a specific period are regarded as
-"ATC" (Active Technical Contributor) and
+who have contributed translations to
+`official OpenStack projects <https://governance.openstack.org/tc/reference/projects/index.html>`_
+in a specific period are regarded as "ATC" (Active Technical Contributor) and
 "APC" (Active Project Contributor) of the I18n project.
 APC can vote for the I18n PTL (Project Team Lead), and ATC
 can vote for OpenStack TC (Technical Committee).
@@ -101,8 +111,9 @@ additional translation contributions.
 
 If you have a question, feel free to ask it to the PTL or the i18n list.
 
-Note that contributors to openstack/i18n repository are acknowledged
-as ATC automatically in the same way as for most OpenStack projects.
+Note that code or documentation contributors to openstack/i18n repository
+are acknowledged as ATC automatically in the same way as for most OpenStack
+projects.
 
 .. _atc-stats:
 
@@ -124,3 +135,30 @@ stored in `openstack/i18n git repository <https://opendev.org/openstack/i18n>`__
    :maxdepth: 2
 
    atc-stats
+
+.. _i18n-auc:
+
+AUC status in I18n project
+--------------------------
+
+As OpenStack evolved, Active User Contributor (AUC) recognition process was
+introduced by the `OpenStack User Committee (UC) <https://governance.openstack.org/uc/>`_.
+AUCs are acknowledged to operators and users who contributed aligned with UC
+governance.
+
+In Zanata, some project translations such as
+`OpenStack User Survey <https://translate.openstack.org/iteration/view/openstack-user-survey/openstack-user-survey/documents>`_
+and `OpenStack whitepapers <https://translate.openstack.org/version-group/view/Whitepaper-dashboard-translation/projects>`_
+are not in `official projects <https://governance.openstack.org/tc/reference/projects/index.html>`_
+but strongly encouraged to translate for better OpenStack world,
+and translators who translated those projects are recognized as AUCs.
+
+As of now, similar as ATCs, there is no way to collect statistics automatically.
+The list of AUCs is calculated by the PTL and is usually updated
+by communication with UC.
+
+Translators who translate and review 300 and more words combinedly
+in the last six months until the deadline of AUC nomination are
+nominated as AUCs, and translation count and review count can be added up.
+The detail period is determined by the PTL in each cycle.
+For Train cycle, the six month period was from 2019-01-26 to 2019-07-25.
