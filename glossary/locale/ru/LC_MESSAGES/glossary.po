@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version:  \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-11 17:32+0800\n"
-"PO-Revision-Date: 2016-03-24 07:23+0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2019-08-06 23:39+0200\n"
+"Last-Translator: Roman Gorshunov <roman.gorshunov@att.com>\n"
 "Language: ru\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
@@ -34,7 +34,7 @@ msgid "associate IP"
 msgstr "связать IP"
 
 msgid "attribute"
-msgstr ""
+msgstr "атрибут"
 
 msgid "authenticate"
 msgstr "аутентифицировать"
@@ -52,14 +52,14 @@ msgid "backup"
 msgstr "резервная копия"
 
 msgid "Bare Metal service"
-msgstr ""
+msgstr "сервис Bare Metal"
 
 #, fuzzy
 msgid "Block Storage service"
 msgstr "сервис блочных хранилищ"
 
 msgid "body"
-msgstr ""
+msgstr "тело"
 
 msgid "boot"
 msgstr "загрузка"
@@ -77,7 +77,7 @@ msgid "cluster"
 msgstr "кластер"
 
 msgid "comma"
-msgstr ""
+msgstr "запятая"
 
 #, fuzzy
 msgid "compute"
@@ -87,13 +87,13 @@ msgid "Compute service"
 msgstr "сервис вычислительных ресурсов"
 
 msgid "config drive"
-msgstr ""
+msgstr "конфигурационный диск"
 
 msgid "configuration"
-msgstr ""
+msgstr "конфигурация"
 
 msgid "connection"
-msgstr ""
+msgstr "подключение"
 
 #, fuzzy
 msgid "consistency group"
@@ -106,20 +106,20 @@ msgid "container format"
 msgstr "формат контейнера"
 
 msgid "controller"
-msgstr "Управляющий узел"
+msgstr "управляющий узел"
 
 #, fuzzy
 msgid "credential"
 msgstr "учетная запись"
 
 msgid "Database service"
-msgstr ""
+msgstr "сервис баз данных"
 
 msgid "data processing"
 msgstr "обработка данных"
 
 msgid "Data Processing service"
-msgstr ""
+msgstr "сервис обработки данных"
 
 msgid "destination container"
 msgstr "конечный контейнер"
@@ -164,7 +164,7 @@ msgid "existence"
 msgstr "наличие"
 
 msgid "export"
-msgstr ""
+msgstr "экспорт"
 
 #, fuzzy
 msgid "export location"
@@ -241,13 +241,13 @@ msgid "job template"
 msgstr "шаблон задачи"
 
 msgid "key"
-msgstr ""
+msgstr "ключ"
 
 msgid "keypair"
 msgstr "ключевая пара"
 
 msgid "killed"
-msgstr ""
+msgstr "убит"
 
 msgid "L2population"
 msgstr "L2population"
@@ -256,7 +256,7 @@ msgid "launch"
 msgstr "запуск"
 
 msgid "layer-2 population mechanism"
-msgstr ""
+msgstr "механизм распространения уровня L2"
 
 msgid "load balancer"
 msgstr "балансировщик нагрузки"
@@ -304,13 +304,13 @@ msgid "object storage"
 msgstr "объектное хранилище"
 
 msgid "Object Storage service"
-msgstr ""
+msgstr "сервис объектных хранилищ"
 
 msgid "orchestration"
 msgstr "оркестрация"
 
 msgid "Orchestration service"
-msgstr ""
+msgstr "сервис оркестрации"
 
 msgid "over commit"
 msgstr "переподписка"
@@ -392,31 +392,31 @@ msgid "server"
 msgstr "сервер"
 
 msgid "shard"
-msgstr ""
+msgstr "сегмент"
 
 #, fuzzy
 msgid "share"
 msgstr "использование"
 
 msgid "share network"
-msgstr ""
+msgstr "опубликовать сеть"
 
 #, fuzzy
 msgid "share server"
 msgstr "сервер"
 
 msgid "Shared File Systems service"
-msgstr ""
+msgstr "сервис общих файловых систем"
 
 #, fuzzy
 msgid "shelve instance"
 msgstr "инстанс"
 
 msgid "signature"
-msgstr ""
+msgstr "подпись"
 
 msgid "size"
-msgstr ""
+msgstr "размер"
 
 msgid "snapshot"
 msgstr "снимок"
@@ -449,7 +449,7 @@ msgid "tag"
 msgstr "тэг"
 
 msgid "Telemetry service"
-msgstr ""
+msgstr "сервис телеметрии"
 
 msgid "template"
 msgstr "шаблон"
@@ -464,7 +464,7 @@ msgid "token"
 msgstr "токен"
 
 msgid "transfer"
-msgstr ""
+msgstr "передача"
 
 #, fuzzy
 msgid "unshelve instance"
@@ -492,7 +492,7 @@ msgid "volume snapshot"
 msgstr "снимок диска"
 
 msgid "web"
-msgstr ""
+msgstr "веб"
 
 #~ msgid "Telemetry"
 #~ msgstr "Телеметрия"
