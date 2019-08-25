@@ -201,5 +201,15 @@ htmlhelp_basename = 'i18n-contributor-guide'
 # If true, publish source files
 html_copy_source = False
 
+# -- Options for LaTeX output -------------------------------------------------
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, documentclass
+# [howto/manual]).
+latex_documents = [
+    ('index', 'i18n.tex', u'Internationalization Documentation',
+     u'OpenStack Foundation', 'howto'),
+]
+
 # -- Options for Internationalization output ------------------------------
 locale_dirs = ['locale/']
