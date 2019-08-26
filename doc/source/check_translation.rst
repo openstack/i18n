@@ -43,17 +43,12 @@ You can also check:
 * `build status for publishing on Zuul <http://zuul.openstack.org/builds.html?job_name=publish-openstack-manuals>`__
 * `checkbuild with drafts on Zuul <http://zuul.openstack.org/builds.html?job_name=build-tox-manuals-checkbuild>`__
 
-Application developer documentation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-We can translate the application developer documentations,
-such as API Guide, as ``api-site`` resources in Zanata.
 
 OpenStack developer documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Currently, we do not support translations for OpenStack developer
-documents: http://docs.openstack.org/developer/<project>
+documents: http://docs.openstack.org/<project>
 
 OpenStack Dashboard
 -------------------
