@@ -2,6 +2,13 @@
 ATC Statistics in past releases
 ===============================
 
+.. only:: latex
+
+   .. note::
+
+      You can see detail member-level statistics data on
+      `HTML version of the page <https://docs.openstack.org/i18n/latest/atc-stats.html>`_.
+
 Train cycle
 -----------
 
@@ -15,10 +22,12 @@ Stein cycle
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1 1 1 1 1 1 1 2
-   :file: data/stein.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1 1 1 1 1 1 1 2
+      :file: data/stein.csv
 
 Rocky cycle
 -----------
@@ -28,10 +37,12 @@ Rocky cycle
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1 1 1 1 1 1 1 2
-   :file: data/rocky.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1 1 1 1 1 1 1 2
+      :file: data/rocky.csv
 
 Queens cycle
 ------------
@@ -41,10 +52,12 @@ Queens cycle
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1 1 1 1 1 1 1 2
-   :file: data/queens.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1 1 1 1 1 1 1 2
+      :file: data/queens.csv
 
 Pike cycle
 ----------
@@ -54,10 +67,12 @@ Pike cycle
 * Foundation membership was validated by calling a REST API in
   https://openstackid-resources.openstack.org
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1 1 2
-   :file: data/pike.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1 1 2
+      :file: data/pike.csv
 
 Ocata cycle
 -----------
@@ -77,10 +92,12 @@ Ocata cycle
   myamamot - 725 reviews, mucahit - 1241 reviews) are also regarded ATCs from
   Newton cycle :) - I keep it as record for the next ATC list changes.
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1
-   :file: data/ocata.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1
+      :file: data/ocata.csv
 
 Newton cycle
 ------------
@@ -89,10 +106,12 @@ Newton cycle
 * Patch on governance repository: https://review.opendev.org/#/c/351480/
   (`diff <https://opendev.org/openstack/governance/commit/3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1
-   :file: data/newton.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1
+      :file: data/newton.csv
 
 Mitaka cycle
 ------------
@@ -122,10 +141,12 @@ Mitaka cycle
   * Amandeep Singh Saini (jimidar) - Punjabi (India)
   * Łukasz Jernas (id: deejay1) - Polish (Poland)
 
-.. csv-table::
-   :header-rows: 1
-   :widths: 2 1 1 1 1
-   :file: data/mitaka.csv
+.. only:: html
+
+   .. csv-table::
+      :header-rows: 1
+      :widths: 2 1 1 1 1
+      :file: data/mitaka.csv
 
 Liberty cycle
 --------------

@@ -62,7 +62,9 @@ OpenStack I18n team
 * IRC channel: ``#openstack-i18n`` on freenode
 * :doc:`IRC meeting <i18n_team_meeting>`
 
-Search in this guide
---------------------
+.. only:: html
 
-* :ref:`search`
+   Search in this guide
+   --------------------
+
+   * :ref:`search`
