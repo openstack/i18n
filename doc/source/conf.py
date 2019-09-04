@@ -207,7 +207,7 @@ html_copy_source = False
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-    ('index', 'i18n.tex', u'Internationalization Documentation',
+    ('index', 'doc-i18n.tex', u'Internationalization Documentation',
      u'OpenStack Foundation', 'howto'),
 ]
 
