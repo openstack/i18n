@@ -24,6 +24,6 @@ DIRECTORY=doc
 
 # Exclude atc-stats/data/*.csv from POT file
 TMPFILE=`mktemp -u`
-msggrep -v -N "../../source/data/*.csv" \
+msggrep -v -N "doc/source/data/*.csv" \
      ${DIRECTORY}/build/gettext/atc-stats.pot > $TMPFILE
 mv -f $TMPFILE ${DIRECTORY}/build/gettext/atc-stats.pot
