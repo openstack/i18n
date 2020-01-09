@@ -1,13 +1,14 @@
 # Akihiro Motoki <amotoki@gmail.com>, 2017. #zanata
+# Akihiro Motoki <amotoki@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: openstacki18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 10:48+0000\n"
+"POT-Creation-Date: 2020-01-07 16:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-03 08:40+0000\n"
+"PO-Revision-Date: 2020-01-08 12:45+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -52,6 +53,9 @@ msgid ""
 msgstr ""
 "テンプレートは静的な HTML ファイルの雛形です。この例の場合、このストリングは"
 "おそらく「コンテナー」メニューの「更新」フォームで使われていることでしょう。"
+
+msgid "ATC Statistics in past releases"
+msgstr "過去のリリースでの ATC の統計情報"
 
 msgid "ATC status in I18n project"
 msgstr "I18n プロジェクトにおける ATC ステータス"
@@ -480,6 +484,9 @@ msgstr ""
 msgid "Newton cycle"
 msgstr "Newton 開発サイクル"
 
+msgid "No detail data."
+msgstr "詳細データなし。"
+
 msgid ""
 "Note that you need to log into Zanata to see your activity in the above "
 "pages."
@@ -586,6 +593,18 @@ msgstr ""
 "POT ファイルは現在は git リポジトリーには格納されていません。この変更は "
 "Newton 開発サイクル [#]_ の最初に行われました。"
 
+msgid "Patch on governance repository: https://review.opendev.org/483452"
+msgstr "governance レポジトリーの対応パッチ: https://review.opendev.org/483452"
+
+msgid "Patch on governance repository: https://review.opendev.org/532982"
+msgstr "governance レポジトリーの対応パッチ: https://review.opendev.org/532982"
+
+msgid "Patch on governance repository: https://review.opendev.org/586751"
+msgstr "governance レポジトリーの対応パッチ: https://review.opendev.org/586751"
+
+msgid "Patch on governance repository: https://review.opendev.org/633398"
+msgstr "governance レポジトリーの対応パッチ: https://review.opendev.org/633398"
+
 msgid "Period: 2015-08-01 to 2016-01-30"
 msgstr "期間: 2015-08-01 〜 2016-01-30"
 
@@ -597,6 +616,15 @@ msgstr "期間: 2016-08-01 〜 2017-01-05"
 
 msgid "Period: 2017-01-06 to 2017-06-30"
 msgstr "期間: 2017-01-06 〜 2017-06-30"
+
+msgid "Period: 2017-07-01 to 2018-01-10"
+msgstr "期間: 2017-07-01 〜 2018-01-10"
+
+msgid "Period: 2018-01-11 to 2018-07-09"
+msgstr "期間: 2018-01-11 〜 2018-07-09"
+
+msgid "Period: 2018-07-10 to 2019-01-25"
+msgstr "期間: 2018-07-10 〜 2019-01-25"
 
 msgid "Period: from 2014-11-01 to 2015-07-16"
 msgstr "期間: 2014-11-01 〜 2015-07-16"
@@ -618,6 +646,9 @@ msgstr "Zanata からの翻訳の取得"
 
 msgid "Python script to setup projects for Zanata"
 msgstr "Zanata プロジェクトの設定を用意する Python スクリプト。"
+
+msgid "Queens cycle"
+msgstr "Queens 開発サイクル"
 
 msgid "Register a user ID in Zanata"
 msgstr "Zanata でユーザー ID を登録します"
@@ -650,6 +681,9 @@ msgstr "翻訳のインポートのレビュー"
 msgid "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
 msgstr "Rob Cresswell (id: robcresswell) - English (United Kingdom)"
 
+msgid "Rocky cycle"
+msgstr "Rocky 開発サイクル"
+
 msgid "Roles in a Language Team"
 msgstr "言語チームでの役割"
 
@@ -670,6 +704,9 @@ msgstr "分割: PO テンプレートの RST ドキュメントからの生成"
 
 msgid "Stackalytics"
 msgstr "Stackalytics"
+
+msgid "Stein cycle"
+msgstr "Stein 開発サイクル"
 
 msgid "Steps to become a OpenStack translator"
 msgstr "OpenStack の翻訳者になるための手順"
@@ -890,6 +927,9 @@ msgstr "翻訳者リストを同期するには、以下のコマンドを実行
 
 msgid "Tools"
 msgstr "ツール"
+
+msgid "Train cycle"
+msgstr "Train 開発サイクル"
 
 msgid "Translate **master** version on Zanata."
 msgstr "Zanata では **master** バージョンを翻訳します。"
