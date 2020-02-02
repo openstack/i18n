@@ -1,15 +1,16 @@
 # Akihiro Motoki <amotoki@gmail.com>, 2017. #zanata
 # Akihiro Motoki <amotoki@gmail.com>, 2020. #zanata
+# Takeru Ishibashi <ishibashita@nttdocomo.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: openstacki18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-07 16:19+0000\n"
+"POT-Creation-Date: 2020-01-12 16:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-01-08 12:45+0000\n"
-"Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
+"PO-Revision-Date: 2020-02-02 05:31+0000\n"
+"Last-Translator: Takeru Ishibashi <ishibashita@nttdocomo.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -38,6 +39,15 @@ msgid ":ref:`search`"
 msgstr ":ref:`search`"
 
 msgid ""
+"A glossary file of your language is found at ``glossary/locale/<lang>/"
+"LC_MESSAGES/glossary.po`` in the i18n repository. The file is a usual PO "
+"file."
+msgstr ""
+"あなたの言語の用語集ファイルは、 i18n リポジトリーの ``glossary/locale/"
+"<lang>/LC_MESSAGES/glossary.po`` にあります。このファイルは通常の PO ファイル"
+"です。"
+
+msgid ""
 "A person who can proofread translations and mark them as reviewed (approved) "
 "or rejected."
 msgstr ""
@@ -58,6 +68,9 @@ msgid "ATC Statistics in past releases"
 msgstr "過去のリリースでの ATC の統計情報"
 
 msgid "ATC status in I18n project"
+msgstr "I18n プロジェクトにおける ATC ステータス"
+
+msgid "AUC status in I18n project"
 msgstr "I18n プロジェクトにおける ATC ステータス"
 
 msgid "About this guide"
@@ -120,6 +133,18 @@ msgstr ""
 "この時点では、 Zanata の master バージョンも翻訳できますが、 stable バージョ"
 "ンを対象に翻訳することを強く推奨します。"
 
+msgid ""
+"Before you start contribution, you'll have to `agree to the contributor "
+"license agreement <http://docs.openstack.org/infra/manual/developers."
+"html#account-setup>`_. (You can preview the full text of `the OpenStack "
+"Individual Contributor License Agreement <https://review.opendev.org/static/"
+"cla.html>`_ first if you want.)"
+msgstr ""
+"活動に参加する前に、 `contributor license agreement  <http://docs.openstack."
+"org/infra/manual/developers.html#account-setup>`_ に同意する必要があります "
+"(必要であれば `OpenStack Individual Contributor License Agreement <https://"
+"review.opendev.org/static/cla.html>`_ の完全版を確認できます)。"
+
 msgid "Bugs in a source project"
 msgstr "上流プロジェクトのバグ"
 
@@ -132,6 +157,9 @@ msgid ""
 msgstr ""
 "翻訳されたドキュメントやダッシュボードのバグは、主に以下のカテゴリーに分類で"
 "きます。"
+
+msgid "Building"
+msgstr "作成中"
 
 msgid ""
 "Builds release notes in both the original (English) version and translated "
@@ -270,6 +298,13 @@ msgstr "バグ報告の仕方"
 msgid "How to check translations"
 msgstr "翻訳の確認方法"
 
+msgid ""
+"I18n PTL updates the list using Zanata API and translator list. Detail "
+"statistics data is available :ref:`below <atc-stats>`."
+msgstr ""
+"I18n PTL が Zanata API と翻訳者リストを使って ATC のリストを更新します。詳細"
+"な統計データは :ref:`below <atc-stats>` で参照できます。"
+
 msgid "I18n team meeting"
 msgstr "I18n チームミーティング"
 
@@ -278,6 +313,9 @@ msgstr "IRC チャンネル: freenode の ``#openstack-i18n``"
 
 msgid "IRC meeting commands"
 msgstr "IRC ミーティングのコマンド"
+
+msgid "IRC web client"
+msgstr "Web版IRC client"
 
 msgid ""
 "If a bug reports translation errors of a certain language, it could be "
@@ -386,6 +424,19 @@ msgstr ""
 "OpenStack の国際化に関するバグの修正に協力したい場合は、関連するバグは以下の"
 "場所に報告されてます。"
 
+msgid ""
+"If your Zanata ID is different from your launchpad ID, Stackalytics will not "
+"find your translation statistics. You need to let Stackalytics know your ID "
+"mappings. To do this, you need to add your user data into ``detault_data."
+"json`` in `the Stackalytics repository <https://github.com/stackalytics/"
+"default_data/>`__."
+msgstr ""
+"Zanata ID が launchpad ID と異なっている場合、 Stackalytics はあなたの翻訳活"
+"動の統計を見つけることができません。 Stackalytics にあなたの ID の対応関係を"
+"教えてあげる必要があります。具体的には、 `Stackalytics リポジトリー <https://"
+"github.com/stackalytics/default_data/>`__ の  ``detault_data.json`` にあなた"
+"のデータを追加します。"
+
 msgid "Import latest translations"
 msgstr "最新の翻訳の入手方法"
 
@@ -414,6 +465,13 @@ msgstr ""
 
 msgid "Is your Zanata ID different from your launchpad ID?"
 msgstr "Zanata ID が自分の launchpad ID と同じか？"
+
+msgid ""
+"Is your Zanata ID included in the `translator list <https://opendev.org/"
+"openstack/i18n/src/tools/zanata/translation_team.yaml>`__?"
+msgstr ""
+"お使いの Zanata ID が `翻訳者リスト <https://opendev.org/openstack/i18n/src/"
+"tools/zanata/translation_team.yaml>`__ に載っているか？"
 
 msgid "It is highly recommended to include the following information."
 msgstr "できる限り、以下の情報を含めるようにしてください。"
@@ -486,6 +544,14 @@ msgstr "Newton 開発サイクル"
 
 msgid "No detail data."
 msgstr "詳細データなし。"
+
+msgid ""
+"Note that code or documentation contributors to openstack/i18n repository "
+"are acknowledged as ATC automatically in the same way as for most OpenStack "
+"projects."
+msgstr ""
+"openstack/i18n リポジトリーへの貢献者は、他のプロジェクトと同様に、自動的に "
+"ATC として認定されます。"
 
 msgid ""
 "Note that you need to log into Zanata to see your activity in the above "
@@ -635,6 +701,9 @@ msgstr "Pike 開発サイクル"
 msgid "Previous meetings"
 msgstr "過去のミーティング"
 
+msgid "Project Goals And Translation Plan"
+msgstr "プロジェクトの目標と翻訳計画"
+
 msgid "Project configuration"
 msgstr "プロジェクト設定"
 
@@ -652,6 +721,9 @@ msgstr "Queens 開発サイクル"
 
 msgid "Register a user ID in Zanata"
 msgstr "Zanata でユーザー ID を登録します"
+
+msgid "Release Management"
+msgstr "リリース管理"
 
 msgid ""
 "Replace ``$BRANCH`` with an appropriate branch such as ``master``, ``stable/"
@@ -719,6 +791,16 @@ msgstr "TBD"
 
 msgid "Team activities with release"
 msgstr "リリース前後のチームの活動"
+
+msgid ""
+"The I18n team holds weekly Team Meetings on Thursdays at alternating times "
+"in #openstack-meeting IRC channel. To download ICS file, please visit "
+"`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_ page."
+msgstr ""
+"I18n チームは、毎週木曜日に IRC チャンネル #openstack-meeting で週次のミー"
+"ティングを行っています。開催時間は交互になっています。 ICS ファイルが "
+"`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_  ページから"
+"ダウンロードできます。"
 
 msgid "The I18n team welcomes any kinds of contribution."
 msgstr "I18n チームには、さまざまな方法で参加できます。"
@@ -916,6 +998,17 @@ msgstr ""
 "stable ブランチの ``www/<lang>/index.html`` ファイルを更新する必要はありませ"
 "ん。"
 
+msgid ""
+"To help with translation, :doc:`become an official translator "
+"<official_translator>` and join your language team. Then go to `translation "
+"website <https://translate.openstack.org/>`_ to start translation. You can "
+"find prioritized translation jobs as I18n team at the top of the page."
+msgstr ""
+"翻訳に協力するには、 :doc:`正式な翻訳者になって、 <official_translator>` 希望"
+"の言語チームに参加してください。その後は `translation website <https://"
+"translate.openstack.org/>`_ を開いて、翻訳を開始できます。ページの一番上に "
+"I18n チームとして優先度の高い項目が書かれているので参考にしてください。"
+
 msgid "To report translation errors, see :doc:`bug_report`."
 msgstr "翻訳の間違いを報告する場合は :doc:`bug_report` を参照してください。"
 
@@ -1011,6 +1104,15 @@ msgid ""
 msgstr ""
 "ファイル名が ``workflows.py`` や ``forms.py`` の場合、作成や編集のフォームで"
 "使われています。"
+
+msgid ""
+"When you add a new entry to the glossary, it is highly recommended to add "
+"the entry to the master glossary ``glossary/locale/glossary.pot``. By doing "
+"this, all language teams can share the glossary."
+msgstr ""
+"用語集に新しいエントリーを追加する際は、用語集のマスターファイル ``glossary/"
+"locale/glossary.pot`` にもエントリーを追加するようにしてください。これによ"
+"り、すべての言語チームが用語集を共有できます。"
 
 msgid ""
 "When you are using OpenStack (including the dashboard, API or CLI) or are "
