@@ -27,7 +27,6 @@ import re
 import sys
 
 import requests
-import six
 import yaml
 
 ZANATA_URI = 'https://translate.openstack.org/rest/%s'
@@ -306,8 +305,7 @@ def write_stats_to_file(users, output_file, file_format,
 
 
 def _write_stats_to_csvfile(users, output_file, detail):
-    mode = 'w' if six.PY3 else 'wb'
-    with open(output_file, mode) as csvfile:
+    with open(output_file, 'w') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(User.get_flattened_data_title())
         for user in users:
