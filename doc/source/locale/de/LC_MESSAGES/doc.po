@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openstacki18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-04 14:29+0000\n"
+"POT-Creation-Date: 2020-02-13 09:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +43,582 @@ msgstr ""
 
 msgid "..."
 msgstr "..."
+
+msgid "0"
+msgstr "0"
+
+msgid "10"
+msgstr "10"
+
+msgid "100222"
+msgstr "100222"
+
+msgid "10092"
+msgstr "10092"
+
+msgid "10095"
+msgstr "10095"
+
+msgid "10101"
+msgstr "10101"
+
+msgid "10128"
+msgstr "10128"
+
+msgid "1015"
+msgstr "1015"
+
+msgid "1025"
+msgstr "1025"
+
+msgid "1045"
+msgstr "1045"
+
+msgid "1048"
+msgstr "1048"
+
+msgid "107"
+msgstr "107"
+
+msgid "1079"
+msgstr "1079"
+
+msgid "10797"
+msgstr "10797"
+
+msgid "11"
+msgstr "11"
+
+msgid "110"
+msgstr "110"
+
+msgid "113"
+msgstr "113"
+
+msgid "11384"
+msgstr "11384"
+
+msgid "1139"
+msgstr "1139"
+
+msgid "115"
+msgstr "115"
+
+msgid "11506"
+msgstr "11506"
+
+msgid "1179"
+msgstr "1179"
+
+msgid "119"
+msgstr "119"
+
+msgid "1216"
+msgstr "1216"
+
+msgid "1222"
+msgstr "1222"
+
+msgid "12384"
+msgstr "12384"
+
+msgid "1248"
+msgstr "1248"
+
+msgid "1255"
+msgstr "1255"
+
+msgid "1266"
+msgstr "1266"
+
+msgid "128"
+msgstr "128"
+
+msgid "13"
+msgstr "13"
+
+msgid "130"
+msgstr "130"
+
+msgid "138"
+msgstr "138"
+
+msgid "13813"
+msgstr "13813"
+
+msgid "13995"
+msgstr "13995"
+
+msgid "141"
+msgstr "141"
+
+msgid "146"
+msgstr "146"
+
+msgid "1471"
+msgstr "1471"
+
+msgid "152"
+msgstr "152"
+
+msgid "1531"
+msgstr "1531"
+
+msgid "1538"
+msgstr "1538"
+
+msgid "156"
+msgstr "156"
+
+msgid "15934"
+msgstr "15934"
+
+msgid "1606"
+msgstr "1606"
+
+msgid "1633"
+msgstr "1633"
+
+msgid "166739"
+msgstr "166739"
+
+msgid "16773"
+msgstr "16773"
+
+msgid "16837"
+msgstr "16837"
+
+msgid "1881"
+msgstr "1881"
+
+msgid "1902"
+msgstr "1902"
+
+msgid "1948"
+msgstr "1948"
+
+msgid "19911"
+msgstr "19911"
+
+msgid "20"
+msgstr "20"
+
+msgid "201"
+msgstr "201"
+
+msgid "20128"
+msgstr "20128"
+
+msgid "202"
+msgstr "202"
+
+msgid "204"
+msgstr "204"
+
+msgid "208"
+msgstr "208"
+
+msgid "216"
+msgstr "216"
+
+msgid "21760"
+msgstr "21760"
+
+msgid "2195"
+msgstr "2195"
+
+msgid "22923"
+msgstr "22923"
+
+msgid "2307"
+msgstr "2307"
+
+msgid "23073"
+msgstr "23073"
+
+msgid "233"
+msgstr "233"
+
+msgid "235"
+msgstr "235"
+
+msgid "236"
+msgstr "236"
+
+msgid "2365"
+msgstr "2365"
+
+msgid "239"
+msgstr "239"
+
+msgid "2394"
+msgstr "2394"
+
+msgid "2397"
+msgstr "2397"
+
+msgid "2406"
+msgstr "2406"
+
+msgid "246"
+msgstr "246"
+
+msgid "2480"
+msgstr "2480"
+
+msgid "2481"
+msgstr "2481"
+
+msgid "25"
+msgstr "25"
+
+msgid "2507"
+msgstr "2507"
+
+msgid "25077"
+msgstr "25077"
+
+msgid "252"
+msgstr "252"
+
+msgid "254"
+msgstr "254"
+
+msgid "256"
+msgstr "256"
+
+msgid "25694"
+msgstr "25694"
+
+msgid "26356"
+msgstr "26356"
+
+msgid "2651"
+msgstr "2651"
+
+msgid "2660"
+msgstr "2660"
+
+msgid "2668"
+msgstr "2668"
+
+msgid "2703"
+msgstr "2703"
+
+msgid "31333"
+msgstr "31333"
+
+msgid "3217"
+msgstr "3217"
+
+msgid "32785"
+msgstr "32785"
+
+msgid "328"
+msgstr "328"
+
+msgid "331"
+msgstr "331"
+
+msgid "333"
+msgstr "333"
+
+msgid "3337"
+msgstr "3337"
+
+msgid "34"
+msgstr "34"
+
+msgid "341"
+msgstr "341"
+
+msgid "3411"
+msgstr "3411"
+
+msgid "344"
+msgstr "344"
+
+msgid "3446"
+msgstr "3446"
+
+msgid "345"
+msgstr "345"
+
+msgid "346"
+msgstr "346"
+
+msgid "352"
+msgstr "352"
+
+msgid "355"
+msgstr "355"
+
+msgid "35849"
+msgstr "35849"
+
+msgid "3588"
+msgstr "3588"
+
+msgid "36"
+msgstr "36"
+
+msgid "36676"
+msgstr "36676"
+
+msgid "367"
+msgstr "367"
+
+msgid "3681"
+msgstr "3681"
+
+msgid "37"
+msgstr "37"
+
+msgid "373"
+msgstr "373"
+
+msgid "375"
+msgstr "375"
+
+msgid "379"
+msgstr "379"
+
+msgid "3802"
+msgstr "3802"
+
+msgid "381"
+msgstr "381"
+
+msgid "3825"
+msgstr "3825"
+
+msgid "3849"
+msgstr "3849"
+
+msgid "387"
+msgstr "387"
+
+msgid "397"
+msgstr "397"
+
+msgid "3972"
+msgstr "3972"
+
+msgid "3979"
+msgstr "3979"
+
+msgid "4"
+msgstr "4"
+
+msgid "409"
+msgstr "409"
+
+msgid "412"
+msgstr "412"
+
+msgid "4126"
+msgstr "4126"
+
+msgid "4172"
+msgstr "4172"
+
+msgid "4198"
+msgstr "4198"
+
+msgid "420"
+msgstr "420"
+
+msgid "4232"
+msgstr "4232"
+
+msgid "4242"
+msgstr "4242"
+
+msgid "4287"
+msgstr "4287"
+
+msgid "43"
+msgstr "43"
+
+msgid "434"
+msgstr "434"
+
+msgid "435"
+msgstr "435"
+
+msgid "4362"
+msgstr "4362"
+
+msgid "4455"
+msgstr "4455"
+
+msgid "44739"
+msgstr "44739"
+
+msgid "452"
+msgstr "452"
+
+msgid "453"
+msgstr "453"
+
+msgid "4546"
+msgstr "4546"
+
+msgid "4577"
+msgstr "4577"
+
+msgid "45901"
+msgstr "45901"
+
+msgid "4591"
+msgstr "4591"
+
+msgid "46"
+msgstr "46"
+
+msgid "4676"
+msgstr "4676"
+
+msgid "4698"
+msgstr "4698"
+
+msgid "472"
+msgstr "472"
+
+msgid "477"
+msgstr "477"
+
+msgid "48"
+msgstr "48"
+
+msgid "480"
+msgstr "480"
+
+msgid "484"
+msgstr "484"
+
+msgid "4862"
+msgstr "4862"
+
+msgid "49"
+msgstr "49"
+
+msgid "4907"
+msgstr "4907"
+
+msgid "495"
+msgstr "495"
+
+msgid "5"
+msgstr "5"
+
+msgid "500"
+msgstr "500"
+
+msgid "501"
+msgstr "501"
+
+msgid "502"
+msgstr "502"
+
+msgid "506"
+msgstr "506"
+
+msgid "514"
+msgstr "514"
+
+msgid "5206"
+msgstr "5206"
+
+msgid "624"
+msgstr "624"
+
+msgid "669"
+msgstr "669"
+
+msgid "6865"
+msgstr "6865"
+
+msgid "689"
+msgstr "689"
+
+msgid "69223"
+msgstr "69223"
+
+msgid "708"
+msgstr "708"
+
+msgid "7420"
+msgstr "7420"
+
+msgid "7525"
+msgstr "7525"
+
+msgid "7537"
+msgstr "7537"
+
+msgid "7576"
+msgstr "7576"
+
+msgid "77"
+msgstr "77"
+
+msgid "7752"
+msgstr "7752"
+
+msgid "831"
+msgstr "831"
+
+msgid "8312"
+msgstr "8312"
+
+msgid "835"
+msgstr "835"
+
+msgid "864"
+msgstr "864"
+
+msgid "867"
+msgstr "867"
+
+msgid "8790"
+msgstr "8790"
+
+msgid "881"
+msgstr "881"
+
+msgid "882"
+msgstr "882"
+
+msgid "902"
+msgstr "902"
+
+msgid "907"
+msgstr "907"
+
+msgid "9122"
+msgstr "9122"
+
+msgid "92"
+msgstr "92"
+
+msgid "9242"
+msgstr "9242"
+
+msgid "94"
+msgstr "94"
+
+msgid "9515"
+msgstr "9515"
+
+msgid "965"
+msgstr "965"
+
+msgid "992"
+msgstr "992"
+
+msgid "997"
+msgstr "997"
 
 msgid ":doc:`IRC meeting <i18n_team_meeting>`"
 msgstr ":doc:`IRC Meeting <i18n_team_meeting>`"
@@ -2730,6 +3306,45 @@ msgstr ""
 msgid "add the source project to \"Also affects project\" of this bug."
 msgstr "Fügen Sie das Source-Projekt als  \"Also affects project\" hinzu."
 
+msgid "adiantum"
+msgstr "adiantum"
+
+msgid "albertomolina"
+msgstr "albertomolina"
+
+msgid "aleksey"
+msgstr "aleksey"
+
+msgid "alessandra"
+msgstr "alessandra"
+
+msgid "amikhalev"
+msgstr "amikhalev"
+
+msgid "amotoki"
+msgstr "amotoki"
+
+msgid "andibing"
+msgstr "andibing"
+
+msgid "andrecampos"
+msgstr "andrecampos"
+
+msgid "angelique_pillal16"
+msgstr "angelique_pillal16"
+
+msgid "anikitenkov"
+msgstr "anikitenkov"
+
+msgid "antoniok"
+msgstr "antoniok"
+
+msgid "apapsujko"
+msgstr "apapsujko"
+
+msgid "approved"
+msgstr "approved"
+
 msgid ""
 "assign the bug to you or a member of your language team, and then mark it as "
 "\"In Progress\""
@@ -2737,17 +3352,77 @@ msgstr ""
 "Weisen Sie den Bug sich selber oder einem Mitglied Ihres Sprachteams zu und "
 "markieren ihn als \"In Progress\""
 
+msgid "billxiang"
+msgstr "billxiang"
+
+msgid "bokaitseng"
+msgstr "bokaitseng"
+
 msgid "bugs in a source project"
 msgstr "bugs in a source project"
 
 msgid "bugs in tool chains"
 msgstr "bugs in tool chains"
 
+msgid "caihui"
+msgstr "caihui"
+
+msgid "cduch"
+msgstr "cduch"
+
+msgid "chuinggun"
+msgstr "chuinggun"
+
 msgid "confirm the bug"
 msgstr "Bestätigen Sie den Bug"
 
 msgid "confirm the bug or mark it as incomplete"
 msgstr "Bestätigen Sie den Bug oder markieren ihn als unvollständig"
+
+msgid "corin"
+msgstr "corin"
+
+msgid "croe"
+msgstr "croe"
+
+msgid "cs"
+msgstr "cs"
+
+msgid "daisyycguo"
+msgstr "daisyycguo"
+
+msgid "de"
+msgstr "de"
+
+msgid "deejay1"
+msgstr "deejay1"
+
+msgid "dmakarov"
+msgstr "dmakarov"
+
+msgid "duyarli"
+msgstr "duyarli"
+
+msgid "eblock"
+msgstr "eblock"
+
+msgid "egongu90"
+msgstr "egongu90"
+
+msgid "elliswu"
+msgstr "elliswu"
+
+msgid "en-GB"
+msgstr "en-GB"
+
+msgid "es"
+msgstr "es"
+
+msgid "es-MX"
+msgstr "es-MX"
+
+msgid "eumel8"
+msgstr "eumel8"
 
 msgid ""
 "exported the translators contribution statistics from Transifex since "
@@ -2756,12 +3431,18 @@ msgstr ""
 "exportierte Übersetzerstatistiken von Transifex seit 2014-11-01 bis "
 "2015-07-16"
 
+msgid "fi-FI"
+msgstr "fi-FI"
+
 msgid ""
 "fix it by visiting a corresponding resource in Zanata and correcting "
 "translations."
 msgstr ""
 "Beheben Sie den Fehler indem die entsprechende Quelle in Zanata gesucht und "
 "korrigiert wird."
+
+msgid "h3c_wuhan"
+msgstr "h3c_wuhan"
 
 msgid ""
 "http://docs.openstack.org/<lang> contains released documents. Follow "
@@ -2774,8 +3455,113 @@ msgid "http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
 msgstr ""
 "http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html"
 
+msgid "ikochetova"
+msgstr "ikochetova"
+
+msgid "ishashero"
+msgstr "ishashero"
+
+msgid "istartsev"
+msgstr "istartsev"
+
+msgid "lony"
+msgstr "lony"
+
+msgid "lstemmle"
+msgstr "lstemmle"
+
+msgid "maoshuai"
+msgstr "maoshuai"
+
+msgid "mariantb"
+msgstr "mariantb"
+
+msgid "marquesc"
+msgstr "marquesc"
+
+msgid "masami_sasahara"
+msgstr "masami_sasahara"
+
+msgid "max821214"
+msgstr "max821214"
+
+msgid "mbozhenko"
+msgstr "mbozhenko"
+
+msgid "mimisheep"
+msgstr "mimisheep"
+
+msgid "mmarin"
+msgstr "mmarin"
+
+msgid "mmasaki"
+msgstr "mmasaki"
+
+msgid "mokhin2"
+msgstr "mokhin2"
+
+msgid "mucahit"
+msgstr "mucahit"
+
+msgid "myamamot"
+msgstr "myamamot"
+
+msgid "nburtsev"
+msgstr "nburtsev"
+
+msgid "nikoul"
+msgstr "nikoul"
+
+msgid "nsmirnov"
+msgstr "nsmirnov"
+
+msgid "openstackhc"
+msgstr "openstackhc"
+
+msgid "otsuka"
+msgstr "otsuka"
+
+msgid "pcaruana"
+msgstr "pcaruana"
+
+msgid "petro"
+msgstr "petro"
+
+msgid "porrua"
+msgstr "porrua"
+
 msgid "prioritize the bug"
 msgstr "Priorisieren Sie den Bug"
+
+msgid "romainsc"
+msgstr "romainsc"
+
+msgid "sanporci"
+msgstr "sanporci"
+
+msgid "sasukeh"
+msgstr "sasukeh"
+
+msgid "seonhopark"
+msgstr "seonhopark"
+
+msgid "seyeon"
+msgstr "seyeon"
+
+msgid "shintaro"
+msgstr "shintaro"
+
+msgid "stanislavulrych"
+msgstr "stanislavulrych"
+
+msgid "suhartono"
+msgstr "suhartono"
+
+msgid "sunanchen"
+msgstr "sunanchen"
+
+msgid "sunjing"
+msgstr "sunjing"
 
 msgid "tag it with the project name, for example \"horizon\" or \"docs\"."
 msgstr "Taggen Sie ihn mit dem Projektnamen, z.B.  \"horizon\" oder \"docs\"."
@@ -2783,8 +3569,89 @@ msgstr "Taggen Sie ihn mit dem Projektnamen, z.B.  \"horizon\" oder \"docs\"."
 msgid "tag the bug with a language name"
 msgstr "Taggen Sie den Bug mit einem Sprachnamen"
 
+msgid "thomas_vysokos"
+msgstr "thomas_vysokos"
+
+msgid "tigerfang"
+msgstr "tigerfang"
+
+msgid "translated + reviewed"
+msgstr "übersetzt und überprüft"
+
 msgid "translation bugs"
 msgstr "translation bugs"
+
+msgid "valentin"
+msgstr "valentin"
+
+msgid "vi01et"
+msgstr "vi01et"
+
+msgid "vponomaryov"
+msgstr "vponomaryov"
+
+msgid "vsokolov"
+msgstr "vsokolov"
+
+msgid "vstepurova"
+msgstr "vstepurova"
+
+msgid "willychen"
+msgstr "willychen"
+
+msgid "wonil22"
+msgstr "wonil22"
+
+msgid "xhkjoe"
+msgstr "xhkjoe"
+
+msgid "xiangbinbin"
+msgstr "xiangbinbin"
+
+msgid "xuyang"
+msgstr "xuyang"
+
+msgid "yfukuda"
+msgstr "yfukuda"
+
+msgid "ykatabam"
+msgstr "ykatabam"
+
+msgid "yosshy"
+msgstr "yosshy"
+
+msgid "yryndenkova"
+msgstr "yryndenkova"
+
+msgid "yukinori_yagisawa"
+msgstr "yukinori_yagisawa"
+
+msgid "yusuke1219"
+msgstr "yusuke1219"
+
+msgid "yuta_hono"
+msgstr "yuta_hono"
+
+msgid "zero00072"
+msgstr "zero00072"
+
+msgid "zh-CN"
+msgstr "zh-CN"
+
+msgid "zh-TW"
+msgstr "zh-TW"
+
+msgid "zhangjingwen"
+msgstr "zhangjingwen"
+
+msgid "zhugaoxiao"
+msgstr "zhugaoxiao"
+
+msgid "zigmax"
+msgstr "zigmax"
+
+msgid "zloykaban"
+msgstr "zloykaban"
 
 msgid "Łukasz Jernas (id: deejay1) - Polish (Poland)"
 msgstr "Łukasz Jernas (id: deejay1) - Polish (Poland)"
