@@ -35,6 +35,7 @@ Contents
    tools
    i18n_team_meeting
    infra
+   project_setup
    reviewing-translation-import
    release_management
    about

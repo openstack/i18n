@@ -56,10 +56,3 @@ If you are reviewing these translations, keep the following in mind:
   removed on stable branches.
 * Most teams have single approval for translation imports instead of
   two core reviewers.
-
-Setting up translations for a repository
-----------------------------------------
-
-The Creator's Guide of the Infrastructure Manual explains how to
-`Enable the Translation Infrastructure
-<http://docs.openstack.org/infra/manual/creators.html#enabling-translation-infrastructure>`_.
