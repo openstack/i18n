@@ -52,41 +52,41 @@ currently **40 percent**.
 Monitoring translation jobs status
 ----------------------------------
 
-`OpenStack Health <http://status.openstack.org/openstack-health/#/>`__
-dashboard provides us a convenient way to check the translation job status.
+The `Zuul Builds Page <https://zuul.opendev.org/t/openstack/builds>`__
+provides us a convenient way to check the translation job status.
 
-* `Post jobs - Syncing to Zanata <http://status.openstack.org/openstack-health/#/g/build_queue/post?groupKey=build_queue&searchJob=translation>`__
-* `Periodic jobs: Syncing into repos <http://status.openstack.org/openstack-health/#/g/build_queue/periodic?groupKey=build_queue&searchJob=translation>`__
+* `Post jobs - Syncing to Zanata <https://zuul.opendev.org/t/openstack/builds?job_name=upstream-translation-update>`__
+* `Periodic jobs: Syncing into repos <http://zuul.opendev.org/t/openstack/builds?job_name=propose-translation-update>`__
 
 Translation infrastructure tasks and scripts
 --------------------------------------------
 
 Translation infrastructure tasks are stored and managed in
-`openstack-infra/project-config <https://opendev.org/openstack/project-config/>`__
-repository. The translation infrastructure scripts are stored and managed in `openstack-infra/openstack-zuul-jobs <https://opendev.org/openstack-infra/openstack-zuul-jobs>`__
+`openstack/project-config <https://opendev.org/openstack/project-config/>`__
+repository. The translation infrastructure scripts are stored and managed in `openstack/openstack-zuul-jobs <https://opendev.org/openstack/openstack-zuul-jobs>`__
 repository.
 
-* `upstream-translation-update.yaml <https://opendev.org/openstack-infra/project-config/src/playbooks/translation/upstream-translation-update.yaml>`__
+* `upstream-translation-update.yaml <https://opendev.org/openstack/project-config/src/playbooks/translation/upstream-translation-update.yaml>`__
 
   * Implements the first Zuul job (Syncing to Zanata) by executing
-    `upstream_translation_update.sh <https://opendev.org/openstack-infra/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/upstream_translation_update.sh>`__
+    `upstream_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/upstream_translation_update.sh>`__
 
-* `propose-translation-update.yaml <https://opendev.org/openstack-infra/project-config/src/playbooks/translation/propose-translation-update.yaml>`__
+* `propose-translation-update.yaml <https://opendev.org/openstack/project-config/src/playbooks/translation/propose-translation-update.yaml>`__
 
   * Carries out the second Zuul job (Syncing into repos) by executing
-    `propose_translation_update.sh <https://opendev.org/openstack-infra/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/propose_translation_update.sh>`__
+    `propose_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/propose_translation_update.sh>`__
 
-* `common_translation_update.sh <https://opendev.org/openstack-infra/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/common_translation_update.sh>`__
+* `common_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/common_translation_update.sh>`__
 
   * Common code used by **propose_translation_update.sh** and
     **upstream_translation_update.sh**
 
-* `create-zanata-xml.py <https://opendev.org/openstack-infra/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/create-zanata-xml.py>`__
+* `create-zanata-xml.py <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/create-zanata-xml.py>`__
 
   * Python script to setup projects for Zanata
 
-* `releasenotes/pre.yaml <https://opendev.org/openstack-infra/project-config/src/playbooks/releasenotes/pre.yaml>`__
-* `releasenotes/run.yaml <https://opendev.org/openstack-infra/project-config/src/playbooks/releasenotes/run.yaml>`__
+* `releasenotes/pre.yaml <https://opendev.org/openstack/project-config/src/playbooks/releasenotes/pre.yaml>`__
+* `releasenotes/run.yaml <https://opendev.org/openstack/project-config/src/playbooks/releasenotes/run.yaml>`__
 
   * Builds release notes in both the original (English) version and translated
     versions (if any).

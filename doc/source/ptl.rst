@@ -131,7 +131,7 @@ Schedules and rules for the team meeting are described in chapter
 PTL is chairing the meeting or determines someone to takeover. He (the
 PTL) also has to check if the meeting time suits most people.
 Configuration of chair and time is done by `irc-meeting repo
-<https://opendev.org/openstack-infra/irc-meetings>`__.
+<https://opendev.org/opendev/irc-meetings>`__.
 
 I18n Mailing List Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
