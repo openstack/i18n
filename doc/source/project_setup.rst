@@ -4,8 +4,8 @@ Enabling Translation Infrastructure
 
 Once you have your project set up, you might want to enable
 translations. For this, you first need to mark all strings so that
-they can be localized, use `oslo.i18n`_ for this and follow the
-`guidelines`_.
+they can be localized, for Python projects use `oslo.i18n`_ for this
+and follow the `guidelines`_.
 
 .. _oslo.i18n: https://docs.openstack.org/oslo.i18n/
 .. _guidelines: https://docs.openstack.org/oslo.i18n/latest/user/guidelines.html
@@ -22,6 +22,7 @@ Django project, a Python project or a ReactJS project.
    The infra scripts consider a project as a Django project when your repository
    name ends with ``-dashboard``, ``-ui``, ``horizon`` or ``django_openstack_auth``.
    Otherwise your project will be recognized as a Python project.
+   Projects using ReactJS need special treatment.
 
    If your repository structure is more complex, for example, with multiple
    python modules, or with both Django and Python projects, see
@@ -115,6 +116,10 @@ Update your ``package.json`` file. It should contain references to the
 
 The translated PO files will converted into JSON and placed into the
 ``./i18n/locales`` directory.
+
+You need to update the infra scripts as well to mark a repository as
+ReactJS project for translation, for details see
+:ref:`translation_scripts`.
 
 Add Translation Server Support
 ------------------------------

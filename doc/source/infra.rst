@@ -58,6 +58,8 @@ provides us a convenient way to check the translation job status.
 * `Post jobs - Syncing to Zanata <https://zuul.opendev.org/t/openstack/builds?job_name=upstream-translation-update>`__
 * `Periodic jobs: Syncing into repos <http://zuul.opendev.org/t/openstack/builds?job_name=propose-translation-update>`__
 
+.. _translation_scripts:
+
 Translation infrastructure tasks and scripts
 --------------------------------------------
 
