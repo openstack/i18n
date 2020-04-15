@@ -39,6 +39,13 @@ bg-BG:
     - gomarivera
     translators:
     - gomarivera
+bn-IN:
+    coordinators: []
+    language: Bengali (India)
+    reviewers: []
+    translators:
+    - mobarak_hossain_1
+    - mohib
 brx:
     coordinators:
     - 0ppinkuu0
@@ -80,31 +87,20 @@ de:
     - rsimai
     language: German
     reviewers:
-    - cduch
     - eumel8
     - jaegerandi
     - rsimai
     - senk
-    - vcomas3
     translators:
     - alexanderloew2
-    - aperri
-    - atalanttore
-    - cduch
+    - dag
     - eblock
     - eumel8
-    - flfuchs
     - jaegerandi
-    - loewal
-    - lstemmle
-    - makowals
     - r6t
     - rsimai
     - senk
     - spielkind
-    - tjcocozz
-    - vcomas3
-    - wall_dirk
 el:
     coordinators:
     - iosifidis
@@ -116,6 +112,7 @@ el:
     - dtrich0
     - iosifidis
     - kapoulas
+    - skatsaounis
 en-AU:
     coordinators:
     - fifieldt
@@ -192,6 +189,7 @@ es:
     - jorpilo
     - josemhb
     - mariantb
+    - mcamargotwm
     - pabs
     - pcaruana
     - pnavarro
@@ -219,6 +217,13 @@ es-MX:
     - sergioerazo
     - toxickore
     - zerick
+fa:
+    coordinators: []
+    language: Persian
+    reviewers:
+    - kia441
+    translators:
+    - kia441
 fi-FI:
     coordinators:
     - twillber
@@ -277,6 +282,7 @@ fr:
     - corin
     - croe
     - didier
+    - eladib_iheb
     - emacchi
     - eouzans
     - fdotfr
@@ -313,6 +319,14 @@ fr:
     - vdotta
     - ygbo
     - zigmax
+he:
+    coordinators:
+    - coolp3000
+    language: Hebrew
+    reviewers:
+    - coolp3000
+    translators:
+    - coolp3000
 hi:
     coordinators:
     - chandankumar
@@ -362,6 +376,7 @@ it:
     - miumiento
     translators:
     - alessandra
+    - cicisong
     - dynarro
     - faber66
     - fpezzell
@@ -380,6 +395,7 @@ ja:
     reviewers:
     - amotoki
     - myamamot
+    - tkuroda
     - to222
     - ykatabam
     - yosshy
@@ -388,10 +404,12 @@ ja:
     - akihito_inoh
     - amotoki
     - daisuke_nakajima
+    - eladib_iheb
     - fifieldt
     - ha_miyamoto
     - haruki
     - hidekazuna
+    - hikkie3110
     - hitomi_koba
     - k_makabe007
     - ken_ishii
@@ -405,6 +423,7 @@ ja:
     - masami_sasahara
     - masmiyam
     - mmasaki
+    - mvalsecc
     - myamamot
     - nanodayo
     - nerzie
@@ -468,12 +487,14 @@ ko-KR:
     - bnitech
     - bryan_tak
     - celinakim
+    - chanwan
     - chasetherabbit
     - csucom
     - dlwldjs7544
     - eukim
     - garynoh1
     - heetaeahn
+    - hongjae_kim
     - ianychoi
     - jaeho93
     - jaewook_oh
@@ -491,6 +512,7 @@ ko-KR:
     - lee_seungwoo
     - michaelko
     - minwookshin
+    - nagyeong
     - nexusz99
     - norop00
     - openstack
@@ -505,6 +527,7 @@ ko-KR:
     - wonil22
     - woobee
     - yeonjunkim
+    - younggwangkim
     - ziwon
 lo:
     coordinators:
@@ -588,6 +611,7 @@ pt-BR:
     - raquellira
     translators:
     - alexpriete
+    - alshabeer
     - andre_santiago
     - andrecampos
     - bfsouza
@@ -611,6 +635,7 @@ pt-BR:
     - loures
     - lucasagomes
     - lveneziano
+    - maransatto
     - marcelodieder
     - marcio
     - marcocristofolini
@@ -620,6 +645,7 @@ pt-BR:
     - mrbits
     - nokostya
     - northward
+    - perrutbruno2
     - r2xlr
     - raildomascena
     - raquellira
@@ -637,6 +663,7 @@ pt-BR:
     - weyderfs
     - williandrade
     - willielima
+    - yuri_neves
 ru:
     coordinators:
     - adiantum
@@ -729,13 +756,22 @@ tr-TR:
     - ziya_karakaya
 vi-VN:
     coordinators:
+    - daikk115
+    - dangtrinhnt
     - kiennt26
     language: Vietnamese (Vietnam)
     reviewers:
+    - daikk115
+    - dangtrinhnt
     - kiennt26
     translators:
+    - daikk115
+    - dangtrinhnt
     - kiennt26
+    - kiennt2609
     - nguyentrihai
+    - phamngocsonls
+    - thuyhien
 zh-CN:
     coordinators:
     - daisyycguo
@@ -867,6 +903,7 @@ zh-CN:
     - zenglulu
     - zhangdebo
     - zhangjingwen
+    - zhangshm
     - zhaochao
     - zheng_minxian
     - zhengjie7800
