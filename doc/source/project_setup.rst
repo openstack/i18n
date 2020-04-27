@@ -31,29 +31,21 @@ Django project, a Python project or a ReactJS project.
 Python Projects
 ---------------
 
-Update your ``setup.cfg`` file to include support for translation. It
-should contain the ``compile_catalog``, ``update_catalog``, and
-``extract_messages`` sections as well as a ``packages`` entry in the
-``files`` section:
+For translation of strings in Python files, only a few changes are
+needed inside a project.
+
+.. note::
+   Previously ``setup.cfg`` needed sections ``compile_catalog``,
+   ``update_catalog``, and ``extract_messages`` and a ``babel.cfg``
+   file. These are not needed anymore and can be removed.
+
+Update your ``setup.cfg`` file. It should contain a ``packages`` entry
+in the ``files`` section:
 
 .. code-block:: ini
 
    [files]
    packages = ${MODULENAME}
-
-   [compile_catalog]
-   directory = ${MODULENAME}/locale
-   domain = ${MODULENAME}
-
-   [update_catalog]
-   domain = ${MODULENAME}
-   output_dir = ${MODULENAME}/locale
-   input_file = ${MODULENAME}/locale/${MODULENAME}.pot
-
-   [extract_messages]
-   keywords = _ gettext ngettext l_ lazy_gettext
-   mapping_file = babel.cfg
-   output_file = ${MODULENAME}/locale/${MODULENAME}.pot
 
 
 Replace ``${MODULENAME}`` with the name of your main module like
@@ -63,13 +55,6 @@ Replace ``${MODULENAME}`` with the name of your main module like
 .. code-block:: python
 
    _translators = oslo_i18n.TranslatorFactory(domain='${MODULENAME}')
-
-Create file ``babel.cfg`` with the following content:
-
-.. code-block:: ini
-
-   [python: **.py]
-
 
 Django Projects
 ---------------
