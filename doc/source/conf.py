@@ -36,9 +36,12 @@
 extensions = ['openstackdocstheme']
 
 # openstackdocstheme options
-repository_name = 'openstack/i18n'
-bug_project = 'openstack-i18n'
-bug_tag = 'doc'
+openstackdocs_repo_name = 'openstack/i18n'
+openstackdocs_pdf_link = True
+openstackdocs_bug_project = 'openstack-i18n'
+openstackdocs_bug_tag = 'doc'
+openstackdocs_auto_name = False
+openstackdocs_auto_version = False
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
@@ -98,7 +101,7 @@ exclude_patterns = []
 # show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # A list of ignored prefixes for module index sorting.
 # modindex_common_prefix = []
