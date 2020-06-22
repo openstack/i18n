@@ -136,9 +136,12 @@ including the following changes:
           templates:
             - translation-jobs-master-stable
 
-   If the repository is planned to have stable branch, use the
-   ``translation-jobs-master-stable`` template. Otherwise use
-   the ``translation-jobs-master-only`` template.
+   The translation team is translating stable branches only for GUI
+   projects, so for horizon and its plugins.
+
+   If the repository is a GUI project, use the
+   ``translation-jobs-master-stable`` template. Otherwise use the
+   ``translation-jobs-master-only`` template.
 
 When submitting the change to ``openstack/project-config`` for
 review, use the ``translation_setup`` topic so it receives the
