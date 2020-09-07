@@ -11,15 +11,16 @@
 # Sungjin Kang <gang.sungjin@gmail.com>, 2018. #zanata
 # Wonil Choi <wonil0522@gmail.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
+# Ian Y. Choi <ianyrchoi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: openstacki18n\n"
+"Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 07:32+0000\n"
+"POT-Creation-Date: 2020-07-16 14:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-07-23 09:14+0000\n"
+"PO-Revision-Date: 2020-09-06 04:05+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
@@ -54,6 +55,9 @@ msgstr "..."
 msgid "0"
 msgstr "0"
 
+msgid "1"
+msgstr "1"
+
 msgid "10"
 msgstr "10"
 
@@ -63,6 +67,9 @@ msgstr "1002"
 msgid "100222"
 msgstr "100222"
 
+msgid "10069"
+msgstr "10069"
+
 msgid "10092"
 msgstr "10092"
 
@@ -71,6 +78,9 @@ msgstr "10095"
 
 msgid "10101"
 msgstr "10101"
+
+msgid "10102"
+msgstr "10102"
 
 msgid "10128"
 msgstr "10128"
@@ -1561,6 +1571,13 @@ msgstr "언어팀 생성하기"
 msgid "Cross Project Liaisons"
 msgstr "크로스 프로젝트 연락 조직 (Liaison)"
 
+msgid ""
+"Currently, we do not support translations for OpenStack developer documents: "
+"http://docs.openstack.org/<project>"
+msgstr ""
+"현재, OpenStack 개발자 문서: http://docs.openstack.org/<project> 에 대한 번역"
+"을 지원하지 않습니다."
+
 msgid "Daily Work"
 msgstr "일상적인 작업"
 
@@ -2077,6 +2094,19 @@ msgstr ""
 "업데이트해야합니다. 언어 코디네이터에게 연락하여 i18n 메일링리스트에 이메일"
 "을 보내십시오. 패치를 제출하여 직접 목록을 업데이트 할 수도 있습니다 (자세한 "
 "내용은 :ref:`sync-translator-list` 참조)."
+
+msgid ""
+"If your request is pending for long days, you can reach to your language "
+"coordinator through Zanata, to `I18n people <https://wiki.openstack.org/wiki/"
+"I18nTeam#People>`_ through `IRC <https://docs.openstack.org/i18n/latest/"
+"#openstack-i18n-team>`_ , or to `I18n PTL <https://governance.openstack.org/"
+"tc/reference/projects/i18n.html>`_ directly."
+msgstr ""
+"요청이 오랜 시간동안 처리되지 않는 경우, Zanata를 통한 언어 코디네이터, "
+"`I18n people <https://wiki.openstack.org/wiki/I18nTeam#People>`_ 에게 (`IRC "
+"<https://docs.openstack.org/i18n/latest/#openstack-i18n-team>`_  를 통해), 또"
+"는 직접 `I18n PTL <https://governance.openstack.org/tc/reference/projects/"
+"i18n.html>`_ 에게 직접 문의할 수 있습니다."
 
 msgid "Import latest translations"
 msgstr "최신 번역 가져오기"
@@ -2660,6 +2690,19 @@ msgstr "DevStack 실행하기"
 
 msgid "Running OpenStack-Ansible"
 msgstr "OpenStack-Ansible 실행하기"
+
+msgid ""
+"Schedules and rules for the team meeting are described in chapter :doc:"
+"`i18n_team_meeting` PTL is chairing the meeting or determines someone to "
+"takeover. He (the PTL) also has to check if the meeting time suits most "
+"people. Configuration of chair and time is done by `irc-meeting repo "
+"<https://opendev.org/opendev/irc-meetings>`__."
+msgstr ""
+"팀 미팅에 대한 일정 및 규칙은 :doc:`i18n_team_meeting` 에 설명되어 있습니다. "
+"PTL은 미팅을 진행하거나 다른 사람에게 권한을 위임하도록 부탁합니다. PTL은 미"
+"팅 시간대가 대부분의 사람에게 적절한지를 확인해야 합니다. 진행자 및 시간대에 "
+"대한 구성은 `irc-meeting 저장소 <https://opendev.org/opendev/irc-"
+"meetings>`__ 에서 이루어집니다."
 
 msgid "Search in this guide"
 msgstr "가이드 내 검색"
@@ -3608,6 +3651,13 @@ msgid "You can report a bug in your language (or English)."
 msgstr "사용하는 언어 (또는 영어)로 버그를 신고할 수 있습니다."
 
 msgid ""
+"You can see detail member-level statistics data on `HTML version of the page "
+"<https://docs.openstack.org/i18n/latest/atc-stats.html>`_."
+msgstr ""
+"자세한 구성원에 대한 통계 데이터를 `HTML version of the page <https://docs."
+"openstack.org/i18n/latest/atc-stats.html>`_ 에서 확인하실 수 있습니다."
+
+msgid ""
 "You can set the components of your AIO installation in ``tests/vars/"
 "bootstrap-aio-vars.yml``. Dependly on your environment the installation "
 "takes 1-2 hours. For more details on the AIO configuration, please see `OSA "
@@ -3909,6 +3959,13 @@ msgid ""
 "`openstack-i18n in Launchpad <https://bugs.launchpad.net/openstack-i18n>`_"
 msgstr ""
 "`openstack-i18n in Launchpad <https://bugs.launchpad.net/openstack-i18n>`_"
+
+msgid ""
+"`releasenotes/run.yaml <https://opendev.org/openstack/project-config/src/"
+"playbooks/releasenotes/run.yaml>`__"
+msgstr ""
+"`releasenotes/run.yaml <https://opendev.org/openstack/project-config/src/"
+"playbooks/releasenotes/run.yaml>`__"
 
 msgid "add the source project to \"Also affects project\" of this bug."
 msgstr "소스 프로젝트를 해당 버그 내 \"Also affects project\" 에 추가합니다."
