@@ -77,6 +77,11 @@ repository.
 
   * Carries out the second Zuul job (Syncing into repos) by executing
     `propose_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/propose_translation_update.sh>`__
+  * This job renames Chinese locales in Zanata (``zh-cn`` and ``zh-tw``)
+    to ``zh-hans`` and ``zh-hant`` for horizon related projects.
+    For other projects and documentations (including docs in horizon related
+    projects), ``zh-cn`` and ``zh-tw`` are used as-is.
+    For more details, see :ref:`handling_horizon_projects`.
 
 * `common_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/roles/prepare-zanata-client/files/common_translation_update.sh>`__
 

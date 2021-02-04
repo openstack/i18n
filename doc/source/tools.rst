@@ -208,10 +208,79 @@ you need to compile message catalogs and also need to configure
 your server services following instructions described at
 `oslo.i18n documentation <https://docs.openstack.org/oslo.i18n/latest/user/usage.html#displaying-translated-messages>`__.
 
+.. _handling_horizon_projects:
+
 Handling horizon projects
 -------------------------
 
-(Some contribution would be appreciated.)
+For horizon related projects, Django, a framework which horizon is built on,
+provides integrated translation support.
+
+.. note::
+
+   Unlike documentations and python projects, horizon and plugins use
+   ``zh-hans`` and ``zh-hant`` for Chinese locales instead of ``zh-cn`` and
+   ``zh-tw`` respectively since Wallaby release. This follows the Django
+   recommendation which happened in `Django 1.7
+   <https://www.djbook.ru/rel1.7/releases/1.7.html#language-codes-zh-cn-zh-tw-and-fy-nl>`__.
+   The details are found in `the mailing list post
+   <http://lists.openstack.org/pipermail/openstack-discuss/2021-February/020169.html>`__.
+
+Extracting
+~~~~~~~~~~
+
+horizon provides a command to extract the messages in code to PO template
+(POT). Run the following command in your repository.
+
+.. code-block:: console
+
+   $ python manage.py extract_messages -m ${MODULE_NAME}
+
+where **MODULE_NAME** is a python module name of horizon or its plugin.
+
+For example, in case of manila-ui,
+
+.. code-block:: console
+
+   $ python manage.py extract_messages -m manila_ui
+
+The above command is a wrapper for pybabel and the translation job
+uses pybabel directly.
+
+Uploading
+~~~~~~~~~
+
+For each horizon related project in OpenStack, there is an automation job to
+extract the messages , generate PO template and upload to Zanata, which is
+triggered by the "commit" event. See :doc:`here <infra>`.
+
+Downloading
+~~~~~~~~~~~
+
+For each horizon related project in OpenStack, there is an automation job daily
+to download the translations in PO file to the "locale" folder under the source
+folder of each project. See :doc:`here <infra>`. It will generate a review
+request in Gerrit. After :doc:`review <reviewing-translation-import>`,
+the translation in PO file will be merged.
+
+.. note::
+
+   As noted above, in Wallaby or later releases, ``zh-hans`` and ``zh-hant``
+   are used for Chinese locales. On the other hand, ``zh-cn`` and ``zh-tw``
+   continues to be used in Zanata. When the job downloads translations from
+   Zanata, the job stores translations for ``zh-cn`` and ``zh-tw`` to
+   ``zh-hans`` and ``zh-hant`` directories under ``locale``.
+
+Using translations
+~~~~~~~~~~~~~~~~~~
+
+To display translated messages in OpenStack dashboard, you need to compile
+message catalogs. Django picks up translated messages automatically once they
+are compiled. The following command compiles messages in your project.
+
+.. code-block:: console
+
+   $ python manage.py compilemessages
 
 .. _project-maintenance:
 
