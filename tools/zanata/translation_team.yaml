@@ -9,6 +9,7 @@ Ro:
     - cira
     translators:
     - cira
+    - uhlservices
 Th:
     coordinators:
     - sawangpong
@@ -28,6 +29,7 @@ ar:
     - linkid
     - majed_alangari
     - mzubair
+    - s_almuqwishi
     - synax
     - welabbar
     - yasir
@@ -40,10 +42,17 @@ bg-BG:
     translators:
     - gomarivera
 bn-IN:
-    coordinators: []
+    coordinators:
+    - ahmasum
+    - mobarak_hossain_1
+    - mohib
     language: Bengali (India)
-    reviewers: []
+    reviewers:
+    - ahmasum
+    - mobarak_hossain_1
+    - mohib
     translators:
+    - ahmasum
     - mobarak_hossain_1
     - mohib
 brx:
@@ -84,12 +93,10 @@ cs:
 de:
     coordinators:
     - jaegerandi
-    - rsimai
     language: German
     reviewers:
     - eumel8
     - jaegerandi
-    - rsimai
     - senk
     translators:
     - alexanderloew2
@@ -98,7 +105,6 @@ de:
     - eumel8
     - jaegerandi
     - r6t
-    - rsimai
     - senk
     - spielkind
 el:
@@ -169,6 +175,7 @@ es:
     - travisn
     - zeusal
     translators:
+    - adrianmejia2019
     - aesantos
     - albertomolina
     - camunoz
@@ -211,6 +218,8 @@ es-MX:
     - heleno_jimenez
     - sergioerazo
     translators:
+    - adrianmejia2019
+    - alsotoes
     - heleno_jimenez
     - jmont
     - scuellarv
@@ -223,6 +232,7 @@ fa:
     reviewers:
     - kia441
     translators:
+    - hamid
     - kia441
 fi-FI:
     coordinators:
@@ -299,6 +309,7 @@ fr:
     - liced
     - linkid
     - lnic
+    - madko77
     - makowals
     - mmarin
     - nikoul
@@ -309,9 +320,11 @@ fr:
     - paulgonin
     - plarivee
     - romainsc
+    - sbauza
     - sboyron
     - seveillard
     - shadaiali
+    - silopolis
     - sitle
     - sylvie_chesneau
     - tjcocozz
@@ -459,6 +472,12 @@ ja:
     - yukinori_yagisawa
     - yusuke1219
     - yuta_hono
+ka-GE:
+    coordinators: []
+    language: Georgian (Georgia)
+    reviewers: []
+    translators:
+    - norwayfun
 kn:
     coordinators:
     - kingkhan
@@ -471,6 +490,7 @@ kn:
     - sharathrao
 ko-KR:
     coordinators:
+    - nexusz99
     - ujuc
     language: Korean (South Korea)
     reviewers:
@@ -478,6 +498,7 @@ ko-KR:
     - ianychoi
     - jsshin
     - kiseok7
+    - nexusz99
     - ujuc
     - vi01et
     - wonil22
@@ -489,45 +510,89 @@ ko-KR:
     - celinakim
     - chanwan
     - chasetherabbit
+    - choikyungyong
     - csucom
     - dlwldjs7544
+    - dnjg
+    - doas
+    - dolgogae
+    - epicarts
     - eukim
+    - fullop
     - garynoh1
+    - gkdud4797111
+    - gochist
+    - haei
+    - hanjoo96
     - heetaeahn
     - hongjae_kim
+    - hyunji
     - ianychoi
+    - isryu
     - jaeho93
+    - jaeseongshin
     - jaewook_oh
+    - jaeyonglee
+    - jake_chae
     - james_kim
+    - janghoosa
     - jc01rho
+    - jianlee
+    - jihoju
+    - jihyun_huh
+    - jinseok_kim
     - jinux123
     - jitaejang
+    - jiwonyun
+    - jkj1
     - johjuhyun
+    - jongseong_woo
     - jongsoo_ha
     - jongwooh
     - jsshin
     - junheon
+    - keonwoo_lee
     - kiseok7
     - lee_dogeon
     - lee_seungwoo
+    - lilac94
+    - lsmman07
     - michaelko
     - minwookshin
+    - msdbtjd123
     - nagyeong
+    - nange
+    - nayeonk
     - nexusz99
     - norop00
+    - nykim
     - openstack
+    - revival0n
+    - sanghoolee
     - sangkyukang
     - seeung_kang
+    - seongho
     - seongu
+    - seung_tae_kim
     - seungkyu
+    - silica_jung
+    - sion
+    - sions
+    - sjbaek
+    - sunnyleeee
     - taegyunum
+    - taeseop
     - ts5516
     - ujuc
+    - umi0410
     - vi01et
+    - waroad1
     - wonil22
     - woobee
     - yeonjunkim
+    - yeunjeong
     - younggwangkim
+    - yyund
     - ziwon
 lo:
     coordinators:
@@ -596,7 +661,6 @@ pt:
     - nokostya
 pt-BR:
     coordinators:
-    - gabrielcw
     - marcelodieder
     language: Portuguese (Brazil)
     reviewers:
@@ -615,6 +679,7 @@ pt-BR:
     - andre_santiago
     - andrecampos
     - bfsouza
+    - bhernardoviana
     - chicocvenancio
     - d13
     - delesderrier
@@ -622,6 +687,7 @@ pt-BR:
     - dritec
     - dsantos
     - ebrandi
+    - eduardo_vasconcelos
     - ericbaum
     - fcpimenta
     - franciosi
@@ -642,6 +708,7 @@ pt-BR:
     - mariaandrada
     - marquesc
     - melotto
+    - morgany_nnumbers
     - mrbits
     - nokostya
     - northward
@@ -660,9 +727,11 @@ pt-BR:
     - tenoriomarcus
     - tpdueg
     - vintbra
+    - wadsoncanevazzi
     - weyderfs
     - williandrade
     - willielima
+    - yagoasl
     - yuri_neves
 ru:
     coordinators:
@@ -687,6 +756,7 @@ ru:
     - adiantum
     - aleksey
     - amikhalev
+    - anatoliy_kochergin
     - anikitenkov
     - antoniok
     - apapsujko
@@ -712,6 +782,7 @@ ru:
     - sfilatov
     - shakhat
     - svitl0
+    - tgt
     - thomas_vysokos
     - v12aml
     - valentin
@@ -769,6 +840,7 @@ vi-VN:
     - dangtrinhnt
     - kiennt26
     - kiennt2609
+    - nguyennam
     - nguyentrihai
     - phamngocsonls
     - thuyhien
@@ -801,6 +873,7 @@ zh-CN:
     - 979zhang
     - actionchen
     - aeng
+    - alex
     - angel
     - bakbad2015
     - benjenwong
@@ -812,6 +885,7 @@ zh-CN:
     - changhuiyuan
     - chenli
     - chenyingkof
+    - clydewright
     - coffee
     - cuixiaoyu
     - daisyycguo
@@ -819,6 +893,7 @@ zh-CN:
     - dliu
     - domine
     - e010
+    - eric_xiett
     - fanzhang
     - fifieldt
     - fionahuang
@@ -831,12 +906,15 @@ zh-CN:
     - guochunting
     - guoshan
     - h3c_wuhan
+    - hanguangyu99
+    - hollis
     - horace
     - hutao
     - huyupeng
     - indicolite
     - irina
     - javeme
+    - jeffyang
     - jelanliu
     - jenner
     - jiangyikun
@@ -845,6 +923,7 @@ zh-CN:
     - lapalm
     - lawrence
     - leiyahsuai
+    - liang
     - lichunhan
     - lihongweibj
     - likun
@@ -866,6 +945,8 @@ zh-CN:
     - mimisheep
     - neteric
     - openstackhc
+    - paulyan
+    - pedh
     - petro
     - pollyz
     - qiaiyuan
@@ -881,13 +962,16 @@ zh-CN:
     - tianzhong
     - tigerfang
     - topicblue
+    - unitedstack
     - vuuv
     - wangfang
+    - wanglei
     - woshishui419
     - wuyongpeng
     - xhkjoe
     - xiangbinbin
     - xiangqiao
+    - xingzhang
     - xuyang
     - xywang
     - yagehu
@@ -899,6 +983,7 @@ zh-CN:
     - yinguowei
     - yongjiexu
     - yongxiangwang
+    - ypc
     - yuzg
     - zenglulu
     - zhangdebo
