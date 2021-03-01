@@ -100,3 +100,8 @@ repository.
 
 Note that the scripts in the tasks use `zanata-cli <http://docs.zanata.org/en/release/client/>`__
 to pull and push translation content.
+
+Debugging job scripts
+---------------------
+
+See :doc:`infra-debug`.
