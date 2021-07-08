@@ -50,8 +50,8 @@ IRC web client
 --------------
 
 If you are not familiar with IRC, please read `Contributor Guide <https://docs.openstack.org/contributors/common/communication.html#irc>`_.
-You can simply use the web client for Freenode to come to `#openstack-i18n
-channel <http://webchat.freenode.net/?channels=openstack-i18n>`_.
+You can simply use the web client for OFTC to come to `#openstack-i18n
+channel <http://webchat.oftc.net/?channels=openstack-i18n>`_.
 
 IRC meeting commands
 --------------------

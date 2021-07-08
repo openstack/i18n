@@ -61,7 +61,7 @@ OpenStack I18n team
 
 * Mailing List: `openstack-i18n@lists.openstack.org
   <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`_
-* IRC channel: ``#openstack-i18n`` on freenode
+* IRC channel: ``#openstack-i18n`` on OFTC
 * :doc:`IRC meeting <i18n_team_meeting>`
 
 .. only:: html

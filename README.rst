@@ -30,7 +30,7 @@ Mailing List
   We use openstack-i18n@lists.openstack.org as the mailing list.
 
 IRC
-  We all hang out on #openstack-i18n IRC channel on freenode.
+  We all hang out on #openstack-i18n IRC channel on OFTC.
 
 Team Meeting
   We have a bi-weekly `meeting`_ on Thursdays at alternating times.
