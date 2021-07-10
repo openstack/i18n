@@ -2,3 +2,6 @@
 # see https://docs.openstack.org/infra/bindep/ for additional information.
 
 gettext
+
+# PDF Docs package dependencies
+tex-gyre [platform:dpkg doc]
