@@ -74,22 +74,9 @@ class ZanataUtility(object):
     def _is_valid_version(version):
         return bool(ZANATA_VERSION_PATTERN.match(version))
 
-    def get_project_versions(self, project_id):
-        uri = ZANATA_URI % ('projects/p/%s' % project_id)
-        LOG.debug("Reading iterations for project %s" % project_id)
-        project_data = self.read_json_from_uri(uri)
-        if 'iterations' in project_data:
-            return [interation_data['id']
-                    for interation_data in project_data['iterations']
-                    if self._is_valid_version(interation_data['id'])]
-        else:
-            return []
-
-    def get_user_stats(self, project_id, iteration_id, zanata_user_id,
-                       start_date, end_date):
-        uri = ZANATA_URI % ('stats/project/%s/version/%s/contributor/%s/%s..%s'
-                            % (project_id, iteration_id, zanata_user_id,
-                               start_date, end_date))
+    def get_user_stats(self, zanata_user_id, start_date, end_date):
+        uri = ZANATA_URI % ('stats/user/%s/%s..%s'
+                            % (zanata_user_id, start_date, end_date))
         return self.read_json_from_uri(uri)
 
 
@@ -128,9 +115,9 @@ class LanguageTeam(object):
 
 class User(object):
 
-    trans_fields = ['total', 'translated', 'needReview',
-                    'approved', 'rejected']
-    review_fields = ['total', 'approved', 'rejected']
+    trans_fields = ['total', 'Translated', 'NeedReview',
+                    'Approved', 'Rejected']
+    review_fields = ['total', 'Approved', 'Rejected']
 
     def __init__(self, user_id, language_code):
         self.user_id = user_id
@@ -151,40 +138,55 @@ class User(object):
         else:
             return self.user_id < other.user_id
 
-    def read_from_zanata_stats(self, zanata_stats, project_id, version):
-        # data format (Zanata 3.9.6)
-        # {
-        #     "username": "amotoki",
-        #     "contributions": [
-        #         {
-        #             "locale": "ja",
-        #             "translation-stats": {
-        #                 "translated": 7360,
-        #                 "needReview": 0,
-        #                 "approved": 152,
-        #                 "rejected": 0
-        #             },
-        #             "review-stats": {
-        #                 "approved": 220,
-        #                 "rejected": 0
-        #             }
-        #         }
-        #     ]
-        # }
-        stats = [d for d in zanata_stats['contributions']
-                 if d['locale'] == self.lang]
-        if not stats:
-            return
+    def read_from_zanata_stats(self, zanata_stats, project_list, version_list):
+        # data format (Zanata 4.3.3)
+        # [
+        #     {
+        #         "savedDate": "2020-09-06",
+        #         "projectSlug": "i18n",
+        #         "projectName": "i18n",
+        #         "versionSlug": "master",
+        #         "localeId": "ko-KR",
+        #         "localeDisplayName": "Korean (South Korea)",
+        #         "savedState": "Translated",
+        #         "wordCount": 119
+        #     }
+        # ]
+        for zanata_stat in zanata_stats:
 
-        stats = stats[0]
-        trans_stats = stats.get('translation-stats', {})
-        if trans_stats:
-            trans_stats['total'] = sum(trans_stats.values())
-        review_stats = stats.get('review-stats', {})
-        if review_stats:
-            review_stats['total'] = sum(review_stats.values())
-        self.stats[project_id][version] = {'translation-stats': trans_stats,
-                                           'review-stats': review_stats}
+            project_id = zanata_stat['projectSlug']
+            version = zanata_stat['versionSlug']
+            lang = zanata_stat['localeId']
+            stat_state = zanata_stat['savedState']
+            word_count = zanata_stat['wordCount']
+
+            if project_list and project_id not in project_list:
+                continue
+
+            if version_list and version not in version_list:
+                continue
+
+            if self.lang != lang:
+                continue
+
+            my_project = self.stats[project_id]
+
+            if version not in my_project:
+                my_project[version] = {
+                    'translation-stats': collections.defaultdict(int),
+                    'review-stats': collections.defaultdict(int),
+                }
+            my_version = my_project[version]
+
+            if stat_state in self.trans_fields:
+                my_trans_stats = my_version['translation-stats']
+                my_trans_stats[stat_state] += word_count
+                my_trans_stats['total'] += word_count
+
+            if stat_state in self.review_fields:
+                my_review_stats = my_version['review-stats']
+                my_review_stats[stat_state] += word_count
+                my_review_stats['total'] += word_count
 
     def populate_total_stats(self):
 
@@ -269,24 +271,16 @@ def get_zanata_stats(start_date, end_date, language_teams, project_list,
 
     if not project_list:
         project_list = zanataUtil.get_projects()
-    for project_id in project_list:
-        for version in zanataUtil.get_project_versions(project_id):
-            if version_list and version not in version_list:
-                continue
-            for user in users:
-                if user_list and user.user_id not in user_list:
-                    continue
-                LOG.info('Getting %(project_id)s %(version)s '
-                         'for user %(user_id)s %(user_lang)s',
-                         {'project_id': project_id,
-                          'version': version,
-                          'user_id': user.user_id,
-                          'user_lang': user.lang})
-                data = zanataUtil.get_user_stats(
-                    project_id, version, user.user_id, start_date, end_date)
-                LOG.debug('Got: %s', data)
-                user.read_from_zanata_stats(data, project_id, version)
-                LOG.debug('=> %s', user)
+    for user in users:
+        if user_list and user.user_id not in user_list:
+            continue
+        LOG.info('Getting for user %(user_id)s %(user_lang)s',
+                 {'user_id': user.user_id, 'user_lang': user.lang})
+        data = zanataUtil.get_user_stats(
+            user.user_id, start_date, end_date)
+        LOG.debug('Got: %s', data)
+        user.read_from_zanata_stats(data, project_list, version_list)
+        LOG.debug('=> %s', user)
 
     return users
 
