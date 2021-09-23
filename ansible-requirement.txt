@@ -6,7 +6,7 @@
 # target configuration in each role.
 
 # The Ansible version used for testing
-ansible==2.3.0.0
+ansible==4.2.0
 
 # The Ansible lint version used for lint tests
 ansible-lint==3.4.18
