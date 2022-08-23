@@ -5,9 +5,9 @@
 # Robert Simai <robert.simai@suse.com>, 2019. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: openstacki18n\n"
+"Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-11 07:32+0000\n"
+"POT-Creation-Date: 2022-07-28 16:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,9 +17,6 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
-msgid "(Some contribution would be appreciated.)"
-msgstr "(Ein Beitrag würde geschätzt werden)"
 
 msgid "(optional) Put your language name as bug tag."
 msgstr "(optional) Geben Sie Ihre Sprache als Bug-Tag an."
@@ -1272,9 +1269,6 @@ msgstr ""
 "Forum (umbenannt vom Design-Gipfel). Der aktuelle Übersetzungsplan und die "
 "Prioritäten finden Sie unter `translation dashboard <https://translate."
 "openstack.org/>` _."
-
-msgid "IRC channel: ``#openstack-i18n`` on freenode"
-msgstr "IRC Kanal: ``#openstack-i18n`` auf freenode"
 
 msgid "IRC meeting commands"
 msgstr "IRC Meeting-Kommandos"

@@ -12,23 +12,21 @@
 # Wonil Choi <wonil0522@gmail.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2020. #zanata
+# Yoon Soo Lim <msdbtjd123@naver.com>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-16 14:28+0000\n"
+"POT-Creation-Date: 2022-07-28 16:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-06 04:05+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2022-08-22 11:46+0000\n"
+"Last-Translator: Yoon Soo Lim <msdbtjd123@naver.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-
-msgid "(Some contribution would be appreciated.)"
-msgstr "(일부 내용을 기여해 주시면 감사하겠습니다.)"
 
 msgid "(optional) Put your language name as bug tag."
 msgstr "(선택) 언어명을 버그 태그에 넣습니다."
@@ -347,7 +345,7 @@ msgid "18845"
 msgstr "18845"
 
 msgid "189"
-msgstr "189"
+msgstr "18"
 
 msgid "1902"
 msgstr "1902"
@@ -1909,9 +1907,6 @@ msgstr ""
 "Summit에서 이름이 변경됨) 근처 시기에 정합니다. 현재 번역 계획 및 우선 순위"
 "는 `번역 대시보드 <https://translate.openstack.org/>`_ 에서 확인 가능합니다."
 
-msgid "IRC channel: ``#openstack-i18n`` on freenode"
-msgstr "IRC 채널: freenode 내 ``#openstack-i18n``"
-
 msgid "IRC meeting commands"
 msgstr "IRC 미팅 명령어"
 
@@ -1959,17 +1954,6 @@ msgid ""
 msgstr ""
 "런치 패드 및 Zanata ID에 동일한 이름을 사용하는 것이 운이 좋다면 위와 같은 작"
 "업을 수행 할 필요가 없습니다. Stackalytics는 자동으로 통계를 찾습니다."
-
-msgid ""
-"If you are not familiar with IRC, please read `Contributor Guide <https://"
-"docs.openstack.org/contributors/common/communication.html#irc>`_. You can "
-"simply use the web client for Freenode to come to `#openstack-i18n channel "
-"<http://webchat.freenode.net/?channels=openstack-i18n>`_."
-msgstr ""
-"아직 IRC에 익숙하지 않다면 `Contributor Guide <https://docs.openstack.org/"
-"contributors/common/communication.html#irc>`_ 를 읽어 보십시오. 간단하게는 "
-"Freenode에 대한 웹 클라이언트를 사용하여 `#openstack-i18n channel <http://"
-"webchat.freenode.net/?channels=openstack-i18n>`_ 에 들어올 수 있습니다."
 
 msgid "If you are reviewing these translations, keep the following in mind:"
 msgstr "해당 번역을 리뷰하고자 하는 경우, 다음 사항을 명심합니다:"
