@@ -22,10 +22,10 @@ set -xe
 # This script assumes that the script locates in /tools,
 # and project documentation sources are in /doc/source directory.
 
-DIRECTORY=doc
-
 # Exclude atc-stats/data/*.csv from POT file
+TARGET=doc/build/gettext/atc-stats.pot
+msgfmt --statistics -o /dev/null ${TARGET}
 TMPFILE=`mktemp -u`
-msggrep -v -N "doc/source/data/*.csv" \
-     ${DIRECTORY}/build/gettext/atc-stats.pot > $TMPFILE
-mv -f $TMPFILE ${DIRECTORY}/build/gettext/atc-stats.pot
+msggrep -v -N "../../source/data/*.csv" ${TARGET} > $TMPFILE
+mv -f $TMPFILE ${TARGET}
+msgfmt --statistics -o /dev/null ${TARGET}
