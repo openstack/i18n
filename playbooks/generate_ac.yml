@@ -1,31 +1,31 @@
 ---
-# Ansible playbook to generate extra-atc snippets for projects.yaml in
+# Ansible playbook to generate extra-ac snippets for sigs-repos.yaml in
 # governance repo.
 # Requires 3 source files
 # - userstatsfile: generated output from zanata_stats.py
 #                  (default: zanata_stats_output.csv)
 # - userinfofile: generated output from zanata_userinfo.py
 #                  (default: zanata_userinfo_output.csv)
-# - the current projects.yaml file from governance repo
-#   https://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml
+# - the current sig-repos.yaml file from governance repo
+#   https://opendev.org/openstack/governance/raw/branch/master/reference/sigs-repos.yaml
 #
 # minimum translation count is to configure (default 300 words/30
 # phrases)
 #
-# Old extra-atc list will be reviewed and refreshed with new data
+# Old extra-ac list will be reviewed and refreshed with new data
 #
-# usage: ansible-playbook generate_atc.yml
+# usage: ansible-playbook generate_ac.yml
 #
-# The output can be found in /tmp/atc.stats
+# The output can be found in /tmp/ac.stats
 #
-# The full workflow is described in https://wiki.openstack.org/wiki/I18n_Extra-ATC_collection
+# The full workflow is described in https://wiki.openstack.org/wiki/I18n_Extra-AC_collection
 - hosts: localhost
   gather_facts: "no"
   vars:
     userstatsfile: "vars/zanata_stats_output.csv"
     userinfofile: "vars/zanata_userinfo_output.csv"
     translatecount: 300
-    workingdir: "/tmp/atc.output"
+    workingdir: "/tmp/ac.output"
 
   tasks:
     - name: create working dir
@@ -35,16 +35,16 @@
 
     - name: fetch projects list
       get_url:
-        url: https://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml
+        url: https://opendev.org/openstack/governance/raw/branch/master/reference/sigs-repos.yaml
         dest: vars/
         force: True
 
-    - name: include projects.yaml var
-      include_vars: vars/projects.yaml
+    - name: include sigs-repos.yaml var
+      include_vars: vars/sigs-repos.yaml
 
-    - name: read old atc list
+    - name: read old ac list
       vars:
-        extraatcs: "{{ I18n['extra-atcs'] }}"
+        extraacs: "{{ i18n[0]['extra-acs'] }}"
         useremail: "{{ item.email }}"
         username: "{{ item.name }}"
         usercomment: "{{ item.comment }}"
@@ -53,11 +53,11 @@
         udateuser: "{{lookup('pipe','LANG=en date -d \"' + expiredate + '\" \"+%s\"')}}"
         udatecur: "{{lookup('pipe','LANG=en date -d \"+1 month\" \"+%s\"') }}"
       template:
-        src: atc.json.j2
+        src: ac.json.j2
         dest: "{{ workingdir }}/user.{{ usercomment.split(' ')[0] }}"
       when: udateuser|int > udatecur|int
       with_items:
-        - "{{ extraatcs }}"
+        - "{{ extraacs }}"
 
     - name: read user stats
       vars:
@@ -68,7 +68,7 @@
         usercomment: "{{ userdata[0] }} ({{ userlang }})"
         userexpires: "{{lookup('pipe','LANG=en date \"+%B %Y\" -d \"+1 year\"')}}"
       template:
-        src: atc.json.j2
+        src: ac.json.j2
         dest: "{{ workingdir }}/user.{{ userdata[0] }}"
         force: "yes"
       with_lines: cat "{{ userstatsfile }}"
@@ -98,10 +98,10 @@
       with_items: "{{ api|json_query('results[].{ item: item, userdata: json.data[].{email_verified: email_verified, groups: groups[?id==`5`].code|[0]}}') }}"
 
     - name: create stats file proposal
-      shell: cat "{{ workingdir }}"/user.* > /tmp/atc.stats
+      shell: cat "{{ workingdir }}"/user.* > /tmp/ac.stats
 
     - name: create stats file wiki
-      shell: cat "{{ workingdir }}"/stats.* > /tmp/atc.wiki
+      shell: cat "{{ workingdir }}"/stats.* > /tmp/ac.wiki
 
     - name: delete working dir
       file:
