@@ -16,19 +16,23 @@ with a release schedule.
 .. note::
 
     I18n team sets target projects to be translated and prioritizes
-    during around the Forum (renamed from the Design Summit).
+    during around the `PTG <https://openinfra.dev/ptg/>`_.
     Current translation plan and priority are available on
     `translation dashboard <https://translate.openstack.org/>`_.
 
 .. note::
 
     The terms in this page follow release schedule pages.
+    You can see how OpenStack project teams product artifacts with release
+    management on `Release Management <https://docs.openstack.org/project-team-guide/release-management.html>`_
+    document.
 
 Projects affecting StringFreezes
 --------------------------------
 
 Horizon and Horizon plugins are the main targets which affect StringFreezes.
-Note that StringFreezes are applied to ``cycle-with-milestone`` release model.
+Note that StringFreezes are applied to I18n team target projects and with
+``cycle-with-rc`` or ``cycle-with-intermediary`` release model.
 
 #. [Project] Release milestone-3. ``Soft StringFreeze`` is in effect.
 #. [Translator] Start translations for the release.
@@ -43,38 +47,23 @@ Note that StringFreezes are applied to ``cycle-with-milestone`` release model.
 #. [Project] Release RC1 and create a stable branch.
    ``Hard StringFreeze`` is in effect.
 
-#. [Zanata admin] Create a stable version such as ``stable-newton``
-
-   * The stable version is created from the master version on Zanata once RC1
-     is cut and a stable branch is created in a git repository.
-   * Once a stable version corresponding to a project stable branch is created
-     on Zanata, the infra script will push strings automatically.
-
-#. [Translator] Translate **stable-XXXX** version instead of master version
-   on Zanata.
-
-   * At this stage, the master version on Zanata is still open for
-     translations, but it is strongly suggested to work on a stable version.
-
-#. [Infra] Setup translation jobs such as ``translation-jobs-newton``
-   to import translations for stable branches.
-
-   * This should be done after a stable version on Zanata is created.
-
 #. [Translator] It is suggested to complete translation work by Monday or
    Tuesday of the Final RC week.
+
+   * It is encouraged to share translation progress with I18n team and/or
+     corresponding project team(s) to make sure shipping the translation.
 
 #. [Project] RC2 or RC3 release will be shipped with latest translations.
    Final RC release will happen one week before the official release week.
 
 #. [Project] Official release!
 
-#. [Zanata admin] Merge a stable version back into the master version.
+#. [Zanata admin] Create a stable version after release.
 
-   * This usually happens within a week after the release.
-   * The stable version is well reviewed, so it makes sense to merge
-     translations into the master version on Zanata to avoid translating the
-     same strings again.
+#. [Infra] Setup translation jobs such as ``translation-jobs-newton``
+   to import translations for stable branches.
+
+   * This should be done after a stable version on Zanata is created.
 
 #. After the official release, translating master version is welcome
    for upstream translation contribution, but the original strings may be
