@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18n Contributor Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-18 03:09+0000\n"
+"POT-Creation-Date: 2023-09-19 08:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-09-18 05:12+0000\n"
+"PO-Revision-Date: 2023-09-23 10:25+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -146,13 +146,6 @@ msgstr ""
 "翻訳者として見て、報告されたバグが翻訳バグの範囲を超えるものだと分かった場"
 "合、メーリングリストや IRC チャンネルで I18n チームのメンバーに尋ねるとよいで"
 "しょう。彼らがそういったバグを処置してくれることでしょう。"
-
-msgid ""
-"At this stage, the master version on Zanata is still open for translations, "
-"but it is strongly suggested to work on a stable version."
-msgstr ""
-"この時点では、 Zanata の master バージョンも翻訳できますが、 stable バージョ"
-"ンを対象に翻訳することを強く推奨します。"
 
 msgid ""
 "Before you start contribution, you'll have to `agree to the contributor "
@@ -374,7 +367,7 @@ msgid "IRC meeting commands"
 msgstr "IRC ミーティングのコマンド"
 
 msgid "IRC web client"
-msgstr "Web版IRC client"
+msgstr "Web 版 IRC client"
 
 msgid ""
 "If a bug reports translation errors of a certain language, it could be "
@@ -638,13 +631,6 @@ msgstr "Mitaka 開発サイクル"
 msgid "Monitoring translation jobs status"
 msgstr "翻訳関連のジョブの状況監視"
 
-msgid ""
-"Most teams have single approval for translation imports instead of two core "
-"reviewers."
-msgstr ""
-"ほとんどのプロジェクトでは、翻訳インポートについては、2 人ではなく 1 人のコア"
-"レビューアーによる承認を採用しています。"
-
 msgid "Newton cycle"
 msgstr "Newton 開発サイクル"
 
@@ -696,13 +682,6 @@ msgstr ""
 "一方、アップストリームの翻訳への貢献として stable バージョンを翻訳するのはお"
 "薦めしません。翻訳されたストリングはリリースとしてパッケージングされているか"
 "らです。 stable バージョンのクローズは EOL の前か同時期に行われます。"
-
-msgid ""
-"Once a stable version corresponding to a project stable branch is created on "
-"Zanata, the infra script will push strings automatically."
-msgstr ""
-"各プロジェクトの stable ブランチに対応する stable バージョンが Zanata に作成"
-"された後は、インフラスクリプトはストリングを自動的に Zanata に同期します。"
 
 msgid ""
 "Once your change is merged, the updated glossary will be uploaded to Zanata. "
@@ -823,9 +802,6 @@ msgstr "Pike 開発サイクル"
 msgid "Previous meetings"
 msgstr "過去のミーティング"
 
-msgid "Project Goals And Translation Plan"
-msgstr "プロジェクトの目標と翻訳計画"
-
 msgid "Project configuration"
 msgstr "プロジェクト設定"
 
@@ -843,9 +819,6 @@ msgstr "Queens 開発サイクル"
 
 msgid "Register a user ID in Zanata"
 msgstr "Zanata でユーザー ID を登録します"
-
-msgid "Release Management"
-msgstr "リリース管理"
 
 msgid ""
 "Replace ``$BRANCH`` with an appropriate branch such as ``master``, ``stable/"
@@ -865,9 +838,6 @@ msgstr "翻訳統計の取得"
 
 msgid "Reviewer"
 msgstr "レビューアー"
-
-msgid "Reviewing"
-msgstr "レビュー"
 
 msgid "Reviewing translation imports"
 msgstr "翻訳のインポートのレビュー"
@@ -913,9 +883,6 @@ msgstr "翻訳者リストの Zanata との同期"
 
 msgid "TBD"
 msgstr "TBD"
-
-msgid "Team activities with release"
-msgstr "リリース前後のチームの活動"
 
 msgid ""
 "The I18n team holds weekly Team Meetings on Thursdays at alternating times "
@@ -1005,22 +972,6 @@ msgstr ""
 "``local.conf`` に ``RECLONE=True`` を追加してください。こうすることで、 "
 "DevStack は horizon や他のプロジェクトの最新のコードを取得するようになりま"
 "す。"
-
-msgid ""
-"The stable version is created from the master version on Zanata once RC1 is "
-"cut and a stable branch is created in a git repository."
-msgstr ""
-"RC1 がリリースされ git リポジトリーに stable ブランチが作成されると、stable "
-"バージョンは master バージョンをもとに作成されます。"
-
-msgid ""
-"The stable version is well reviewed, so it makes sense to merge translations "
-"into the master version on Zanata to avoid translating the same strings "
-"again."
-msgstr ""
-"stable バージョンは十分にレビューされているので、 Zanata で stable バージョン"
-"の翻訳を master バージョンにマージするのは、同じストリングを再度翻訳するのを"
-"避けるためにも、理にかなっていると言えます。"
 
 msgid ""
 "The statistics are calculated using `a Python script <https://opendev.org/"
@@ -1136,9 +1087,6 @@ msgstr ""
 
 msgid "This should be done after a stable version on Zanata is created."
 msgstr "この作業は Zanata に stable バージョンが作成された後に行われます。"
-
-msgid "This usually happens within a week after the release."
-msgstr "通常、この作業はリリース後 1 週間を目処に行われます。"
 
 msgid "Titles"
 msgstr "見出し"
@@ -1444,20 +1392,6 @@ msgstr ""
 
 msgid "[Translator] Start translations for the release."
 msgstr "[翻訳者] そのリリース向けの翻訳を開始します。"
-
-msgid ""
-"[Translator] Translate **stable-XXXX** version instead of master version on "
-"Zanata."
-msgstr ""
-"[翻訳者] Zanata で master バージョンではなく **stable-XXXX** バージョンを対象"
-"に翻訳を行います。"
-
-msgid "[Zanata admin] Create a stable version such as ``stable-newton``"
-msgstr ""
-"[Zanata 管理者] ``stable-newton`` といった stable バージョンを作成します。"
-
-msgid "[Zanata admin] Merge a stable version back into the master version."
-msgstr "[Zanata 管理者] stable バージョンを master バージョンにマージします。"
 
 msgid "`Bug lists <https://bugs.launchpad.net/openstack-i18n>`_"
 msgstr "`バグの一覧 <https://bugs.launchpad.net/openstack-i18n>`_"
