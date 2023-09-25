@@ -11,27 +11,25 @@ finish following steps:
 
 1. Before you start contribution, you'll have to `agree
    to the contributor license agreement
-   <http://docs.openstack.org/infra/manual/developers.html#account-setup>`_.
-   (You can preview the full text of `the OpenStack Individual
+   <https://docs.openstack.org/contributors/common/setup-gerrit.html#individual-contributor-license-agreement>`_.
+   (You can preview the full text of the `OpenInfra Foundation Individual
    Contributor License Agreement
    <https://review.opendev.org/static/cla.html>`_ first if you want.)
 
    .. note::
 
       If you want to become a translator only, simply speaking,
-      you need to `join The OpenStack Foundation
-      <https://www.openstack.org/join/>`_
-      (select "Foundation Member") and
-      `sign the appropriate Individual Contributor License Agreement
-      <http://docs.openstack.org/infra/manual/developers.html#sign-the-appropriate-individual-contributor-license-agreement>`_.
+      you need to `join The OpenInfra Foundation - Individual
+      <https://openinfra.dev/join/>`_.
+      You can see more details at `Contributor Guide - Account Setup <https://docs.openstack.org/contributors/common/accounts.html>`_.
 
 2. Register a user ID in Zanata
 
    * Go to `Zanata server <https://translate.openstack.org/>`_
    * Click "Log in" button.
-   * If you don't have OpenStack ID,
-     `register one <https://www.openstack.org/join/register>`_.
-   * After you log in with OpenStack ID, you will be requested to fill in
+   * If you don't have OpenInfra ID (previously, OpenStack ID),
+     `register one <https://id.openinfra.dev/auth/register>`_.
+   * After you log in with OpenInfra ID, you will be requested to fill in
      your profile.
 
    .. note::
@@ -63,7 +61,7 @@ finish following steps:
       language coordinator through Zanata,
       to `I18n people <https://wiki.openstack.org/wiki/I18nTeam#People>`_
       through `IRC <https://docs.openstack.org/i18n/latest/#openstack-i18n-team>`_
-      , or to `I18n PTL <https://governance.openstack.org/tc/reference/projects/i18n.html>`_
+      , or to `I18n SIG Chair <https://governance.openstack.org/sigs/>`_
       directly.
 
 5. Now you can start your translation.
@@ -71,57 +69,56 @@ finish following steps:
    by contributing translations.
    You can find :doc:`various ways of contributions <contributing>`.
 
-.. _i18n-atc:
+.. _i18n-ac:
 
-ATC status in I18n project
---------------------------
+Active Contributor status in I18n project
+-----------------------------------------
 
-The I18n project is an official OpenStack project, so official translators
-who have contributed translations to
-`official OpenStack projects <https://governance.openstack.org/tc/reference/projects/index.html>`_
-in a specific period are regarded as "ATC" (Active Technical Contributor) and
-"APC" (Active Project Contributor) of the I18n project.
-APC can vote for the I18n PTL (Project Team Lead), and ATC
-can vote for OpenStack TC (Technical Committee).
-For more detail on ATC, APC and TC,
+The I18n team is one of official OpenStack SIGs (Special Interest Groups),
+so official translators who have contributed translations to the strings in
+code (e.g., Horizon) or documentations in official
+`OpenStack projects <https://governance.openstack.org/tc/reference/projects/index.html>`_
+or `OpenStack SIGs <https://governance.openstack.org/sigs/>`_ in a specific
+period are regarded as "AC" (Active Contributor) of the I18n SIG. AC can vote
+for OpenStack TC (Technical Committee). For more detail on AC and TC,
 see `OpenStack Technical Committee Charter
-<http://governance.openstack.org/reference/charter.html>`__.
+<http://governance.openstack.org/reference/charter.html>`_.
 
-As of now, ATC of official translators are treated as extra ATCs
+As of now, AC of official translators are treated as extra ACs
 as we have no way to collect statistics automatically now.
-The list of extra ATCs is maintained by the PTL and is usually updated
-short before the deadline of extra ATCs nomination in each release cycle.
-The deadline of extra ATCs nomination can be checked in the release
+The list of extra ACs is maintained by the PTL or SIG Chair and usually updated
+short before the deadline of extra ACs nomination in each release cycle.
+The deadline of extra ACs nomination can be checked in the release
 schedule page at http://releases.openstack.org/ (for example,
-http://releases.openstack.org/newton/schedule.html).
+http://releases.openstack.org/bobcat/schedule.html).
 
-Translators who translate and review 300 and more words combinedly
-in the last six months until the deadline of extra ATCs nomination are
-nominated as ATCs, and the ATC status of translators is valid for one year.
+Translators who translate and review at least 300 words combinedly
+in the last six months until the deadline of extra ACs nomination are
+nominated as ACs, and the AC status of translators is valid for one year.
 Translation count and review count can be added up.
-The detail period is determined by the PTL in each cycle.
-For Newton cycle, the six month period was from 2016-02-01 to 2016-07-31,
-and this ATC status will expire on July 2017 if there will be no
+The detail period is determined by the PTL or SIG Chair in each cycle.
+For Antelope cycle, the six month period was from 2022-10-05 to 2023-03-22,
+and this AC status will expire on March 2024 if there will be no
 additional translation contributions.
 
 .. note::
 
-   I18n PTL updates the list using Zanata API and translator list.
-   Detail statistics data is available :ref:`below <atc-stats>`.
+   I18n SIG Chair updates the list using Zanata API and translator list.
+   Detail statistics data is available :ref:`below <ac-stats>`.
 
-If you have a question, feel free to ask it to the PTL or the i18n list.
+If you have a question, feel free to ask it to the SIG Chair or the i18n list.
 
 Note that code or documentation contributors to openstack/i18n repository
-are acknowledged as ATC automatically in the same way as for most OpenStack
-projects.
+are acknowledged as AC automatically in the same way as for most OpenStack
+projects and/or SIGs.
 
-.. _atc-stats:
+.. _ac-stats:
 
-ATC members of I18n project
----------------------------
+AC members of I18n project
+--------------------------
 
-A list of all ATCs is available at
-http://governance.openstack.org/reference/projects/i18n.html#extra-atcs.
+A current list of all ACs is available at
+https://github.com/openstack/governance/blob/master/reference/sigs-repos.yaml.
 
 The statistics are calculated using
 `a Python script <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_stats.py>`__
@@ -130,6 +127,19 @@ powered by
 Translator list is maintained by
 `translation_team.yaml <https://opendev.org/openstack/i18n/src/tools/zanata/translation_team.yaml>`__
 stored in `openstack/i18n git repository <https://opendev.org/openstack/i18n>`__.
+
+ATC members of I18n project
+---------------------------
+
+Before the transition to I18n SIG, I18n team was formed as one of official
+OpenStack projects and the ATC list was maintained by proposing a patch to
+`projects.yaml on governance repository
+<https://github.com/openstack/governance/blob/master/reference/projects.yaml>`_.
+
+.. note::
+
+   On June 2021, ATC was renamed to AC.
+   More information is available at `one TC resolution <https://governance.openstack.org/tc/resolutions/20210602-atc-renamed-to-ac.html>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -140,6 +150,13 @@ stored in `openstack/i18n git repository <https://opendev.org/openstack/i18n>`__
 
 AUC status in I18n project
 --------------------------
+
+.. note::
+
+   As User Committee no longer operated from August 1, 2020, I18n team now
+   does not look up AUC status. See `OpenStack User Committee
+   Charter <https://governance.openstack.org/tc/reference/user-committee-charter.html>`_
+   for more information.
 
 As OpenStack evolved, Active User Contributor (AUC) recognition process was
 introduced by the `OpenStack User Committee (UC) <https://governance.openstack.org/uc/>`_.
@@ -154,11 +171,5 @@ but strongly encouraged to translate for better OpenStack world,
 and translators who translated those projects are recognized as AUCs.
 
 As of now, similar as ATCs, there is no way to collect statistics automatically.
-The list of AUCs is calculated by the PTL and is usually updated
+The list of AUCs was calculated by the PTL and is usually updated
 by communication with UC.
-
-Translators who translate and review 300 and more words combinedly
-in the last six months until the deadline of AUC nomination are
-nominated as AUCs, and translation count and review count can be added up.
-The detail period is determined by the PTL in each cycle.
-For Train cycle, the six month period was from 2019-01-26 to 2019-07-25.
