@@ -1,35 +1,29 @@
-==============
-I18n PTL Guide
-==============
+====================
+I18n SIG Chair Guide
+====================
 
-As an official project, the responsibility of the I18n PTL is generally
-subject to the `Project Team Guide <https://docs.openstack.org/project-team-guide/ptl.html>`__.
-This chapter describes tasks for I18n PTL and gives some useful hints.
-If you want to be I18n PTL or you new in this role, please read carefully.
-For all other is this chapter informal.
+This chapter describes tasks for I18n SIG Chair and gives some useful hints.
+If you want to be I18n SIG Chair or you new in this role, please read
+carefully. For all other is this chapter informal.
 
-Election
---------
+.. note::
 
-PTLs are elected by ATCs for each cycle. Please read
-`Governance Election Page <https://governance.openstack.org/election/>`__.
-Time and rules are announced there and on `OpenStack Discuss
-Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`__.
-Your candidacy is highly encouraged to share via there and on
-`OpenStack I18n Mailing List <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`__
-. The proposal must be submitted to election repository (e.g.
-`https://review.opendev.org/#/c/425775/ <https://review.opendev.org/#/c/425775/>`__).
-For this reason it is a good idea to subscribe to these mailing lists
-before :-)
+   Since I18n team previously followed as a form of official projects, some
+   of the below description may assume detail tasks as PTL responsibility.
+   See `Project Team Guide <https://docs.openstack.org/project-team-guide/ptl.html>`_
+   which is a reference for PTLs for more information, and I18n team now
+   follows as a form of working group defined as SIGs (Special Interest
+   Groups).
+
 
 Cross Project Liaisons
 ----------------------
 
-I18n team participates in cross project liaisons in Oslo, Release
-Management, Documentation and Infrastructure. Many other teams are
+I18n team participates in various cross project liaisons like Release
+Management, Documentation and Infrastructure tasks. Many other teams are
 liaisons in I18n. Visit the `Cross Project Liaisons Wiki Page <https://wiki.openstack.org/wiki/CrossProjectLiaisons>`__
 and designate a person for the I18n team. Note that such liaison roles
-do not have to be I18n PTL. Active I18n cores are highly encouraged.
+do not have to be I18n SIG Chair. Active I18n cores are highly encouraged.
 
 Project Goals And Translation Plan
 ----------------------------------
@@ -49,9 +43,9 @@ Usually these are all user-visible projects, like Horizon.
 I18n Core Team
 --------------
 
-The PTL is supported in the work by the `I18n core team <https://review.opendev.org/#/admin/groups/1132,members>`__.
-He designates such kind of project team members and reviews the list
-from time to time. The work of the core team is described in the
+The SIG Chair is supported in the work by the `I18n core team <https://review.opendev.org/#/admin/groups/1132,members>`__.
+The person designates such kind of project team members and reviews the list
+from time to time. The usual work of the core team is described in the
 `Project Team Guide <https://docs.openstack.org/project-team-guide/ptl.html>`__.
 Of course, core team member be can also proposed by the project team.
 
@@ -66,17 +60,17 @@ bug and triaging bug priorities. You can find the member list on
 Release Management
 ------------------
 
-The work for PTL and Zanata administrator is described in chapter
+The work for SIG Chair and Zanata administrator is described in chapter
 :doc:`release_management`. This covers also questions about
 string freezes and work with stable branches.
 
-Extra-ATCs Deadline
+Extra-ACs Deadline
 -------------------
 
-Each cycle has a date set for Extra-ATCs, e.g. `Queens Cycle
+Each cycle has a date set for Extra-ACs, e.g. `Queens Cycle
 <https://releases.openstack.org/queens/schedule.html#q-extra-atcs>`__.
 Maintenance on I18n site is described in chapter :ref:`project-maintenance`.
-All the OpenStack members can propose extra ATCs, but I18n PTL is highly
+All the OpenStack members can propose extra ACs, but I18n SIG Chair is highly
 encouraged to report the list in each cycle. Here are some
 useful proposals as example:
 
@@ -122,16 +116,6 @@ bug triage liaison.
 I18n blueprints are listed also on `Launchpad <https://blueprints.launchpad.net/openstack-i18n>`__.
 In normal case a blueprint has an assignee and describes a larger course
 of a process.
-
-I18n IRC Team Meeting
-~~~~~~~~~~~~~~~~~~~~~
-
-Schedules and rules for the team meeting are described in chapter
-:doc:`i18n_team_meeting`
-PTL is chairing the meeting or determines someone to takeover. He (the
-PTL) also has to check if the meeting time suits most people.
-Configuration of chair and time is done by `irc-meeting repo
-<https://opendev.org/opendev/irc-meetings>`__.
 
 I18n Mailing List Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
