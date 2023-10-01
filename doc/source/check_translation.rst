@@ -2,22 +2,41 @@
 How to check translations
 =========================
 
-It is important to check your translations by using a real situation where your
-translation is used. This page describes how to check your translations.
+It is important to validate your translations by applying them in a real
+situation where they are rendered and visualized. This page describes how to
+check your translations.
+
+.. note::
+
+   ``translation check`` refers to build OpenStack artifacts with translated
+   strings and check how the translated strings are shown on an actual screen
+   as part of the translation process.
 
 Documentation
 -------------
 
-Using docs.openstack.org
-~~~~~~~~~~~~~~~~~~~~~~~~
-
 Translated documents are available at the OpenStack Documentation site.
-It is updated daily. Most contents are linked from either of:
+It is updated daily. Most contents are linked from:
 
-* http://docs.openstack.org/<lang> contains released documents.
-  Follow "Languages" in http://docs.openstack.org/.
+* https://docs.openstack.org/<lang> contains released documents.
+  Follow "Languages" in https://docs.openstack.org/.
 
-To build a translated document, you need to update the file
+The documents are maintained in the ``doc`` directory using `reStructuredText
+<https://docutils.sourceforge.io/rst.html>`__ and built by `Sphinx
+<https://www.sphinx-doc.org/>`__. Translated strings are stored as `Gettext PO
+file format <https://www.gnu.org/server/standards/translations/po-how-to.html>`__
+in ``locale/<lang>/LC_MESSAGES`` directory.
+
+Documents on openstack-manuals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For OpenStack documentation, `openstack-manuals git repository
+<https://opendev.org/openstack/openstack-manuals>`_ hosts essential
+OpenStack documents such as `Installation Guide
+<https://docs.openstack.org/install-guide/>`_, and `Virtual Machine
+Image Guide <https://docs.openstack.org/image-guide/>`_.
+
+To build a translated document on this repository, you need to update the file
 ``doc-tools-check-languages.conf`` in each repository, and
 add an entry to ``BOOKS`` like ``["ja"]="install-guide"``.
 
@@ -26,9 +45,9 @@ Liberty, you need to update the file ``doc-tools-check-languages.conf``
 in the target stable branch directly.
 
 You can check a generated document for a specified branch on
-http://docs.openstack.org/<branch>/<language>/<document>.
-For example, the link of Ubuntu Installation Guide for Liberty is
-http://docs.openstack.org/liberty/ja/install-guide-ubuntu/.
+``https://docs.openstack.org/<branch>/<language>/<document>``.
+For example, the link of Japanese Ubuntu Installation Guide for Liberty is
+https://docs.openstack.org/liberty/ja/install-guide-ubuntu/.
 
 To add a link to a generated document, you need to update the file
 ``www/<lang>/index.html`` in the ``master`` branch of
@@ -40,15 +59,27 @@ in the stable branch.
 
 You can also check:
 
-* `build status for publishing on Zuul <http://zuul.openstack.org/builds.html?job_name=publish-openstack-manuals>`__
-* `checkbuild with drafts on Zuul <http://zuul.openstack.org/builds.html?job_name=build-tox-manuals-checkbuild>`__
+* `build status for publishing on Zuul <https://zuul.openstack.org/builds?job_name=build-tox-manuals-publishdocs>`__
+* `checkbuild with drafts on Zuul <https://zuul.openstack.org/builds?job_name=build-tox-manuals-publishlang>`__
 
 
-OpenStack developer documentation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+OpenStack project documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Currently, we do not support translations for OpenStack developer
-documents: http://docs.openstack.org/<project>
+Currently, we support translations for small set of OpenStack project
+documentations like Horizon, OpenStack-Ansible, and OpenStack-Helm upon
+requests and available bandwidth. Top-level directory structure on
+``doc/source/`` follows with `Documentation Contributor Guide - Project guide
+setup <https://docs.openstack.org/doc-contrib-guide/project-guides.html>`_ and
+the corresponding generated documents for ``master`` branch are available at
+``https://docs.openstack.org/<project>/latest/<language>/<document>`` URL.
+For project team documents in stable branch, you can check the documents with
+``https://docs.openstack.org/<project>/<branch>/<language>/<document>`` URL.
+
+Here are sample document links as examples:
+
+* `Korean OpenStack-Helm Installation Guide (no branch) <https://docs.openstack.org/openstack-helm/latest/ko_KR/install/index.html>`_
+* `German OpenStack-Ansible User Guide for 2023.1 <https://docs.openstack.org/openstack-ansible/2023.1/de/user/index.html>`_
 
 OpenStack Dashboard
 -------------------
