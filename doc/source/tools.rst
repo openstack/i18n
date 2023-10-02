@@ -329,7 +329,7 @@ The above run the following internally:
 Retrieve translation statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:ref:`ATC status in I18n project <i18n-atc>` is determined based on
+:ref:`AC status in I18n project <i18n-ac>` is determined based on
 translation statistics in a specific period.
 
 The script ``tools/zanata/zanata_stats.py`` helps retrieving
