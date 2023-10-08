@@ -1,12 +1,3 @@
-========================
-Team and repository tags
-========================
-
-.. image:: https://governance.openstack.org/tc/badges/i18n.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
-
-.. Change things from this point on
-
 OpenStack I18n
 ==============
 
@@ -31,8 +22,3 @@ Mailing List
 
 IRC
   We all hang out on #openstack-i18n IRC channel on OFTC.
-
-Team Meeting
-  We have a bi-weekly `meeting`_ on Thursdays at alternating times.
-
-.. _`meeting`: https://wiki.openstack.org/wiki/Meetings/I18nTeamMeeting
