@@ -84,22 +84,28 @@ for OpenStack TC (Technical Committee). For more detail on AC and TC,
 see `OpenStack Technical Committee Charter
 <http://governance.openstack.org/reference/charter.html>`_.
 
+.. note::
+   AC is a renamed term from "ATC" (Active Technical Contributor) which are
+   the same. You can see more details on `2021-06-02 'OpenStack ATC'
+   definition <https://governance.openstack.org/tc/resolutions/20210602-atc-renamed-to-ac.html>`_.
+   This page also uses ATC term to mention old calculation and statistics.
+
 As of now, AC of official translators are treated as extra ACs
 as we have no way to collect statistics automatically now.
-The list of extra ACs is maintained by the PTL or SIG Chair and usually updated
+The list of extra ACs is maintained by the SIG Chair and is usually updated
 short before the deadline of extra ACs nomination in each release cycle.
 The deadline of extra ACs nomination can be checked in the release
 schedule page at http://releases.openstack.org/ (for example,
 http://releases.openstack.org/bobcat/schedule.html).
 
-Translators who translate and review at least 300 words combinedly
+Translators who translate and review 300 and more words combinedly
 in the last six months until the deadline of extra ACs nomination are
 nominated as ACs, and the AC status of translators is valid for one year.
 Translation count and review count can be added up.
-The detail period is determined by the PTL or SIG Chair in each cycle.
-For Antelope cycle, the six month period was from 2022-10-05 to 2023-03-22,
-and this AC status will expire on March 2024 if there will be no
-additional translation contributions.
+The detail period is determined by the SIG Chair in each cycle.
+For Newton cycle, the six month period was from 2016-02-01 to 2016-07-31,
+and the ATC status expired on July 2017 for the translators and reviewers with
+no additional contributions.
 
 .. note::
 
@@ -117,8 +123,8 @@ projects and/or SIGs.
 AC members of I18n project
 --------------------------
 
-A current list of all ACs is available at
-https://github.com/openstack/governance/blob/master/reference/sigs-repos.yaml.
+A current list all ACs is available at ``i18n`` part in
+https://opendev.org/openstack/governance/src/branch/master/reference/sigs-repos.yaml.
 
 The statistics are calculated using
 `a Python script <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_stats.py>`__
@@ -145,31 +151,3 @@ OpenStack projects and the ATC list was maintained by proposing a patch to
    :maxdepth: 2
 
    atc-stats
-
-.. _i18n-auc:
-
-AUC status in I18n project
---------------------------
-
-.. note::
-
-   As User Committee no longer operated from August 1, 2020, I18n team now
-   does not look up AUC status. See `OpenStack User Committee
-   Charter <https://governance.openstack.org/tc/reference/user-committee-charter.html>`_
-   for more information.
-
-As OpenStack evolved, Active User Contributor (AUC) recognition process was
-introduced by the `OpenStack User Committee (UC) <https://governance.openstack.org/uc/>`_.
-AUCs are acknowledged to operators and users who contributed aligned with UC
-governance.
-
-In Zanata, some project translations such as
-`OpenStack User Survey <https://translate.openstack.org/iteration/view/openstack-user-survey/openstack-user-survey/documents>`_
-and `OpenStack whitepapers <https://translate.openstack.org/version-group/view/Whitepaper-dashboard-translation/projects>`_
-are not in `official projects <https://governance.openstack.org/tc/reference/projects/index.html>`_
-but strongly encouraged to translate for better OpenStack world,
-and translators who translated those projects are recognized as AUCs.
-
-As of now, similar as ATCs, there is no way to collect statistics automatically.
-The list of AUCs was calculated by the PTL and is usually updated
-by communication with UC.

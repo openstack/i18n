@@ -346,7 +346,7 @@ To run the script:
 Extract Zanata user information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At the moment, the I18n PTL needs to maintain the ATC list of the I18n
+At the moment, the I18n SIG Chair needs to maintain the AC list of the I18n
 project manually around the end of each release cycle.
 This requires name and e-mail address of individual translators.
 

@@ -39,10 +39,10 @@ Note that StringFreezes are applied to I18n team target projects and with
 
    * Translate **master** version on Zanata.
 
-#. [I18n PTL] Call for translation
+#. [I18n SIG Chair] Call for translation
 
-#. [I18n PTL] Coordinate release and translation import schedule of individual
-   projects with PTL or I18n liaison.
+#. [I18n SIG Chair] Coordinate release and translation import schedule of
+   individual projects with SIG Chair or I18n liaison.
 
 #. [Project] Release RC1 and create a stable branch.
    ``Hard StringFreeze`` is in effect.
