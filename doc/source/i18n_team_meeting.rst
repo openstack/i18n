@@ -2,33 +2,17 @@
 I18n team meeting
 =================
 
-.. note::
-
-   While I18n team is not holding meetings with regular cadence, it is highly
-   encouraged to propose discussion topics and share opinions in open
-   source manner. If you have any agenda which looks relevant for I18n team,
-   feel free to propose by :ref:`getting in touch <label-i18n-team-contact>`.
-
-.. note::
-
-   I18n team is looking for meeting chairs - please reach SIG Chair if
-   interested.
-
-The I18n team previously held weekly Team Meetings on Thursdays at alternating
-times in #openstack-meeting IRC channel.
+The I18n team holds weekly Team Meetings on Wednesdays at alternating
+weekly basis in #openstack-i18n IRC channel.
 To download ICS file, please visit
-`eavesdrop <http://eavesdrop.openstack.org/#I18N_Team_Meeting>`_ page.
+`OpenDev - IRC channels and meetings <https://meetings.opendev.org/#I18N_Team_Meeting>`_ page.
 
-* Every odd week: `16:00 UTC, Thursday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=16&min=00&sec=0>`_
-* Every even week: `07:00 UTC, Thursday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=07&min=00&sec=0>`_
+* One week: `13:30 UTC, Wednesday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=13&min=30&sec=0>`_
+* The other week: `23:15 UTC, Wednesday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=23&min=15&sec=0>`_
 
 .. note::
 
    Odd and even values are calculated based on `ISO week numbers <https://www.timeanddate.com/date/weeknumber.html>`_.
-
-The meeting was interconnected with the `Documentation Team Meeting <https://meetings.opendev.org/meetings/docteam/>`_.
-The first 30 minutes were reserved for I18n topics and the second part
-was for Documentation Team topics.
 
 Meeting agenda
 --------------
@@ -49,7 +33,7 @@ Handy links (always sort of on the agenda)
 * `Translation statistics <https://docs.openstack.org/i18n/latest/translation_stats.html>`_
 * `Bug lists <https://bugs.launchpad.net/openstack-i18n>`_
 * `Open reviews in openstack/i18n <https://review.opendev.org/#/q/status:open+project:openstack/i18n>`_
-* `Broken Translation Jobs on Zuul <http://zuul.openstack.org/builds?job_name=upstream-translation-update&job_name=propose-translation-update&result=Failure>`_
+* `Broken Translation Jobs on Zuul <https://zuul.openstack.org/builds?job_name=upstream-translation-update&job_name=propose-translation-update&result=Failure>`_
 
 Previous meetings
 -----------------
@@ -62,7 +46,7 @@ IRC web client
 
 If you are not familiar with IRC, please read `Contributor Guide <https://docs.openstack.org/contributors/common/communication.html#irc>`_.
 You can simply use the web client for OFTC to come to `#openstack-i18n
-channel <http://webchat.oftc.net/?channels=openstack-i18n>`_.
+channel <https://webchat.oftc.net/?channels=openstack-i18n>`_.
 
 IRC meeting commands
 --------------------
