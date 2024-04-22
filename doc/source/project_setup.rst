@@ -1,8 +1,14 @@
-===================================
-Enabling Translation Infrastructure
-===================================
+=============================================================
+Project Repository Setup to Enable Translation Infrastructure
+=============================================================
 
-Once you have your project set up, you might want to enable
+.. note:: This document was moved from OpenStack Project Creators Guide
+          who want to enable translation infrastructure for their project.
+          Before proceeding, target translation project with corresponding
+          versions (master and stable branches) should be created on Zanata
+          and I18n team will help with this.
+
+Once you have your project repository set up, you might want to enable
 translations. For this, you first need to mark all strings so that
 they can be localized, for Python projects use `oslo.i18n`_ for this
 and follow the `guidelines`_.
@@ -210,3 +216,14 @@ exist, it is interpreted that there are no such modules.
 
 You also need to setup your repository following the instruction
 for Python and/or Django project above appropriately.
+
+Project Documentation Translation
+---------------------------------
+
+Documents on the project following with
+`OpenStack documentation structure <https://docs.openstack.org/doc-contrib-guide/project-guides.html>`_
+can be translated into multiple languages.
+List of project repositories for documentation translation is maintained
+in the ``DOC_TARGETS`` variable within
+`common_translation_update.sh <https://opendev.org/openstack/openstack-zuul-jobs/src/branch/master/roles/prepare-zanata-client/files/common_translation_update.sh>`_
+translation infrastructure script file.
