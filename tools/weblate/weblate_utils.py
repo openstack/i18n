@@ -12,10 +12,15 @@
 import json
 from urllib import parse
 
+import re
 import requests
+from typing import Optional
 
 import wlc
 from wlc import config as cfg
+
+# Supported Weblate version
+WEBLATE_SUPPORTED_VERSION = "5.4"
 
 
 class IniConfig(object):
@@ -26,6 +31,7 @@ class IniConfig(object):
     url: The URL of the Weblate server.
     key: The API key to use for authentication.
     _inifile: The path to the ini file to load values from (not public).
+
     """
 
     def __init__(self, inifile):
@@ -46,6 +52,7 @@ class WeblateRestService(object):
     key: The API key to use for authentication.
     headers: The HTTP headers to use for requests. Must contain the key.
     verify: Whether to verify SSL certificates.
+
     """
 
     def __init__(
@@ -63,6 +70,13 @@ class WeblateRestService(object):
             "Authorization": "Token " + self.key,
         }
         self.verify = verify
+
+        current_version = self.get_weblate_cloud_version()
+        if not current_version.startswith(WEBLATE_SUPPORTED_VERSION):
+            raise ValueError(
+                "Unsupported server version: %(version)s.",
+                {"version": current_version}
+            )
 
     def _construct_url(self, url_fragment):
         return parse.urljoin(self.url, url_fragment)
@@ -98,3 +112,29 @@ class WeblateRestService(object):
             )
         except requests.exceptions.ConnectionError:
             raise ValueError("Connection error")
+
+    def _base_url(self) -> str:
+        parsed_url = parse.urlparse(self.url)
+        baseurl = f"{parsed_url.scheme}://{parsed_url.netloc}"
+
+        return baseurl
+
+    def get_weblate_cloud_version(self) -> Optional[str]:
+        """Function that retrieves Weblate version
+
+        Note that the information is not available via REST API as of now
+        so crawling the version via web page
+
+        """
+
+        request_url = self._base_url()
+        response = requests.get(request_url)
+        version_pattern = r"weblate-(\d+\.\d+)"
+
+        version_match = re.search(version_pattern, response.text)
+
+        if version_match:
+            version = version_match.group(1)
+            return version
+
+        return None
