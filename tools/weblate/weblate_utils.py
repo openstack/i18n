@@ -83,14 +83,17 @@ class WeblateRestService(object):
 
     def query(self, url_fragment, raise_errors=True):
         request_url = self._construct_url(url_fragment)
+        self.headers["Accept"] = "application/json, text/javascript"
+
         try:
             r = requests.get(
                 request_url,
+                headers=self.headers,
                 verify=self.verify,
-                headers=self.headers
                 )
-        except requests.exceptions.ConnectionError:
-            raise ValueError("Connection Error")
+        except requests.exceptions.ConnectionError as e:
+            # raise ValueError("Connection Error: %s" % e)
+            print(e)
         if raise_errors and r.status_code != 200:
             raise ValueError(
                 "Got status code %s for %s" % (r.status_code, request_url)
