@@ -62,7 +62,7 @@ finish following steps:
       to `I18n people <https://wiki.openstack.org/wiki/I18nTeam#People>`_
       through `IRC <https://docs.openstack.org/i18n/latest/#openstack-i18n-team>`_
       , or to `I18n SIG Chair <https://governance.openstack.org/sigs/>`_
-      directly.
+      via the i18n mailing list.
 
 5. Now you can start your translation.
    You can actually become an OpenStack official translator
@@ -92,27 +92,32 @@ see `OpenStack Technical Committee Charter
 
 As of now, AC of official translators are treated as extra ACs
 as we have no way to collect statistics automatically now.
-The list of extra ACs is maintained by the SIG Chair and is usually updated
-short before the deadline of extra ACs nomination in each release cycle.
-The deadline of extra ACs nomination can be checked in the release
-schedule page at http://releases.openstack.org/ (for example,
-http://releases.openstack.org/bobcat/schedule.html).
+Anyone can suggest nominations for extra ACs of official translators.
+The SIG Chair coordinates the process to ensure that all contributions are
+acknowledged and appreciated. The list of extra ACs is
+approved by Technical Committee, and I18n SIG updates the list of Translation
+and I18n contributors before the deadline of extra ACs nomination in each
+release cycle. The nomination deadline can be checked in the release schedule
+page at https://releases.openstack.org/ (for example,
+https://releases.openstack.org/bobcat/schedule.html).
 
 Translators who translate and review 300 and more words combinedly
 in the last six months until the deadline of extra ACs nomination are
-nominated as ACs, and the AC status of translators is valid for one year.
+nominated as ACs, and the AC status of translators is valid for two release
+cycles (roughly, one year).
 Translation count and review count can be added up.
-The detail period is determined by the SIG Chair in each cycle.
+The detail period is determined by the SIG Chair and (I18n Cores) in each cycle.
 For Newton cycle, the six month period was from 2016-02-01 to 2016-07-31,
 and the ATC status expired on July 2017 for the translators and reviewers with
 no additional contributions.
 
 .. note::
 
-   I18n SIG Chair updates the list using Zanata API and translator list.
+   I18n SIG updates the list using Zanata API and translator list.
    Detail statistics data is available :ref:`below <ac-stats>`.
 
-If you have a question, feel free to ask it to the SIG Chair or the i18n list.
+If you have a question, feel free to contact the I18n SIG Chair available at
+:ref:`team communication channels <openstack_i18n_team>`.
 
 Note that code or documentation contributors to openstack/i18n repository
 are acknowledged as AC automatically in the same way as for most OpenStack
