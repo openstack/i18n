@@ -45,33 +45,88 @@ needed inside a project.
    ``update_catalog``, and ``extract_messages`` and a ``babel.cfg``
    file. These are not needed anymore and can be removed.
 
-Update your ``setup.cfg`` file. It should contain a ``packages`` entry
-in the ``files`` section:
+If you are using a ``setup.cfg`` file, you need to list your modules into the
+``packages`` entry of the ``files`` section:
 
 .. code-block:: ini
 
    [files]
-   packages = ${MODULENAME}
+   packages =
+       ${MODULENAME_0}
+       ...
+       ${MODULENAME_n}
 
+Replace ``${MODULENAME_n}`` with the name of your modules like ``nova`` or
+``novaclient``.
 
-Replace ``${MODULENAME}`` with the name of your main module like
-``nova`` or ``novaclient``. Your i18n setup file, normally named
-``_i18n.py``, should use the name of your module as domain name:
+.. hint::
+
+   You can check the `Nova setup.cfg file
+   <https://opendev.org/openstack/nova/src/commit/0b5461e18b98f2aed42bab56ce5f62b44a20976a/setup.cfg>`_.
+
+If you are using a ``pyproject.toml`` file, you need to list your modules into
+the ``packages`` entry of the ``tool.setuptools`` section.
+
+.. code-block:: toml
+
+   [tool.setuptools]
+   packages = [
+       "${MODULENAME_0}",
+       "...",
+       "${MODULENAME_n}",
+   ]
+
+Replace ``${MODULENAME_n}`` with the name of your modules like ``nova``
+or ``novaclient``.
+
+.. hint::
+
+   You can check the `Nova pyproject.toml file
+   <https://opendev.org/openstack/nova/src/commit/324af749bb28af4e3aa0ac63aa1477c4e0d8d7cb/pyproject.toml>`_.
+
+Your i18n setup file, normally named ``_i18n.py``, should use the name of your
+module as domain name:
 
 .. code-block:: python
 
-   _translators = oslo_i18n.TranslatorFactory(domain='${MODULENAME}')
+   _translators = oslo_i18n.TranslatorFactory(domain='${MODULENAME_n}')
+
 
 Django Projects
 ---------------
 
-Update your ``setup.cfg`` file. It should contain a ``packages`` entry
-in the ``files`` section:
+If you are using a ``setup.cfg`` file, you need to list your modules into the
+``packages`` entry of the ``files`` section:
 
 .. code-block:: ini
 
    [files]
-   packages = ${MODULENAME}
+   packages =
+       ${MODULENAME_0}
+       ...
+       ${MODULENAME_n}
+
+.. hint::
+
+   You can check the `Horizon setup.cfg file
+   <https://opendev.org/openstack/horizon/src/commit/743bec1ff27933a7347ed4348681b94b7bc9a03b/setup.cfg>`_.
+
+If you are using a ``pyproject.toml`` file, you need to list your modules into
+the ``packages`` entry of the ``tool.setuptools`` section.
+
+.. code-block:: toml
+
+   [tool.setuptools]
+   packages = [
+       "${MODULENAME_0}",
+       "...",
+       "${MODULENAME_n}",
+   ]
+
+.. hint::
+
+   You can check the `Horizon pyproject.toml file
+   <https://opendev.org/openstack/horizon/src/commit/71ea95a79732ec94928984da7221d9fc4f02a3c7/pyproject.toml>`_.
 
 Create file ``babel-django.cfg`` with the following content:
 
@@ -173,7 +228,7 @@ simple ``msgfmt`` test:
 
 .. code-block:: console
 
-   $ bash -c "find ${MODULENAME} -type f -regex '.*\.pot?' -print0| \
+   $ bash -c "find ${MODULENAME_n} -type f -regex '.*\.pot?' -print0| \
             xargs -0 -n 1 --no-run-if-empty msgfmt --check-format -o /dev/null"
 
 Note that the infra scripts run the same test, so adding it to your
@@ -192,8 +247,9 @@ The infra scripts for translation setup work as follows:
   or ``django_openstack_auth``, it is treated as a Django project.
   Otherwise it is treated as a Python project.
 * If your repository declares multiple python modules in ``packages`` entry
-  in ``[files]`` section in ``setup.cfg``, the infra scripts run translation
-  jobs for each python module.
+  in ``[files]`` section in ``setup.cfg`` or in ``[tool.setuptools]`` in
+  ``pyproject.toml``, the infra scripts run translation jobs for each python
+  module.
 
 We strongly recommend to follow the above guideline, but in some cases
 this behavior does not satisfy your project structure. For example,
