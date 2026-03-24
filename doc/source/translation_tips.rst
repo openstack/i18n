@@ -17,7 +17,7 @@ a target string is used in a source code correspondingly.
 You can find the location in a source code by checking the POT file.
 
 The POT file is found under
-``http://tarballs.openstack.org/translation-source/<Zanata-project-name>/<Zanata-project-version>/<path>/<resource>.pot``,
+``https://tarballs.opendev.org/openstack/translation-source/<Zanata-project-name>/<Zanata-project-version>/<path>/<resource>.pot``,
 where:
 
 * ``<Zanata-project-name>`` is Zanata project name,
@@ -28,7 +28,7 @@ where:
 * ``<resource>`` is a document name in Zanata.
 
 The easiest way would be to open
-http://tarballs.openstack.org/translation-source and then
+https://tarballs.opendev.org/openstack/translation-source and then
 follow ``<Zanata-project-name>``, ``<Zanata-version>`` and corresponding links.
 
 Open a POT file you find and search a string you are interested in.
@@ -56,7 +56,7 @@ https://opendev.org/openstack/horizon/.
    POT files are no longer stored in git repositories.
    The change was made at the beginning of Newton development cycle [#]_.
 
-   .. [#] http://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html
+   .. [#] https://lists.openstack.org/pipermail/openstack-dev/2016-May/094215.html
 
 Where a string is used in Dashboard UI?
 ---------------------------------------

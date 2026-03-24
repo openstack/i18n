@@ -56,7 +56,7 @@ The `Zuul Builds Page <https://zuul.opendev.org/t/openstack/builds>`__
 provides us a convenient way to check the translation job status.
 
 * `Post jobs - Syncing to Zanata <https://zuul.opendev.org/t/openstack/builds?job_name=upstream-translation-update>`__
-* `Periodic jobs: Syncing into repos <http://zuul.opendev.org/t/openstack/builds?job_name=propose-translation-update>`__
+* `Periodic jobs: Syncing into repos <https://zuul.opendev.org/t/openstack/builds?job_name=propose-translation-update>`__
 
 .. _translation_scripts:
 
@@ -98,7 +98,7 @@ repository.
   * Builds release notes in both the original (English) version and translated
     versions (if any).
 
-Note that the scripts in the tasks use `zanata-cli <http://docs.zanata.org/en/release/client/>`__
+Note that the scripts in the tasks use `zanata-cli <https://docs.zanata.org/en/release/client/>`__
 to pull and push translation content.
 
 Debugging job scripts

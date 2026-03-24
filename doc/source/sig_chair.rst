@@ -43,7 +43,7 @@ Usually these are all user-visible projects, like Horizon.
 I18n Core Team
 --------------
 
-The SIG Chair is supported in the work by the `I18n core team <https://review.opendev.org/#/admin/groups/1132,members>`__.
+The SIG Chair is supported in the work by the `I18n core team <https://review.opendev.org/admin/groups/1132,members>`__.
 The person designates such kind of project team members and reviews the list
 from time to time. The usual work of the core team is described in the
 `Project Team Guide <https://docs.openstack.org/project-team-guide/ptl.html>`__.
@@ -74,11 +74,11 @@ All the OpenStack members can propose extra ACs, but I18n SIG Chair is highly
 encouraged to report the list in each cycle. Here are some
 useful proposals as example:
 
-* `https://review.opendev.org/#/c/488226/ <https://review.opendev.org/#/c/488226/>`__
-* `https://review.opendev.org/#/c/483452/ <https://review.opendev.org/#/c/483452/>`__
-* `https://review.opendev.org/#/c/451625/ <https://review.opendev.org/#/c/451625/>`__
+* https://review.opendev.org/488226
+* https://review.opendev.org/483452
+* https://review.opendev.org/451625
 
-This `Script in I18n repo <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_users.py>`__
+This `script in I18n repo <https://opendev.org/openstack/i18n/src/tools/zanata/zanata_users.py>`__
 collects all users and their activities.
 
 Daily Work
@@ -92,7 +92,7 @@ and Openstack infrastructure. The procedure is robust, but sometimes
 something can go wrong. For this reason there is a section
 :ref:`monitoring-translation-job-status` in the infrastructure chapter.
 
-You can check on `Gerrit <https://review.opendev.org/#/q/topic:zanata/translations+(status:open+OR+status:merged)>`__,
+You can check on `Gerrit <https://review.opendev.org/q/topic:zanata/translations+(status:open+OR+status:merged)>`__,
 if the translated strings are imported by the project teams.
 Core reviewers in each repository are strong encouraged to approve
 translation sync patches but do not be sad if the translations are not
@@ -102,7 +102,7 @@ Open reviews I18n repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Check from time to time open reviews on `I18n repo
-<https://review.opendev.org/#/q/project:openstack/i18n+status:open>`__.
+<https://review.opendev.org/q/project:openstack/i18n+status:open>`__.
 In addition to the PTL, the core reviewers are responsible.
 
 Launchpad bugs & blueprints
@@ -122,7 +122,6 @@ I18n Mailing List Management
 
 In addition to IRC, I18n team communication takes place via a mailing
 list. The `Mailing List Administrator
-<http://lists.openstack.org/cgi-bin/mailman/admin/openstack-i18n>`__
+<https://lists.openstack.org/mailman3/lists/openstack-i18n.lists.openstack.org/>`__
 is watching new subscribers, not allowed posts, and all the other
 things that come with the operation of such a list.
-

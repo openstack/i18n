@@ -78,7 +78,7 @@ Ocata cycle
 -----------
 
 * Period: 2016-08-01 to 2017-01-05
-* Patch on governance repository: https://review.opendev.org/#/c/417569/
+* Patch on governance repository: https://review.opendev.org/417569/
   (`diff <https://opendev.org/openstack/governance/commit/bd71cefff1302ed04fc21faac5cf967365a7d7c7>`__)
 * Note: the period is relative short because of release cycle change
 
@@ -103,7 +103,7 @@ Newton cycle
 ------------
 
 * Period: 2016-02-01 to 2016-07-31
-* Patch on governance repository: https://review.opendev.org/#/c/351480/
+* Patch on governance repository: https://review.opendev.org/351480/
   (`diff <https://opendev.org/openstack/governance/commit/3aa6cb3e52944f8bed250e0714c7373605b2ebc5>`__)
 
 .. only:: html
@@ -117,7 +117,7 @@ Mitaka cycle
 ------------
 
 * Period: 2015-08-01 to 2016-01-30
-* Patch on governance repository: https://review.opendev.org/#/c/281145/
+* Patch on governance repository: https://review.opendev.org/281145/
   (`diff <https://opendev.org/openstack/governance/commit/8b3c83f28102c7b47688fbaca970a52a76eb6de5>`__)
 * This following statistics data is calculated using up-to-date
   `translation_team.yaml <https://opendev.org/openstack/i18n/src/commit/a67e08d86cc78907da38d5f09b8be6f71d1979a0/tools/zanata/translation_team.yaml>`__
@@ -153,7 +153,7 @@ Liberty cycle
 
 * Period: from 2014-11-01 to 2015-07-16
 
-* Patch on governance repository: https://review.opendev.org/#/c/213989/
+* Patch on governance repository: https://review.opendev.org/213989/
   (`diff <https://opendev.org/openstack/governance/commit/a229d38469c5135af496d3c739695acbe1146a76>`__)
 * exported the translators contribution statistics from Transifex since
   2014-11-01 to 2015-07-16
@@ -161,6 +161,6 @@ Liberty cycle
   reported their e-mail and name to language coordinators, and also signed
   ICLA.
 * More information on mailing list:
-  http://lists.openstack.org/pipermail/openstack-i18n/2015-July/001220.html
+  https://lists.openstack.org/pipermail/openstack-i18n/2015-July/001220.html
 * Statistics are available through:
-  https://docs.google.com/spreadsheets/d/1YpDJU_uNA4I5fzFG69T6L9gpFsy5yNtA9a-lSxnqeAY/edit#gid=1366189722
+  https://docs.google.com/spreadsheets/d/1YpDJU_uNA4I5fzFG69T6L9gpFsy5yNtA9a-lSxnqeAY/edit?gid=1366189722

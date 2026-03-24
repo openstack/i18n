@@ -68,7 +68,7 @@ Code blocks which look better to be commented out are:
     (we will debug the main logic, so perhaps we would like to run the script
     piece by piece.)
 
-The diff would be like http://paste.openstack.org/show/802260/.
+The diff would be like https://paste.openstack.org/show/802260/.
 
 Copying upper-constraints.txt
 -----------------------------
