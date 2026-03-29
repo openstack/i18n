@@ -59,7 +59,7 @@ def _make_language_team(name, team_info):
     return {
         'language_code': name,
         'language': team_info['language'],
-        # Retreive only translators for Weblate as we don't have
+        # Retrieve only translators for Weblate as we don't have
         # reviewers and coordinators in Weblate.
         'translators': [str(i) for i in team_info['translators']],
         # 'reviewers': [str(i) for i in team_info.get('reviewers', [])],

@@ -12,7 +12,7 @@ extensions. Most conventions follow
 `those of the openstack-manuals project
 <http://docs.openstack.org/contributor-guide/rst-conv.html>`__.
 
-The followings are useful links when writing documents in RST.
+The following are useful links when writing documents in RST.
 
 * `Sphinx documentation <http://sphinx.readthedocs.io/en/latest/rest.html>`__
 * `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__

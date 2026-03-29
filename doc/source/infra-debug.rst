@@ -47,7 +47,7 @@ For example, there is a code to communicate with OpenStack gerrit
 and the account is hardcoded.
 It looks convenient to comment out such code blocks
 to debug the scripts in a local env. It should be useful
-unless you are debuging a CI-specific issue.
+unless you are debugging a CI-specific issue.
 
 Code blocks which look better to be commented out are:
 

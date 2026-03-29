@@ -139,7 +139,7 @@ function setup_project {
     local project=$1
     local version=$2
 
-    # Exclude all dot-files, particuarly for things such such as .tox
+    # Exclude all dot-files, particularly for things such such as .tox
     # and .venv
     local exclude='.*/**'
 
