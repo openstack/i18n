@@ -24,11 +24,11 @@ Note that you need to log into Zanata to see your activity in the above pages.
 Stackalytics
 ------------
 
-`Stackalytics <http://stackalytics.com/>`__ is a popular web site
+`Stackalytics <https://www.stackalytics.io/>`__ is a popular web site
 which allows us to know various statistics related to OpenStack.
 It supports translation statistics :)
 
-Visit `Stackalytics <http://stackalytics.com/>`__ and
+Visit `Stackalytics <https://www.stackalytics.io/>`__ and
 choose ``Translations`` as ``Metric`` dropdown menu at the upper-right.
 
 FAQ: I cannot find my name in Stackalytics

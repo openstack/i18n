@@ -10,12 +10,12 @@ Convention
 The guide is written in reStructuredText (RST) markup syntax with Sphinx
 extensions. Most conventions follow
 `those of the openstack-manuals project
-<http://docs.openstack.org/contributor-guide/rst-conv.html>`__.
+<https://docs.openstack.org/doc-contrib-guide/rst-conv.html>`__.
 
 The following are useful links when writing documents in RST.
 
-* `Sphinx documentation <http://sphinx.readthedocs.io/en/latest/rest.html>`__
-* `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`__
+* `Sphinx documentation <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`__
+* `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html>`__
 
 Titles
 ~~~~~~

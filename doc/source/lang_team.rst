@@ -85,6 +85,6 @@ Then, your locale translation team is created successfully.
 You can enroll more people to join and start your translation work.
 
 Keep in mind to work with your `local user group
-<https://groups.openstack.org/>`_ and the `OpenStack Ambassadors
-<https://groups.openstack.org/ambassador-program>`_
-to raise awareness and gather members :)
+<https://www.meetup.com/pro/openinfradev/>`_ and the `OpenStack Community
+<https://www.openstack.org/community/>`_ to raise awareness and gather members
+:)

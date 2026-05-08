@@ -32,7 +32,7 @@ Handy links (always sort of on the agenda)
 * `Translation plan <https://translate.openstack.org/>`_
 * `Translation statistics <https://docs.openstack.org/i18n/latest/translation_stats.html>`_
 * `Bug lists <https://bugs.launchpad.net/openstack-i18n>`_
-* `Open reviews in openstack/i18n <https://review.opendev.org/#/q/status:open+project:openstack/i18n>`_
+* `Open reviews in openstack/i18n <https://review.opendev.org/q/status:open+project:openstack/i18n>`_
 * `Broken Translation Jobs on Zuul <https://zuul.openstack.org/builds?job_name=upstream-translation-update&job_name=propose-translation-update&result=Failure>`_
 
 Previous meetings
@@ -44,7 +44,7 @@ You can refer to `previous meeting logs with their notes
 IRC web client
 --------------
 
-If you are not familiar with IRC, please read `Contributor Guide <https://docs.openstack.org/contributors/common/communication.html#irc>`_.
+If you are not familiar with IRC, please read `Contributor Guide <https://docs.openstack.org/contributors/common/communication.html#internet-relay-chat-irc>`_.
 You can simply use the web client for OFTC to come to `#openstack-i18n
 channel <https://webchat.oftc.net/?channels=openstack-i18n>`_.
 

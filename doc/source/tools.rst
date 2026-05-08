@@ -12,7 +12,7 @@ Zanata CLI
 OpenStack uses Zanata as a translation platform.
 While most operations around the translation platform are automated,
 if you want to communicate with the translation platform manually,
-you can use `Zanata CLI <http://docs.zanata.org/en/release/client/>`__.
+you can use `Zanata CLI <https://docs.zanata.org/en/release/client/>`__.
 
 User configuration
 ~~~~~~~~~~~~~~~~~~
@@ -20,7 +20,7 @@ User configuration
 You need to create a configuration file in ``$HOME/.config/zanata.ini``
 that contains user-specific configuration. For information on how to
 create a configuration file, see `Zanata CLI configuration
-<http://docs.zanata.org/en/release/client/configuration/#user-configuration>`__.
+<https://docs.zanata.org/en/release/client/configuration/#user-configuration>`__.
 
 Project configuration
 ~~~~~~~~~~~~~~~~~~~~~
@@ -222,9 +222,9 @@ provides integrated translation support.
    ``zh-hans`` and ``zh-hant`` for Chinese locales instead of ``zh-cn`` and
    ``zh-tw`` respectively since Wallaby release. This follows the Django
    recommendation which happened in `Django 1.7
-   <https://www.djbook.ru/rel1.7/releases/1.7.html#language-codes-zh-cn-zh-tw-and-fy-nl>`__.
+   <https://docs.djangoproject.com/en/dev/releases/1.7/#language-codes-zh-cn-zh-tw-and-fy-nl>`__.
    The details are found in `the mailing list post
-   <http://lists.openstack.org/pipermail/openstack-discuss/2021-February/020169.html>`__.
+   <https://lists.openstack.org/pipermail/openstack-discuss/2021-February/020169.html>`__.
 
 Extracting
 ~~~~~~~~~~

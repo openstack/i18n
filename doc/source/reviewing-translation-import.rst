@@ -8,7 +8,7 @@ Reviewing translation imports
           If you are unfamiliar with translations in OpenStack, read
           the `Project Team Guide on Internationalization and
           Translation
-          <http://docs.openstack.org/project-team-guide/i18n.html>`_
+          <https://docs.openstack.org/project-team-guide/i18n.html>`_
           first.
 
           This document gives additional information.
@@ -18,12 +18,12 @@ How are translations handled?
 -----------------------------
 
 Translators translate repositories using the `translation server
-<http://translate.openstack.org>`_ which runs the Zanata software.
+<https://translate.openstack.org>`_ which runs the Zanata software.
 
 Every day, new translations get imported into the repositories using a
 proposal job. These need to have a review on whether the bot worked properly.
 You can see all open reviews in `Gerrit
-<https://review.opendev.org/#/q/status:open+topic:zanata/translations,n,z>`_.
+<https://review.opendev.org/q/status:open+topic:zanata/translations,n,z>`_.
 The subject of these patches is always "Imported Translations from
 Zanata".
 

@@ -60,7 +60,7 @@ OpenStack I18n team
 ~~~~~~~~~~~~~~~~~~~
 
 * Mailing List: `openstack-i18n@lists.openstack.org
-  <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-i18n>`_
+  <https://lists.openstack.org/mailman3/lists/openstack-i18n.lists.openstack.org/>`_
 * IRC channel: ``#openstack-i18n`` on OFTC
 
 .. only:: html
