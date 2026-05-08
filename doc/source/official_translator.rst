@@ -5,69 +5,65 @@ Official OpenStack translator
 Steps to become a OpenStack translator
 --------------------------------------
 
+You can actually become an OpenStack official translator by contributing
+translations. You can find :doc:`various ways of contributions <contributing>`.
+
+As a translator
+~~~~~~~~~~~~~~~
+
 Translation is another kind of important contribution to OpenStack
 community. If you want to become a official translator, you need to
 finish following steps:
 
-1. Before you start contribution, you'll have to `agree
-   to the contributor license agreement
-   <https://docs.openstack.org/contributors/common/setup-gerrit.html#individual-contributor-license-agreement>`_.
-   (You can preview the full text of the `OpenInfra Foundation Individual
-   Contributor License Agreement
-   <https://review.opendev.org/static/cla.html>`_ first if you want.)
+1. Setup your Open Infrastructure Foudation account, as described in the
+   `account setup section`_ of the OpenStack Contributor Guide.
 
-   .. note::
-
-      If you want to become a translator only, simply speaking,
-      you need to `join The OpenInfra Foundation - Individual
-      <https://openinfra.dev/join/>`_.
-      You can see more details at `Contributor Guide - Account Setup <https://docs.openstack.org/contributors/common/accounts.html>`_.
+   .. _account setup section: https://docs.openstack.org/contributors/common/accounts.html
 
 2. Register a user ID in Zanata
 
-   * Go to `Zanata server <https://translate.openstack.org/>`_
+   * Go to `Zanata server`_
    * Click "Log in" button.
-   * If you don't have OpenInfra ID (previously, OpenStack ID),
-     `register one <https://id.openinfra.dev/auth/register>`_.
-   * After you log in with OpenInfra ID, you will be requested to fill in
-     your profile.
+   * After you log in with OpenInfra ID, you will be requested to fill in your
+     profile.
 
-   .. note::
-
-      You are encouraged to register with your business email,
-      which will help your company to get the credit. If you don't
-      want to, use your personal email will be OK too.
+   .. _Zanata server: https://translate.openstack.org
 
 3. Request to join a translation team
 
-   * Click "Languages" on the top, all languages will be listed.
-   * Click the language you want to translate, the language page will
-     be shown.
-   * Click "..." on the right, and select "Request to join team".
+   * Click "Languages" in the menu to list all languages.
+   * Click the language you want to translate to go to its page.
+   * Click on the "Request to join team" button.
    * Input a short introduction of yourself, including your name, as
      "Additional information", then click "Send message".
 
-   .. note::
-
-      Make sure to include a short introduction because it is the
-      only information which language coordinators can use to
-      determine your join request is valid or not.
-
 4. When your request is approved, you will get an email notification.
 
-   .. note::
-
-      If your request is pending for long days, you can reach to your
-      language coordinator through Zanata,
-      to `I18n people <https://wiki.openstack.org/wiki/I18nTeam#People>`_
-      through `IRC <https://docs.openstack.org/i18n/latest/#openstack-i18n-team>`_
-      , or to `I18n SIG Chair <https://governance.openstack.org/sigs/>`_
-      via the i18n mailing list.
-
 5. Now you can start your translation.
-   You can actually become an OpenStack official translator
-   by contributing translations.
-   You can find :doc:`various ways of contributions <contributing>`.
+
+.. note::
+
+  The short introduction is the only information which language coordinators
+  can use to determine your join request is valid or not.
+
+.. note::
+
+  If your request is pending for long days, you can reach to:
+  * your language coordinator through Zanata
+  * `I18n people`_ through `IRC`_
+  * `I18n SIG Chair`_ via the i18n mailing list.
+
+.. _I18n people: https://wiki.openstack.org/wiki/I18nTeam#People
+.. _IRC: https://docs.openstack.org/i18n/latest/#openstack-i18n-team
+.. _I18n SIG Chair: https://governance.openstack.org/sigs/
+
+As a developer
+~~~~~~~~~~~~~~
+
+Please follow the `Code & Documentation Contributor Guide`_ in the OpenStack
+Contributor Guide.
+
+.. _Code & Documentation Contributor Guide: https://docs.openstack.org/contributors/code-and-documentation/
 
 .. _i18n-ac:
 
@@ -82,7 +78,7 @@ or `OpenStack SIGs <https://governance.openstack.org/sigs/>`_ in a specific
 period are regarded as "AC" (Active Contributor) of the I18n SIG. AC can vote
 for OpenStack TC (Technical Committee). For more detail on AC and TC,
 see `OpenStack Technical Committee Charter
-<http://governance.openstack.org/reference/charter.html>`_.
+<https://governance.openstack.org/tc/reference/charter.html>`_.
 
 .. note::
    AC is a renamed term from "ATC" (Active Technical Contributor) which are
