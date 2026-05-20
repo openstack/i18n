@@ -14,7 +14,9 @@
 
 import argparse
 import configparser
+from pathlib import Path
 import sys
+import tomllib
 
 
 DJANGO_PROJECT_SUFFIXES = (
@@ -45,21 +47,43 @@ def split_multiline(value):
 
 
 def read_config(path):
+    config = read_config_cfg(path)
+    config.update(read_config_toml())
+
+    return config
+
+
+def read_config_cfg(path):
+    if not Path(path).exists():
+        return {}
+
     parser = configparser.ConfigParser()
     parser.read(path)
 
     config = {}
     for section in parser.sections():
         config[section] = dict(parser.items(section))
+
+    return config
+
+
+def read_config_toml():
+    pyproject_path = Path('pyproject.toml')
+    if not pyproject_path.exists():
+        return {}
+
+    with open(pyproject_path, 'rb') as f:
+        config = tomllib.load(f)
+
     return config
 
 
 def get_option(config, section, option, multiline=False):
     if section not in config:
-        return
+        return []
     value = config[section].get(option)
     if not value:
-        return
+        return []
     if multiline:
         value = split_multiline(value)
     return value
@@ -80,14 +104,38 @@ def get_valid_modules(config, project, target):
     if is_django != (target == 'django'):
         return []
 
-    modules = get_option(config, 'files', 'packages', multiline=True)
-    # If setup.cfg does not contain [files] packages entry,
+    # setup.cfg
+    modules_files = get_option(config, 'files', 'packages', multiline=True)
+
+    # pyproject.toml
+    modules_toml_options = get_option(config, 'options', 'packages')
+    modules_toml_tool = get_option(
+        config.get('tool', {}), 'setuptools', 'packages'
+    )
+    modules_toml_tool_find = get_option(
+        config.get('tool', {}).get('setuptools', {}).get('packages', {}),
+        'find',
+        'include',
+    )
+
+    # get all modules
+    modules = list(set(
+        modules_files + modules_toml_options + modules_toml_tool +
+        modules_toml_tool_find
+    ))
+
+    # if no modules has been found in config files,
     # let's assume the project name as a module name.
     if not modules:
-        print('[files] packages entry not found in setup.cfg. '
-              'Use project name "%s" as a module name.' % project,
-              file=sys.stderr)
-        modules = [project]
+        print(
+            '[files] packages entry not found in setup.cfg. '
+            '[options] packages entry not found in pyproject.toml. '
+            '[tool.setuptools] packages entry not found in pyproject.toml. '
+            'Use project name "%s" as a module name.' % project,
+            file=sys.stderr,
+        )
+        modules = [project.replace("-", "_")]
+
     return modules
 
 
