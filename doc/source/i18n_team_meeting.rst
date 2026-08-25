@@ -7,7 +7,7 @@ weekly basis in #openstack-i18n IRC channel.
 To download ICS file, please visit
 `OpenDev - IRC channels and meetings <https://meetings.opendev.org/#I18N_Team_Meeting>`_ page.
 
-* One week: `13:30 UTC, Wednesday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=13&min=30&sec=0>`_
+* One week: `13:00 UTC, Tuesday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=13&min=00&sec=0>`_
 * The other week: `23:15 UTC, Wednesday <https://www.timeanddate.com/worldclock/fixedtime.html?hour=23&min=15&sec=0>`_
 
 .. note::
